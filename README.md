@@ -1,3 +1,6 @@
+English Guide: [click here](#kazuto-music-en)
+Guia en Español: [haz click aqui](#kazuto-music-es)
+
 # Kazuto Music [EN]
 This repository contains the current language files of the music bot.  
 [Discord Support Server](https://discord.com/invite/FGBSecT9gq) || [Lead Developer Discord](https://discordapp.com/users/331496166325747713)
