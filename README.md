@@ -1,5 +1,5 @@
-English Guide: [click here](#kazuto-music-en)
-Guia en Español: [haz click aqui](#kazuto-music-es)
+English Guide: [click here](#kazuto-music-en)  
+Guía en Español: [haz click aquí](#kazuto-music-es)
 
 # Kazuto Music [EN]
 This repository contains the current language files of the music bot.  
