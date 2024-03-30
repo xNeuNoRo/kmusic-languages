@@ -1,0 +1,1438 @@
+{
+  "translate_credits": {
+    "language_title": "Japanese",
+    "translator_name": "ℕ𝕖𝕦ℕ𝕠ℝ𝕠天使",
+    "translator_giturl": "https://github.com/xNeuNoRo"
+  },
+  "general": {
+    "errorTitle": "[❌]エラー",
+    "DevCredits": ":dev: によって提供 | :previous_year: - :actual_year: ©",
+    "Channel_Usage": "<:forwardarrow:969466384687964160>/<:skiparrow:969465916154839050> 曲を前/次のキューにスキップします。\n<:volumedown:969149392584081428>/<:volumeup:969149413014515772> 曲の音量を下げます/上げます。\n<:exit:969149459302862858> 曲を停止し、ボットを切断します。\n<:pausebutton:969149484124737596> 曲を一時停止します。\n<:shuffle:969464687215390740> 曲のキューをランダム化します。\n<:autoplay:969470330022285372> 自動再生モードをアクティブにします。\n<:repeatmusic:970415197355401226> さまざまなループ モードを切り替えます。\n<:vote:1121271913189216357> 投票して曲をスキップしてください。\n<:skip_to:1082495434259447849> 曲をキュー内の特定の曲にスキップします。\n<:song_speed:1082495435832315984> 曲の再生速度を設定します。\n<:replay_song:1119026700215398411> 現在の曲を最初から再生します。\n<:song_time:1082495438000750674> 曲の再生時間を変更します。\n<:remove_song:1082495439028355252> 曲キューから曲を削除します。",
+    "errors": {
+      "Development_Error_1": "🔴 この機能は現在開発中です。後でもう一度お試しください。",
+      "ContextCMD_Error_1": "🔴 このコマンドはダイレクトメッセージチャットでは実行できません！",
+      "KazMsC_Error_1": "このリクエストチャンネルの設定に内部エラーが発生しました。[ボットのチャンネル] オプションの [/settings] コマンドを使用して別のチャンネルを作成するか、[修理 音楽専用チャンネル] オプションを使用して、すべてを再び動作させることをお勧めします。",
+      "Blacklist_Error_1": "このサーバーはボットへのアクセスを拒否されているため、現在コマンドは使用できません。\n\n詳細については、[「ここをクリック」](https://discord.com/invite/FGBSecT9gq) してサポート サーバーのボット管理者にお問い合わせください。",
+      "Blacklist_Error_2": "ボットへのアクセスが拒否されたため、現在コマンドを使用できません。\n\n詳細については、[「ここをクリック」](https://discord.com/invite/FGBSecT9gq) してサポート サーバーのボット管理者にお問い合わせください。",
+      "Button_Error_1": "このアクションを実行するには、「数秒」待つ必要があります。",
+      "Button_Error_2": "❌ このボタンをアクティブにするための十分な権限がありません",
+      "Button_Error_3": "❌ このボタンをアクティブにする「所有者」権限がありません",
+      "Button_Error_4": "❌ エラーが発生しました。コマンドを再度実行してください。",
+      "Button_Error_5": "❌ このプレイリストのメニューを操作するための十分な権限がありません",
+      "Interaction_Error_1": "🔴 |このコマンドの実行中にエラーが発生しました。",
+      "Interaction_Error_2": "ボットが正しく機能するのに十分な権限がないことが検出されました。ボットに管理者権限を割り当てるか、[``ここをクリック``](https://discord.com/api/oauth2/authorize?client_id=946292719981047838&permissions) を使用する必要があります。 = 8&scope=bot%20applications.commands) を使用して権限を変更します。",
+      "SelectMenu_Error_1": "❌ このアクションを実行する **DJ** 権限がありません",
+      "SelectMenu_Error_2": "❌ このメニューをアクティブにするための十分な権限がありません",
+      "SelectMenu_Error_3": "❌ このメニューをアクティブにするための「所有者」権限がありません",
+      "NoDataFound_Error_1": "このサーバーのデータが見つかりません。後でもう一度お試しください。",
+      "Cooldown_Error_1": "🚫 このアクションを再度実行するには、「:cooldown_time:」まで待つ必要があります。",
+      "PlaylistTitle_Warning_1": "⚠️警告",
+      "PlaylistValue_Warning_1": "500 曲を超えるプレイリストをロードしているため、サーバーでわずかなラグが発生しています。パニックにならないでください。数秒後には解消されます。",
+      "SongMessage_Error_1": "その曲を再生/検索するための有効なメッセージが見つかりません!\n*有効なメッセージを使用してもう一度お試しください*",
+      "Play_Error_1": "**エラーが解決しない場合は、開発者 ``:dev:``** に報告してください。",
+      "Voice_Channel_Error_1": "音楽コマンドを使用できるようにするには、ボイスチャットに参加する必要があります",
+      "Voice_Channel_Error_2": "すでに :channel: で音楽を再生しています",
+      "Voice_Channel_Error_3": "すでにチャンネル :channel: に接続しています",
+      "Voice_Channel_Error_4": "私はすでにこの音声チャンネルに接続しています。",
+      "Voice_Channel_Error_5": "このアクションを実行するには、私と同じチャンネルにいる必要があります。",
+      "Queue_NotFound_Error_1": "現在曲キューは存在しません",
+      "Queue_TextChannel_Error_1": "音楽は「専用音楽チャンネル」で再生されていますが、コマンドは :channel: に制限されます。このチャンネルで再生されたら、もう一度お試しください。",
+      "Queue_TextChannel_Error_2": "「専用音楽チャンネル」以外で音楽が再生されています。このチャンネルで再生されてからもう一度お試しください。",
+      "Restrict_VoiceChannel_Error_1": "この **チャンネル**はサーバーの **音楽チャンネル リスト**にありません。次のいずれかのチャンネルでもう一度お試しください:\n \n:channels:",
+      "Premium_Error_1": "このコマンドへのアクセス権はありません。**プレミアム サーバー**専用です。",
+      "Invalid_YT_URL_Error_1": "❌ 入力した URL は **YouTube** のものではありません。有効な **YouTube URL** を試してください。\n\n⚠️ 指定した URL が **YouTube** のものである場合は、それが有効であることを確認してください。",
+      "Invalid_YT_URL_Error_2": "❌ 入力した URL は有効な **YouTube** 動画に属していません。有効な **YouTube** URL を試してください。",
+      "Maintenance_Error_1": "いくつかのバグ修正のため、ボットは現在サービスを停止しています。\n\n後でもう一度試すか、開発者「:dev:」に詳細をお問い合わせください。"
+    },
+    "units": {
+      "y": "年)",
+      "mth": "月)",
+      "w": "週",
+      "d": "日々）",
+      "h": "時間）",
+      "m": "分）",
+      "s": "秒"
+    },
+    "parameters": {
+      "default": "デフォルト",
+      "loop_option_1": "この曲",
+      "loop_option_2": "行列全体",
+      "loop_option_3": "無効",
+      "autoplay_option_1": "アクティブ化された",
+      "autoplay_option_2": "無効",
+      "filters_option_1": "なし",
+      "filters_option_2": "オフ",
+      "premium_option_1": "アクティブ化された",
+      "premium_option_2": "無効",
+      "premium_option_3": "罪プレミアム",
+      "source_option_1": "ソース",
+      "source_option_2": "不明"
+    },
+    "auto-complete": {
+      "song": "歌",
+      "songs": "曲",
+      "view": "ビュー",
+      "views": "ビュー",
+      "privacy_true": "プライベート",
+      "privacy_false": "公共"
+    },
+    "soundboard": {
+      "cmd_desc": "このサーバーに対応したKazuto-Music SoundBoardコマンド",
+      "default_message": "現在のキュー内のこのコマンドに属するカスタム サウンドが再生されました。"
+    }
+  },
+  "KazutoTogether": {
+    "title": "和人といっしょのシステマ",
+    "sub_title": "カズトのセッション「:session_id:」 <:be:1124972946394451988><:ta:1124972947690487860>",
+    "main_commands": {
+      "create": {
+        "success_1": "「Kazuto Together」セッションを作成しました <:be:1124972946394451988><:ta:1124972947690487860>",
+        "success_2": "**Kazuto Together** のセッションを作成しました。別のサーバーから友達を招待して、同時に音楽を聴くことができます。\n\n**Kazuto Together** セッションに友達を招待するには、すぐ下に表示される次のコード/トークンを送信します。その後、このセッションに接続するには、「/kt join」コマンドにそれを入力する必要があります。\n\n```:session_id:```\n\n*20 分以内にセッションに参加しない場合、リソースを節約するためにセッションは自動的に終了します。*"
+      },
+      "join": {
+        "error_1": "接続しようとしているセッションはすでにいっぱいです。あとでもう一度試してみてください。",
+        "success_1": "**Kazuto Together** のセッション ``:session_id:`` に接続しています",
+        "success_2": "✅ **Kazuto Together** の ``:session_id:`` セッションに正常に接続しました"
+      },
+      "leave": {
+        "success_1": "✅ **Kazuto Together** の ``:session_id:`` セッションから正常に退出しました"
+      },
+      "delete": {
+        "success_1": "✅ **Kazuto Together** のセッション「:session_id:」が正常に終了しました"
+      },
+      "info": {
+        "owner": {
+          "desc": "あなたの **Kazuto Together** セッション コード/トークンは次のとおりです\n```:session_id:```",
+          "field_1": "作成日",
+          "field_2": "リスナーの数",
+          "field_2_value_1": "「:listeners_length: / :listeners_limit: リスナー」",
+          "field_3": "その他のオプション",
+          "field_3_value_1": "非アクティブを検出したらセッションを終了する",
+          "field_3_value_2": "曲が完了したらログオフする",
+          "field_3_value_3": "ソングキューを停止する場合はログアウトします"
+        },
+        "listener": {
+          "desc": "**Kazuto Together** セッションを管理するサーバーは次のとおりです。\n```:guild_name:```",
+          "field_1": "作成日",
+          "field_2": "リスナーの数",
+          "field_2_value_1": "「:listeners_length: リスナー」",
+          "field_3": "キュー内の曲の数",
+          "field_3_value_1": "「:songs_length: 曲」"
+        }
+      }
+    },
+    "errors": {
+      "No_Session_Error_1": "現在、**Kazuto Together** セッションに参加していません。",
+      "No_Session_Error_2": "現在 **Kazuto Together** セッションを主催していません。",
+      "No_Session_Error_3": "セッション ``:session_id:`` は存在しません。有効な **Kazuto Together** セッションを使用して再試行してください。",
+      "Session_Duplicated_Error_1": "あなたは現在 **Kazuto Together** のセッションを主催しています。\n\n🔰 新しいセッションを作成したい場合は、「/kt delete」コマンドで現在のセッションを終了する必要があります。",
+      "Session_Duplicated_Error_2": "あなたは現在 **Kazuto Together** のセッション中です。\n\n🔰 新しいセッションを作成したい場合は、「/kt Leave」コマンドを使用して現在のセッションを終了する必要があります。",
+      "Leave_Error_1": "**Kazuto Together** の自分のセッションから離れることはできません。\n\n🔰 **Kazuto Together** セッションを終了したい場合は、「/kt delete」コマンドを使用してください",
+      "Queue_Error_1": "このサーバーにはすでに既存のプレイヤーが存在するため、**Kazuto Together** セッション ``:session_id:`` に接続できません。\n\n🔰 **Kazuto Together** セッションに接続する前に、音楽を再生している他のパーティからボットを切断する必要があります",
+      "Permission_Error_1": "**Kazuto Together** の ``:session_id:`` セッションでこのアクションを実行するための十分な権限がありません\n\n``/kt Leave`` コマンドを使用してログアウトした後、もう一度試してください。",
+      "Permission_Error_2": "**Kazuto Together** の ``:session_id:`` セッションでこのアクションを実行するための十分な権限がありません",
+      "Session_Error_1": "**Kazuto Together** セッションのメイン プレイヤーでエラーが発生したため、このセッションから強制的に切断されました。\n\n🔰 **Kazuto Together** セッションに再接続したい場合は、以前に使用したのと同じ **TOKEN** を使用して再試行してください。",
+      "Session_Error_2": "**Kazuto Together** のセッションをホストしている間は、この操作を実行できません。\n\n*コマンド ``/kt delete`` を使用してセッションを終了した後、もう一度試してください*",
+      "Timeout_Error_1": "20 分間で **Kazuto Together** の「:session_id:」セッションに参加した人はいません。\n\nこの理由により、リソースを節約するためにセッションを強制的に終了する必要があります。「/kt create」コマンドを使用して新しいセッションを再度作成できます。",
+      "Empty_Error_1": "担当サーバー上で **Kazuto Together** セッションを管理する人が不足しているため、リソースを節約するためにセッションを強制終了する必要がありました。",
+      "Empty_Error_2": "音声チャネルで非アクティブが検出されたため、リソースを節約するために **Kazuto Together** セッションから強制的に切断されました",
+      "Autoplay_Error_1": "自動再生モードは **Kazuto Together** システムと互換性がありません\n\n🔰 このような互換性の実装に懸命に取り組んでいます。後でもう一度お試しください。",
+      "Autoplay_Error_2": "自動再生モードは **Kazuto Together** システムと互換性がありません。セッションを作成したい場合は、自動再生モードを無効にする必要があります。\n\n🔰 このような互換性の実装に懸命に取り組んでいます。後でもう一度お試しください。",
+      "RelatedSong_Error_1": "この機能は現在、**Kazuto Together** システムではサポートされていません。\n\n🔰 このような互換性の実装に懸命に取り組んでいます。後でもう一度お試しください。",
+      "Shuffle_Error_1": "この機能は現在、**Kazuto Together** システムではサポートされていません。\n\n🔰 このような互換性の実装に懸命に取り組んでいます。後でもう一度お試しください。",
+      "Fun_Error_1": "この機能は現在、**Kazuto Together** システムではサポートされていません。\n\n🔰 このような互換性の実装に懸命に取り組んでいます。後でもう一度お試しください。",
+      "Soundboard_Error_1": "この機能は現在、**Kazuto Together** システムではサポートされていません。\n\n🔰 このような互換性の実装に懸命に取り組んでいます。後でもう一度お試しください。"
+    },
+    "success": {
+      "Empty_Sucess_1": "**Kazuto Together** セッションは、音声チャネルで非アクティブが検出されたため終了しました\n\n🔰 **これはリソースを節約することのみを目的として行われます**",
+      "Finish_Session_Success_1": "曲を演奏しながら **Kazuto Together** セッションを完了しました。\n\n🔰 新しい「**Kazuto Together**」システムについて何か提案したり、フィードバックを送りたい場合は、「/review」コマンドを使用してください。",
+      "Finish_Session_Success_2": "**Kazuto Together** セッションが曲の再生とともに終了しました。\n\n🔰 新しい「**Kazuto Together**」システムについて何か提案したり、フィードバックを送りたい場合は、「/review」コマンドを使用してください。",
+      "Disconnect_Success_1": "**Kazuto Together** セッションを管理するサーバーが再生を終了したため、セッションも終了しました",
+      "Pause_Success_1": "**Kazuto Together** セッションを管理しているサーバーは、現在の曲/ビデオを一時停止しました",
+      "Resume_Success_1": "**Kazuto Together** セッションを管理するサーバーが現在の曲/ビデオを要約しました",
+      "Skip_Success_1": "**Kazuto Together** セッションを管理するサーバーは、現在の曲/ビデオを曲/ビデオ キュー内の次の曲/ビデオにスキップしました",
+      "Skipto_Success_1": "**Kazuto Together** セッションを管理するサーバーは、現在の曲/ビデオをキュー内の曲 `:song_id:` までスキップしました",
+      "Switch_Success_1": "**Kazuto Together** セッションを管理するサーバーは、曲「:song_name:」の位置を「:final_position:」に変更しました。",
+      "Previous_Success_1": "**Kazuto Together** セッションを管理するサーバーは、現在の曲/ビデオを曲/ビデオ キュー内の前の曲/ビデオにスキップしました",
+      "Volume_Success_1": "**Kazuto Together** セッションを管理するサーバーは、曲/ビデオ キューの音量を `:volume_percentage:` に変更しました",
+      "Seek_Success_1": "**Kazuto Together** セッションを管理しているサーバーは、再生時間を `:song_currentTime:` 秒に変更しました",
+      "Replay_Success_1": "**Kazuto Together** セッションを管理しているサーバーが現在の曲/ビデオの再生を再開しました",
+      "Shuffle_Success_1": "**Kazuto Together** セッションを管理するサーバーは、現在の曲のキューをランダムに並べ替えました",
+      "RelatedSong_Success_1": "**Kazuto Together** セッションを管理しているサーバーが、現在のソングキューに関連する曲を追加しました。",
+      "Autoplay_Success_1": "**Kazuto Together** セッションを管理しているサーバーが自動再生モードを有効にしました",
+      "Autoplay_Success_2": "**Kazuto Together** セッションを管理するサーバーは自動再生モードを無効にしました",
+      "Loop_Success_1": "**Kazuto Together** セッションを管理するサーバーはループ モードを `:loop_value:` に変更しました",
+      "Filter_Success_1": "**Kazuto Together** セッションを管理するサーバーはフィルター `:filter_name:` を設定しました",
+      "Filter_Success_2": "**Kazuto Together** セッションを管理するサーバーはフィルター `:filter_name:` を削除しました",
+      "Filter_Success_3": "**Kazuto Together** セッションを管理するサーバーはキューからすべてのフィルターを削除しました",
+      "Time_Success_1": "**Kazuto Together** セッションを管理するサーバーは、再生時間を `:time_value:` 秒に設定しました",
+      "Speed_Success_1": "**Kazuto Together** セッションを管理するサーバーは、再生速度を `:speed_value:` に変更しました",
+      "Playlist_Success_1": "**Kazuto Together** セッションを管理するサーバーは、「:playlist_songs:」 曲のプレイリストをキューに追加しました",
+      "Import_Success_1": "**Kazuto Together** セッションを管理するサーバーは、「:songs_length:」 曲のキューをインポートしました",
+      "Play_Success_1": "**Kazuto Together** セッションを管理するサーバーが新しい曲をキューに追加しました",
+      "PlaySkip_Success_1": "**Kazuto Together** セッションを管理しているサーバーが、新しい曲をキューに追加し、この曲までスキップしました。",
+      "PlayTop_Success_1": "**Kazuto Together** セッションを管理しているサーバーが、キューの先頭に新しい曲を追加しました。",
+      "Clean_Queue_Success_1": "**Kazuto Together** セッションを管理しているサーバーがキューからすべての曲を削除しました",
+      "Remove_Song_Success_1": "**Kazuto Together** セッションを管理するサーバーは、ID `:song_id:` の曲をキューから削除しました",
+      "Remove_Songs_Success_1": "**Kazuto Together** セッションを管理するサーバーはキューから `:songs_length:` を削除しました",
+      "Remove_Songs_Dup_Success_1": "**Kazuto Together** セッションを管理するサーバーは、キューから重複した曲をすべて削除しました",
+      "Vote_Started_Success_1": "**Kazuto Together** セッションを管理しているサーバーは、現在の曲をスキップするよう投票しています (:actual_votes:/:required_votes:)",
+      "Vote_Finished_Success_1": "**Kazuto Together** セッションを管理しているサーバーは投票を終了し、現在の曲をスキップすることを決定しました"
+    }
+  },
+  "ButtonInteraction": {
+    "music-channel": {
+      "Add-To-PL": {
+        "cooldown_error_1": "❌ このボタンを再度操作するには、少なくとも「1 分」待つ必要があります。",
+        "voice_channel_error_1": "ボイスチャットに参加する必要があります",
+        "voice_channel_error_2": "私が音楽を再生しているのと同じチャンネルにいる必要があります :kazuto_vc_channel:",
+        "queue_error_1": "現在再生中の曲はありません。",
+        "pl_error_1": "このサーバーにはプレイリストが作成されていません。後でもう一度お試しください。",
+        "SM_Constructor": {
+          "Placeholder": "プレイリストの 1 つを選択してください",
+          "Objects_Desc": "現在の曲をプレイリスト「:playlist_name:」に追加します"
+        },
+        "response_embed_title": "|プレイリストのシステム",
+        "response_embed_desc": "現在再生中の曲を追加するには、**プレイリスト**のいずれかを選択する必要があります\n\n*プレイリストを選択するまでの時間は 10 分です*",
+        "loading": "<a:loadingWB:986050761031041084> **曲を保存中...**",
+        "pl_error_2": "プレイリスト ``:playlist_name:`` は **プレイリスト** に存在しません。もう一度お試しください。",
+        "pl_error_3": "プレイリスト ``:playlist_name:`` は **データベース** のプレイリストと一致しません。もう一度試してください。",
+        "url_error_1": "この曲の URL は **YouTube** のものではありません。有効な **YouTube** URL でお試しください。",
+        "url_error_2": "この曲の URL は有効な **YouTube** 動画に属していません。有効な **YouTube** URL を試してください。",
+        "save_song_error_1": "⚠️ 保存しようとしている曲は、以前にこのプレイリストに保存されています。",
+        "success_1": "✅ 曲が正常に保存されました:\n \n📌 **タイトル**: ``:song_title:``\n🌐 **URL**: ``:song_url:``\nℹ️ **ID**: ``:song_id:``",
+        "timeout_error_1": "⏳ 時間切れです。もう一度お試しください。"
+      },
+      "AutoPlay": {
+        "voice_channel_error_1": "❌ このアクションを実行するには、ボイスチャットをしている必要があります",
+        "voice_channel_error_2": "❌ このアクションを実行するには、私と同じボイスチャットに参加する必要があります",
+        "dj_error_1": "このアクションを実行する **DJ** 権限がありません",
+        "queue_error_1": "❌ 現在キューはありません。",
+        "play_error_1": "音楽が「専用音楽チャンネル」以外で再生されています。このチャンネルで再生されてからもう一度お試しください。",
+        "success_1": "|自動再生モードを : ``:autoplay_options:`` に変更しました。"
+      },
+      "Delete-From-Queue": {
+        "Modal_Constructor": {
+          "title": "キューから曲/ビデオを削除する",
+          "label": "曲/ビデオID",
+          "placeholder": "Ex: 6、5、10、7。"
+        },
+        "songid_error_1": "キュー内の曲/ビデオの有効な ID を指定する必要があります。",
+        "songid_error_2": "この**曲**は現在すでに再生されているため、削除できません。",
+        "songid_error_3": "指定した **ID** ``:song_id:`` は、どのテール曲にも **属していません**。有効な **ID** を使用して再試行してください。",
+        "success_1": "| ID「:song_id:」の曲をキューから削除しました。\n\n🎵 曲名: :deleted_song_name:"
+      },
+      "Replay": {
+        "success_1": "|現在の曲を最初から再生しました。"
+      },
+      "Exit": {
+        "_comment": "このボタンには別のテキストは必要ないため、他のテキストが再利用されます。 (今のところ) [このテキストは翻訳しないでください!]"
+      },
+      "Loop-Buttons": {
+        "_comment": "このボタンには別のテキストは必要ないため、他のテキストが再利用されます。 (今のところ) [このテキストは翻訳しないでください!]"
+      },
+      "Pause-Unpause": {
+        "_comment": "このボタンには別のテキストは必要ないため、他のテキストが再利用されます。 (今のところ) [このテキストは翻訳しないでください!]"
+      },
+      "Previous-Songs": {
+        "cooldown_error_1": "この曲は最近スキップされました。再度スキップできるようになるまで数秒待ってください。",
+        "no_previoussong_error_1": "❌ このキューには前の曲はありません。",
+        "success_1": "|スキップされました キュー内の前の曲。"
+      },
+      "Remove-From-PL": {
+        "cooldown_error_1": "❌ このボタンを再度操作するには、少なくとも「1 分」待つ必要があります。",
+        "voice_channel_error_1": "ボイスチャットに参加する必要があります",
+        "voice_channel_error_2": "私が音楽を再生しているのと同じチャンネルにいる必要があります :kazuto_vc_channel:",
+        "queue_error_1": "現在再生中の曲はありません。",
+        "pl_error_1": "このサーバーにはプレイリストが作成されていません。後でもう一度お試しください。",
+        "SM_Constructor": {
+          "Placeholder": "プレイリストの 1 つを選択してください",
+          "Objects_Desc": "現在の曲をプレイリスト「:playlist_name:」から削除します"
+        },
+        "response_embed_title": "|プレイリストのシステム",
+        "response_embed_desc": "現在再生中の曲を削除するには、**プレイリスト**のいずれかを選択する必要があります\n\n*プレイリストを選択するまでの時間は 10 分です*",
+        "pl_error_2": "プレイリスト ``:playlist_name:`` は **プレイリスト** に存在しません。もう一度お試しください。",
+        "pl_error_3": "プレイリスト ``:playlist_name:`` は **データベース** のプレイリストと一致しません。もう一度試してください。",
+        "pl_error_4_title": "❌ エラーが発生しました",
+        "pl_error_4_desc": "**1**: 提供されたプレイリストが有効であることを確認してください\n \n**2**: 再生中の曲の URL が有効であるか、プレイリストに存在することを確認してください。\n \nプレイリストが何であるかを知りたい場合は「/playlist [list]」または「Press option C」を使用し、探している曲の ID を知りたい場合は「/playlist songs」[を使用します。プレイリスト]`` または ``オプション D を押してください``",
+        "url_error_1": "この曲の URL は **YouTube** のものではありません。有効な **YouTube** URL でお試しください。",
+        "success_1": "✅ **曲**が正常に削除されました:\n \n📌 **タイトル**: ``:song_title:``\n🌐 **URL**: ``:song_url:``\nℹ️ **ID**: ``:song_id:``",
+        "timeout_error_1": "⏳ 時間切れです。もう一度お試しください。"
+      },
+      "Shuffle": {
+        "song_error_1": "シャッフルするにはキューに最低「3曲」必要です！",
+        "success_1": "|現在の曲のキューをシャッフルしました。"
+      },
+      "Skip-Song": {
+        "cooldown_error_1": "この曲は最近スキップされました。再度スキップできるようになるまで数秒待ってください。",
+        "no_nextsong_error_1": "❌ このキューには次の曲はありません。",
+        "success_1": "|現在の曲をスキップしました。"
+      },
+      "Skip-Specific-Song": {
+        "Modal_Constructor": {
+          "title": "曲/ビデオを特定の曲/ビデオにスキップします",
+          "label": "曲/ビデオID",
+          "placeholder": "Ex: 6、5、10、7。"
+        },
+        "songid_error_1": "キュー内の曲/ビデオの有効な ID を指定する必要があります。",
+        "songid_error_2": "この**曲**をスキップして、既に再生されている同じ**曲**に移動することはできません。",
+        "songid_error_3": "指定した **ID** ``:song_id:`` は、どのテール曲にも **属していません**。有効な **ID** を使用して再試行してください。",
+        "success_1": "|現在の曲からキュー内の曲 ``:song_id:`` までスキップしました。"
+      },
+      "Song-Forward": {
+        "cooldown_error_1": "曲の時間が最近変更されました。再度変更できるようになるまで数秒お待ちください。",
+        "Modal_Constructor": {
+          "title": "曲/ビデオのプレビュー",
+          "label_1": "時間）",
+          "label_2": "分）",
+          "label_3": "秒",
+          "placeholder_1": "Ex: 2、8、0、3。",
+          "placeholder_2": "Ex: 6、2、5、8。",
+          "placeholder_3": "Ex: 20、79、120、9、0。"
+        },
+        "time_error_1": "有効な時間を指定する必要があります",
+        "success_1": "|曲の再生時間を 2 番目の ``:song_seconds:`` に変更しました。"
+      },
+      "Song-Speed": {
+        "premium_error_1": "❌ 曲/ビデオの速度を変更することはできません。これは **プレミアム サーバー** の排他的な機能です。",
+        "SM_Constructor": {
+          "Placeholder": "現在の曲の速度を設定します",
+          "label_1": "スピード×0.5",
+          "label_2": "スピード×0.75",
+          "label_3": "スピード1倍(ノーマル)",
+          "label_4": "スピード1.25倍",
+          "label_5": "スピード1.5倍",
+          "label_6": "スピード1.75倍",
+          "label_7": "スピード2倍",
+          "desc_1": "中低速の再生速度",
+          "desc_2": "再生速度が少し遅い",
+          "desc_3": "通常の再生速度",
+          "desc_4": "再生速度が遅い",
+          "desc_5": "中速再生速度",
+          "desc_6": "非常に速い再生速度",
+          "desc_7": "超高速再生速度"
+        },
+        "response_embed_title": "|再生速度",
+        "response_embed_desc": "現在再生中の曲に設定する速度を選択します。\n\n*選択には 10 分かかります*",
+        "loading": "<a:loadingWB:986050761031041084> **適用速度 :speed_value:**",
+        "success_1": "|曲の速度を「:speed_value:」に変更しました",
+        "timeout_error_1": "⏳ 時間切れです。もう一度お試しください。"
+      },
+      "Volume-Down": {
+        "volume_error_1": "❌ 最小値が「0%」なので音量を下げることはできません"
+      },
+      "Volume-Up": {
+        "volume_error_1": "❌ 最大値が「100%」のため音量を上げることはできません。",
+        "volume_error_2": "❌ 音量は最大が「500%」なので上げることはできません"
+      },
+      "Vote": {
+        "vote_error_1": "❌ あなたは以前にその曲をスキップすることに投票しています",
+        "vote_success_1": "**曲をスキップするのに十分な投票数**に達しました",
+        "vote_skip_error_1": "❌ このキューには **次の曲** がありません。",
+        "vote_skip_success_1": "✅ 曲が正しくスキップされました。",
+        "vote_count_success_1": "|曲をスキップすることに投票しました (:actual_votes:/:required_votes:) 票"
+      }
+    },
+    "music-play": {
+      "Disconnect": {
+        "voice_channel_error_1": "❌ このアクションを実行するには、ボイスチャットをしている必要があります",
+        "voice_channel_error_2": "❌ このアクションを実行するには、私と同じボイスチャットに参加する必要があります",
+        "dj_error_1": "このアクションを実行する **DJ** 権限がありません",
+        "internal_error_1": "予期しないエラーが発生しました\n\n**コード**: 0x100464135",
+        "internal_error_2": "予期しないエラーが発生しました\n\n**コード**: 0x23224536",
+        "success_desc_1": "|現在の曲のキューを停止してクリアしました",
+        "success_footer_1": "ボットを切断したい場合は、/music settings [disconnect] を使用してください。",
+        "disconnect_title": "再生産完了✅"
+      },
+      "Pause-Unpause": {
+        "btn_edit_1": "一時停止",
+        "btn_edit_2": "再開する"
+      },
+      "Queue": {
+        "embed_title": "ソングキュー"
+      },
+      "Skip": {
+        "skip_error_1": "❌ このキューには次の曲はありません。",
+        "success_1": "|現在の曲をスキップしました。"
+      },
+      "Volume": {
+        "error_1": "❌ 最小値が「0%」なので音量を下げることはできません",
+        "error_2": "❌ 最大値が「100%」のため音量を上げることはできません。",
+        "error_3": "❌ 音量は最大が「500%」なので上げることはできません"
+      },
+      "Alternate-Loop": {
+        "_comment": "このボタンには別のテキストは必要ないため、他のテキストが再利用されます。 (今のところ) [このテキストは翻訳しないでください!]"
+      }
+    },
+    "playlist-menu": {
+      "option_a": {
+        "cooldown_error_1": "❌ このコマンドを再度実行するには、少なくとも「30 秒」待つ必要があります。",
+        "playlists_notfound_error_1": "❌ このサーバーにはまだ **プレイリスト** が作成されていません。後でもう一度お試しください。",
+        "embed_author": "|プレイリストのシステム",
+        "embed_title": "サーバープレイリストリスト ``:guild_name:``",
+        "data_map": "``プレイリスト`` **-** ``:id:``\n✏️ **名前**: ``:playlist_name:``\n👤 **クリエイター**: :createdBy:\n📆 **作成**: :timeCreated:\n📊 **再生回数**: ``:playlist_views:``\n🎵 「:playlist_songs:」 の曲があります",
+        "data_map_empty_1": "このサーバーにはプレイリストが見つかりません。",
+        "data_map_empty_2": ">>> **このサーバーにはプレイリストが見つかりません。**"
+      },
+      "option_b": {
+        "cooldown_error_1": "❌ このコマンドを再度実行するには、少なくとも「30 秒」待つ必要があります。",
+        "playlists_notfound_error_1": "❌ このサーバーにはプレイリストが見つかりません。後でもう一度試してください。",
+        "embed_author": "|プレイリストのシステム",
+        "embed_title": "サーバー「:guild_name:」のトップ プレイリスト",
+        "data_map": "「プレイリスト」 **-** :medal_or_id:\n✏️ **名前**: ``:playlist_name:``\n👤 **クリエイター**: :createdBy:\n📆 **作成**: :timeCreated:\n📊 **再生回数**: ``:playlist_views:``\n🎵 「:playlist_songs:」 の曲があります",
+        "data_map_empty_1": "このサーバーにはプレイリストが見つかりません。",
+        "data_map_empty_2": ">>> **このサーバーにはパブリック プレイリストが見つかりません。**"
+      },
+      "option_c": {
+        "cooldown_error_1": "❌ このコマンドを再度実行するには、少なくとも「30 秒」待つ必要があります。",
+        "playlists_notfound_error_1": "❌ このサーバーにはまだ **プレイリスト** が作成されていません。後でもう一度お試しください。",
+        "embed_author": "|プレイリストのシステム",
+        "embed_title": "ユーザープレイリストのリスト ``:user_tag:``",
+        "data_map": "✏️ **名前**: ``:playlist_name:``\n📆 **作成**: :timeCreated:\n📊 **再生回数**: ``:playlist_views:``\n🎵 「:playlist_songs:」 の曲があります"
+      },
+      "option_d": {
+        "cooldown_error_1": "❌ このコマンドを再度実行するには、少なくとも「30 秒」待つ必要があります。",
+        "playlists_notfound_error_1": "❌ プレイリスト ``:playlist_name:`` は存在しません。**既存のプレイリスト**を使用して再試行してください。",
+        "playlist_privacy_error_1": "プレイリスト ``:playlist_name:`` は、所有者が ``プライベート プレイリスト`` として設定しているため、表示できません",
+        "playlist_nosongs_error_1": "プレイリスト「:playlist_name:」には曲がありません。後でもう一度お試しください。",
+        "embed_author": "|プレイリストのシステム",
+        "embed_title": "プレイリスト曲「:playlist_name:」",
+        "data_map": "_*曲 - :id:*_\n\n>>> 📌 **タイトル**: [``:song_title:``](:song_url:)\n📊 **再生回数**: ``:song_views:``\n👤 **アップロード者**: [``:song_uploader_name:``](:song_uploader_url:)\n⏱️ **再生時間**: ``:song_formattedDuration:``\nℹ️ **ID**: ``:song_id:``"
+      },
+      "option_e": {
+        "cooldown_error_1": "❌ このコマンドを再度実行するには、少なくとも「30 秒」待つ必要があります。",
+        "voice_channel_error_1": "❌ 音声チャンネルに接続している必要があります",
+        "voice_channel_error_2": "❌ 私が音楽を再生しているのと同じチャンネルにいる必要があります :kazuto_vc_channel:",
+        "queue_error_1": "❌ 現在再生中の曲はありません。",
+        "url_error_1": "❌ この曲の URL は **YouTube** のものではありません。有効な **YouTube URL** を試してください。",
+        "url_error_2": "❌ この曲の URL は有効な **YouTube** 動画に属していません。有効な **YouTube** URL で試してください。",
+        "save_song_error_1": "⚠️ 保存しようとしている曲は、以前にこのプレイリストに保存されています。",
+        "embed_author": "|プレイリストのシステム",
+        "save_song_success_1": "✅ 曲が正常に保存されました:\n \n📌 **タイトル**: ``:song_title:``\n🌐 **URL**: ``:song_url:``\nℹ️ **ID**: ``:song_id:``"
+      },
+      "option_f": {
+        "cooldown_error_1": "❌ このコマンドを再度実行するには、少なくとも「30 秒」待つ必要があります。",
+        "waiting_response": "⏳ 追加したい曲の「URL」を入力します。",
+        "modal_data": {
+          "modal_title": "プレイリストに特定の曲を追加する",
+          "modal_label": "曲のURL",
+          "modal_placeholder": "曲のURLをここに入力してください。"
+        },
+        "url_error_1": "❌ 今入力した URL は **YouTube** のものではありません。有効な **YouTube URL** を試してください。\n\n⚠️ 指定した URL が **YouTube** のものである場合は、それが有効であることを確認してください。",
+        "url_error_2": "❌ 入力した URL は有効な **YouTube** 動画に属していません。有効な **YouTube** URL を試してください。",
+        "embed_author": "|プレイリストのシステム",
+        "save_song_error_1": "⚠️ 保存しようとしている曲は、以前にこのプレイリストに保存されています。",
+        "save_song_success_1": "✅ **曲**が正常に保存されました:\n \n📌 **タイトル**: ``:song_title:``\n🌐 **URL**: ``:song_url:``\nℹ️ **ID**: ``:song_id:``"
+      },
+      "option_g": {
+        "cooldown_error_1": "❌ このコマンドを再度実行するには、少なくとも「1 分」待つ必要があります。",
+        "embed_author": "|プレイリストのシステム",
+        "voice_channel_error_1": "❌ このプレイリストを再生するにはボイスチャットをする必要があります",
+        "voice_channel_error_2": "❌ 私が音楽を再生しているのと同じチャンネルにいる必要があります :kazuto_vc_channel:",
+        "playlist_error_1": "❌ プレイリスト ``:playlist_name:`` は存在しません。**既存のプレイリスト**を使用して再試行してください。",
+        "playlist_error_2": "プレイリスト ``:playlist_name:`` には曲が保存されていないため、再生できません。",
+        "playlist_privacy_error_1": "プレイリスト「:playlist_name:」は、所有者が「プライベート プレイリスト」として設定しているため、再生できません。",
+        "restrict_voicechannel_error_1": "この **チャンネル**はサーバーの **音楽チャンネル リスト**にありません。次のいずれかのチャンネルでもう一度お試しください:\n \n:music_channels:",
+        "success_1": "📀 リクエストを受け取りました...",
+        "url_error_1": "❌ このプレイリスト内の曲の URL が無効です。別のプレイリストを再生してみてください。"
+      },
+      "option_h": {
+        "cooldown_error_1": "❌ このコマンドを再度実行するには、少なくとも「30 秒」待つ必要があります。",
+        "timeout_error_1": "❌ オプションを選択するのに時間がかかりすぎました",
+        "embed_author": "|プレイリストのシステム",
+        "playlist_error_1": "❌ プレイリスト ``:playlist_name:`` は存在しません。**既存のプレイリスト**を使用して再試行してください。",
+        "Button1_Label": "プライベート",
+        "Button2_Label": "グローバル",
+        "embed_desc": "⏳ この**プレイリスト**にどの**プライバシー オプション**を設定しますか?",
+        "embed_desc_var1": "✅ プレイリスト ``:playlist_name:`` のプライバシーを ``Private`` に正しく変更しました",
+        "embed_desc_var2": "✅ プレイリスト ``:playlist_name:`` のプライバシーを ``Global`` に正しく変更しました"
+      },
+      "option_i": {
+        "cooldown_error_1": "❌ このコマンドを再度実行するには、少なくとも「30 秒」待つ必要があります。",
+        "embed_author": "|プレイリストのシステム",
+        "waiting_response": "⏳ プレイリスト「:playlist_name:」に付ける新しい名前を入力します。",
+        "modal_data": {
+          "modal_title": "プレイリストの現在の名前を変更する",
+          "modal_label": "新名称",
+          "modal_placeholder": "プレイリストに割り当てる新しい名前をここに入力してください。"
+        },
+        "playlist_error_1": "❌ プレイリスト「:playlist_name:」は **プレイリスト**に存在しません。**既存のプレイリスト**を使用して再試行してください。",
+        "playlist_error_2": "❌ プレイリストの 1 つにすでに ``:new_playlist_name:`` という名前が付いています。別の名前でもう一度試してください。",
+        "playlist_error_3": "❌ このサーバーには、「:new_playlist_name:」という名前のプレイリストがすでに存在します。別の名前で再試行してください。",
+        "success_1": "✅ プレイリスト名「:playlist_name:」を「:new_playlist_name:」に正しく変更しました"
+      },
+      "option_j": {
+        "cooldown_error_1": "❌ このコマンドを再度実行するには、少なくとも「30 秒」待つ必要があります。",
+        "embed_author": "|プレイリストのシステム",
+        "waiting_response": "⏳ このプレイリストの移行先サーバーの「ID」を指定します。",
+        "modal_data": {
+          "modal_title": "プレイリストを別のサーバーに移行する",
+          "modal_label": "サーバーID",
+          "modal_placeholder": "プレイリストを移行したいサーバーのサーバーIDを入力してください。"
+        },
+        "playlist_error_1": "❌ プレイリスト ``:playlist_name:`` は **プレイリスト** に存在しません。**既存のプレイリスト**を使用して再試行してください。",
+        "server_error_1": "❌ ID ``:server_id:`` を持つサーバーは存在しません。**有効なサーバー**を使用して再試行してください。",
+        "success_var1": "✅ プレイリスト「:playlist_name:」はサーバー「:server_name:」に正常に移行されました。\n \n⚠️ **注意してください**: Debido a que el **nombre de tu playlist** ya existe en este server, tuve que renombrarla a ``:new_playlist_name:``",
+        "success_var2": "✅ プレイリスト「:playlist_name:」はサーバー「:server_name:」に正常に移行されました。"
+      },
+      "option_k": {
+        "cooldown_error_1": "❌ このコマンドを再度実行するには、少なくとも「30 秒」待つ必要があります。",
+        "embed_author": "|プレイリストのシステム",
+        "voice_channel_error_1": "❌ 音声チャンネルに接続している必要があります",
+        "voice_channel_error_2": "❌ 私が音楽を再生しているのと同じチャンネルにいる必要があります :kazuto_vc_channel:",
+        "queue_error_1": "❌ 現在再生中の曲はありません。",
+        "internal_error_1": "❌ **エラーが発生しました**\n \n**1**: 提供されたプレイリストが有効であることを確認してください\n \n**2**: 再生中の曲の URL が有効であるか、プレイリストに存在することを確認してください。\n \nプレイリストが何であるかを知りたい場合は「/playlist [list]」または「Press option C」を使用し、探している曲の ID を知りたい場合は「/playlist songs」[を使用します。プレイリスト]`` または ``オプション D を押してください``",
+        "success_1": "✅ **曲**が正常に削除されました:\n \n📌 **タイトル**: ``:song_title:``\n🌐 **URL**: ``:song_url:``\nℹ️ **ID**: ``:song_id:``"
+      },
+      "option_l": {
+        "cooldown_error_1": "❌ このコマンドを再度実行するには、少なくとも「10 秒」待つ必要があります。",
+        "embed_author": "|プレイリストのシステム",
+        "waiting_response": "⏳ 削除したい曲の「ID」を入力してください",
+        "modal_data": {
+          "modal_title": "プレイリストから特定の曲を削除する",
+          "modal_label": "楽曲ID",
+          "modal_placeholder": "削除したい曲のIDを入力する（1行に1つのID）"
+        },
+        "internal_error_1": "❌ **エラーが発生しました**\n \n**1**: 提供されたプレイリストが有効であることを確認してください\n \n**2**: 指定した曲 ID が有効であることを確認してください\n \nプレイリストが何であるかを知りたい場合は「/playlist [list]」または「Press option C」を使用し、探している曲の ID を知りたい場合は「/playlist songs」[を使用します。プレイリスト]`` または ``オプション D を押してください``",
+        "success_1": "✅ **曲**が正常に削除されました:\n \n📌 **タイトル**: ``:song_title:``\n🌐 **URL**: ``:song_url:``\nℹ️ **ID**: ``:song_id:``",
+        "success_2": "✅ プレイリスト ``:playlist_name:`` から ``:songs_length:`` の曲を削除することに成功しました。"
+      },
+      "option_m": {
+        "embed_author": "|プレイリストのシステム",
+        "playlist_error_1": "❌ プレイリスト「:playlist_name:」は **プレイリスト**に存在しません。**既存のプレイリスト**を使用して再試行してください。",
+        "success_1": "✅ プレイリスト「:playlist_name:」は正常に削除されました"
+      }
+    },
+    "premium-message": {
+      "redeemed-keys": {
+        "Error_1": "このサーバー上で引き換えられた**プレミアム キー**は見つかりませんでした",
+        "Data_map": "🔑 **キー**: ``:key:``\n🕘 **期間**: ``:duration:``",
+        "Data_map_empty": "**このサーバーではキーが引き換えられていません。後でもう一度試してください。**",
+        "Embed_Title": "「:guild_name:」でキーを引き換えました"
+      },
+      "trial-sub": {
+        "Error_1": "❌ このアクションを実行するための十分な権限がありません",
+        "Error_2": "❌ **内部エラーが発生しました**\n**このサーバーのデータは見つかりません**\n\nエラーが解決しない場合は、開発者に通知してください :dev:",
+        "Error_3": "❌ エラーが発生しました。[/premium] コマンドをもう一度実行してください。",
+        "MainEmbed_Title": "📀「和人ミュージック」無料お試し",
+        "MainEmbed_Description": "**ようこそユーザー** 私のプロジェクト「Kazuto Music」とそのプレミアムメンバーシップに興味を持っていただきありがとうございます。\n追加料金なしで完全に無料の 14 日間のトライアル サブスクリプションを取得でき、追加のデータを入力する必要もありません。\n\n⚠️ **覚えておいてください**:\n**1.** *無料トライアルは 14 日で期限切れになります*\n**2.** *この無料トライアルにアクセスできるのは、管理するサーバーごとに 1 回だけです*\n**3.** *この無料トライアルは、ユーザーがこのプロジェクトのプレミアム機能をテストし、これらの機能のパフォーマンスをテストできるようにすることのみを目的として提供しています*\n\n**私たちが提供するプレミアム特典をぜひお楽しみください!**\n*オプションを選択するには 10 分かかります*",
+        "MainEmbed_Footer": "よろしくお願いいたします :dev:",
+        "Button1_Label": "テストの開始",
+        "Button2_Label": "後で始めたい",
+        "ResponseDesc_Success_1": "✅ 「14 日間」のプレミアム無料トライアルを申請しました。",
+        "ResponseField1_Success_1": "請求者",
+        "ResponseField2_Success_1": "有効期限",
+        "ResponseDesc_Success_2": "✅ 今のところ無料トライアルを拒否しました。\n\n*コマンド ``/premium`` を使用して再度申請できることに注意してください*"
+      }
+    },
+    "reconnect-sys": {
+      "success": {
+        "Loading": "**再接続中....**",
+        "Success_1": "✅ **再接続が成功しました!**"
+      },
+      "errors": {
+        "Internal_Error_1": "おっとっと！このキューに関するデータで内部エラーが発生しました。"
+      }
+    },
+    "shop-sys": {
+      "success": {
+        "MainEmbed_Title1": "|オプションを選択してください - サブスクリプション 1 日 💿",
+        "MainEmbed_Title2": "|オプションを選択 - 3 日間のサブスクリプション 💿",
+        "MainEmbed_Title3": "|オプションを選択 - 5 日間のサブスクリプション 💿",
+        "MainEmbed_Title4": "|オプションを選択 - 7 日間のサブスクリプション 💿",
+        "MainEmbed_Title5": "|オプションを選択してください - サブスクリプション 14 日間 💿",
+        "MainEmbed_Title6": "|オプションを選択 - サブスクリプション 30 日間 📀",
+        "MainEmbed_Title7": "|オプションを選択 - サブスクリプション 60 日間 📀",
+        "MainEmbed_Title8": "|オプションを選択 - サブスクリプション 90 日間 📀",
+        "MainEmbed_Title9": "|オプションを選択 - サブスクリプション 6 か月 📀",
+        "MainEmbed_Title10": "|オプションを選択 - サブスクリプション 1 年間 📀",
+        "MainEmbed_Description": "❓ **キーを購入**\n*このオプションを使用すると、このサブスクリプションをキーの形式で購入できます。キーは非公開で送信され、「/redeem」コマンドで引き換えることができます。*\n\n❓ **サブスクリプションを購入**\n*このオプションを使用すると、このサーバーに対して直接サブスクリプションを購入してアクティブ化できます。*",
+        "MainEmbed_Footer": "選択には 10 分かかります",
+        "Button1_Label": "キーを購入する",
+        "Button2_Label": "サブスクリプションを購入する",
+        "BuyKey_BTN": {
+          "MainEmbed_Title": "🔑 プレミアムキーを購入しました",
+          "MainEmbed_Field1": "によって購入されました",
+          "MainEmbed_Field2": "購入日",
+          "MainEmbed_Field3": "サブスクリプション",
+          "MainEmbed_Field4": "州",
+          "MainEmbed_Field4_value": "使うことなく",
+          "MainEmbed_Field4_value_2": "使用済み",
+          "Response_Title": "✅ 新しいキーを取得しました",
+          "Response_Description": "期間「:duration:」の**プレミアム キー**を取得しました。キーの**情報**を DM で送信しました。"
+        },
+        "BuySub_BTN": {
+          "MainEmbed_Title": "✅ プレミアムが正常に引き換えられました",
+          "MainEmbed_Description_1": "**プレミアム サブスクリプション**が正常に引き換えられ、このサーバーではプレミアム機能がアクティブ化されました。\n\n*以前にプレミアム サブスクリプションをお持ちだったので、サブスクリプションが更新されました!*",
+          "MainEmbed_Description_2": "**プレミアム サブスクリプション**が正常に引き換えられ、このサーバーではプレミアム機能がアクティブ化されました。",
+          "MainEmbed_Field1": "引き換えられたもの",
+          "MainEmbed_Field2": "有効期限",
+          "MainEmbed_Footer": "K-Music プロジェクトへのご協力に感謝いたします"
+        }
+      },
+      "errors": {
+        "Insufficient_Coins_Error_1": "サーバーには、この購入を行うのに十分な**コイン**がありません"
+      }
+    }
+  },
+  "Modals_Constructor": {
+    "music": {
+      "remove_cmd": {
+        "removesongbyid_title": "曲/ビデオを削除する",
+        "removesongbyid_label": "ID [曲IDを入力してください]",
+        "removesongbyid_placeholder": "Ex: 2、8、0、3。",
+        "removerangeofsongs_title": "複数の曲/ビデオを削除する",
+        "removerangeofsongs_label": "初期ID [削除を開始するID]",
+        "removerangeofsongs_label2": "最終ID [削除されるまでのID]"
+      }
+    },
+    "review": {
+      "title": "和人-Music Review",
+      "label": "レビュー",
+      "placeholder": "ボットに関するご意見をここに書いてください",
+      "response_title": "| :user: によるレビュー",
+      "response_description": "**評価** 「:review_stars:」\n\n**レビュー**\n:review_data:",
+      "response_description_2": "🟢 評価を受け取りました。私たちのプロジェクトについてご意見をお寄せいただきありがとうございます。今後も私たちのサービスを継続してご利用いただければ幸いです。"
+    },
+    "parametersMenu": {
+      "volume": {
+        "volume_title": "デフォルトの音量設定",
+        "volume_label": "ボリュームパーセンテージ",
+        "volume_placeholder": "Ex: 25、50、75、100。"
+      }
+    }
+  },
+  "SelectMenus": {
+    "filtersMenu": {
+      "Voice_Error_1": "この操作を実行するには、ボイスチャットをしている必要があります",
+      "Voice_Error_2": "このアクションを実行するには、私と同じボイスチャットに参加する必要があります",
+      "Premium_Error_1": "この機能にはアクセスできません。**プレミアム サーバー**専用です。"
+    },
+    "langsMenu": {
+      "MessageTitle": "|和人-音楽言語",
+      "Language_Success_1": "✅ ボット言語を「:previous_lang:」から「:selected_lang:」に設定しました。",
+      "Language_Success_2": "✅ ボット言語が ``:previous_lang:`` から ``:selected_lang:`` に正常に変更されました。"
+    },
+    "acMenu": {
+      "MessageTitle": "|検索候補アルゴリズム",
+      "Ac_Success_1": "✅ 検索候補ソースが「:previous_value:」から「:selected_value:」に設定されました。",
+      "Ac_Success_2": "✅ 検索候補のソースが「:previous_value:」から「:selected_value:」に正常に変更されました。"
+    },
+    "setupMenu": {
+      "MessageTitle": "|和人-音楽設定",
+      "TimeoutEmbed_Desc": "⏳ オプションを選択するのに時間がかかりすぎました。もう一度お試しください。",
+      "LangEmbed_Desc": ":user_mention: さん、ボットの **言語** 構成メニューへようこそ。この言語システムでは、母国語または選択した利用可能な言語を選択できます。\n\n**投稿者**:\n:colab_members:\n\n[ここをクリック](https://github.com/xNeuNoRo/kmusic-languages) することで、より多くの言語の翻訳にご協力いただけます！\n\n*ボットの主な翻訳は英語とスペイン語で、これらは実際の人間によって処理され、残りの翻訳は「Google 翻訳」などのオンライン翻訳者の結果です*",
+      "LangEmbed_Btn": "翻訳とのコラボレーション",
+      "RestrictChannelEmbed_Desc": ":user_mention: サーバー **音楽チャンネル** 構成メニューへようこそ。このシステムを使用すると、音楽/ビデオの再生を、選択した特定の音声チャンネルに制限できます。\n\nサーバー リスト上の現在の音声チャンネル: ```:restricted_channels:```\n\n*以下はチャネル制限の仕組みの例です*",
+      "RestrictChannelEmbed_Var1": "リストにチャンネルが見つかりません",
+      "RestrictChannelMenu_Placeholder": "音声チャンネルを選択してください",
+      "ParametersMenuConstructor": {
+        "Placeholder": "パラメータオプションを選択してください",
+        "1_label": "音量",
+        "1_desc": "デフォルトの音量を設定する",
+        "2_label": "カール",
+        "2_desc": "デフォルトでループを有効にするかどうかを設定します",
+        "3_label": "自動再生",
+        "3_desc": "デフォルトで自動再生を有効にするかどうかを構成します",
+        "4_label": "２４／７",
+        "4_desc": "24時間365日再生を有効にするかどうかを設定します"
+      },
+      "ACEmbed_Desc": ":user_mention: さん、ボットの **提案** ソースの構成メニューへようこそ。ボットの検索提案システムは、``[/music command play]`` を使用して行う各検索を管理するアルゴリズムです。これは、ユーザーのニーズを特に考慮して開発された独自のアルゴリズムを使用することができます。これは、お気に入りの曲の履歴から常に学習し、好みに応じて推奨を行う役割を担っているためです。基本的に YouTube がシステムに実装しているアルゴリズムを模倣した YouTube 検索提案アルゴリズムを使用することもできます。\n\n*以下は、検索候補アルゴリズムがどのように機能するかの例です*",
+      "AutoCompleteMenuConstructor": {
+        "Placeholder": "提案のソースを選択してください",
+        "1_label": "カスタム[独自アルゴリズム]",
+        "1_desc": "ボット独自の提案システム",
+        "2_label": "YouTube",
+        "2_desc": "YouTube の提案システム"
+      },
+      "YTMixesEmbed_Desc": ":user_mention: さん、YT **ミックス**設定メニューへようこそ。このシステムを使用すると、ボットで YouTube ミックスを再生できますが、地域や地域の違いにより、ミックスに表示される曲に忠実ではありません。アカウント\n\n*以下は YouTube ミックスの例です*",
+      "ParametersEmbed_Desc": ":user_mention: さん、サーバーの **再生パラメータ**の設定メニューへようこそ。このシステムを使用すると、音量や自動再生などのさまざまなデフォルト オプションを変更できます。\n\n*以下にデフォルトパラメータの例を示します*",
+      "DJEmbed_Desc": ":user_mention: ようこそ、**DJ**サーバー設定メニューへ。このシステムでは、複数のロールまたはユーザーをサーバーDJとして最大25名まで設定することができます。",
+      "DJEmbed_Field1": "DJシステム",
+      "DJEmbed_Field2": "DJの役割",
+      "DJEmbed_Field3": "DJユーザー",
+      "DJEmbed_Field4": "* 以下は、DJシステムの仕組みの一例である。*",
+      "DJEmbed_Field5": "DJコマンド",
+      "DJMenu_Placeholder": "役割を選択してください",
+      "DJMenu_Placeholder2": "ユーザーの選択",
+      "DJMenu_Placeholder3": "コマンドを選択",
+      "MsCEmbed_Desc": ":user_mention: さん、サーバーの **専用音楽リクエスト チャンネル**の設定メニューへようこそ。このシステムを使用すると、すべてのユーザーがより直感的、シンプルかつ効果的な方法で曲やビデオを再生できるようになります。\n\n*以下は音楽リクエスト チャンネルの仕組みの例です*",
+      "ButtonConstructor": {
+        "1": "チャンネルを追加",
+        "2": "リムーバーキャナル",
+        "3": "DJ ロールを設定する",
+        "4": "DJシステムを起動する",
+        "5": "DJ システムを無効にする",
+        "6": "専用の音楽チャンネルを作成する",
+        "7": "音楽専用チャンネルの変更",
+        "8": "修理 音楽専用チャンネル",
+        "9": "音楽専用チャンネルの削除",
+        "10": "ミックス検索を有効にする",
+        "11": "ミックス検索を無効にする"
+      },
+      "ButtonResponse": {
+        "1": {
+          "Waiting_Response": "下のメニューを使用して音声チャンネルを選択し、リストに追加します。",
+          "Response_Error_1": "🚫 選択したチャンネルが無効であるか、このサーバー上のチャンネルに見つかりません。もう一度お試しください。",
+          "Response_Error_2": "🚫 選択したチャンネルは音声チャンネルとして無効であるか、このサーバー上のチャンネルの中に見つかりませんでした。もう一度お試しください。",
+          "Response_Error_3": "🚫 選択したチャンネルはすでにこのサーバーの音楽チャンネル リストに含まれています。",
+          "Response_Success_1": "✅ チャンネル :channel_mention: は、このサーバー上の音楽チャンネルのリストに**保存**されました。"
+        },
+        "2": {
+          "Waiting_Response": "リストから削除するには、下のメニューを使用して音声チャンネルを選択します。",
+          "Response_Error_1": "🚫 選択したチャンネルが無効であるか、このサーバー上のチャンネルに見つかりません。もう一度お試しください。",
+          "Response_Error_2": "🚫 選択したチャンネルは音声チャンネルとして無効であるか、このサーバー上のチャンネルの中に見つかりませんでした。もう一度お試しください。",
+          "Response_Error_3": "🚫 選択したチャンネルは、このサーバーの音楽チャンネル リストに見つかりません。",
+          "Response_Success_1": "✅ このサーバー上の音楽チャンネルのリストからチャンネル :channel_mention: を**削除**しました。"
+        },
+        "3": {
+          "Waiting_Response": "以下のメニューを使用してロールを選択し、DJ ロールとして設定します。",
+          "Response_Error_1": "🚫 選択した役割は無効であるか、このサーバー上の役割の中に見つかりません。もう一度試してください。",
+          "Response_Error_2": "🚫 選択したユーザーが無効か、このサーバーのメンバーに見つかりませんでした。",
+          "Response_Success_1": "✅ このサーバーのロール :role_mention: を「DJ ロール」として**設定**しました。",
+          "Response_Success_2": "✅ **古い「DJ ロール」をロール :role_mention: に変更**し、それをこのサーバーの現在の「DJ ロール」として正しく設定しました。"
+        },
+        "4": {
+          "Response_Success_1": "✅ 「DJ ロール システム」は、このサーバー上で正常に **有効** されました。"
+        },
+        "5": {
+          "Response_Success_1": "✅ このサーバー上の「DJ ロール システム」は正しく**無効**になりました。"
+        },
+        "6": {
+          "Response_Success_1": "✅ 「専用音楽チャンネル」が :channel: に正常に作成されました。",
+          "Response_Success_2": "✅ 「専用音楽チャンネル」が :channel: に正常に作成されました。\n\n⚠️「専用音楽チャンネル」を作成するのは**初めて**ではないため、**サーバーごとに複数のチャンネル**を作成できないことに注意してください。"
+        },
+        "7": {
+          "Response_Error_1": "このサーバーには ``音楽専用チャンネル`` が見つかりません！",
+          "Response_Error_2": "古い``音楽専用チャンネル``に代わる有効なチャンネルを選択する必要があります！",
+          "Waiting_Response": "このサーバーの新しい``音楽専用チャンネル``にしたいテキストチャンネルを下のメニューから選択します。",
+          "Waiting_Response_Placeholder": "テキストチャンネルを選択する",
+          "Response_Success_1": "音楽専用チャンネル ``dedicated music channel`` が :channel: チャンネルに正常に変更されました。"
+        },
+        "8": {
+          "Response_Error_1": "このサーバーには ``音楽専用チャンネル`` が見つかりません！",
+          "Response_Error_2": "このサーバーの``音楽専用チャンネル``ではエラーは検出されていません。もしエラーが続くようであれば、このチャンネルを削除して別のチャンネルを作成することをお勧めします。",
+          "Response_Success_1": "このサーバーの ``音楽専用チャンネル`` で発生する可能性のあるエラーはすべて修正されました。もしまだエラーが続くようであれば、このチャンネルを削除して別のチャンネルを作成することをお勧めします。"
+        },
+        "9": {
+          "Response_Error_1": "このサーバーには ``音楽専用チャンネル`` が見つかりません！",
+          "Response_Success_1": "このサーバーから ``dedicated music channel`` を削除しました！"
+        },
+        "10": {
+          "Response_Success_1": "このサーバーで ``YouTube Mix System`` を**有効にしました！"
+        },
+        "11": {
+          "Response_Success_1": "このサーバーの ``YouTube Mix System`` を **無効化** することに成功しました！"
+        }
+      }
+    },
+    "parametersMenu": {
+      "MessageTitle": "|和人-音楽パラメータ",
+      "TimeoutEmbed_Desc": "⏳ オプションを選択するのに時間がかかりすぎました。もう一度お試しください。",
+      "LoopEmbed_Desc": "ソングキューまたは再生を開始するときにデフォルトにするループオプションを選択します。",
+      "AutoPlayEmbed_Desc": "曲のキューまたは再生を開始するときにデフォルトにする自動再生オプションを選択します。",
+      "AllTimePlayingEmbed_Desc": "このサーバー上で曲/ビデオを 24 時間 365 日再生できるようにするかどうかを選択してください\n\n*注意: このオプションはボットのスケジュールされた再起動の対象となるため、完全に 24 時間年中無休というわけではありません。*",
+      "VolumeOption": {
+        "Waiting_Response": "ソングキューまたは再生を初期化するときに設定するデフォルトの音量を指定します。 (1-500)",
+        "Response_Error_1": "ボリュームのパーセンテージを「1」から「500」まで指定する必要があります。",
+        "Response_Error_2": "値 ``:volume:`` は有効な整数値ではありません。もう一度試してください。",
+        "Response_Success_1": "✅ 次のデフォルトの **パラメータ** が設定されています。\n\n🔊 **音量**: ``:volume:``\n🔁 **ループ**: ``デフォルト``\n🔃 **自動再生**: ``デフォルト``\n⚙️ **24/7**: 「デフォルト」",
+        "Response_Success_2": "✅ 次のデフォルトの **パラメータ** が変更されました。\n\n🔊 **音量**: ``:volume:``\n🔁 **ループ**: ``デフォルト``\n🔃 **自動再生**: ``デフォルト``\n⚙️ **24/7**: 「デフォルト」"
+      },
+      "ButtonConstructor": {
+        "1": "この曲",
+        "2": "行列全体",
+        "3": "ループを無効にする",
+        "4": "自動再生を有効にする",
+        "5": "自動再生を無効にする",
+        "6": "24時間365日プレイ",
+        "7": "再生を無効にする24時間365日"
+      },
+      "ButtonResponse": {
+        "1": {
+          "Response_Success_1": "✅ 次のデフォルトの **パラメータ** が設定されています。\n\n🔊 **音量**: ``デフォルト``\n🔁 **ループ**: 「この曲」\n🔃 **自動再生**: ``デフォルト``\n⚙️ **24/7**: 「デフォルト」",
+          "Response_Success_2": "✅ 次のデフォルトの **パラメータ** が変更されました。\n\n🔊 **音量**: ``デフォルト``\n🔁 **ループ**: 「この曲」\n🔃 **自動再生**: ``デフォルト``\n⚙️ **24/7**: 「デフォルト」"
+        },
+        "2": {
+          "Response_Success_1": "✅ 次のデフォルトの **パラメータ** が設定されています。\n\n🔊 **音量**: ``デフォルト``\n🔁 **ループ**: ``キュー全体``\n🔃 **自動再生**: ``デフォルト``\n⚙️ **24/7**: 「デフォルト」",
+          "Response_Success_2": "✅ 次のデフォルトの **パラメータ** が変更されました。\n\n🔊 **音量**: ``デフォルト``\n🔁 **ループ**: ``キュー全体``\n🔃 **自動再生**: ``デフォルト``\n⚙️ **24/7**: 「デフォルト」"
+        },
+        "3": {
+          "Response_Success_1": "✅ 次のデフォルトの **パラメータ** が設定されています。\n\n🔊 **音量**: ``デフォルト``\n🔁 **ループ**: 「オフ/オフ」\n🔃 **自動再生**: ``デフォルト``\n⚙️ **24/7**: 「デフォルト」",
+          "Response_Success_2": "✅ 次のデフォルトの **パラメータ** が変更されました。\n\n🔊 **音量**: ``デフォルト``\n🔁 **ループ**: 「オフ/オフ」\n🔃 **自動再生**: ``デフォルト``\n⚙️ **24/7**: 「デフォルト」"
+        },
+        "4": {
+          "Response_Success_1": "✅ 次のデフォルトの **パラメータ** が設定されています。\n\n🔊 **音量**: ``デフォルト``\n🔁 **ループ**: ``デフォルト``\n🔃 **自動再生**: 「オン」\n⚙️ **24/7**: 「デフォルト」",
+          "Response_Success_2": "✅ 次のデフォルトの **パラメータ** が変更されました。\n\n🔊 **音量**: ``デフォルト``\n🔁 **ループ**: ``デフォルト``\n🔃 **自動再生**: 「オン」\n⚙️ **24/7**: 「デフォルト」"
+        },
+        "5": {
+          "Response_Success_1": "✅ 次のデフォルトの **パラメータ** が設定されています。\n\n🔊 **音量**: ``デフォルト``\n🔁 **ループ**: ``デフォルト``\n🔃 **自動再生**: 「オフ/オフ」\n⚙️ **24/7**: 「デフォルト」",
+          "Response_Success_2": "✅ 次のデフォルトの **パラメータ** が変更されました。\n\n🔊 **音量**: ``デフォルト``\n🔁 **ループ**: ``デフォルト``\n🔃 **自動再生**: 「オフ/オフ」\n⚙️ **24/7**: 「デフォルト」"
+        },
+        "6": {
+          "Response_Success_1": "✅ 次のデフォルトの **パラメータ** が設定されています。\n\n🔊 **音量**: ``デフォルト``\n🔁 **ループ**: ``デフォルト``\n🔃 **自動再生**: ``デフォルト``\n⚙️ **24/7**: 「アクティブ化」",
+          "Response_Success_2": "✅ 次のデフォルトの **パラメータ** が変更されました。\n\n🔊 **音量**: ``デフォルト``\n🔁 **ループ**: ``デフォルト``\n🔃 **自動再生**: ``デフォルト``\n⚙️ **24/7**: 「アクティブ化」"
+        },
+        "7": {
+          "Response_Success_1": "✅ 次のデフォルトの **パラメータ** が設定されています。\n\n🔊 **音量**: ``デフォルト``\n🔁 **ループ**: ``デフォルト``\n🔃 **自動再生**: ``デフォルト``\n⚙️ **24/7**: 「無効/オフ」",
+          "Response_Success_2": "✅ 次のデフォルトの **パラメータ** が変更されました。\n\n🔊 **音量**: ``デフォルト``\n🔁 **ループ**: ``デフォルト``\n🔃 **自動再生**: ``デフォルト``\n⚙️ **24/7**: 「無効/オフ」"
+        }
+      }
+    }
+  },
+  "events": {
+    "client": {
+      "ready": {
+        "Bot_Restart_By_Host": "⚠️ボットのホストが空いているため、ボットの**定期的な再起動**が行われており、ご迷惑をおかけして申し訳ありません。\n\n**注意**: [``:dev_tag:``](https://discordapp.com/users/:dev_id:)",
+        "ReconnectMessage_Title": "[🔰] 警告 [🔰]",
+        "ReconnectMessage_Desc": "以前再生していたソングキューを復元しました。\n\n📆 日付: **<t::data_time::R>**\n🎵 **``:songs_length:``** 曲が含まれています\n🔈 音声チャンネル: :voice_channel:\n\n**もう一度プレイしますか?**\n\n*PS: このアラートがアクティブな間、今後の曲のキューを取得することはできません。*",
+        "Reconnect_ButtonAccept_Label": "そして",
+        "Reconnect_ButtonDeny_Label": "いいえ",
+        "StatsUpdateMessage_Title": "「:bot_username:」の統計\n[次回の更新: <t::time_to_update::R>]"
+      }
+    },
+    "voice": {
+      "24/7": {
+        "Bot_AFK_Title": "ボットAFK ⚠️",
+        "Bot_AFK_Desc": "音声チャネルに**誰も**いないことが検出されたため、再生時間に基づいてサーバーが得た**コインゲイン**の配信を開始します。\n\n**再生**が再開されるとすぐに、**コイン収集**が再び再開されます\n\n**サーバーは 🪙 ``:coins_earned:`` コインを獲得しました!**",
+        "Bot_Disconnect_Title": "オフラインボット ⚠️",
+        "Bot_Disconnect_Desc": "一人になってしまったので曲を止めてボイスチャットを終了しなければなりませんでした…。\n\n**サーバーは 🪙 ``:coins_earned:`` コインを獲得しました!**"
+      }
+    },
+    "message": {
+      "botchannel": {
+        "Spam_Detected_Title": "⚠️スパムが検出されました",
+        "Spam_Detected_Desc": "このサーバーから短期間に**多数のリクエスト**が検出されました。このため、このサーバーからのリクエストの処理速度は一定期間制限されています。"
+      }
+    },
+    "distube": {
+      "playMessageBuilder": {
+        "title": "遊んでます🎶",
+        "field_1": "に要求された",
+        "field_2": "間隔",
+        "field_3": "著者",
+        "field_4": "音量",
+        "field_5": "カール",
+        "field_6": "自動再生",
+        "field_7": "複製品",
+        "field_8": "いいね！",
+        "field_9": "荷降ろし",
+        "field_10": "プレミアム",
+        "field_11": "ライブ",
+        "field_12": "フィルター"
+      },
+      "addSongMessageBuilder": {
+        "title": "キューに追加されました",
+        "field_1": "現在のボリューム",
+        "field_2": "列をなして",
+        "field_2_value": "「:songs_length: 曲 - :songs_formattedDuration:」"
+      },
+      "addListMessageBuilder": {
+        "title": "プレイリストがキューに追加されました 🎶",
+        "field_1": "「:playlist_length: - 曲」"
+      },
+      "noSearch_Error_1": "「:query:」の結果は見つかりませんでした",
+      "EmptyMessage_Title": "ボットが切断されました",
+      "EmptyMessage_Desc": "一人になってしまったので曲を止めてボイスチャットを終了しなければなりませんでした…。",
+      "queueFinished_Title": "キューが終了しました ✅",
+      "queueFinished_Desc_1": "紳士たちが私に要求したすべてを再現し終えました。\n\n**サーバーは 🪙 ``:coins_earned:`` コインを獲得しました!**",
+      "queueFinished_Desc_2": "彼らが私に求めたものはすべて再現し終えたので、皆さんの許可を得て撤回させていただきます。\n\n**サーバーは 🪙 ``:coins_earned:`` コインを獲得しました!**",
+      "queueFinished_Desc_3": "彼らが私に求めたものはすべて再現し終えたので、皆さんの許可を得て撤回させていただきます。\n\n**サーバーは 🪙 ``:coins_earned:`` コインを獲得しました!**\n\n🔰 サーバーで音楽を 24 時間 365 日再生したいですか?コマンド「/settings parameters」を使用して、「playback-24-7」というオプションの設定を変更します。"
+    }
+  },
+  "Buttons_Constructor": {
+    "MsC_AddtoPL": "プレイリストに追加する",
+    "MsC_DeletefromPL": "プレイリストから削除",
+    "PlaylistMenu_ExitBTN": "外出",
+    "Shop_ExitBTN": "外出",
+    "Play_Loop_BTN": {
+      "1": "逮捕",
+      "2": "ストップループ",
+      "3": "一時停止",
+      "4": "リスト",
+      "5": "続く"
+    },
+    "StringMenuFilter_Opts": {
+      "1": "明日のフィルター",
+      "2": "ACフィルター",
+      "3": "経年劣化したフィルター",
+      "4": "低音ブースト",
+      "5": "フィルトロ「クリア」",
+      "6": "エコーフィルター",
+      "7": "フィルター「カラオケ」",
+      "8": "「ビブラート」フィルター",
+      "9": "フィｌｔろ ’にｇｈｔこれ’",
+      "10": "「ヴェイパーウェーブ」フィルター",
+      "11": "「呪われた」フィルター",
+      "12": "フィルトロ「スローリバーブ」",
+      "13": "フィルター「フランジャー」",
+      "14": "「ゲート」フィルター",
+      "15": "「ハース」フィルター",
+      "16": "「反転」フィルター",
+      "17": "フィルトロ「ダブル」",
+      "18": "フィルトロ「パルセーター」",
+      "19": "「サラウンド」フィルター",
+      "20": "「Mcompand」フィルター",
+      "21": "フィルトロ「フェイザー」",
+      "22": "「トレモロ」フィルター",
+      "23": "「トレブル」フィルター",
+      "24": "フィルター「耳垢」",
+      "Placeholder": "現在のキューのフィルターを選択します",
+      "0_label": "フィルターを削除する",
+      "0_desc": "現在のキューからすべてのフィルターを削除します"
+    }
+  },
+  "functions": {
+    "paginator": "ページ :actual_page: / :total_pages:",
+    "paginatorQueue": ":server_name: • ソングキュー |ページ :actual_page: / :total_pages:",
+    "paginatorSpecificPage": {
+      "title": "ページジャンプ",
+      "label": "ページ番号",
+      "placeholder": "Ex: 6、5、10、7。",
+      "error": "有効なページ番号を入力する必要があります。"
+    },
+    "updatenormalmessage": {
+      "PlayMsg": {
+        "Title": "現在再生中の曲はありません",
+        "Description": "音声チャットに参加し、任意のURL|曲|ビデオを入力して音楽を再生する。\n[サーバーサポート](https://discord.com/invite/FGBSecT9gq) • [Developed By ℕ𝕖𝕦ℕ𝕠ℝ𝕠天使](https://discordapp.com/users/331496166325747713)",
+        "Footer": "障害/エラー/バグが発生した場合は、サポートを提供するために開発者 :dev: に報告してください。"
+      },
+      "QueueMsg": {
+        "Title": "キューには「0」曲があります",
+        "Description": "*現在キューに曲はありません*\n\n音楽を再生するには、任意のurl|song|videoを入力してください。"
+      }
+    },
+    "updateplaymessage": {
+      "Author": "プレイ中🎶",
+      "Field1": "訪問",
+      "Field2": "プレミアム",
+      "Field2Variable1": "できる",
+      "Field2Variable2": "無効",
+      "Field3": "いいね！",
+      "Field4": "間隔",
+      "Field4Variable1": "ライブ",
+      "Field5": "著者",
+      "Field6": "荷降ろし",
+      "Field6Variable1": "ここをクリック",
+      "Field6Variable2": "「リンクの有効期限が切れています」",
+      "Field7": "追加情報:",
+      "Field8": "*開発者: ``:dev:``*\n*• ボットのバージョン: ``:bot_version:``*\n*• サーバーには現在 🪙 ``:coins:`` コインがあります*",
+      "Field8Extra": "\n*• プレミアム メンバーシップの有効期限: <t::Premium_ExpiryDate::d>*",
+      "Footer": "ボリューム: :volume:% | ループ: :loop_options: |自動再生: :autoplay_options: | フィルター: :filter_options:"
+    },
+    "updatequeuemessage": {
+      "Title": "キューに「:queue_songs:」曲があります\n推定所要時間: ``:queue_duration:``",
+      "Title2": "キューに「:queue_songs:」曲があります\n推定所要時間: ``:queue_duration:``",
+      "DescVar1": "**現在再生中の曲**",
+      "Footer": ":server_name: • ソングキュー"
+    }
+  },
+  "commands": {
+    "others": {
+      "join": {
+        "success": {
+          "MessageTitle": "|和人-Music",
+          "MessageDescription_Success_1": "✅ あなたの音声チャンネルに正常に参加しました!"
+        }
+      },
+      "leave": {
+        "success": {
+          "MessageTitle": "|和人-Music",
+          "MessageDescription_Success_1": "✅ 音声チャンネルから正常にログアウトしました。"
+        }
+      },
+      "userinfo": {
+        "errors": {
+          "NoDataFound_Error_1": "ユーザー :user_mention: に関する情報がデータベースに見つかりませんでした。後でもう一度お試しください。",
+          "NoDataFound_Error_2": "選択したユーザーは本物の Discord ユーザーではなく、ボットです。実際の人物でもう一度試してください。"
+        },
+        "success": {
+          "MessageTitle": "| :user_tag: に関する情報",
+          "MessageDesc": "これらは、ユーザー :user_mention: に関してデータベースに記録されるデータです。\n\n**⇨ 一般情報**\n```ml\n(-) ユーザー ID: :user_id:\n\n(-) Discord ユーザー  以降: :user_creation:\n\n(-)  以降のサーバー ユーザー: :user_joined:\n```\n**⇨ 再生情報**\n```ml\n(-) 再生された曲: :totalsongs_length:\n\n(-) 再生時間: :playback_time:\n\n(-) 好きな曲: :favorite_song:\n```",
+          "MessageFooter": "弊社のサービスをご利用いただきありがとうございます | :dev: の知的財産"
+        }
+      },
+      "serverinfo": {
+        "errors": {
+          "NoDataFound_Error_1": "このサーバーに関する情報がデータベースに見つかりませんでした。後でもう一度お試しください。"
+        },
+        "success": {
+          "MessageTitle": "|サーバーに関する情報 :guild_name:",
+          "MessageDesc": "これは、このサーバーに関してデータベースに記録されるデータです。\n\n**⇨ 一般情報**\n```ml\n(-) サーバー ID: :server_id:\n(-) 所有者: :owner_tag:\n(-) ユーザー: :users_length:\n(-) ボット: :bots_length:\n(-) チャンネル: :channels_length:\n(-) ロール: :roles_length:\n(-) から作成: :server_creation:\n```\n**⇨ ボット情報**\n```ml\n(-) 言語: :language:\n(-) プレミアム: :premium_data:\n(-) 引き換えられたキー: :keys_redeemed:\n(-) コイン: :server_coins:\n(-) 専用チャネル: :msc_name:\n(-) DJ: :dj:\n(-) カスタム サウンド: :soundboard_length:\n(-) プレイタイム: :playtime:\n```",
+          "MessageFooter": "弊社のサービスをご利用いただきありがとうございます | :dev: の知的財産"
+        }
+      },
+      "support": {
+        "success": {
+          "MessageDesc": "「🔰」 | **ボットの機能のサポートを受けたいですか?**\n**ボットに新しい機能を提案しますか?**\n**または、経験した問題/バグを報告しますか?**\n\n[``ここをクリック``](:support_server:) するか、下のボタンをクリックしてボット サポート サーバーに参加し、ボット管理チームに連絡してください。"
+        }
+      },
+      "about": {
+        "success": {
+          "MessageTitle": "|約 :bot_tag:",
+          "MessageDescription": ":user: 様、こんにちは。まず最初に、私たちの目標と目的を理解するために、このボットの歴史と開発について少し知っていただきたいと思います。\n\n<:creativity:1102880753324408872> __**私たちの主な焦点**__\n> このボットは「Kazuto」と呼ばれる別の優れたボットの一部です。後者からこのボットは、ユーザーに最高の無料の Discord 音楽体験を提供することに重点を置く目的で作成されました。このため、メインボットから音楽モジュールを分離しました。 「Kazuto」と私たちはこのボットを一から作成しました。\n\n<:start:1102881879255957504> __**最初のステップ**__\n> [/music play] => [現在 /music play に名前変更されています]、[/music volume] => [現在 /music volume に名前変更されています]、[/music settings] のようないくつかのコマンドから始めました。これには、次のようないくつかのオプションが含まれていました。スキップ、一時停止、再開など... => [現在 /music settings に名前変更されています] などのコマンドがあります。\n\n> その後、プレイリスト システム [複数のコマンドと完全に動的で直感的なメニューを備えた非常に完全なシステム]、複数のボタンを備えた音楽リクエスト チャンネル [各ボタンがコマンドとして機能するため、時間がかかりました] などの新しいシステムの実装に熱心に取り組みました。すべてを実装するにはかなりの時間がかかります]、曲履歴 [/history] ​​=> [現在、/history コマンド文字列に名前が変更されています]、フィルター システム、調整可能なフィルター システム、再接続システム [ボットが再起動または突然クラッシュする場合に使用されます] 、再びオンラインになるとすぐに自動的に曲を回復します。]などがあります。\n\n> その後すぐに、ボットのパフォーマンスに大きな影響を与える特定の機能を制限することでパフォーマンスを向上させることを目的として実装されたプレミアム システムが登場しました。\n\n<:goal:1102884214774431784> __**私たちの最終目的**__\n> 最終的に、私たちは今日のようなボットを拡張することになりました。そのため、私たちが完全に無料で提供するものはすべてマルチ機能が付属しているため、Discord の他のボットの中で私たちを「単なる別のボット」と考えるのではなく、この取り組みを高く評価していただきたいと思います。開発者は何の見返りも期待せずに 1 時間の労力を費やしました。\n\n> そうは言っても、私たちのボットを楽しんでいただき、良い経験をしていただければ幸いです。\n\n*発生した不具合/エラー/バグがあれば、お気軽にリード開発者「:dev:」に報告してサポートを受けてください!*",
+          "MessageDescription_2": "こんにちは、:user: です。私は ``:dev:`` によって作成された高音質の Discord 音楽ボットです。現在、複数の音楽プラットフォームの曲を再生でき、他の音楽ボットと比較してかなりの量の機能を提供しています。コマンドに関する詳細情報が必要な場合、またはヘルプが必要な場合は、[/help] コマンドを使用してください。\n\n```JavaScript\n -  -  -  一般情報  -  -  - \n\nバージョン: :bot_version:\nレイテンシ: :bot_latency:\nコマンド: :commands_size:\nサーバー: :servers_size:\nユーザー: :users_size:\nプレイヤー: :servers_playing_size:\nアクティビティ/定刻通り:\n:bot_uptime:\n\n -  -  -  技術的な案内  -  -  - \n\nオペレーティング システム: :bot_os:\nCPU: :cpu_data:\nRAM: :ram:\nスレッド/スレッド: :cpu_threads:\nクロック: :cpu_clock:\n\n------ クレジット ------\n\nメイン開発者: :dev:\n実行環境/ランタイム:\nNode.js :nodejs_version:\n主な依存関係:\nDiscord.js v:discordjs_version:、DisTube v:distube_version:、Mongoose v:mongoose_version:\n絵文字/アイコン: [Icons8、Flaticon]\n経済サポート (ボット ホスティングを対象): :economic_support:```",
+          "Field1_Title": "<a:dev:1061452497107038228> 開発者",
+          "Field2_Title": "🎵 サービスの提供元",
+          "Field3_Title": "🌐 音楽を再生するグローバルタイム",
+          "Button1_Label": "中くらい",
+          "Button2_Label": "状態 ⇾",
+          "Button3_Label": "⇽和人音楽について"
+        }
+      },
+      "help": {
+        "success": {
+          "MenuStructure": {
+            "Placeholder": "コマンドのカテゴリを選択します",
+            "Label": {
+              "label01": "始める",
+              "label02": "開発者",
+              "label03": "システム",
+              "label04": "設定",
+              "label05": "その他"
+            },
+            "Description": {
+              "desc01": "カテゴリ一覧を見てみる",
+              "desc02": "すべてのボット開発者コマンドを表示する",
+              "desc03": "ボットのユニークなシステムのすべてのコマンドを表示",
+              "desc04": "すべてのボット構成コマンドを表示する",
+              "desc05": "追加のボット コマンドをすべて表示する"
+            }
+          },
+          "MessageTitle": ":bot_username: コマンド",
+          "MessageDescription": "こんにちは、:user_mention:。このメニューは、**ボット コマンド**とその動作について学び、音楽を聴く素晴らしい体験を提供するのに役立ちます。\n\nこのボットには、**独自のシステム**とこのボットに対する**独占**があり、操作を改善し新機能を実装するための**継続的な更新**があります。\n\nいくつかの「:commands_size: コマンド」が 4 つのカテゴリに分けられています。コマンドの詳細を確認するには、これらのカテゴリのいずれかの下にあるメニューをクリックしてください。",
+          "MessageFooterText": ":bot_username: ⓒ | :dev: の知的財産",
+          "MapMessageText": "*コマンド (:cmd_index:)*\n\n⭐ **名前**\n:name_block:\n\n🔤 **説明**\n:desc_block:\n\n🌐 **使用**\n:usage_block:\n\n🔗 **例**\n:example_block:"
+        }
+      },
+      "review": {
+        "success": {
+          "MessageTitle": "|ボットのレビュー",
+          "MessageDescription": ":user: さん、こんにちは。レビューで意見を与える前に、下のボタンをクリックして、自分の経験に基づいてボットに与える評価を必ず選択してください。"
+        }
+      }
+    },
+    "developer": {
+      "viewkeys": {
+        "_comment": "このボタンには別のテキストは必要ないため、他のテキストが再利用されます。 (今のところ) [このテキストは翻訳しないでください!]"
+      },
+      "keygen": {
+        "_comment": "このボタンには別のテキストは必要ないため、他のテキストが再利用されます。 (今のところ) [このテキストは翻訳しないでください!]"
+      },
+      "proxysys": {
+        "_comment": "このボタンには別のテキストは必要ないため、他のテキストが再利用されます。 (今のところ) [このテキストは翻訳しないでください!]"
+      },
+      "reload": {
+        "dev_error_1": "あなたにはこのコマンドへのアクセス権がありません。このコマンドはボット開発者のみに**排他的**です。",
+        "cmd_success_1": "✅ すべての「コマンド」が正しく初期化されました。",
+        "events_success_1": "✅ すべての「イベント」が正しく初期化されました。",
+        "buttons_success_1": "✅ すべての「ボタン」が正しく初期化されました。",
+        "db": {
+          "error_1": "⛔ ボットはすでにデータベースに接続されています。",
+          "loading": "kazuto-music データベースに接続しようとしています....",
+          "success_1": "✅ データベースへの接続が正しく初期化されました。"
+        }
+      },
+      "status": {
+        "Database_Status": {
+          "Val1": "🔴 オフライン",
+          "Val2": "🟢 接続されました",
+          "Val3": "🟠接続中",
+          "Val4": "🟣 切断中"
+        },
+        "Default_Embed": {
+          "Title": "「:user_username:」の統計",
+          "Field1Title": "🔰州",
+          "Field1Value": "┕「🟢オンライン」",
+          "Field2": "📊ピン",
+          "Field3": "🕘 接続",
+          "Field4": "🗃️ データベース",
+          "Field5": "📆 創造",
+          "Field6": "🤖 バージョン"
+        },
+        "Dev_Embed": {
+          "Title": "「:user_username:」の統計",
+          "Field1Title": "🔰州",
+          "Field1Value": "┕「🟢オンライン」",
+          "Field2": "📊 API Ping",
+          "Field3": "🕘 API接続",
+          "Field4": "🌐 サーバー",
+          "Field5": "👤 ユーザー",
+          "Field6": "📚 チャンネル",
+          "Field7": "🗃️ データベース",
+          "Field8": "🗄️ ラム",
+          "Field9": "⏰ ラプスオン",
+          "Field10": "⚙️ オペレーティング システム",
+          "Field11": "🎛️CPU",
+          "Field12": "📡 CPUデータ",
+          "Field13": "📆 創造",
+          "Field14": "🤖 バージョン",
+          "Field15": "📘 Discord.js"
+        }
+      }
+    },
+    "setup": {
+      "redeem": {
+        "errors": {
+          "PremiumKey_Error_1": "指定したキーは**有効**ではありません。**有効**のキーを試してください。",
+          "PremiumKey_Error_2": "指定したキーはこのサーバーですでに **引き換え**されています。**別のキー**を試してください。",
+          "PremiumKey_Error_3": "指定したキーはすでに**使用されています**。別の**別のキー**を試してください。"
+        },
+        "success": {
+          "PremiumKey_Success_1": "✅ キーが正常に引き換えられました",
+          "PremiumKey_Success_2": "**``:key_duration:``** から **プレミアム キー** を引き換えることができました。このサーバーではプレミアム機能がアクティブ化されました。",
+          "PremiumKey_Success_3": "**``:key_duration:``** から **プレミアム キー** を引き換えることができました。このサーバーではプレミアム機能がアクティブ化されました。\n\n*以前にプレミアム サブスクリプションをお持ちだったので、サブスクリプションが更新されました!*",
+          "PremiumKeyField_Success_1": "👤 引き換えられるもの",
+          "PremiumKeyField_Success_2": "🕘 有効期限",
+          "PremiumKeyFooter_Success_1": "K-Music プロジェクトへのご協力に感謝いたします"
+        }
+      },
+      "setup-KM": {
+        "general": {
+          "MessageTitle": "|和人ミュージックのセットアップ"
+        },
+        "success": {
+          "MessageDescription_Success_1": "<@:user_id:> へ、Kazuto-Music ボット構成メニューへようこそ。ここには、ボットの複数の既存の構成オプションが表示されます。**最初のステップ**として、以下で作成/変更する構成を選択してください。あなたの好み。"
+        },
+        "MenuStructure": {
+          "Placeholder": "選択肢一つを選択してください",
+          "Label": {
+            "label01": "言語",
+            "label02": "ボットのチャンネル",
+            "label03": "パラメーター",
+            "label04": "チャンネル制限",
+            "label05": "DJシステム",
+            "label06": "検索候補",
+            "label07": "ミックスを検索 [YT]"
+          },
+          "Description": {
+            "desc01": "ボットの現在の言語を変更する",
+            "desc02": "音楽/ビデオリクエスト用の専用チャンネルを設定する",
+            "desc03": "基本的な再生パラメーターを設定します (英語: 音量)",
+            "desc04": "音楽の再生を特定のチャンネルに制限する",
+            "desc05": "再生を制御するために DJ システムをセットアップする",
+            "desc06": "検索候補のソースを変更する",
+            "desc07": "ボットのミックス検索システムを有効/無効にする"
+          }
+        }
+      }
+    },
+    "systems": {
+      "coins": {
+        "success": {
+          "DataMessage_Success_1": "🪙 サーバーコイン ``:guild_name:``",
+          "DataMessage_Success_2": "**サーバーには現在** 🪙 ``:coins_total:`` **コイン**があります!\n\n❓ **より多くのコインを入手するにはどうすればよいですか?**\n*ボットで音楽の再生を開始するだけです! (15分間音楽再生 => 1コイン)*\n\n⚠️ **注意**: *賢明な方は、24/7 モードを有効にしてもサーバー上で追加のコインを取得することはできません。*\n\n❓ **コインは何に使われますか?**\n*ボット ストアでプレミアム サブスクリプションを購入するために使用され、プロジェクトをサポートします!*"
+        }
+      },
+      "fun": {
+        "errors": {
+          "Internal_Error_1": "内部エラーが発生しました。開発者 ``:dev:`` に報告してください。"
+        },
+        "success": {
+          "Rickroll_Success_1": "|現在のキューをリリックロールしました",
+          "Troll_Success_1": "|現在のキューをトロールしました"
+        }
+      },
+      "music": {
+        "errors": {
+          "Bot_Recently_Disconnected_Error_1": "ボットは最近切断されました。再びプレイできるようになるまで「数秒」待つ必要があります。",
+          "Playlist_Error_1": "指定したプレイリストは、**非プレミアム** サーバーの制限である :playlist_limit: 曲を超えています。別のプレイリストを使用してもう一度お試しください。",
+          "Playlist_Error_2": "指定したプレイリストは :playlist_limit: 曲の制限を超えています。別のプレイリストを使用してもう一度お試しください。",
+          "DJ_Error_1": "このアクションを実行する **DJ** 権限がありません",
+          "Volume_Error_1": "ボリュームの割合を 1% ～ 100% で指定する必要があります。",
+          "Volume_Error_2": "ボリュームの割合を 1% ～ 500% で指定する必要があります。",
+          "Search_ID_Error_1": "有効な **ID** を入力する必要があります",
+          "Search_Timeout_Error_1": "⏳ 曲の **ID** を入力するのに時間がかかりすぎました。もう一度お試しください。",
+          "TimeCMD_Error_1": "有効な分を指定する必要があります",
+          "SongID_Error_1": "この**曲**をスキップして、既に再生されている同じ**曲**に移動することはできません。",
+          "SongID_Error_2": "指定した **ID** 「:id:」 は、どのテール曲にも **属していません**。有効な **ID** を使用して再試行してください。",
+          "SongID_Error_3": "有効な数値 ID を指定する必要があります。",
+          "SongID_Error_4": "すでに再生されている同じ**曲**を削除することはできません。",
+          "SongID_Error_5": "終了 ID を開始 ID より小さくすることはできません。もう一度試してください。",
+          "SongID_Error_6": "すでに再生されている曲の位置を変更することはできません。",
+          "Dups_Error_1": "削除できる重複した曲が見つかりませんでした。もう一度お試しください。",
+          "Lyrics_Error_1": "❌ この曲の歌詞が見つかりませんでした",
+          "Filter_Error_1": "キューにフィルターはありません。",
+          "Filter_Error_2": "同じカスタム フィルタを使用すると同時に ``:filter:`` フィルタを設定することはできません。",
+          "Filter_Error_3": "同じデフォルト フィルタを使用すると同時にカスタム フィルタ「:filter:」を設定することはできません。",
+          "Vote_Error_1": "❌ あなたは以前にその曲をスキップすることに投票しています",
+          "NextSong_Error_1": "❌ このキューには次の曲はありません",
+          "PreviousSong_Error_1": "❌ このキューには前の曲はありません",
+          "247_Error_1": "ボットオフライン",
+          "247_Error_2": "このサーバーでは **24/7** モードがアクティブ化されていないため、VC からの切断を続行する必要があります...\n\n🔰 **24/7** モードを有効にしたい場合は、**/settings parameters** コマンドを使用します。",
+          "Import_Error_1": "指定した曲リスト ファイルは無効です。変更されたか、エラーでエクスポートされた可能性があります。有効なファイルを使用して再試行してください。"
+        },
+        "success": {
+          "Play_Success_1": "📀 リクエストを受け取りました、🔎 検索中です...",
+          "Search_Success_1": "検索結果「:Search_Title:」",
+          "Search_Success_2": "*「5 分」 *ID の下に曲を書くだけで 1 つ選択できます*",
+          "VolumeCMD_Success_1": "|現在の音量を ``:volume:%`` に設定しました",
+          "ReplayCMD_Success_1": "|もう一度その曲を再生しました",
+          "TimeCMD_Success_1": "|曲の再生時間を 2 番目の ``:time:`` に変更しました。",
+          "SpeedCMD_Success_1": "|曲の速度を :speed: に変更しました",
+          "Skipto_Success_1": "|現在の曲からキュー内の曲「:id:」までスキップしました。",
+          "DeleteSong_Success_1": "| ID「:id:」の曲をキューから削除しました。\n\n🎵 曲名: ``:deleted_songName:``",
+          "DeleteSong_Success_2": "| :deletedsongs_length: 曲をキューから削除しました。",
+          "DeleteSong_Success_3": "|現在のキューからすべての曲が削除されました。",
+          "DeleteSong_Success_4": "|現在のキューから重複した曲がすべて削除されました。",
+          "SwitchedSong_Success_1": "|曲「:song_name:」を位置「:final_position:」に移動しました。",
+          "Grab_Success_1": "|現在の曲が DM に保存されました。",
+          "Filter_Success_1": "|以前に設定したフィルターを削除しました",
+          "Filter_Success_2": "|現在のキューの ``:filter:`` フィルタを削除しました",
+          "Filter_Success_3": "|現在のキューにフィルター ``:filter:`` を設定しました",
+          "Disconnect_Success_1": "| VCから切断されました！",
+          "Coin_Profit_Success_1": "コイン稼ぎ",
+          "Coin_Profit_Success_2": "**サーバーは 🪙 ``:coins:`` コインを獲得しました!**",
+          "Vote_Success_1": "✅ 十分な投票数に達しましたので、曲をスキップします...",
+          "Vote_Success_2": "|曲をスキップすることに投票しました (:actual_votes:/:required_votes:) 票",
+          "Skip_Success_1": "|現在の曲をスキップしました",
+          "PreviousSkip_Success_1": "|曲をキュー内の前の曲にスキップしました",
+          "Stop_Success_1": "|現在の曲のキューを停止してクリアしました",
+          "Stop_Success_2": "|現在の曲のキューを停止しました",
+          "Pause_Success_1": "|現在の曲を一時停止しました",
+          "Resume_Success_1": "|現在の曲をまとめました",
+          "Shuffle_Success_1": "|現在の曲のキューをシャッフルしました",
+          "Autoplay_Success_1": "|自動再生モードを : ``:autoplay_options:`` に変更しました。",
+          "RelatedSong_Success_1": "|関連する曲が現在の曲キューに追加されました",
+          "Loop_Success_1": "| ループモードを「:loop_options:」に",
+          "Queue_Success_1_Var1": "キューに「:queue_songs:」曲があります\n推定所要時間: ``:queue_duration:``",
+          "Queue_Success_1_Var2": "キューに「:queue_songs:」曲があります\n推定所要時間: ``:queue_duration:``",
+          "Queue_Success_2": "\n\n[<a:queueid_animated:1027084303592595476>] **``ID - :id:``**\n[<a:music_animated:1027019977687056405>] [``:song_name:``](:song_url:)\n[:song_source_emoji:] :song_source_val:\n[<a:duration_animated:1027019986822234113>] ``:song_formattedDuration:``\n[<a:user_animated:1027019982418214932>] [``:song_author:``](https://discordapp.com/users/:song_author_id:)",
+          "Export_Success_1": "|現在の曲リストが正常にエクスポートされました。後でインポートできるように、テキスト ファイルを忘れずに保存してください。",
+          "Import_Loading": "リストに曲をロードする",
+          "Import_Success_1": "| :songs_length: 曲を正常にインポートしました"
+        },
+        "edit": {
+          "Music_PlayMsg_PlayField": "⏸️ プレーヤーは :user_tag: によって一時停止されました",
+          "Music_PlayMsg_PlayField2": "🎶 プレーヤーは :user_tag: までに再開されました"
+        }
+      },
+      "musicRecord": {
+        "MenuStructure": {
+          "Placeholder": "選択肢一つを選択してください",
+          "Label": {
+            "label01": "サーバ",
+            "label02": "ユーザー"
+          },
+          "Description": {
+            "desc01": "サーバー全体の履歴を表示する",
+            "desc02": "特定のユーザーの履歴を表示する"
+          }
+        },
+        "errors": {
+          "Play_Error_1": "曲履歴を再生するには、ボイスチャットに参加する必要があります。",
+          "UserNotFound_Error_1": "このサーバー上にこのユーザーのデータが見つかりません。もう一度お試しください。",
+          "Permission_Error_1": "このアクションを実行するための十分な権限がありません"
+        },
+        "success": {
+          "UserFound_Success_1": "✅ ユーザー履歴が見つかりました :user_mention:",
+          "DeleteServerHistory_Success_1": "✅ サーバーから曲履歴が正常に削除されました。",
+          "DeleteUserHistory_Success_1": "✅ ユーザー :user_mention: の曲履歴が正常に削除されました。",
+          "DeleteUserHistory_Success_2": "✅ 曲履歴の削除が完了しました。",
+          "MessageDescription_Success_1": "_下から表示したい履歴の種類を選択してください_",
+          "Waiting_UserSelection_Success_1": "⏳ ユーザーにメンションするか、Discord ID を提供します",
+          "DataMap_Success_1": "_*曲 - :id:*_\n\n>>> 🔰 **タイトル**: [``:song_name:``](:song_url:)\n⏱️ **再生時間**: ``:song_formattedDuration:``\n私は ️ **著者**: [``:song_author:``](:song_authorURL:)\n👤 **リクエスト者**: ``:song_requestedBy:``\n🕘 **リクエスト日**: <t::song_requestedDate::R>\n👍 **いいね**: ``:song_likes:``\n📊 **再生回数**: ``:song_views:``",
+          "DataMap_Success_2": "_*曲 - :id:*_\n\n>>> 🔰 **タイトル**: [``:song_name:``](:song_url:)\n⏱️ **再生時間**: ``:song_formattedDuration:``\n私は ️ **著者**: [``:song_author:``](:song_authorURL:)\n🕘 **リクエスト日**: <t::song_requestedDate::R>\n👍 **いいね**: ``:song_likes:``\n📊 **再生回数**: ``:song_views:``",
+          "MessageTitle_Success_1": "最新 :songs_length: 曲は「:guild_name:」で再生されました",
+          "MessageTitle_Success_2": "「:guild_name:」で最近再生された 15 曲",
+          "MessageTitle_Success_3": "「:user_name:」が再生した最後の :songs_length: 曲"
+        }
+      },
+      "playlist": {
+        "general": {
+          "MessageTitle": "|プレイリストのシステム"
+        },
+        "errors": {
+          "Playlist_Play_Error_1": "❌ プレイリストを再生するには、ボイスチャットをする必要があります",
+          "Playlist_Play_Error_2": "プレイリスト「:playlist_name:」には曲が保存されていないため、再生できません。",
+          "Playlist_Play_Error_3": "プレイリスト「:playlist_name:」は、所有者が「プライベート プレイリスト」として設定しているため、再生できません。",
+          "Playlist_Error_1": "プレイリスト ``:playlist_name:`` はこのサーバー上のデータにすでに存在します。別の名前でプレイリストを作成してみてください。",
+          "Playlist_Error_2": "❌ プレイリスト「:playlist_name:」は **プレイリスト**に存在しません。**既存のプレイリスト**を使用して再試行してください。",
+          "Playlist_Error_3": "プレイリスト ``:playlist_name:`` は **データベース** のプレイリストと一致しません。名前を正しく入力し直してください。",
+          "Playlist_Error_4": "❌ このサーバーには、「:newplaylist_name:」という名前のプレイリストがすでに存在します。別の名前でもう一度お試しください。",
+          "Playlist_NP_Error_1": "非プレミアムサーバーでは最大「3つのプレイリスト」しか作成できません",
+          "Playlist_NP_Error_2": "このサーバーの **プレミアム サブスクリプション**の有効期限が切れているため、プレイリスト ``:playlist_name:`` は使用できません",
+          "Playlist_NP_Error_3": "**非プレミアム サーバー**には「75 曲」を超える曲を保存できません。後でもう一度お試しください。",
+          "Playlist_P_Error_1": "プレミアムサーバーでは最大「25個」のプレイリストしか作成できません",
+          "Playlist_P_Error_2": "**プレミアム サーバー**には「300 曲」を超える曲を保存できません。後でもう一度お試しください。",
+          "Playlist_NotFound_Error_1": "❌ このサーバーにはまだプレイリストを作成していません\n \n⚠️ このサーバー上に曲のプレイリストを作成したい場合は、コマンド「/playlist create」を使用してください。",
+          "Playlist_NotFound_Error_2": "❌ このユーザーはまだこのサーバー上に最初のプレイリストを作成していません",
+          "Playlist_NotFound_Error_3": "❌ このサーバーにはまだ **プレイリスト** が作成されていません。後でもう一度お試しください。",
+          "Playlist_NotFound_Error_4": "❌ このサーバーにはプレイリストが見つかりません。後でもう一度お試しください。",
+          "Playlist_NotFound_Error_5": "❌ プレイリスト「:playlist_name:」は存在しません。**既存のプレイリスト**を使用して再試行してください。",
+          "Playlist_Song_Error_1": "⚠️ 保存しようとしている曲は、以前にこのプレイリストに保存されています。",
+          "Playlist_Song_Error_2": "⚠️ あなたが提供したプレイリストは YouTube Mix であるためサポートされておらず、地域やアカウントの違いにより曲を入手することはほぼ不可能です。",
+          "Playlist_NoSong_Error_1": "プレイリスト「:playlist_name:」には曲がありません。後でもう一度お試しください。",
+          "Playlist_NoSong_Error_2": "❌ **エラーが発生しました**\n \n**1**: 提供したプレイリストが有効であることを確認してください\n \n**2**: 指定した曲 ID が有効であることを確認してください\n \n自分のプレイリストを知りたい場合は「/playlist [list]」を使用し、探している曲の ID を知りたい場合は「/playlist songs [playlist]」を使用します。",
+          "Playlist_InvalidURL_Error_1": "❌ このプレイリスト内の曲の URL が無効です。別のプレイリストを再生してみてください。",
+          "Playlist_Privacy_Error_1": "「:user_tag:」 の **プレイリスト** は、「プライベート プレイリスト」として設定されているため、表示されません。",
+          "Playlist_Privacy_Error_2": "所有者がプレイリスト :playlist_name: をプライベート プレイリストとして設定しているため、プレイリスト :playlist_name: を表示できません。",
+          "Playlist_Migrate_Error_1": "❌ ID「:server_id:」のサーバーは存在しません。**有効なサーバー**で再試行してください。",
+          "MenuMessage_Timeout_Error_1": "⏳ プレイリスト メニューの時間が切れました。もう一度使用したい場合は、コマンドをもう一度実行してください。",
+          "Playlist_ListDataMap_Error_1": "このサーバーにはプレイリストが見つかりません!",
+          "Playlist_ListDataMap_Error_2": ">>> **このサーバーには公開プレイリストが見つかりません!**"
+        },
+        "success": {
+          "HelpMessageTitle_Success_1": "プレイリスト システム ヘルプ ``:user_username:``",
+          "HelpMessageExtraField_Success_1": "✏️プレイリストの作成方法",
+          "HelpMessageExtraField_Success_2": "プレイリストを作成するには、「/playlist create」コマンドを使用するだけです。作成するプレイリストの名前を指定する必要があります。",
+          "HelpMessageExtraField_Success_3": "🗑️ プレイリストを削除する方法",
+          "HelpMessageExtraField_Success_4": "プレイリストを削除するには、「/playlist delete」コマンドを使用するだけです。削除したいプレイリストの名前を指定する必要があります。",
+          "HelpMessageExtraField_Success_5": "📝 プレイリストの名前を変更する方法",
+          "HelpMessageExtraField_Success_6": "プレイリストの名前を変更するには、「/playlist rename」コマンドを使用して、プレイリストに割り当てる新しい名前を指定するだけです。",
+          "HelpMessageExtraField_Success_7": "👥 プレイリストのプライバシーを変更する方法",
+          "HelpMessageExtraField_Success_8": "プレイリストのプライバシー オプションを変更するには、「/playlist Privacy」コマンドを使用するだけです。その後、プレイリストの名前を入力し、プライバシー オプションの 1 つを選択する必要があります。",
+          "HelpMessageExtraField_Success_9": "📄 自分または他のユーザーのプレイリストのリストを確認する方法",
+          "HelpMessageExtraField_Success_10": "すべてのプレイリストのリストを表示するには、単にコマンド「/playlist list」を使用します。ユーザーのプレイリストを表示したい場合は、コマンドの追加オプションでユーザーを選択します。",
+          "HelpMessageExtraField_Success_11": "📚 サーバー上のプレイリストのリストを確認する方法",
+          "HelpMessageExtraField_Success_12": "サーバーユーザーのプレイリストのリストを表示するには、「/playlist server」コマンドを使用するだけです。サーバー上のすべてのプレイリストを含むメッセージが表示されます。",
+          "HelpMessageExtraField_Success_13": "🎵 プレイリストから曲を保存/削除する方法",
+          "HelpMessageExtraField_Success_14": "曲をプレイリストに保存するには、「/playlist savesong」コマンドを使用するだけで、曲の URL と保存先のプレイリストを指定する必要があります。\n曲を削除したい場合は、「/playlist deletesong」コマンドを使用し、曲の **ID** (**ID** は曲を保存するときに割り当てられます) とこの曲が保存されているプレイリスト。",
+          "HelpMessageExtraField_Success_15": "🎶 プレイリスト内の曲を確認する方法",
+          "HelpMessageExtraField_Success_16": "プレイリスト内の曲を表示するには、「/playlist songs」コマンドを使用するだけで、プレイリストの名前を指定する必要があります。",
+          "HelpMessageExtraField_Success_17": "i ️曲のIDを確認する方法",
+          "HelpMessageExtraField_Success_18": "曲の ID を確認するには、単に「/playlist songs」コマンドを使用します。その後、プレイリストの名前を指定する必要があります。そうすれば、そのプレイリスト内のすべての曲のデータを含むメッセージが表示されます。",
+          "HelpMessageExtraField_Success_19": "▶️ プレイリストを再生する方法",
+          "HelpMessageExtraField_Success_20": "プレイリストを再生するには、「/playlistload」コマンドを使用するだけで、プレイリストの名前を指定する必要があります。",
+          "HelpMessageExtraField_Success_21": "🌐 プレイリストを効果的に操作する",
+          "HelpMessageExtraField_Success_22": "コマンド「/playlist menu」を使用すると、プレイリストの名前を指定する必要があります。このコマンドにより、プレイリスト システムの一般的なコマンドをより動的に操作できるメニューが表示されます。",
+          "HelpMessageExtraField_Success_23": "🗄️ あるサーバーから別のサーバーへのプレイリストの移行",
+          "HelpMessageExtraField_Success_24": "``/playlist migrate`` コマンドを使用するだけで、あるサーバーから別のサーバーにプレイリストを移行 (コピー) できます。その後、プレイリストの名前と、プレイリストの移行先のサーバーの ID を指定する必要があります。",
+          "HelpMessageFooterText_Success_1": "すべてのプレイリスト システム クレジットは :dev: に予約されています | :previous_year: - :actual_year: ©",
+          "MenuMessageTitle_Success_1": "|プレイリスト メニュー \":playlist_name:\"",
+          "MenuMessageDescription_Success_1": ":user_mention: をプレイリスト メニューにようこそ\n最大「25」個のプレイリストを作成できることに注意してください。\n \n\"Ⓐ\" **-** \"このサーバーのプレイリストの一覧を表示\"\n``Ⓑ`` **-** ``このサーバーの上位プレイリストの一覧を表示``\n``Ⓒ`` **-** ``すべてのプレイリストのリストを表示``\n`Ⓓ` **-** `このプレイリスト内の全曲のリストを表示`\n`Ⓔ` **-** `現在の曲をこのプレイリストに追加します`\n`Ⓕ` **-** `特定の曲をこのプレイリストに追加します`\n\"Ⓖ\" **-** \"このプレイリストのすべての曲を再生します\"\n「Ⓗ」 **-** 「このプレイリストのプライバシーを変更（プライベート/パブリック）」\n``Ⓘ`` **-** ``このプレイリストの現在の名前を変更します``\n``Ⓙ`` **-** ''このプレイリストデータを別のサーバーに移行します``\n`Ⓚ` **-** `現在の曲をこのプレイリストから削除します`\n`Ⓛ` **-** `このプレイリストから特定の曲を削除します`\n``Ⓜ`` **-** ``このプレイリストを削除``",
+          "MenuMessageFooterText_Success_1": "すべての権利は :dev: に留保されます | :previous_year: - :actual_year: ©",
+          "Playlist_ListDataMap_Success_1": "✏️ **名前**: ``:playlist_name:``\n📆 **作成されました**: <t::playlist_timeCreated::R>\n🎵 「:songs_length:」 の曲があります",
+          "Playlist_ListData_Title_Success_1": "ユーザープレイリストのリスト ``:user_tag:``",
+          "Playlist_Success_1": "✅ プレイリスト「:playlist_name:」が正常に作成されました",
+          "Playlist_Success_2": "✅ プレイリスト「:playlist_name:」は正常に削除されました",
+          "Playlist_Success_3": "✅ プレイリスト名「:playlist_name:」を「:newplaylist_name:」に正しく変更しました",
+          "Playlist_Success_4": "✅ プレイリスト「:playlist_name:」のプライバシーを「:privacy_value:」に正しく変更しました",
+          "Playlist_Success_5": "✅ **曲**が正常に保存されました:\n \n📌 **タイトル**: ``:song_name:``\n🌐 **URL**:``:song_url:``\nℹ️ **ID**: ``:song_id:``\n\nプレイリスト「:playlist_name:」内です!",
+          "Playlist_Success_5_2": "プレイリスト URL が検出され、可能なすべての曲が保存されています...",
+          "Playlist_Success_5_3": "✅ ``:songs_length:`` **曲** を ``:playlist_name:`` プレイリストに保存しました。\n\n⚠️ **注意**: あなたが提供したプレイリストには保存できる曲はもっとたくさんあったはずですが、私はこのサーバーに設定されているプレイリストごとの曲制限に従って曲を保存しました。",
+          "Playlist_Success_6": "✅ **曲**が正常に削除されました:\n \n📌 **タイトル**: ``:song_name:``\n🌐 **URL**:``:song_url:``\nℹ️ **ID**: ``:song_id:``\n\nプレイリスト「:playlist_name:」から！",
+          "Playlist_Success_7": "📀 リクエストを受け取りました...",
+          "Playlist_Waiting_Success_1": "<a:loadingWB:986050761031041084> 現在のキューから曲を保存しています...",
+          "Playlist_Success_8": "✅ 「:songs_length:」 の曲をプレイリスト「:playlist_name:」 に正常に保存しました。",
+          "Playlist_Migrate_Success_1": "✅ プレイリスト「:playlist_name:」はサーバー「:server_name:」に正常に移行されました。\n \n⚠️ **注意してください**: Debido a que el **nombre de tu playlist** ya existe en este server, tuve que renombrarla a ``:new_playlist_name:``",
+          "Playlist_Migrate_Success_2": "✅ プレイリスト「:playlist_name:」はサーバー「:server_name:」に正常に移行されました。",
+          "Playlist_ServerListDataMap_Success_1": "``プレイリスト`` **-** ``:id:``\n✏️ **名前**: ``:playlist_name:``\n👤 **createdBy**: <@:user_id:>\n📆 **作成されました**: <t::playlist_timeCreated::R>\n📊 **再生回数**: ``:playlist_views:``\n🎵 「:songs_length:」 の曲があります",
+          "Playlist_TopListDataMap_Success_1": "``プレイリスト`` **-** ``:medals_or_id:``\n✏️ **名前**: ``:playlist_name:``\n👤 **createdBy**: <@:user_id:>\n📆 **作成されました**: <t::playlist_timeCreated::R>\n📊 **再生回数**: ``:playlist_views:``\n🎵 「:songs_length:」 の曲があります",
+          "Playlist_SongsListDataMap_Success_1": "_*曲 - :id:*_\n\n>>> 📌 **タイトル**: [``:song_title:``](:song_url:)\n📊 **再生回数**: ``:song_views:``\n👤 **アップロード者**: [``:uploader_name:``](:uploader_url:)\n⏱️ **再生時間**: ``:song_formattedDuration:``\nℹ️ **ID**: ``:song_id:``",
+          "Playlist_ServerListDataTitle_Success_1": "サーバー プレイリスト リスト ``:server_name:``",
+          "Playlist_TopListDataTitle_Success_1": "サーバー「:server_name:」のトップ プレイリスト",
+          "Playlist_SongsListTitle_Success_1": "プレイリスト曲「:playlist_name:」",
+          "Playlist_PLManage_Title": "サーバー・プレイリストの管理 :guild_name:",
+          "Playlist_PLManage_Title2": "プレイリストの管理: \":playlist_name:\"",
+          "Playlist_PLManage_Desc": "先に進む前に、プレイリスト管理メニューを表示するために、下のセレクタでプレイリストを選択または作成する必要があります。",
+          "Playlist_PLManage_Desc2": "現在、このプレイリストには曲がありません。",
+          "Playlist_PLManage_Placeholder": "プレイリストを選ぶ",
+          "Playlist_PLManage_Placeholder2": "削除する曲を1つ以上選択する",
+          "Playlist_PLManage_Label": "新しいプレイリストを作成する",
+          "Playlist_PLManage_OpenAnotherMenu": "別の[``メッセージ``](:message_url:)で別のメニューを開いたことが検出されました。",
+          "Playlist_PLManage_CheckingSongsRateLimit": "楽曲チェックのプロセスは、少し前に初期化されています！\n終了させるか、10 分間待ってから再度初期化してください。",
+          "Playlist_PLManage_CheckingSongs": "プレイリストの全曲に目を通すと...。",
+          "Playlist_PLManage_FixSongs_Success_1": "プレイリストの曲にエラーは見つかりませんでした。",
+          "Playlist_PLManage_FixSongs_Success_2": ":songs_length: の合計が利用できません、 この一般的なエラーの原因としては、著作権の削除、地域ブロック、プライバシーの変更などが考えられます。\n\n⚠️ エラーのある曲は、プレイリストに保存されていても再生されません。最後の手段として、またこれらの曲を失いたくない場合は、🔵 **[:button1_label:]** ボタンを使って、私たちのデータベースに従ってこれらの曲を表示し、これらの曲に代わる URL を探してみて、最後に下の他の 🔴 **[:button2_label:]** ボタンで削除することを強くお勧めします。\n\n*選択時間は60分です。",
+          "Playlist_PLManage_CreatePL_Modal": {
+            "Title": "プレイリストの作成",
+            "Label": "プレイリスト名",
+            "Placeholder": "作成したいプレイリストの名前を入力します。例:「My Favourite Songs」。"
+          },
+          "Playlist_PLManage_Fields": {
+            "Field1Title": "オーナー",
+            "Field2Title": "サイズ",
+            "Field3Title": "ビジュアライゼーション",
+            "Field4Title": "プライバシー",
+            "Field5Title": "作成日",
+            "Field6Title": "推定期間",
+            "Field7Desc": "他のすべての機能をアンロックするには、少なくとも1曲追加する必要があります。"
+          },
+          "Playlist_PLManage_ButtonsLabel": {
+            "Update": "更新",
+            "Update2": "⇦ プレイリストの管理",
+            "Update3": "⇦ 一般オプション",
+            "LoadPL": "プレー",
+            "AddSong": "曲の追加",
+            "Privacy": "プライバシー: :privacy_value:",
+            "EditSongs": "編集",
+            "ModifyName": "名称変更",
+            "MigrateServer": "別サーバーへの移行",
+            "SongsList": "プレイリストを見る",
+            "FixSongs": "曲のエラーチェック",
+            "ViewErrSongs": "エラーのある曲を見る",
+            "DeleteErrSongs": "エラーのある曲をすべて削除する",
+            "IgnoreErrSongs": "当面は何も削除しないでください",
+            "DeletePL": "このプレイリストを削除する"
+          }
+        }
+      },
+      "premium": {
+        "ButtonsLabel": {
+          "Button_1": "引き換えられたキーを表示する",
+          "Button_2": "無料トライアル",
+          "Button_3": "外出"
+        },
+        "success": {
+          "MessageTitle_Success_1": "💎「:guild_name:」プレミアム ステータス",
+          "MessageDescription_Success_1": "**Kazuto-Music** プレミアム システムは、特定の機能を制限することでパフォーマンスを向上させ、このボットの最も忠実なユーザーにより良いエクスペリエンスを提供するための措置を作成することを目的として作成されました。",
+          "MessageFieldTitle_PremiumStatus": "⭐プレミアム",
+          "MessageFieldTitle_PremiumDuration": "📆有効期限",
+          "MessageFieldTitle_PremiumAdvantage": "💫 プレミアムであることの利点",
+          "MessageFieldValue_PremiumAdvantage": "**「1」** **-** *音量制限を「100%」から「500%」に増加*\n**「2」** **-** *楽曲履歴の上限が「5」から「100」に増加*\n**「3」** **-** *プレイリストの制限が「3」から「25」に増加しました*\n**「4」** **-** *プレイリストの曲数制限が「25」から「300」に増加*\n**「5」** **-** *カスタムサウンドの制限が「5」から「25」に増加しました*\n**「6」** **-** *``/playlist menu``* コマンドへのアクセス\n**「7」** **-** *``/playlist manage``* コマンドへのアクセス\n**「8」** **-** *コマンド ``/settings [パラメータ]``* へのアクセス\n**「9」** **-** *``/music filters`` コマンドへのアクセス*\n**「10」** **-** *``/music speed`` コマンドへのアクセス*\n**「11」** **-** *``/music custom-filters``* コマンドへのアクセス",
+          "MessageFooterText_Success_1": "最終チェック",
+          "MessageExtraField_Success_1": "💎「プレミアム」になってK-Musicプロジェクトを応援していただきありがとうございます",
+          "MessageExtraField_Success_2": "私たちのプロジェクトへのご協力に感謝いたします。これにより、サービスの品質が向上し、より良いエクスペリエンスを提供できるようになります。"
+        }
+      },
+      "shop": {
+        "success": {
+          "MessageTitle_Success_1": "💰 「:bot_tag:」 を購入する",
+          "MessageDescription_Success_1": ":user_mention: を「:bot_tag:」ストアへようこそ。ここでは **コイン システム** を通じて無料のサブスクリプションを取得できます。\n\n**サーバーには現在** 🪙 ``:coins_total:`` **コイン**があります!\n\n*対応するボタンを押して、次のサブスクリプションのいずれかを選択します*",
+          "MessageFieldTitle_Success_1": "1️⃣ - 「💿 1日プレミアム」",
+          "MessageFieldTitle_Success_2": "2️⃣ - 「💿 3日間プレミアム」",
+          "MessageFieldTitle_Success_3": "3️⃣ - 「💿 5日間プレミアム」",
+          "MessageFieldTitle_Success_4": "4️⃣ - 「💿 7日間プレミアム」",
+          "MessageFieldTitle_Success_5": "5️⃣ - 「💿 14日間プレミアム」",
+          "MessageFieldTitle_Success_6": "6️⃣ - 「📀 30 日間プレミアム」",
+          "MessageFieldTitle_Success_7": "7️⃣ - 「📀 60 日間プレミアム」",
+          "MessageFieldTitle_Success_8": "8️⃣ - 「📀 90 日間プレミアム」",
+          "MessageFieldTitle_Success_9": "9️⃣ - 「📀 6 メセスプレミアム」",
+          "MessageFieldTitle_Success_10": "🔟 - 「📀 1年間プレミアム」",
+          "MessageFieldValue_Success_1": "「コイン20枚」",
+          "MessageFieldValue_Success_2": "「50コイン」",
+          "MessageFieldValue_Success_3": "「75コイン」",
+          "MessageFieldValue_Success_4": "「コイン100枚」",
+          "MessageFieldValue_Success_5": "「コイン155枚」",
+          "MessageFieldValue_Success_6": "「コイン300枚」",
+          "MessageFieldValue_Success_7": "「560コイン」",
+          "MessageFieldValue_Success_8": "「コイン1000枚」",
+          "MessageFieldValue_Success_9": "「1850コイン」",
+          "MessageFieldValue_Success_10": "「3550コイン」"
+        }
+      },
+      "soundboard": {
+        "general": {
+          "MessageTitle": "|和人サウンドボード🎶"
+        },
+        "errors": {
+          "Characters_Error_1": "コマンド名、説明、またはコマンド応答の最大文字数を超えています。 文字数を減らして再試行してください。\n\n制限は次のとおりです:\n\n*(-) コマンド名: 最大 32 文字*\n*(-) コマンドの説明: 最大 100 文字*\n*(-) コマンドレスポンス：最大256文字*",
+          "P_Limit_Error_1": "❌ このサーバー上のカスタム サウンドの上限「100」にすでに達しています。削除した場合は再度お試しください。",
+          "NP_Limit_Error_1": "❌ このサーバー上のカスタム サウンドの数はすでに上限「20」に達しています。削除した場合は再度お試しください。",
+          "Playlist_Error_1": "❌ 指定した URL はプレイリストに属しています。特定のサウンド/ビデオ/曲への URL を指定する必要があります。",
+          "Create_Error_1": "❌ コマンドの作成中にエラーが発生しました。もう一度試して、次のように作成されたことを確認してください: /soundboard add {コマンド名}, {サウンド URL [YT/Spotify]}",
+          "Create_Error_2": "❌ このコマンドの名前はすでに使用されています。別の名前を使用してカスタム サウンドボード/サウンド コマンドを作成してください。",
+          "Not_Exist_Error_1": "❌ ``:command_name:`` という名前のサウンドボード コマンドがデータベースに存在しません。もう一度試してください。",
+          "Not_Exist_Error_2": "❌ このサーバーで作成されたサウンドボード コマンドが見つかりません。作成したら、後でもう一度試してください。"
+        },
+        "success": {
+          "Create_Success_1": "✅ カスタムサウンド/サウンドボードコマンドが正常に作成されました\n\n♦️ **名前**:\n```/:command_name:```\n\n♦️ **説明**:\n```:command_desc:```\n\n♦️ **返信メッセージ**:\n```:command_response:```\n\n♦️ **音声 URL**:\n```:song_url:```\n\n⭐ **カスタム サウンドの再生後に曲を復元** [:recover_value:]",
+          "Modify_Success_1": "✅ カスタムサウンド/サウンドボードコマンドが正常に変更されました\n\n♦️ **名前**:\n```/:command_name:```\n\n♦️ **説明**:\n```:command_desc:```\n\n♦️ **返信メッセージ**:\n```:command_response:```\n\n♦️ **音声 URL**:\n```:song_url:```\n\n⭐ **カスタム サウンドの再生後に曲を復元** [:recover_value:]",
+          "Delete_Success_1": "✅ カスタム サウンド/サウンドボード コマンド「:command_name:」は正常に削除されました。",
+          "Map_Success_1": "_*(:id:)*_ • 和人-Music SoundBoard カスタムコマンド*_\n\n♦️ **名前**:\n```/:command_name:```\n\n♦️ **説明**:\n```:command_desc:```\n\n♦️ **返信メッセージ**:\n```:command_response:```\n\n♦️ **音声 URL**:\n```:song_url:```\n\n⭐ **カスタム サウンドの再生後に曲を復元** [:recover_value:]"
+        }
+      }
+    }
+  }
+}

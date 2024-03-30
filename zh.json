@@ -1,0 +1,1438 @@
+{
+  "translate_credits": {
+    "language_title": "Chinese (simplified)",
+    "translator_name": "ℕ𝕖𝕦ℕ𝕠ℝ𝕠天使",
+    "translator_giturl": "https://github.com/xNeuNoRo"
+  },
+  "general": {
+    "errorTitle": "[❌] 错误",
+    "DevCredits": "由 :dev: 提供支持 | :previous_year: - :actual_year: ©",
+    "Channel_Usage": "<:forwardarrow:969466384687964160>/<:skiparrow:969465916154839050> 将歌曲跳到上一个/下一个队列。\n<:volumedown:969149392584081428>/<:volumeup:969149413014515772> 降低/提高歌曲的音量。\n<:exit:969149459302862858> 停止播放歌曲并断开与机器人的连接。\n<:pausebutton:969149484124737596> 暂停歌曲。\n<:shuffle:969464687215390740> 随机化歌曲队列。\n<:autoplay:969470330022285372> 激活自动播放模式。\n<:repeatmusic:970415197355401226> 切换不同的循环模式。\n<:vote:1121271913189216357> 投票跳过该歌曲。\n<:skip_to:1082495434259447849> 将歌曲跳到队列中的特定一首歌曲。\n<:song_speed:1082495435832315984> 设置歌曲的播放速度。\n<:replay_song:1119026700215398411> 从头开始​​播放当前歌曲。\n<:song_time:1082495438000750674> 修改歌曲的播放时间。\n<:remove_song:1082495439028355252> 从歌曲队列中删除歌曲。",
+    "errors": {
+      "Development_Error_1": "🔴该功能目前正在开发中，请稍后再试。",
+      "ContextCMD_Error_1": "🔴 您无法在直接消息聊天中执行此命令，请在我可以使用的服务器上再试一次 !",
+      "KazMsC_Error_1": "🔴 此请求通道的配置发生了内部错误，我们建议您使用 [机器人通道] （机器人通道）选项中的 [/settings] （设置）]命令创建另一个通道，或使用 '修复专用音乐频道'（修复专用音乐通道）选项恢复正常。",
+      "Blacklist_Error_1": "您当前无法使用任何命令，因为该服务器已被拒绝访问机器人！\n\n有关更多信息，请通过 [``Click Here``](https://discord.com/invite/FGBSecT9gq) 联系支持服务器上的机器人管理员",
+      "Blacklist_Error_2": "您当前无法使用任何命令，因为您已被拒绝访问机器人！\n\n有关更多信息，请通过 [``Click Here``](https://discord.com/invite/FGBSecT9gq) 联系支持服务器上的机器人管理员",
+      "Button_Error_1": "您必须等待“几秒钟”才能执行此操作。",
+      "Button_Error_2": "❌ 您没有足够的权限来激活此按钮",
+      "Button_Error_3": "❌ 您没有“所有者”权限来激活此按钮",
+      "Button_Error_4": "❌ 发生错误，请重新运行命令",
+      "Button_Error_5": "❌ 您没有足够的权限与此播放列表的菜单进行交互",
+      "Interaction_Error_1": "🔴 |执行此命令时发生错误。",
+      "Interaction_Error_2": "已检测到该机器人没有足够的权限来正常运行，您必须为其分配管理员权限或使用[``单击此处``](https://discord.com/api/oauth2/authorize?client_id=946292719981047838&permissions = 8&scope=bot%20applications.commands) 修改权限。",
+      "SelectMenu_Error_1": "❌ 您没有 **DJ** 权限来执行此操作",
+      "SelectMenu_Error_2": "❌ 您没有足够的权限来激活此菜单",
+      "SelectMenu_Error_3": "❌ 您没有“所有者”权限来激活此菜单",
+      "NoDataFound_Error_1": "未找到该服务器的数据，请稍后重试！",
+      "Cooldown_Error_1": "🚫 您必须等待``:cooldown_time:`` 才能再次执行此操作！",
+      "PlaylistTitle_Warning_1": "⚠️警告",
+      "PlaylistValue_Warning_1": "由于加载了超过 500 首歌曲的播放列表，我们的服务器出现了轻微的延迟，请不要惊慌，它会在几秒钟后消失。",
+      "SongMessage_Error_1": "找不到播放/搜索该歌曲的有效消息！\n*请使用有效消息重试*",
+      "Play_Error_1": "**如果错误仍然存​​在，请向开发人员报告``:dev:``**",
+      "Voice_Channel_Error_1": "您需要处于语音聊天状态才能使用音乐命令",
+      "Voice_Channel_Error_2": "我已经在 :channel: 上播放音乐",
+      "Voice_Channel_Error_3": "我已经连接到频道 :channel:",
+      "Voice_Channel_Error_4": "我已经连接到这个语音频道了！",
+      "Voice_Channel_Error_5": "您必须与我在同一频道才能执行此操作！",
+      "Queue_NotFound_Error_1": "当前不存在歌曲队列",
+      "Queue_TextChannel_Error_1": "音乐正在“专用音乐频道”播放，同时命令将被限制为:channel:，请在该频道播放后重试！",
+      "Queue_TextChannel_Error_2": "音乐正在“专用音乐频道”之外播放，请在该频道播放后重试！",
+      "Restrict_VoiceChannel_Error_1": "该**频道**不在服务器的**音乐频道列表**中，请在以下频道之一重试：\n \n:channels:",
+      "Premium_Error_1": "您无权访问此命令，它是**高级服务器**独有的！",
+      "Invalid_YT_URL_Error_1": "❌您刚刚输入的网址不是来自 **YouTube**，请尝试有效的 **YouTube 网址**！\n\n⚠️ 如果您提供的网址来自 **YouTube**，请确保其有效。",
+      "Invalid_YT_URL_Error_2": "❌您刚刚输入的网址不属于任何有效的 **YouTube** 视频，请尝试有效的 **YouTube** 网址。",
+      "Maintenance_Error_1": "由于修复了一些错误，该机器人目前已停止服务。\n\n请稍后重试或联系开发者``:dev:``以获取更多信息。"
+    },
+    "units": {
+      "y": "年）",
+      "mth": "月）",
+      "w": "周",
+      "d": "天）",
+      "h": "小时）",
+      "m": "分钟）",
+      "s": "秒"
+    },
+    "parameters": {
+      "default": "默认",
+      "loop_option_1": "这首歌",
+      "loop_option_2": "整个队列",
+      "loop_option_3": "残疾人",
+      "autoplay_option_1": "活性",
+      "autoplay_option_2": "残疾人",
+      "filters_option_1": "没有任何",
+      "filters_option_2": "离开",
+      "premium_option_1": "活性",
+      "premium_option_2": "残疾人",
+      "premium_option_3": "罪溢价",
+      "source_option_1": "资料来源",
+      "source_option_2": "不知道"
+    },
+    "auto-complete": {
+      "song": "歌曲",
+      "songs": "歌曲",
+      "view": "查看",
+      "views": "次浏览",
+      "privacy_true": "私人的",
+      "privacy_false": "民众"
+    },
+    "soundboard": {
+      "cmd_desc": "该服务器对应的 Kazuto-Music SoundBoard 命令",
+      "default_message": "您已在当前队列中播放了属于该命令的自定义声音！"
+    }
+  },
+  "KazutoTogether": {
+    "title": "和人一起系统",
+    "sub_title": "Kazuto 的“:session_id:”会话 <:be:1124972946394451988><:ta:1124972947690487860>",
+    "main_commands": {
+      "create": {
+        "success_1": "您已创建 Kazuto Together 会话 <:be:1124972946394451988><:ta:1124972947690487860>",
+        "success_2": "您已经创建了一个**Kazuto Together**的会话，您可以邀请来自不同服务器的朋友并同时听音乐！\n\n要邀请您的朋友参加 **Kazuto Together** 会话，请向他们发送下面显示的以下代码/令牌，然后他们必须在“/kt join”命令中输入它才能连接到此会话\n\n``:session_id:``\n\n*如果20分钟内没有人加入您的会话，它将自动关闭以节省资源。*"
+      },
+      "join": {
+        "error_1": "您尝试连接的会话已满！稍后再试。",
+        "success_1": "正在连接 **Kazuto Together** 的会话 ``:session_id:``",
+        "success_2": "✅ 您已成功连接到 **Kazuto Together** 的 ``:session_id:`` 会话"
+      },
+      "leave": {
+        "success_1": "✅ 您已成功退出 **Kazuto Together** 的 ``:session_id:`` 会话"
+      },
+      "delete": {
+        "success_1": "✅ 您已成功完成 **Kazuto Together** 的课程 ``:session_id:``"
+      },
+      "info": {
+        "owner": {
+          "desc": "您的 **Kazuto Together** 会话代码/令牌是\n``:session_id:``",
+          "field_1": "创建日期",
+          "field_2": "听众人数",
+          "field_2_value_1": "``:listeners_length: / :listeners_limit: 侦听器``",
+          "field_3": "其他选项",
+          "field_3_value_1": "检测到不活动时结束会话",
+          "field_3_value_2": "歌曲完成后注销",
+          "field_3_value_3": "停止歌曲队列时注销"
+        },
+        "listener": {
+          "desc": "管理 **Kazuto Together** 会话的服务器是：\n``:guild_name:``",
+          "field_1": "创建日期",
+          "field_2": "听众人数",
+          "field_2_value_1": "``:listeners_length: 监听者``",
+          "field_3": "队列中的歌曲数量",
+          "field_3_value_1": "``:songs_length: 首歌曲``"
+        }
+      }
+    },
+    "errors": {
+      "No_Session_Error_1": "您目前没有参加任何 **Kazuto Together** 会话！",
+      "No_Session_Error_2": "您当前没有主持任何 **Kazuto Together** 会议！",
+      "No_Session_Error_3": "会话“:session_id:”不存在，请使用有效的 **Kazuto Together** 会话重试！",
+      "Session_Duplicated_Error_1": "您目前正在主持 **Kazuto Together** 会议！\n\n🔰 如果你想创建一个新会话，你应该使用“/kt delete”命令结束当前会话",
+      "Session_Duplicated_Error_2": "您目前正在参加**Kazuto Together**！\n\n🔰 如果你想创建一个新会话，你应该使用“/ktleave”命令离开当前会话",
+      "Leave_Error_1": "您不能离开自己的 **Kazuto Together** 会话！\n\n🔰 如果您想结束 **Kazuto Together** 会话，请使用“/kt delete”命令",
+      "Queue_Error_1": "您无法连接到 **Kazuto Together** 会话 ``:session_id:`` 因为该服务器上已经有一个现有玩家！\n\n🔰 您必须先断开机器人与正在播放音乐的任何其他方的连接，然后才能连接到 **Kazuto Together** 会话",
+      "Permission_Error_1": "您没有足够的权限在 **Kazuto Together** 的 ``:session_id:`` 会话中执行此操作\n\n请在使用“/kt Leave”命令注销后重试。",
+      "Permission_Error_2": "您没有足够的权限在 **Kazuto Together** 的 ``:session_id:`` 会话中执行此操作",
+      "Session_Error_1": "**Kazuto Together** 会话的主要玩家发生错误，我被迫断开您与此会话的连接。\n\n🔰 如果您想重新连接到 **Kazuto Together** 会话，请使用您之前使用的相同 **TOKEN** 重试。",
+      "Session_Error_2": "当您主持 **Kazuto Together** 会议时，您无法执行此操作！\n\n*使用命令“/kt delete”完成会话后重试*",
+      "Timeout_Error_1": "20 分钟内没有人加入 **Kazuto Together** 的 ``:session_id:`` 会话！\n\n由于这个原因，我被迫强制结束您的会话以节省资源，您可以使用“/kt create”命令再次创建一个新会话",
+      "Empty_Error_1": "由于负责服务器上缺乏管理 **Kazuto Together** 会话的人，我被迫强制终止会话以节省资源。",
+      "Empty_Error_2": "由于在语音通道中检测到不活动，我被迫断开您与 **Kazuto Together** 会话的连接以节省资源",
+      "Autoplay_Error_1": "自动播放模式与 **Kazuto Together** 系统不兼容\n\n🔰 我们正在努力实现这样的兼容性，请稍后再试！",
+      "Autoplay_Error_2": "自动播放模式与 **Kazuto Together** 系统不兼容，如果您想创建会话，则必须禁用它！\n\n🔰 我们正在努力实现这样的兼容性，请稍后再试！",
+      "RelatedSong_Error_1": "**Kazuto Together** 系统当前不支持此功能\n\n🔰 我们正在努力实现这样的兼容性，请稍后再试！",
+      "Shuffle_Error_1": "**Kazuto Together** 系统当前不支持此功能\n\n🔰 我们正在努力实现这样的兼容性，请稍后再试！",
+      "Fun_Error_1": "**Kazuto Together** 系统当前不支持此功能\n\n🔰 我们正在努力实现这样的兼容性，请稍后再试！",
+      "Soundboard_Error_1": "**Kazuto Together** 系统当前不支持此功能\n\n🔰 我们正在努力实现这样的兼容性，请稍后再试！"
+    },
+    "success": {
+      "Empty_Sucess_1": "**Kazuto Together** 会话由于在语音通道上检测到不活动而结束\n\n🔰 **这样做的唯一目的是节省资源**",
+      "Finish_Session_Success_1": "您已经完成了 **Kazuto Together** 会话并播放歌曲！\n\n🔰 如果您想对我们的新“**Kazuto Together**”系统提出建议或提供反馈，请使用“/review”命令！",
+      "Finish_Session_Success_2": "**Kazuto Together**会议随着歌曲播放结束了！\n\n🔰 如果您想对我们的新“**Kazuto Together**”系统提出建议或提供反馈，请使用“/review”命令！",
+      "Disconnect_Success_1": "管理 **Kazuto Together** 会话的服务器已结束播放，因此会话也已结束",
+      "Pause_Success_1": "管理 **Kazuto Together** 会话的服务器已暂停当前歌曲/视频",
+      "Resume_Success_1": "管理 **Kazuto Together** 会话的服务器已总结当前歌曲/视频",
+      "Skip_Success_1": "管理 **Kazuto Together** 会话的服务器已将当前歌曲/视频跳过到歌曲/视频队列中的下一首",
+      "Skipto_Success_1": "管理 **Kazuto Together** 会话的服务器已将当前歌曲/视频跳过到队列中的歌曲“:song_id:”",
+      "Switch_Success_1": "管理 **Kazuto Together** 会话的服务器已将歌曲“:song_name:”的位置更改为“:final_position:”",
+      "Previous_Success_1": "管理 **Kazuto Together** 会话的服务器已将当前歌曲/视频跳到歌曲/视频队列中的上一个歌曲/视频",
+      "Volume_Success_1": "管理 **Kazuto Together** 会话的服务器已将歌曲/视频队列的音量更改为“:volume_percentage:”",
+      "Seek_Success_1": "管理 **Kazuto Together** 会话的服务器已将播放时间更改为“:song_currentTime:”秒",
+      "Replay_Success_1": "管理 **Kazuto Together** 会话的服务器已重新启动播放当前歌曲/视频",
+      "Shuffle_Success_1": "管理 **Kazuto Together** 会话的服务器已对当前的歌曲队列进行了随机排序",
+      "RelatedSong_Success_1": "管理 **Kazuto Together** 会话的服务器已将一首相关歌曲添加到当前歌曲队列中",
+      "Autoplay_Success_1": "管理 **Kazuto Together** 会话的服务器已激活自动播放模式",
+      "Autoplay_Success_2": "管理 **Kazuto Together** 会话的服务器已禁用自动播放模式",
+      "Loop_Success_1": "管理 **Kazuto Together** 会话的服务器已将循环模式更改为“:loop_value:”",
+      "Filter_Success_1": "管理 **Kazuto Together** 会话的服务器已设置过滤器“:filter_name:”",
+      "Filter_Success_2": "管理 **Kazuto Together** 会话的服务器已删除过滤器“:filter_name:”",
+      "Filter_Success_3": "管理 **Kazuto Together** 会话的服务器已从队列中删除所有过滤器",
+      "Time_Success_1": "管理 **Kazuto Together** 会话的服务器已将播放时间设置为“:time_value:”秒",
+      "Speed_Success_1": "管理 **Kazuto Together** 会话的服务器已将播放速度更改为“:speed_value:”",
+      "Playlist_Success_1": "管理 **Kazuto Together** 会话的服务器已将“:playlist_songs:”歌曲的播放列表添加到队列中",
+      "Import_Success_1": "管理 **Kazuto Together** 会话的服务器已导入“:songs_length:”歌曲队列",
+      "Play_Success_1": "管理 **Kazuto Together** 会话的服务器已将一首新歌曲添加到队列中",
+      "PlaySkip_Success_1": "管理 **Kazuto Together** 会话的服务器向队列中添加了一首新歌，并跳至这首歌曲",
+      "PlayTop_Success_1": "管理 **Kazuto Together** 会话的服务器在队列顶端添加了一首新歌",
+      "Clean_Queue_Success_1": "管理 **Kazuto Together** 会话的服务器已从队列中删除所有歌曲",
+      "Remove_Song_Success_1": "管理 **Kazuto Together** 会话的服务器已从队列中删除 ID 为“:song_id:”的歌曲",
+      "Remove_Songs_Success_1": "管理 **Kazuto Together** 会话的服务器已从队列中删除了 `:songs_length:`",
+      "Remove_Songs_Dup_Success_1": "管理 **Kazuto Together** 会话的服务器已从队列中删除所有重复的歌曲",
+      "Vote_Started_Success_1": "管理 **Kazuto Together** 会话的服务器正在投票跳过当前歌曲 (:actual_votes:/:required_votes:)",
+      "Vote_Finished_Success_1": "管理 **Kazuto Together** 会话的服务器已完成投票并决定跳过当前歌曲"
+    }
+  },
+  "ButtonInteraction": {
+    "music-channel": {
+      "Add-To-PL": {
+        "cooldown_error_1": "❌ 您必须等待至少“1 分钟”才能再次与此按钮交互。",
+        "voice_channel_error_1": "您需要进行语音聊天",
+        "voice_channel_error_2": "您必须在我播放音乐的同一频道:kazuto_vc_channel:",
+        "queue_error_1": "当前没有正在播放的歌曲。",
+        "pl_error_1": "您尚未在此服务器上创建任何播放列表，请稍后重试。",
+        "SM_Constructor": {
+          "Placeholder": "选择您的播放列表之一",
+          "Objects_Desc": "将当前歌曲添加到播放列表“:playlist_name:”"
+        },
+        "response_embed_title": "|播放列表系统",
+        "response_embed_desc": "您必须选择**播放列表**之一才能添加当前播放的歌曲\n\n*您有 10 分钟时间选择播放列表*",
+        "loading": "<a:loadingWB:986050761031041084> **正在保存歌曲...**",
+        "pl_error_2": "您的**播放列表**中不存在播放列表``:playlist_name:``，请重试。",
+        "pl_error_3": "播放列表``:playlist_name:`` 与**数据库**中的播放列表不匹配，请重试。",
+        "url_error_1": "这首歌的网址不是来自 **YouTube**，请尝试使用有效的 **YouTube** 网址。",
+        "url_error_2": "这首歌的网址不属于任何有效的 **YouTube** 视频，请尝试有效的 **YouTube** 网址。",
+        "save_song_error_1": "⚠️ 您要保存的歌曲之前已保存到此播放列表中。",
+        "success_1": "✅ 您已成功保存歌曲：\n \n📌 **标题**: ``:song_title:``\n🌐 **URL**: ``:song_url:``\nℹ️ **ID**: ``:song_id:``",
+        "timeout_error_1": "⏳ 时间已到，请重试。"
+      },
+      "AutoPlay": {
+        "voice_channel_error_1": "❌ 您必须处于语音聊天状态才能执行此操作",
+        "voice_channel_error_2": "❌ 您必须与我处于同一语音聊天中才能执行此操作",
+        "dj_error_1": "您没有 **DJ** 权限来执行此操作",
+        "queue_error_1": "❌ 目前没有排队。",
+        "play_error_1": "音乐正在“专用音乐频道”之外播放，请在该频道播放后重试。",
+        "success_1": "|您将自动播放模式更改为 : ``:autoplay_options:``。"
+      },
+      "Delete-From-Queue": {
+        "Modal_Constructor": {
+          "title": "从队列中删除歌曲/视频",
+          "label": "歌曲/视频 ID",
+          "placeholder": "Ex：6、5、10、7。"
+        },
+        "songid_error_1": "您必须提供队列中歌曲/视频的有效 ID。",
+        "songid_error_2": "您无法删除这首**歌曲**，因为它当前已经在播放！",
+        "songid_error_3": "您提供的 **ID** ``:song_id:`` **不属于**任何尾曲，请使用有效的 **ID** 重试。",
+        "success_1": "|您已从队列中删除了 ID 为“:song_id:”的歌曲。\n\n🎵 歌曲名称: :deleted_song_name:"
+      },
+      "Replay": {
+        "success_1": "|您已从头开始重播当前歌曲。"
+      },
+      "Exit": {
+        "_comment": "该按钮不需要不同的文本，因此可以重复使用其他按钮。 （暂时）[不要翻译这段文字！]"
+      },
+      "Loop-Buttons": {
+        "_comment": "该按钮不需要不同的文本，因此可以重复使用其他按钮。 （暂时）[不要翻译这段文字！]"
+      },
+      "Pause-Unpause": {
+        "_comment": "该按钮不需要不同的文本，因此可以重复使用其他按钮。 （暂时）[不要翻译这段文字！]"
+      },
+      "Previous-Songs": {
+        "cooldown_error_1": "该歌曲最近已被跳过，请等待几秒钟才能再次跳过。",
+        "no_previoussong_error_1": "❌ 此队列中没有上一首歌曲。",
+        "success_1": "|跳过队列中的上一首歌曲。"
+      },
+      "Remove-From-PL": {
+        "cooldown_error_1": "❌ 您必须等待至少“1 分钟”才能再次与此按钮交互。",
+        "voice_channel_error_1": "您需要进行语音聊天",
+        "voice_channel_error_2": "您必须在我播放音乐的同一频道:kazuto_vc_channel:",
+        "queue_error_1": "当前没有正在播放的歌曲。",
+        "pl_error_1": "您尚未在此服务器上创建任何播放列表，请稍后重试。",
+        "SM_Constructor": {
+          "Placeholder": "选择您的播放列表之一",
+          "Objects_Desc": "从播放列表“:playlist_name:”中删除当前歌曲"
+        },
+        "response_embed_title": "|播放列表系统",
+        "response_embed_desc": "您必须选择**播放列表**之一才能删除当前播放的歌曲\n\n*您有 10 分钟时间选择播放列表*",
+        "pl_error_2": "您的**播放列表**中不存在播放列表``:playlist_name:``，请重试。",
+        "pl_error_3": "播放列表``:playlist_name:`` 与**数据库**中的播放列表不匹配，请重试。",
+        "pl_error_4_title": "❌ 发生错误",
+        "pl_error_4_desc": "**1**：检查提供的播放列表是否有效\n \n**2**：检查正在播放的歌曲的 URL 是否有效或存在于您的播放列表中\n \n如果您想知道您的播放列表是哪些，请使用“/playlist [list]”或“按选项 C”，如果您想知道您正在查找的歌曲的 ID 是什么，请使用“/playlist songs” [播放列表]`` 或``按选项 D``",
+        "url_error_1": "这首歌的网址不是来自 **YouTube**，请尝试使用有效的 **YouTube** 网址。",
+        "success_1": "✅ 您已成功删除**歌曲**：\n \n📌 **标题**: ``:song_title:``\n🌐 **URL**: ``:song_url:``\nℹ️ **ID**: ``:song_id:``",
+        "timeout_error_1": "⏳ 时间已到，请重试。"
+      },
+      "Shuffle": {
+        "song_error_1": "队列中至少需要“3首歌曲”才能随机播放！",
+        "success_1": "|您已对当前的歌曲队列进行了随机播放。"
+      },
+      "Skip-Song": {
+        "cooldown_error_1": "该歌曲最近已被跳过，请等待几秒钟才能再次跳过。",
+        "no_nextsong_error_1": "❌ 此队列中没有下一首歌曲。",
+        "success_1": "|您跳过了当前歌曲。"
+      },
+      "Skip-Specific-Song": {
+        "Modal_Constructor": {
+          "title": "跳过歌曲/视频到特定的一首",
+          "label": "歌曲/视频 ID",
+          "placeholder": "Ex：6、5、10、7。"
+        },
+        "songid_error_1": "您必须提供队列中歌曲/视频的有效 ID。",
+        "songid_error_2": "您不能将这首**歌曲**跳到已经播放的同一首**歌曲**！",
+        "songid_error_3": "您提供的 **ID** ``:song_id:`` **不属于**任何尾曲，请使用有效的 **ID** 重试。",
+        "success_1": "|您已将当前歌曲跳至队列中的歌曲“:song_id:”。"
+      },
+      "Song-Forward": {
+        "cooldown_error_1": "最近歌曲时间被修改，请稍等几秒才能再次修改。",
+        "Modal_Constructor": {
+          "title": "歌曲/视频预览",
+          "label_1": "小时）",
+          "label_2": "分钟）",
+          "label_3": "秒",
+          "placeholder_1": "Ex：2、8、0、3。",
+          "placeholder_2": "Ex：6、2、5、8。",
+          "placeholder_3": "Ex：20、79、120、9、0。"
+        },
+        "time_error_1": "您必须指定有效的时间",
+        "success_1": "|您将歌曲的播放时间更改为第二个``:song_seconds:``"
+      },
+      "Song-Speed": {
+        "premium_error_1": "❌ 您无法修改歌曲/视频的速度，这是**高级服务器**的独有功能",
+        "SM_Constructor": {
+          "Placeholder": "设置当前歌曲的速度",
+          "label_1": "速度x0.5",
+          "label_2": "速度x0.75",
+          "label_3": "速度x1（正常）",
+          "label_4": "速度x1.25",
+          "label_5": "速度x1.5",
+          "label_6": "速度x1.75",
+          "label_7": "速度x2",
+          "desc_1": "中慢播放速度",
+          "desc_2": "播放速度有点慢",
+          "desc_3": "正常播放速度",
+          "desc_4": "播放速度慢",
+          "desc_5": "中快播放速度",
+          "desc_6": "非常快的播放速度",
+          "desc_7": "超快的播放速度"
+        },
+        "response_embed_title": "|播放速度",
+        "response_embed_desc": "选择您要为当前播放的歌曲设置的速度。\n\n*您有 10 分钟时间做出选择*",
+        "loading": "<a:loadingWB:986050761031041084> **应用速度 :speed_value:**",
+        "success_1": "|您已将歌曲的速度更改为``:speed_value:``",
+        "timeout_error_1": "⏳ 时间已到，请重试。"
+      },
+      "Volume-Down": {
+        "volume_error_1": "❌ 您无法降低音量，因为最小值为“0%”"
+      },
+      "Volume-Up": {
+        "volume_error_1": "❌ 您无法增加音量，因为最大值为“100%”",
+        "volume_error_2": "❌ 您无法增加音量，因为最大值为``500%``"
+      },
+      "Vote": {
+        "vote_error_1": "❌ 您之前已投票跳过这首歌",
+        "vote_success_1": "**已达到足够票数**以跳过该歌曲",
+        "vote_skip_error_1": "❌ 此队列中没有**下一首歌曲**。",
+        "vote_skip_success_1": "✅ 歌曲已正确跳过！",
+        "vote_count_success_1": "|您已投票跳过该歌曲 (:actual_votes:/:required_votes:) 票"
+      }
+    },
+    "music-play": {
+      "Disconnect": {
+        "voice_channel_error_1": "❌ 您必须处于语音聊天状态才能执行此操作",
+        "voice_channel_error_2": "❌ 您必须与我处于同一语音聊天中才能执行此操作",
+        "dj_error_1": "您没有 **DJ** 权限来执行此操作",
+        "internal_error_1": "发生意外的错误\n\n**代码**：0x100464135",
+        "internal_error_2": "发生意外的错误\n\n**代码**：0x23224536",
+        "success_desc_1": "|停止并清除当前歌曲队列",
+        "success_footer_1": "如果您想断开机器人连接，请使用 /music 设置 [断开连接]",
+        "disconnect_title": "复制完成✅"
+      },
+      "Pause-Unpause": {
+        "btn_edit_1": "停顿",
+        "btn_edit_2": "恢复"
+      },
+      "Queue": {
+        "embed_title": "歌曲队列"
+      },
+      "Skip": {
+        "skip_error_1": "❌ 此队列中没有下一首歌曲。",
+        "success_1": "|您跳过了当前歌曲。"
+      },
+      "Volume": {
+        "error_1": "❌ 您无法降低音量，因为最小值为“0%”",
+        "error_2": "❌ 您无法增加音量，因为最大值为“100%”",
+        "error_3": "❌ 您无法增加音量，因为最大值为``500%``"
+      },
+      "Alternate-Loop": {
+        "_comment": "该按钮不需要不同的文本，因此可以重复使用其他按钮。 （暂时）[不要翻译这段文字！]"
+      }
+    },
+    "playlist-menu": {
+      "option_a": {
+        "cooldown_error_1": "❌ 您必须等待至少“30 秒”才能再次运行此命令。",
+        "playlists_notfound_error_1": "❌ 该服务器上尚未创建**播放列表**，请稍后重试。",
+        "embed_author": "|播放列表系统",
+        "embed_title": "服务器播放列表列表``:guild_name:``",
+        "data_map": "``播放列表`` **-** ``:id:``\n✏️ **名称**: ``:playlist_name:``\n👤 **创建者**: :createdBy:\n📆 **创建**: :timeCreated:\n📊 **播放**: ``:playlist_views:``\n🎵 有 ``:playlist_songs:`` 歌曲",
+        "data_map_empty_1": "在此服务器上找不到播放列表。",
+        "data_map_empty_2": ">>> **在此服务器上找不到播放列表。**"
+      },
+      "option_b": {
+        "cooldown_error_1": "❌ 您必须等待至少“30 秒”才能再次运行此命令。",
+        "playlists_notfound_error_1": "❌在此服务器上找不到播放列表，请稍后重试。",
+        "embed_author": "|播放列表系统",
+        "embed_title": "服务器``:guild_name:`` 的热门播放列表",
+        "data_map": "“播放列表” **-** :medal_or_id:\n✏️ **名称**: ``:playlist_name:``\n👤 **创建者**: :createdBy:\n📆 **创建**: :timeCreated:\n📊 **播放**: ``:playlist_views:``\n🎵 有 ``:playlist_songs:`` 歌曲",
+        "data_map_empty_1": "在此服务器上找不到播放列表。",
+        "data_map_empty_2": ">>> **在此服务器上找不到公共播放列表。**"
+      },
+      "option_c": {
+        "cooldown_error_1": "❌ 您必须等待至少“30 秒”才能再次运行此命令。",
+        "playlists_notfound_error_1": "❌ 该服务器上尚未创建**播放列表**，请稍后重试。",
+        "embed_author": "|播放列表系统",
+        "embed_title": "用户播放列表``:user_tag:``",
+        "data_map": "✏️ **名称**: ``:playlist_name:``\n📆 **创建**: :timeCreated:\n📊 **播放**: ``:playlist_views:``\n🎵 有 ``:playlist_songs:`` 歌曲"
+      },
+      "option_d": {
+        "cooldown_error_1": "❌ 您必须等待至少“30 秒”才能再次运行此命令。",
+        "playlists_notfound_error_1": "❌ 播放列表``:playlist_name:`` 不存在，请使用**现有播放列表**重试。",
+        "playlist_privacy_error_1": "您看不到播放列表“:playlist_name:”，因为所有者将其设置为“私有播放列表”",
+        "playlist_nosongs_error_1": "播放列表``:playlist_name:``没有任何歌曲，请稍后重试。",
+        "embed_author": "|播放列表系统",
+        "embed_title": "播放列表歌曲``:playlist_name:``",
+        "data_map": "_*歌曲 - :id:*_\n\n>>> 📌 **标题**: [``:song_title:``](:song_url:)\n📊 **播放**: ``:song_views:``\n👤 **上传者**: [``:song_uploader_name:``](:song_uploader_url:)\n⏱️ **持续时间**: ``:song_formattedDuration:``\nℹ️ **ID**: ``:song_id:``"
+      },
+      "option_e": {
+        "cooldown_error_1": "❌ 您必须等待至少“30 秒”才能再次运行此命令。",
+        "voice_channel_error_1": "❌ 您必须处于语音频道",
+        "voice_channel_error_2": "❌ 你必须在我播放音乐的同一频道:kazuto_vc_channel:",
+        "queue_error_1": "❌ 当前没有正在播放的歌曲。",
+        "url_error_1": "❌这首歌的网址不是来自 **YouTube**，请尝试有效的 **YouTube 网址**。",
+        "url_error_2": "❌ 这首歌的 URL 不属于任何有效的 **YouTube** 视频，请尝试使用有效的 **YouTube** URL。",
+        "save_song_error_1": "⚠️ 您要保存的歌曲之前已保存到此播放列表中。",
+        "embed_author": "|播放列表系统",
+        "save_song_success_1": "✅ 您已成功保存歌曲：\n \n📌 **标题**: ``:song_title:``\n🌐 **URL**: ``:song_url:``\nℹ️ **ID**: ``:song_id:``"
+      },
+      "option_f": {
+        "cooldown_error_1": "❌ 您必须等待至少“30 秒”才能再次运行此命令。",
+        "waiting_response": "⏳ 提供您要添加的歌曲的“URL”",
+        "modal_data": {
+          "modal_title": "将特定歌曲添加到播放列表",
+          "modal_label": "歌曲 URL",
+          "modal_placeholder": "在此输入歌曲网址（每行一个网址）\n只允许 YT/SP 链接。"
+        },
+        "url_error_1": "❌您刚刚输入的网址不是来自 **YouTube**，请尝试有效的 **YouTube 网址**。\n\n⚠️ 如果您提供的网址来自 **YouTube**，请确保其有效。",
+        "url_error_2": "❌您刚刚输入的网址不属于任何有效的 **YouTube** 视频，请尝试有效的 **YouTube** 网址。",
+        "embed_author": "|播放列表系统",
+        "save_song_error_1": "⚠️ 您要保存的歌曲之前已保存到此播放列表中。",
+        "save_song_success_1": "✅ 您已成功保存**歌曲**：\n \n📌 **标题**: ``:song_title:``\n🌐 **URL**: ``:song_url:``\nℹ️ **ID**: ``:song_id:``"
+      },
+      "option_g": {
+        "cooldown_error_1": "❌ 您必须等待至少“1 分钟”才能再次运行此命令。",
+        "embed_author": "|播放列表系统",
+        "voice_channel_error_1": "❌ 您需要处于语音聊天状态才能播放此播放列表",
+        "voice_channel_error_2": "❌ 你必须在我播放音乐的同一频道:kazuto_vc_channel:",
+        "playlist_error_1": "❌ 播放列表``:playlist_name:`` 不存在，请使用**现有播放列表**重试。",
+        "playlist_error_2": "您无法播放播放列表“:playlist_name:”，因为它没有保存任何歌曲。",
+        "playlist_privacy_error_1": "您无法播放播放列表“:playlist_name:”，因为所有者将其设置为“私人播放列表”",
+        "restrict_voicechannel_error_1": "该**频道**不在服务器的**音乐频道列表**中，请在以下频道之一重试：\n \n:music_channels:",
+        "success_1": "📀 请求已收到...",
+        "url_error_1": "❌ 此播放列表中歌曲的 URL 无效，请尝试播放另一个播放列表。"
+      },
+      "option_h": {
+        "cooldown_error_1": "❌ 您必须等待至少“30 秒”才能再次运行此命令。",
+        "timeout_error_1": "❌ 您选择选项的时间太长",
+        "embed_author": "|播放列表系统",
+        "playlist_error_1": "❌ 播放列表``:playlist_name:`` 不存在，请使用**现有播放列表**重试。",
+        "Button1_Label": "私人的",
+        "Button2_Label": "全球的",
+        "embed_desc": "⏳ 您想为此**播放列表**设置什么**隐私选项**？",
+        "embed_desc_var1": "✅ 正确地将播放列表``:playlist_name:`` 的隐私更改为``Private``",
+        "embed_desc_var2": "✅ 正确地将播放列表``:playlist_name:`` 的隐私更改为``Global``"
+      },
+      "option_i": {
+        "cooldown_error_1": "❌ 您必须等待至少“30 秒”才能再次运行此命令。",
+        "embed_author": "|播放列表系统",
+        "waiting_response": "⏳ 提供您想要为播放列表指定的新名称``:playlist_name:``",
+        "modal_data": {
+          "modal_title": "修改播放列表的当前名称",
+          "modal_label": "新名称",
+          "modal_placeholder": "在此处输入要为播放列表指定的新名称。"
+        },
+        "playlist_error_1": "❌ 您的**播放列表**中不存在播放列表``:playlist_name:``，请使用**现有播放列表**重试。",
+        "playlist_error_2": "❌ 您的播放列表之一已具有名称“:new_playlist_name:”，请使用其他名称重试。",
+        "playlist_error_3": "❌ 此服务器上已存在名为“:new_playlist_name:”的播放列表，请使用其他名称重试。",
+        "success_1": "✅ 正确地将播放列表名称``:playlist_name:`` 更改为``:new_playlist_name:``"
+      },
+      "option_j": {
+        "cooldown_error_1": "❌ 您必须等待至少“30 秒”才能再次运行此命令。",
+        "embed_author": "|播放列表系统",
+        "waiting_response": "⏳ 提供您想要将此播放列表迁移到的服务器的“ID”",
+        "modal_data": {
+          "modal_title": "将播放列表迁移到另一台服务器",
+          "modal_label": "服务器 ID",
+          "modal_placeholder": "输入要将播放列表迁移到的服务器的服务器 ID"
+        },
+        "playlist_error_1": "❌ 您的**播放列表**中不存在播放列表``:playlist_name:``，请使用**现有播放列表**重试。",
+        "server_error_1": "❌ ID 为``:server_id:`` 的服务器不存在，请使用**有效的服务器**重试。",
+        "success_var1": "✅ 您的播放列表``:playlist_name:`` 已成功迁移到服务器``:server_name:``\n \n⚠️ **注意**: Debido a que el **nombre de tu playlist** ya existe en este server, tuve que renombrarla a ``:new_playlist_name:``",
+        "success_var2": "✅ 您的播放列表``:playlist_name:`` 已成功迁移到服务器``:server_name:``"
+      },
+      "option_k": {
+        "cooldown_error_1": "❌ 您必须等待至少“30 秒”才能再次运行此命令。",
+        "embed_author": "|播放列表系统",
+        "voice_channel_error_1": "❌ 您必须处于语音频道",
+        "voice_channel_error_2": "❌ 你必须在我播放音乐的同一频道:kazuto_vc_channel:",
+        "queue_error_1": "❌ 当前没有正在播放的歌曲。",
+        "internal_error_1": "❌ **发生错误**\n \n**1**：检查提供的播放列表是否有效\n \n**2**：检查正在播放的歌曲的 URL 是否有效或存在于您的播放列表中\n \n如果您想知道您的播放列表是哪些，请使用“/playlist [list]”或“按选项 C”，如果您想知道您正在查找的歌曲的 ID 是什么，请使用“/playlist songs” [播放列表]`` 或``按选项 D``",
+        "success_1": "✅ 您已成功删除**歌曲**：\n \n📌 **标题**: ``:song_title:``\n🌐 **URL**: ``:song_url:``\nℹ️ **ID**: ``:song_id:``"
+      },
+      "option_l": {
+        "cooldown_error_1": "❌ 您必须等待至少“10 秒”才能再次运行此命令。",
+        "embed_author": "|播放列表系统",
+        "waiting_response": "⏳ 提供您要删除的歌曲的“ID”",
+        "modal_data": {
+          "modal_title": "从播放列表中删除特定歌曲",
+          "modal_label": "歌曲 ID",
+          "modal_placeholder": "输入要删除歌曲的 ID（每行一个 ID）"
+        },
+        "internal_error_1": "❌ **发生错误**\n \n**1**：检查提供的播放列表是否有效\n \n**2**：检查您提供的歌曲ID是否有效\n \n如果您想知道您的播放列表是哪些，请使用“/playlist [list]”或“按选项 C”，如果您想知道您正在查找的歌曲的 ID 是什么，请使用“/playlist songs” [播放列表]`` 或``按选项 D``",
+        "success_1": "✅ 您已成功删除**歌曲**：\n \n📌 **标题**: ``:song_title:``\n🌐 **URL**: ``:song_url:``\nℹ️ **ID**: ``:song_id:``",
+        "success_2": "✅ 您已成功从播放列表 ``:playlist_name:`` 中删除了 ``:songs_length:`` 歌曲"
+      },
+      "option_m": {
+        "embed_author": "|播放列表系统",
+        "playlist_error_1": "❌ 您的**播放列表**中不存在播放列表``:playlist_name:``，请使用**现有播放列表**重试。",
+        "success_1": "✅ 播放列表``:playlist_name:`` 已成功删除"
+      }
+    },
+    "premium-message": {
+      "redeemed-keys": {
+        "Error_1": "未发现已在此服务器上兑换的**高级密钥**",
+        "Data_map": "🔑 **密钥**: ``:key:``\n🕘 **持续时间**: ``:duration:``",
+        "Data_map_empty": "**此服务器上尚未兑换任何密钥，请稍后重试。**",
+        "Embed_Title": "在“:guild_name:”中兑换密钥"
+      },
+      "trial-sub": {
+        "Error_1": "❌您没有足够的权限来执行此操作",
+        "Error_2": "❌ **发生内部错误**\n**没有找到该服务器的数据**\n\n如果错误仍然存​​在，请通知开发人员:dev:",
+        "Error_3": "❌发生错误，请重试[/premium]命令",
+        "MainEmbed_Title": "📀 《Kazuto Music》 免费试用",
+        "MainEmbed_Description": "**欢迎用户** 感谢您对我的项目“Kazuto Music”及其高级会员资格的兴趣。\n您可以完全免费获得 14 天的试用订阅，无需额外付费，也无需输入额外的数据！\n\n⚠️ **记住**：\n**1.** *免费试用将在 14 天后到期*\n**2.** *对于您管理的每台服务器，您只能访问此免费试用一次*\n**3.** *我们提供此免费试用版的唯一目的是让我们的用户测试该项目的高级功能并测试这些功能的性能*\n\n**我们希望您享受我们提供的优质福利！**\n*您有 10 分钟时间选择一个选项*",
+        "MainEmbed_Footer": "此致 :dev:",
+        "Button1_Label": "开始测试",
+        "Button2_Label": "我想稍后再开始",
+        "ResponseDesc_Success_1": "✅ 您已成功申请“14 天”的高级免费试用",
+        "ResponseField1_Success_1": "声称由",
+        "ResponseField2_Success_1": "截止日期",
+        "ResponseDesc_Success_2": "✅ 您暂时拒绝了免费试用。\n\n*请记住，您可以尝试使用命令再次申领*``/premium``"
+      }
+    },
+    "reconnect-sys": {
+      "success": {
+        "Loading": "**重新连接....**",
+        "Success_1": "✅ **重连成功！**"
+      },
+      "errors": {
+        "Internal_Error_1": "哎呀！有关此队列的数据发生内部错误。"
+      }
+    },
+    "shop-sys": {
+      "success": {
+        "MainEmbed_Title1": "|选择一个选项 - 订阅 1 天 💿",
+        "MainEmbed_Title2": "|选择一个选项 - 订阅 3 天 💿",
+        "MainEmbed_Title3": "|选择一个选项 - 订阅 5 天 💿",
+        "MainEmbed_Title4": "|选择一个选项 - 订阅 7 天 💿",
+        "MainEmbed_Title5": "|选择一个选项 - 订阅 14 天 💿",
+        "MainEmbed_Title6": "|选择一个选项 - 订阅 30 天 📀",
+        "MainEmbed_Title7": "|选择一个选项 - 订阅 60 天 📀",
+        "MainEmbed_Title8": "|选择一个选项 - 订阅 90 天 📀",
+        "MainEmbed_Title9": "|选择一个选项 - 订阅 6 个月 📀",
+        "MainEmbed_Title10": "|选择一个选项 - 订阅 1 年 📀",
+        "MainEmbed_Description": "❓ **购买密钥**\n*此选项允许您以密钥的形式购买此订阅，该密钥将私下发送给您，您可以使用“/redeem”命令进行兑换。*\n\n❓ **购买订阅**\n*此选项允许您直接购买并激活该服务器的订阅。*",
+        "MainEmbed_Footer": "您有 10 分钟时间做出选择",
+        "Button1_Label": "购买密钥",
+        "Button2_Label": "购买订阅",
+        "BuyKey_BTN": {
+          "MainEmbed_Title": "🔑 您已购买高级密钥",
+          "MainEmbed_Field1": "购买者",
+          "MainEmbed_Field2": "购买日期",
+          "MainEmbed_Field3": "订阅",
+          "MainEmbed_Field4": "状态",
+          "MainEmbed_Field4_value": "不使用",
+          "MainEmbed_Field4_value_2": "用过的",
+          "Response_Title": "✅ 获得新钥匙",
+          "Response_Description": "您已获得一个持续时间为``:duration:``的**高级密钥**，我已通过 DM 向您发送了该密钥的**信息**。"
+        },
+        "BuySub_BTN": {
+          "MainEmbed_Title": "✅ 保费成功兑换",
+          "MainEmbed_Description_1": "您已成功兑换**高级订阅**，高级功能已在此服务器上激活！\n\n*由于您之前有高级订阅，因此您的订阅已续订！*",
+          "MainEmbed_Description_2": "您已成功兑换**高级订阅**，高级功能已在此服务器上激活！",
+          "MainEmbed_Field1": "兑换为",
+          "MainEmbed_Field2": "截止日期",
+          "MainEmbed_Footer": "我们感谢您与 K-Music 项目的合作"
+        }
+      },
+      "errors": {
+        "Insufficient_Coins_Error_1": "服务器没有足够的**硬币**来进行此购买"
+      }
+    }
+  },
+  "Modals_Constructor": {
+    "music": {
+      "remove_cmd": {
+        "removesongbyid_title": "删除歌曲/视频",
+        "removesongbyid_label": "ID [提供歌曲 ID]",
+        "removesongbyid_placeholder": "Ex：2、8、0、3。",
+        "removerangeofsongs_title": "删除多首歌曲/视频",
+        "removerangeofsongs_label": "初始 ID [删除开始的 ID]",
+        "removerangeofsongs_label2": "最终 ID [直至将被删除的 ID]"
+      }
+    },
+    "review": {
+      "title": "Kazuto-音乐评论",
+      "label": "审查",
+      "placeholder": "在此写下您对该机器人的看法",
+      "response_title": "| :user: 审核",
+      "response_description": "**评级** ``:review_stars:``\n\n**审查**\n:review_data:",
+      "response_description_2": "🟢 我们已收到您的评价，感谢您抽出宝贵的时间给我们提供对我们项目的意见，希望您以后继续使用我们的服务！"
+    },
+    "parametersMenu": {
+      "volume": {
+        "volume_title": "默认音量设置",
+        "volume_label": "体积百分比",
+        "volume_placeholder": "Ex：25、50、75、100。"
+      }
+    }
+  },
+  "SelectMenus": {
+    "filtersMenu": {
+      "Voice_Error_1": "您必须处于语音聊天状态才能执行此操作",
+      "Voice_Error_2": "您必须与我处于同一语音聊天中才能执行此操作",
+      "Premium_Error_1": "您无权使用此功能，它是**高级服务器**独有的！"
+    },
+    "langsMenu": {
+      "MessageTitle": "| Kazuto-音乐语言",
+      "Language_Success_1": "✅ 成功将机器人语言从“:previous_lang:”设置为“:selected_lang:”",
+      "Language_Success_2": "✅ 成功将机器人语言从 ``:previous_lang:`` 更改为 ``:selected_lang:``"
+    },
+    "acMenu": {
+      "MessageTitle": "|搜索建议算法",
+      "Ac_Success_1": "✅ 成功将搜索建议源从``:previous_value:``设置为``:selected_value:``",
+      "Ac_Success_2": "✅ 成功将搜索建议的来源从``:previous_value:``更改为``:selected_value:``"
+    },
+    "setupMenu": {
+      "MessageTitle": "| Kazuto-音乐设置",
+      "TimeoutEmbed_Desc": "⏳ 您选择选项的时间太长，请重试！",
+      "LangEmbed_Desc": "欢迎 :user_mention: 使用机器人的 **语言** 配置菜单，通过此语言系统，您可以选择您的母语或您选择的可用语言！\n\n**贡献者**:\n:colab_members:\n\n您可以 [点击此处](https://github.com/xNeuNoRo/kmusic-languages) 帮助我们翻译更多语言！\n\n*该机器人的主要翻译是英语和西班牙语，这些翻译是由真人处理的，其余翻译是在线翻译器（例如“谷歌翻译”）的结果*",
+      "LangEmbed_Btn": "合作翻译",
+      "RestrictChannelEmbed_Desc": "欢迎 :user_mention: 来到服务器**音乐频道**配置菜单，使用此系统您将能够将音乐/视频播放限制到您选择的某些特定语音频道。\n\n服务器列表上的当前语音频道： ```:restricted_channels:```\n\n*下面是频道限制如何工作的示例*",
+      "RestrictChannelEmbed_Var1": "列表中未找到频道",
+      "RestrictChannelMenu_Placeholder": "选择语音通道",
+      "ParametersMenuConstructor": {
+        "Placeholder": "选择参数选项",
+        "1_label": "体积",
+        "1_desc": "设置默认音量",
+        "2_label": "卷发",
+        "2_desc": "设置是否默认开启循环",
+        "3_label": "自动播放",
+        "3_desc": "配置是否默认启用自动播放",
+        "4_label": "24/7",
+        "4_desc": "配置是否启用 24/7 播放"
+      },
+      "ACEmbed_Desc": "欢迎 :user_mention: 来到机器人 **建议** 源的配置菜单，机器人的搜索建议系统是一种算法，它将管理您使用“[/music command play]”进行的每个搜索，以执行以下操作：您可以使用我们自己开发的算法[自定义]，专门考虑我们用户的需求，因为它不断地从您最喜欢的歌曲的历史中学习，并负责根据您的品味提出建议。您还可以使用 YouTube 搜索建议算法，该算法基本上是 YouTube 在其系统中实现的算法的模仿。\n\n*以下是搜索建议算法如何工作的示例*",
+      "AutoCompleteMenuConstructor": {
+        "Placeholder": "选择建议来源",
+        "1_label": "自定义[自己的算法]",
+        "1_desc": "机器人自己的建议系统",
+        "2_label": "YouTube",
+        "2_desc": "YouTube 推荐系统"
+      },
+      "YTMixesEmbed_Desc": "欢迎 :user_mention: 来到 YT **混音** 配置菜单，使用此系统，您将能够在 Bot 中播放 YouTube 混音，尽管由于地区和地区的差异，可能不忠实于混音中可能出现的歌曲。帐户\n\n*下面是 YouTube 合辑的示例*",
+      "ParametersEmbed_Desc": "欢迎:user_mention:来到服务器的**播放参数**的配置菜单，使用此系统您将能够修改不同的默认选项，例如音量、自动播放等。\n\n*下面是默认参数的示例*",
+      "DJEmbed_Desc": "欢迎 :user_mention: 访问 **DJ**服务器配置菜单，通过该系统，您可以将多个角色或用户设置为服务器 DJ，最多不超过 25 人，从而限制只有 DJ 才能使用基本音乐命令（例如：音量、暂停、停止、跳过......）。",
+      "DJEmbed_Field1": "DJ 系统",
+      "DJEmbed_Field2": "DJ 角色",
+      "DJEmbed_Field3": "DJ 用户",
+      "DJEmbed_Field4": "*以下是 DJ 系统如何工作的示例*",
+      "DJEmbed_Field5": "DJ 命令",
+      "DJMenu_Placeholder": "选择角色",
+      "DJMenu_Placeholder2": "选择用户",
+      "DJMenu_Placeholder3": "选择命令",
+      "MsCEmbed_Desc": "欢迎:user_mention:来到服务器**专用音乐请求通道**的配置菜单，通过该系统您将能够以更直观、简单、有效的方式为所有用户播放歌曲/视频。\n\n*下面是音乐请求频道如何工作的示例*",
+      "ButtonConstructor": {
+        "1": "添加频道",
+        "2": "去除运河",
+        "3": "设置 DJ 角色",
+        "4": "激活 DJ 系统",
+        "5": "禁用 DJ 系统",
+        "6": "创建专用音乐频道",
+        "7": "更改专用音乐频道",
+        "8": "修复专用音乐频道",
+        "9": "删除专用音乐频道",
+        "10": "启用混合搜索",
+        "11": "禁用混合搜索"
+      },
+      "ButtonResponse": {
+        "1": {
+          "Waiting_Response": "使用下面的菜单选择语音通道，将其添加到列表中",
+          "Response_Error_1": "🚫 您选择的频道无效或在本服务器的频道中找不到，请重试。",
+          "Response_Error_2": "🚫 您选择的频道作为语音频道无效，或者在本服务器的频道中找不到，请重试。",
+          "Response_Error_3": "🚫 您选择的频道已在本服务器的音乐频道列表中！",
+          "Response_Success_1": "✅ 频道 :channel_mention: 已成功**保存**在此服务器上的音乐频道列表中！"
+        },
+        "2": {
+          "Waiting_Response": "使用下面的菜单选择语音通道，将其从列表中删除",
+          "Response_Error_1": "🚫 您选择的频道无效或在本服务器的频道中找不到，请重试。",
+          "Response_Error_2": "🚫 您选择的频道作为语音频道无效，或者在本服务器的频道中找不到，请重试。",
+          "Response_Error_3": "🚫 您选择的频道在本服务器的音乐频道列表中没有找到！",
+          "Response_Success_1": "✅ 已成功从该服务器上的音乐频道列表中**删除**频道 :channel_mention:！"
+        },
+        "3": {
+          "Waiting_Response": "使用下面的菜单选择角色，将其设置为 DJ 角色",
+          "Response_Error_1": "🚫 您选择的角色无效或在本服务器的角色中找不到，请重试。",
+          "Response_Error_2": "🚫 您选择的用户无效或未在此服务器成员中找到，请重试。",
+          "Response_Success_1": "✅ 成功**设置**角色 :role_mention: 为本服务器的“DJ 角色”！",
+          "Response_Success_2": "✅ **修改**旧的 ``DJ Role`` 为角色 :role_mention: 并正确将其设置为该服务器当前的 ``DJ Role``！"
+        },
+        "4": {
+          "Response_Success_1": "✅ “DJ 角色系统”已在此服务器上成功**启用**！"
+        },
+        "5": {
+          "Response_Success_1": "✅ 正确**禁用**此服务器上的“DJ 角色系统”！"
+        },
+        "6": {
+          "Response_Success_1": "✅ “专用音乐频道”已在 :channel: 创建成功",
+          "Response_Success_2": "✅ “专用音乐频道”已在 :channel: 创建成功\n\n⚠️ 由于这不是您**第一次**创建“专用音乐频道”，请记住，您不能在每个服务器上创建多个**频道**！"
+        },
+        "7": {
+          "Response_Error_1": "本服务器上未找到 \"专用音乐频道\"，请在创建后再试！",
+          "Response_Error_2": "您必须选择一个有效的频道来替换旧的 \"专用音乐频道\"！",
+          "Waiting_Response": "使用下面的菜单选择要作为该服务器新的 \"专用音乐频道 \"的文本频道。",
+          "Waiting_Response_Placeholder": "选择文本通道",
+          "Response_Success_1": "专用音乐频道 \"已成功更改为 :channel: 频道。"
+        },
+        "8": {
+          "Response_Error_1": "本服务器上未找到 \"专用音乐频道\"，请在创建后再试！",
+          "Response_Error_2": "在此服务器的 \"专用音乐频道 \"中未检测到错误，如果错误继续存在，我们建议您删除此频道并创建另一个频道。",
+          "Response_Success_1": "该服务器上的 \"专用音乐频道 \"中可能出现的所有错误均已修复，如果任何错误仍然存在，我们建议您删除该频道并创建另一个频道。"
+        },
+        "9": {
+          "Response_Error_1": "本服务器上未找到 \"专用音乐频道\"，请在创建后再试！",
+          "Response_Success_1": "您已成功从该服务器移除 \"专用音乐频道\"！"
+        },
+        "10": {
+          "Response_Success_1": "成功**启用**此服务器上的 \"YouTube Mix System\"！"
+        },
+        "11": {
+          "Response_Success_1": "成功**禁用**此服务器上的 \"YouTube Mix System\"！"
+        }
+      }
+    },
+    "parametersMenu": {
+      "MessageTitle": "| Kazuto-音乐参数",
+      "TimeoutEmbed_Desc": "⏳ 您选择选项的时间过长，请重试。",
+      "LoopEmbed_Desc": "选择启动歌曲队列或任何播放时要默认使用的循环选项。",
+      "AutoPlayEmbed_Desc": "选择您希望在启动歌曲队列或任何播放时默认使用的自动播放选项。",
+      "AllTimePlayingEmbed_Desc": "选择是否要在此服务器上启用 24/7 播放歌曲/视频\n\n*注意：此选项受机器人计划重新启动的影响，因此并非完全 24/7。*",
+      "VolumeOption": {
+        "Waiting_Response": "指定初始化歌曲队列或任何播放时要设置的默认音量。 (1-500)",
+        "Response_Error_1": "您必须指定从“1”到“500”的体积百分比",
+        "Response_Error_2": "值“:volume:”不是有效的整数，请重试！",
+        "Response_Success_1": "✅ 已设置以下默认**参数**：\n\n🔊 **体积**: ``:volume:``\n🔁 **循环**：``默认``\n🔃 **自动播放**：``默认``\n⚙️ **24/7**：``默认``",
+        "Response_Success_2": "✅ 以下默认**参数**已被修改：\n\n🔊 **体积**: ``:volume:``\n🔁 **循环**：``默认``\n🔃 **自动播放**：``默认``\n⚙️ **24/7**：``默认``"
+      },
+      "ButtonConstructor": {
+        "1": "这首歌",
+        "2": "整个队列",
+        "3": "禁用循环",
+        "4": "激活自动播放",
+        "5": "禁用自动播放",
+        "6": "24/7 播放",
+        "7": "禁用播放24/7"
+      },
+      "ButtonResponse": {
+        "1": {
+          "Response_Success_1": "✅ 已设置以下默认**参数**：\n\n🔊 **音量**：``默认``\n🔁 **循环**：``这首歌``\n🔃 **自动播放**：``默认``\n⚙️ **24/7**：``默认``",
+          "Response_Success_2": "✅ 以下默认**参数**已被修改：\n\n🔊 **音量**：``默认``\n🔁 **循环**：``这首歌``\n🔃 **自动播放**：``默认``\n⚙️ **24/7**：``默认``"
+        },
+        "2": {
+          "Response_Success_1": "✅ 已设置以下默认**参数**：\n\n🔊 **音量**：``默认``\n🔁 **循环**：``整个队列``\n🔃 **自动播放**：``默认``\n⚙️ **24/7**：``默认``",
+          "Response_Success_2": "✅ 以下默认**参数**已被修改：\n\n🔊 **音量**：``默认``\n🔁 **循环**：``整个队列``\n🔃 **自动播放**：``默认``\n⚙️ **24/7**：``默认``"
+        },
+        "3": {
+          "Response_Success_1": "✅ 已设置以下默认**参数**：\n\n🔊 **音量**：``默认``\n🔁 **循环**：``关闭/关闭``\n🔃 **自动播放**：``默认``\n⚙️ **24/7**：``默认``",
+          "Response_Success_2": "✅ 以下默认**参数**已被修改：\n\n🔊 **音量**：``默认``\n🔁 **循环**：``关闭/关闭``\n🔃 **自动播放**：``默认``\n⚙️ **24/7**：``默认``"
+        },
+        "4": {
+          "Response_Success_1": "✅ 已设置以下默认**参数**：\n\n🔊 **音量**：``默认``\n🔁 **循环**：``默认``\n🔃 **自动播放**：``开``\n⚙️ **24/7**：``默认``",
+          "Response_Success_2": "✅ 以下默认**参数**已被修改：\n\n🔊 **音量**：``默认``\n🔁 **循环**：``默认``\n🔃 **自动播放**：``开``\n⚙️ **24/7**：``默认``"
+        },
+        "5": {
+          "Response_Success_1": "✅ 已设置以下默认**参数**：\n\n🔊 **音量**：``默认``\n🔁 **循环**：``默认``\n🔃 **自动播放**：``关闭/关闭``\n⚙️ **24/7**：``默认``",
+          "Response_Success_2": "✅ 以下默认**参数**已被修改：\n\n🔊 **音量**：``默认``\n🔁 **循环**：``默认``\n🔃 **自动播放**：``关闭/关闭``\n⚙️ **24/7**：``默认``"
+        },
+        "6": {
+          "Response_Success_1": "✅ 已设置以下默认**参数**：\n\n🔊 **音量**：``默认``\n🔁 **循环**：``默认``\n🔃 **自动播放**：``默认``\n⚙️ **24/7**：``已激活``",
+          "Response_Success_2": "✅ 以下默认**参数**已被修改：\n\n🔊 **音量**：``默认``\n🔁 **循环**：``默认``\n🔃 **自动播放**：``默认``\n⚙️ **24/7**：``已激活``"
+        },
+        "7": {
+          "Response_Success_1": "✅ 已设置以下默认**参数**：\n\n🔊 **音量**：``默认``\n🔁 **循环**：``默认``\n🔃 **自动播放**：``默认``\n⚙️ **24/7**：``禁用/关闭``",
+          "Response_Success_2": "✅ 以下默认**参数**已被修改：\n\n🔊 **音量**：``默认``\n🔁 **循环**：``默认``\n🔃 **自动播放**：``默认``\n⚙️ **24/7**：``禁用/关闭``"
+        }
+      }
+    }
+  },
+  "events": {
+    "client": {
+      "ready": {
+        "Bot_Restart_By_Host": "⚠️由于机器人主机空闲，机器人进行了**例行重启**，给您带来的不便敬请谅解。\n\n**注意**: [``:dev_tag:``](https://discordapp.com/users/:dev_id:)",
+        "ReconnectMessage_Title": "[🔰]警告[🔰]",
+        "ReconnectMessage_Desc": "我已经恢复了之前播放的歌曲队列。\n\n📆 日期: **<t::data_time::R>**\n🎵 包含 **``:songs_length:``** 歌曲\n🔈 语音通道: :voice_channel:\n\n**你想再玩一次吗？**\n\n*PS：当此警报处于活动状态时，无法检索未来的歌曲队列。*",
+        "Reconnect_ButtonAccept_Label": "和",
+        "Reconnect_ButtonDeny_Label": "不",
+        "StatsUpdateMessage_Title": "“:bot_username:”的统计信息\n[下次更新: <t::time_to_update::R>]"
+      }
+    },
+    "voice": {
+      "24/7": {
+        "Bot_AFK_Title": "机器人 AFK ⚠️",
+        "Bot_AFK_Desc": "检测到语音通道没有**人**，所以我根据再现时间继续传送服务器已有的**收益**。\n\n一旦**播放**恢复，**硬币收集**将再次恢复\n\n**服务器已获得🪙``:coins_earned:``金币！**",
+        "Bot_Disconnect_Title": "机器人离线⚠️",
+        "Bot_Disconnect_Desc": "由于独自一人，我不得不停止歌曲并退出语音聊天......\n\n**服务器已获得🪙``:coins_earned:``金币！**"
+      }
+    },
+    "message": {
+      "botchannel": {
+        "Spam_Detected_Title": "⚠️ 检测到垃圾邮件",
+        "Spam_Detected_Desc": "在短时间内检测到来自该服务器的**大量请求**，因此该服务器处理请求的速度在一定时间内受到限制。"
+      }
+    },
+    "distube": {
+      "playMessageBuilder": {
+        "title": "玩🎶",
+        "field_1": "被要求",
+        "field_2": "期间",
+        "field_3": "作者",
+        "field_4": "体积",
+        "field_5": "卷发",
+        "field_6": "自动播放",
+        "field_7": "复制品",
+        "field_8": "喜欢",
+        "field_9": "卸货",
+        "field_10": "优质的",
+        "field_11": "居住",
+        "field_12": "过滤器"
+      },
+      "addSongMessageBuilder": {
+        "title": "添加到队列",
+        "field_1": "当前音量",
+        "field_2": "排队",
+        "field_2_value": "``:songs_length: 歌曲 - :songs_formattedDuration:``"
+      },
+      "addListMessageBuilder": {
+        "title": "播放列表已添加到队列 🎶",
+        "field_1": "``:playlist_length: - 歌曲``"
+      },
+      "noSearch_Error_1": "未找到“:query:”的结果",
+      "EmptyMessage_Title": "机器人已断开连接",
+      "EmptyMessage_Desc": "由于独自一人，我不得不停止歌曲并退出语音聊天......",
+      "queueFinished_Title": "排队完毕✅",
+      "queueFinished_Desc_1": "我完成了先生们要求我做的一切。\n\n**服务器已获得🪙``:coins_earned:``金币！**",
+      "queueFinished_Desc_2": "我已经完成了他们要求我做的所有事情，所以，在你们允许的情况下，我要撤回先生们。\n\n**服务器已获得🪙``:coins_earned:``金币！**",
+      "queueFinished_Desc_3": "我已经完成了他们要求我做的所有事情，所以，在你们允许的情况下，我要撤回先生们。\n\n**服务器已获得🪙``:coins_earned:``金币！**\n\n🔰 你想在你的服务器上 24/7 播放音乐吗？使用命令“/settings parameters”并更改名为“playback-24-7”的选项的设置"
+    }
+  },
+  "Buttons_Constructor": {
+    "MsC_AddtoPL": "添加到播放列表",
+    "MsC_DeletefromPL": "从播放列表中删除",
+    "PlaylistMenu_ExitBTN": "出去",
+    "Shop_ExitBTN": "出去",
+    "Play_Loop_BTN": {
+      "1": "逮捕",
+      "2": "停止循环",
+      "3": "停顿",
+      "4": "列表",
+      "5": "下列的"
+    },
+    "StringMenuFilter_Opts": {
+      "1": "过滤明天",
+      "2": "交流滤波器",
+      "3": "老化过滤器",
+      "4": "低音增强",
+      "5": "过滤器“清晰”",
+      "6": "回声滤波器",
+      "7": "过滤“卡拉 OK”",
+      "8": "“颤音”过滤器",
+      "9": "按“消除”过滤",
+      "10": "“蒸汽波”滤镜",
+      "11": "“诅咒”过滤器",
+      "12": "Filtro“慢混响”",
+      "13": "过滤“镶边”",
+      "14": "“门”过滤器",
+      "15": "“哈斯”过滤器",
+      "16": "“反向”过滤器",
+      "17": "过滤器“双”",
+      "18": "“波轮”过滤器",
+      "19": "“环绕”滤波器",
+      "20": "“Mcompand”过滤器",
+      "21": "过滤器“移相器”",
+      "22": "“颤音”过滤器",
+      "23": "“高音”滤波器",
+      "24": "“耳垢”过滤器",
+      "Placeholder": "为当前队列选择一个过滤器",
+      "0_label": "删除过滤器",
+      "0_desc": "从当前队列中删除所有过滤器"
+    }
+  },
+  "functions": {
+    "paginator": "页 :actual_page:（共 :total_pages:）",
+    "paginatorQueue": ":server_name: • 歌曲队列|页 :actual_page:（共 :total_pages:）",
+    "paginatorSpecificPage": {
+      "title": "页面跳转",
+      "label": "页码",
+      "placeholder": "Ex：6、5、10、7。",
+      "error": "您必须输入有效的页码！"
+    },
+    "updatenormalmessage": {
+      "PlayMsg": {
+        "Title": "当前没有播放歌曲",
+        "Description": "加入语音聊天，输入任何网址、歌曲或视频即可播放音乐。\n[服务器支持](https://discord.com/invite/FGBSecT9gq) • [Developed By ℕ𝕖𝕦ℕ𝕠ℝ𝕠天使](https://discordapp.com/users/331496166325747713)",
+        "Footer": "如果遇到故障/错误/错误，请向 dev :dev: 报告以提供支持"
+      },
+      "QueueMsg": {
+        "Title": "队列中有“0”首歌曲",
+        "Description": "*当前队列中没有歌曲*\n\n键入任何 url|song|video 来播放音乐。"
+      }
+    },
+    "updateplaymessage": {
+      "Author": "正在播放🎶",
+      "Field1": "访问",
+      "Field2": "优质的",
+      "Field2Variable1": "有能力的",
+      "Field2Variable2": "残疾人",
+      "Field3": "喜欢",
+      "Field4": "期间",
+      "Field4Variable1": "居住",
+      "Field5": "作者",
+      "Field6": "卸货",
+      "Field6Variable1": "点击这里",
+      "Field6Variable2": "``链接已过期``",
+      "Field7": "附加信息:",
+      "Field8": "*由``:dev:``*开发\n*• 机器人版本: ``:bot_version:``*\n*• 服务器当前有 🪙 ``:coins:`` 硬币*",
+      "Field8Extra": "\n*• 高级会员到期日期: <t::Premium_ExpiryDate::d>*",
+      "Footer": "音量: :volume:% | 环形: :loop_options: |自动播放: :autoplay_options: | 过滤器: :filter_options:"
+    },
+    "updatequeuemessage": {
+      "Title": "队列中有``:queue_songs:`` 歌曲\n估计持续时间: ``:queue_duration:``",
+      "Title2": "队列中有``:queue_songs:`` 歌曲\n估计持续时间: ``:queue_duration:``",
+      "DescVar1": "**正在播放的歌曲**",
+      "Footer": ":server_name: • 歌曲队列"
+    }
+  },
+  "commands": {
+    "others": {
+      "join": {
+        "success": {
+          "MessageTitle": "| Kazuto-音乐",
+          "MessageDescription_Success_1": "✅ 我已成功加入您的语音频道！"
+        }
+      },
+      "leave": {
+        "success": {
+          "MessageTitle": "| Kazuto-音乐",
+          "MessageDescription_Success_1": "✅ 我已成功退出语音频道！"
+        }
+      },
+      "userinfo": {
+        "errors": {
+          "NoDataFound_Error_1": "在我们的数据库中没有找到有关用户:user_mention:的信息，请稍后重试！",
+          "NoDataFound_Error_2": "您选择的用户不是真正的 Discord 用户，而是机器人！请与真人重试。"
+        },
+        "success": {
+          "MessageTitle": "|有关 :user_tag: 的信息",
+          "MessageDesc": "这些是我们在数据库中记录的有关用户 :user_mention: 的数据。\n\n**⇒一般信息**\n```ml\n(-) 用户 ID: :user_id:\n\n(-) 自  起不和谐用户： :user_creation:\n\n(-) 自  起的服务器用户：:user_joined:\n```\n** 播放信息**\n```ml\n(-) 播放的歌曲: :totalsongs_length:\n\n(-) 播放时间: :playback_time:\n\n(-) 最喜欢的歌曲: :favorite_song:\n```",
+          "MessageFooter": "感谢您使用我们的服务 | :dev: 的知识产权"
+        }
+      },
+      "serverinfo": {
+        "errors": {
+          "NoDataFound_Error_1": "我们的数据库中没有找到该服务器的信息，请稍后重试！"
+        },
+        "success": {
+          "MessageTitle": "|有关服务器 :guild_name: 的信息",
+          "MessageDesc": "这是我们在数据库中记录的有关该服务器的数据。\n\n**⇒一般信息**\n```ml\n(-) 服务器 ID: :server_id:\n(-) 所有者: :owner_tag:\n(-) 用户: :users_length:\n(-) 机器人: :bots_length:\n(-) 通道: :channels_length:\n(-) 角色: :roles_length:\n(-) 从  创建：:server_creation:\n```\n**⇒机器人信息**\n```ml\n(-) 语言: :language:\n(-) 高级: :premium_data:\n(-) 兑换的密钥: :keys_redeemed:\n(-) 硬币: :server_coins:\n(-) 专用通道: :msc_name:\n(-) DJ: :dj:\n(-) 自定义声音: :soundboard_length:\n(-) 播放时间: :playtime:\n```",
+          "MessageFooter": "感谢您使用我们的服务 | :dev: 的知识产权"
+        }
+      },
+      "support": {
+        "success": {
+          "MessageDesc": "``🔰`` | **您想获得机器人功能的支持吗？**\n**您想向机器人建议新功能吗？**\n**或者您想报告您遇到的问题/错误吗？**\n\n只需[``单击此处``](:support_server:) 或单击下面的按钮即可加入机器人支持服务器并联系机器人管理团队！"
+        }
+      },
+      "about": {
+        "success": {
+          "MessageTitle": "|关于:bot_tag:",
+          "MessageDescription": "您好:user:，首先我们希望您了解一下这个机器人的历史和发展，以了解我们的目标和宗旨。\n\n<:creativity:1102880753324408872> __**我们的主要焦点**__\n> 该机器人是另一个名为“Kazuto”的出色机器人的一部分，该机器人的创建目的是专注于为我们的用户提供最佳的免费 Discord 音乐体验，因此我们将音乐模块与主机器人分开“Kazuto”，我们从头开始创建了这个机器人。\n\n<:start:1102881879255957504> __**我们的第一步**__\n> 我们从一些命令开始，例如 [/music play] => [当前重命名为 /music play]、[/musicvolume] => [当前重命名为 /musicvolume]、[/music settings] 这包括一些选项，例如跳过、暂停、恢复等... => [当前重命名为 /music 设置]，以及其他命令。\n\n> 然后，我们努力实现新系统，例如播放列表系统[具有多个命令和完全动态且直观的菜单的超级完整系统]，具有多个按钮的音乐请求频道[每个按钮都用作命令，因此我们需要相当长的时间来实现所有内容]，歌曲历史记录[/history] ​​=> [当前重命名为/history命令字符串]，过滤系统，可调节过滤系统，重新连接系统[用于当机器人重新启动或突然崩溃时，一旦再次上线，它就会自动恢复您的歌曲。]等。\n\n> 不久之后，高级系统出现了，其实施的目的是通过限制对机器人性能影响较大的某些功能来提高我们的性能。\n\n<:goal:1102884214774431784> __**我们的最终目的**__\n> 最后，我们最终扩展了今天的机器人，所以我希望您欣赏这项工作，不要将我们视为 Discord 上的“只是另一个机器人”，因为我们完全免费提供的所有内容都带有多种功能开发人员付出了数小时的努力，不求任何回报。\n\n> 话虽这么说，我们希望您喜欢我们的机器人并拥有良好的体验！\n\n*您遇到的任何故障/错误/错误，请随时向首席开发人员“:dev:”报告以获得支持！*",
+          "MessageDescription_2": ":user: 您好，我是由``:dev:`` 创建的高音质 Discord 音乐机器人。目前，我可以播放多个音乐平台的歌曲，并且与其他音乐机器人相比，提供了大量的功能。如果您需要有关命令的更多信息或需要帮助，请使用 [/help] 命令。\n\n```javascript\n -  -  -  一般信息  -  -  - \n\n版本: :bot_version:\n延迟: :bot_latency:\n命令: :commands_size:\n服务器: :servers_size:\n用户: :users_size:\n玩家: :servers_playing_size:\n活动/准时：\n:bot_uptime:\n\n -  -  -  技术信息  -  -  - \n\n操作系统: :bot_os:\nCPU: :cpu_data:\nRAM: :ram:\n线程/线程: :cpu_threads:\n时钟: :cpu_clock:\n\n------ 制作人员 ------\n\n主要开发者: :dev:\n执行环境/运行时：\nNode.js :nodejs_version:\n主要依赖：\nDiscord.js v:discordjs_version:、DisTube v:distube_version:、Mongoose v:mongoose_version:\n表情符号/图标：[Icons8、Flaticon]\n经济支持（用于机器人托管）: :economic_support:```",
+          "Field1_Title": "<a:dev:1061452497107038228> 开发人员",
+          "Field2_Title": "🎵 提供服务来自",
+          "Field3_Title": "🌐 全球时间播放音乐",
+          "Button1_Label": "中等的",
+          "Button2_Label": "状态⇾",
+          "Button3_Label": "⇽ 关于 Kazuto-Music"
+        }
+      },
+      "help": {
+        "success": {
+          "MenuStructure": {
+            "Placeholder": "选择命令类别",
+            "Label": {
+              "label01": "开始",
+              "label02": "开发商",
+              "label03": "系统",
+              "label04": "环境",
+              "label05": "其他的"
+            },
+            "Description": {
+              "desc01": "查看类别列表",
+              "desc02": "查看所有机器人开发人员命令",
+              "desc03": "查看机器人独特系统的所有命令",
+              "desc04": "查看所有机器人配置命令",
+              "desc05": "查看所有其他机器人命令"
+            }
+          },
+          "MessageTitle": ":bot_username: 命令",
+          "MessageDescription": ":user_mention:，您好，此菜单将帮助您了解 **机器人命令** 及其工作原理，以便您拥有美妙的听音乐体验！\n\n该机器人拥有**自己的系统**和该机器人的**专属**以及**不断更新**以改进其操作并实现新功能。\n\n我们有一些``:commands_size: 命令``分布在 4 个类别中，单击其中之一下面的菜单以了解有关命令的更多信息。",
+          "MessageFooterText": ":bot_username: ⓒ | :dev: 的知识产权",
+          "MapMessageText": "*命令（:cmd_index:）*\n\n⭐ **姓名**\n:name_block:\n\n🔤 **描述**\n:desc_block:\n\n🌐 **使用**\n:usage_block:\n\n🔗 **示例**\n:example_block:"
+        }
+      },
+      "review": {
+        "success": {
+          "MessageTitle": "|机器人审查",
+          "MessageDescription": "你好:user:！在评论中发表意见之前，请务必通过单击下面的按钮根据您的经验选择您想要给机器人的评分。"
+        }
+      }
+    },
+    "developer": {
+      "viewkeys": {
+        "_comment": "该按钮不需要不同的文本，因此可以重复使用其他按钮。 （暂时）[不要翻译这段文字！]"
+      },
+      "keygen": {
+        "_comment": "该按钮不需要不同的文本，因此可以重复使用其他按钮。 （暂时）[不要翻译这段文字！]"
+      },
+      "proxysys": {
+        "_comment": "该按钮不需要不同的文本，因此可以重复使用其他按钮。 （暂时）[不要翻译这段文字！]"
+      },
+      "reload": {
+        "dev_error_1": "您无权访问此命令，它是机器人开发人员的**专有**。",
+        "cmd_success_1": "✅ 所有“命令”已正确初始化！",
+        "events_success_1": "✅ 所有“事件”已正确初始化！",
+        "buttons_success_1": "✅ 所有“按钮”已正确初始化！",
+        "db": {
+          "error_1": "⛔ 机器人已经连接到数据库！",
+          "loading": "正在尝试连接到 kazuto-music 数据库......",
+          "success_1": "✅ 与数据库的连接已正确初始化！"
+        }
+      },
+      "status": {
+        "Database_Status": {
+          "Val1": "🔴离线",
+          "Val2": "🟢 已连接",
+          "Val3": "🟠 连接",
+          "Val4": "🟣 断开连接"
+        },
+        "Default_Embed": {
+          "Title": "``:user_username:`` 的统计信息",
+          "Field1Title": "🔰 状态",
+          "Field1Value": "┕``🟢在线``",
+          "Field2": "📊 Ping",
+          "Field3": "🕘 连接",
+          "Field4": "🗃️数据库",
+          "Field5": "📆 创作",
+          "Field6": "🤖 版本"
+        },
+        "Dev_Embed": {
+          "Title": "``:user_username:`` 的统计信息",
+          "Field1Title": "🔰 状态",
+          "Field1Value": "┕``🟢在线``",
+          "Field2": "📊 API Ping",
+          "Field3": "🕘 API 连接",
+          "Field4": "🌐 服务器",
+          "Field5": "👤 用户",
+          "Field6": "📚 频道",
+          "Field7": "🗃️数据库",
+          "Field8": "🗄️内存",
+          "Field9": "⏰ 失效",
+          "Field10": "⚙️操作系统",
+          "Field11": "🎛️CPU",
+          "Field12": "📡CPU数据",
+          "Field13": "📆 创作",
+          "Field14": "🤖 版本",
+          "Field15": "📘Discord.js"
+        }
+      }
+    },
+    "setup": {
+      "redeem": {
+        "errors": {
+          "PremiumKey_Error_1": "您提供的密钥无效**，请尝试使用**有效**的密钥！",
+          "PremiumKey_Error_2": "您提供的密钥已在此服务器上**兑换**，请尝试**不同的密钥**！",
+          "PremiumKey_Error_3": "您提供的密钥已被**兑换**，请尝试另一个**不同的密钥**"
+        },
+        "success": {
+          "PremiumKey_Success_1": "✅ 钥匙兑换成功",
+          "PremiumKey_Success_2": "您已成功从**``:key_duration:``**兑换**高级密钥**，高级功能已在此服务器上激活！",
+          "PremiumKey_Success_3": "您已成功从 **``:key_duration:``** 兑换**高级密钥**，高级功能已在此服务器上激活！\n\n*由于您之前有高级订阅，因此您的订阅已续订！*",
+          "PremiumKeyField_Success_1": "👤 兑换为",
+          "PremiumKeyField_Success_2": "🕘 有效期",
+          "PremiumKeyFooter_Success_1": "我们感谢您与 K-Music 项目的合作"
+        }
+      },
+      "setup-KM": {
+        "general": {
+          "MessageTitle": "|设置 Kazuto-音乐"
+        },
+        "success": {
+          "MessageDescription_Success_1": "欢迎 <@:user_id:> 来到 Kazuto-Music 机器人配置菜单，在这里您将找到机器人的多个现有配置选项，因为您的**第一步**在下面选择您想要创建/修改的配置你的喜好。"
+        },
+        "MenuStructure": {
+          "Placeholder": "选择一个选项",
+          "Label": {
+            "label01": "语言",
+            "label02": "机器人通道",
+            "label03": "参数",
+            "label04": "频道限制",
+            "label05": "DJ系统",
+            "label06": "搜索建议",
+            "label07": "搜索合辑 [YT]"
+          },
+          "Description": {
+            "desc01": "更改机器人的当前语言",
+            "desc02": "为音乐/视频请求设置专用通道",
+            "desc03": "配置基本播放参数（En：音量）",
+            "desc04": "限制音乐播放到特定频道",
+            "desc05": "设置 DJ 系统来控制播放",
+            "desc06": "更改搜索建议的来源",
+            "desc07": "启用/禁用机器人的 Mixes 搜索系统"
+          }
+        }
+      }
+    },
+    "systems": {
+      "coins": {
+        "success": {
+          "DataMessage_Success_1": "🪙 服务器币``:guild_name:``",
+          "DataMessage_Success_2": "**服务器当前有** 🪙``:coins_total:`` **硬币**！\n\n❓ **如何获得更多金币？**\n*开始与机器人一起播放音乐！ （15 分钟播放音乐 => 1 个硬币）*\n\n⚠️ **注意**：*对于聪明的人来说，激活 24/7 模式将无法在服务器上获得额外的金币。*\n\n❓ **硬币有什么用？**\n*它们用于在机器人商店购买高级订阅，从而支持我们的项目！*"
+        }
+      },
+      "fun": {
+        "errors": {
+          "Internal_Error_1": "发生内部错误，请向开发人员报告``:dev:``"
+        },
+        "success": {
+          "Rickroll_Success_1": "|您已滚动当前队列",
+          "Troll_Success_1": "|您已经浏览了当前队列"
+        }
+      },
+      "music": {
+        "errors": {
+          "Bot_Recently_Disconnected_Error_1": "机器人最近已断开连接，您必须等待“几秒钟”才能再次玩任何游戏！",
+          "Playlist_Error_1": "您刚刚提供的播放列表超出了**非高级**服务器的 :playlist_limit: 首歌曲限制，请使用另一个播放列表重试！",
+          "Playlist_Error_2": "您刚刚提供的播放列表超出了 :playlist_limit: 首歌曲的限制，请使用其他播放列表重试！",
+          "DJ_Error_1": "您没有 **DJ** 权限来执行此操作",
+          "Volume_Error_1": "您必须指定 1% 到 100% 之间的音量百分比",
+          "Volume_Error_2": "您必须指定 1% 到 500% 之间的音量百分比",
+          "Search_ID_Error_1": "您必须提供有效的**ID**",
+          "Search_Timeout_Error_1": "⏳ 您提供歌曲的 **ID** 的时间太长，请重试",
+          "TimeCMD_Error_1": "您必须指定有效的分钟",
+          "SongID_Error_1": "您不能将这首**歌曲**跳到已经播放的同一首**歌曲**！",
+          "SongID_Error_2": "您提供的**ID**``:id:``**不属于**任何尾曲，请使用有效的**ID**重试！",
+          "SongID_Error_3": "您必须提供有效的数字 ID！",
+          "SongID_Error_4": "您无法删除已在播放的同一首**歌曲**！",
+          "SongID_Error_5": "结束ID不能小于起始ID，请重试！",
+          "SongID_Error_6": "您无法更改已播放歌曲的位置！",
+          "Dups_Error_1": "找不到可删除的重复歌曲，请重试！",
+          "Lyrics_Error_1": "❌我找不到这首歌的歌词",
+          "Filter_Error_1": "队列上没有过滤器。",
+          "Filter_Error_2": "您不能在使用相同的自定义过滤器的同时设置“:filter:”过滤器！",
+          "Filter_Error_3": "您不能在使用相同的默认过滤器的同时设置自定义过滤器``:filter:``！",
+          "Vote_Error_1": "❌ 您之前已投票跳过这首歌",
+          "NextSong_Error_1": "❌ 此队列中没有下一首歌曲",
+          "PreviousSong_Error_1": "❌ 此队列中没有上一首歌曲",
+          "247_Error_1": "机器人离线",
+          "247_Error_2": "该服务器上未激活 **24/7** 模式，因此我必须继续与 vc 断开连接...\n\n🔰 如果您想启用**24/7**模式，请使用命令**/settings parameters**",
+          "Import_Error_1": "您提供的歌曲列表文件无效，可能已被修改或导出错误，请使用有效文件重试！"
+        },
+        "success": {
+          "Play_Success_1": "📀 收到请求，🔎 我正在搜索......",
+          "Search_Success_1": "搜索结果``:Search_Title:``",
+          "Search_Success_2": "*你有*``5 分钟``*选择一首写在其 ID 下方的歌曲*",
+          "VolumeCMD_Success_1": "|您已将当前音量设置为``:volume:%``",
+          "ReplayCMD_Success_1": "|你又播放了这首歌",
+          "TimeCMD_Success_1": "|您将歌曲的播放时间更改为第二个``:time:``",
+          "SpeedCMD_Success_1": "|您已将歌曲的速度更改为:speed:",
+          "Skipto_Success_1": "|您已将当前歌曲跳至队列中的歌曲“:id:”。",
+          "DeleteSong_Success_1": "|您已从队列中删除了 ID 为“:id:”的歌曲。\n\n🎵 歌曲名称: ``:deleted_songName:``",
+          "DeleteSong_Success_2": "|您已从队列中删除 :deletedsongs_length: 首歌曲。",
+          "DeleteSong_Success_3": "|您已从当前队列中删除所有歌曲！",
+          "DeleteSong_Success_4": "|您已从当前队列中删除所有重复的歌曲！",
+          "SwitchedSong_Success_1": "|您已将歌曲``:song_name:``移动到位置``:final_position:``！",
+          "Grab_Success_1": "|您已成功将当前歌曲保存到您的 DM 中！",
+          "Filter_Success_1": "|删除了之前设置的过滤器",
+          "Filter_Success_2": "|删除了当前队列的“:filter:”过滤器",
+          "Filter_Success_3": "|您为当前队列设置过滤器``:filter:``",
+          "Disconnect_Success_1": "|我与VC断开了！",
+          "Coin_Profit_Success_1": "赚取金币",
+          "Coin_Profit_Success_2": "**服务器已获得🪙``:coins:``金币！**",
+          "Vote_Success_1": "✅ 票数已满，跳过歌曲...",
+          "Vote_Success_2": "|您已投票跳过该歌曲 (:actual_votes:/:required_votes:) 票",
+          "Skip_Success_1": "|您跳过了当前歌曲",
+          "PreviousSkip_Success_1": "|您已将歌曲跳至队列中的上一首歌曲",
+          "Stop_Success_1": "|停止并清除当前歌曲队列",
+          "Stop_Success_2": "|您已停止当前的歌曲队列",
+          "Pause_Success_1": "|您已暂停当前歌曲",
+          "Resume_Success_1": "|您已经总结了当前歌曲",
+          "Shuffle_Success_1": "|您已打乱当前歌曲队列的顺序",
+          "Autoplay_Success_1": "|您将自动播放模式更改为 : ``:autoplay_options:``",
+          "RelatedSong_Success_1": "|您已将相关歌曲添加到当前歌曲队列",
+          "Loop_Success_1": "|修改 el modo bucle a: ``:loop_options:``",
+          "Queue_Success_1_Var1": "队列中有``:queue_songs:`` 歌曲\n估计持续时间: ``:queue_duration:``",
+          "Queue_Success_1_Var2": "队列中有``:queue_songs:`` 歌曲\n估计持续时间: ``:queue_duration:``",
+          "Queue_Success_2": "\n\n[<a:queueid_animated:1027084303592595476>] **``ID - :id:``**\n[<a:music_animated:1027019977687056405>] [``:song_name:``](:song_url:)\n[:song_source_emoji:] :song_source_val:\n[<a:duration_animated:1027019986822234113>]``:song_formattedDuration:``\n[<a:user_animated:1027019982418214932>] [``:song_author:``](https://discordapp.com/users/:song_author_id:)",
+          "Export_Success_1": "|您已成功导出当前歌曲列表，记得保存文本文件以便稍后导入！",
+          "Import_Loading": "加载列表中的歌曲",
+          "Import_Success_1": "|您已成功导入 :songs_length: 首歌曲"
+        },
+        "edit": {
+          "Music_PlayMsg_PlayField": "⏸️ 玩家已暂停 :user_tag:",
+          "Music_PlayMsg_PlayField2": "🎶 :user_tag: 恢复玩家"
+        }
+      },
+      "musicRecord": {
+        "MenuStructure": {
+          "Placeholder": "选择一个选项",
+          "Label": {
+            "label01": "服务器",
+            "label02": "用户"
+          },
+          "Description": {
+            "desc01": "查看整个服务器的历史记录",
+            "desc02": "查看特定用户的历史记录"
+          }
+        },
+        "errors": {
+          "Play_Error_1": "您需要进行语音聊天才能播放任何歌曲历史记录！",
+          "UserNotFound_Error_1": "在此服务器上找不到该用户的数据，请重试！",
+          "Permission_Error_1": "您没有足够的权限来执行此操作"
+        },
+        "success": {
+          "UserFound_Success_1": "✅ 找到用户历史记录:user_mention:",
+          "DeleteServerHistory_Success_1": "✅ 您已成功从服务器删除歌曲历史记录！",
+          "DeleteUserHistory_Success_1": "✅ 您已成功删除用户:user_mention:的歌曲历史记录！",
+          "DeleteUserHistory_Success_2": "✅ 您已成功删除您的歌曲历史记录！",
+          "MessageDescription_Success_1": "_在下面选择您想查看的历史记录类型_",
+          "Waiting_UserSelection_Success_1": "⏳ 提及用户或提供他们的 Discord ID",
+          "DataMap_Success_1": "_*歌曲 - :id:*_\n\n>>> 🔰 **标题**: [``:song_name:``](:song_url:)\n⏱️ **持续时间**: ``:song_formattedDuration:``\n我️ **作者**: [``:song_author:``](:song_authorURL:)\n👤 **请求者**: ``:song_requestedBy:``\n🕘 **请求日期**: <t::song_requestedDate::R>\n👍 **喜欢**: ``:song_likes:``\n📊 **播放**: ``:song_views:``",
+          "DataMap_Success_2": "_*歌曲 - :id:*_\n\n>>> 🔰 **标题**: [``:song_name:``](:song_url:)\n⏱️ **持续时间**: ``:song_formattedDuration:``\n我️ **作者**: [``:song_author:``](:song_authorURL:)\n🕘 **请求日期**: <t::song_requestedDate::R>\n👍 **喜欢**: ``:song_likes:``\n📊 **播放**: ``:song_views:``",
+          "MessageTitle_Success_1": "在“:guild_name:”上播放的最后 :songs_length: 首歌曲",
+          "MessageTitle_Success_2": "``:guild_name:`` 中播放的最后 15 首歌曲",
+          "MessageTitle_Success_3": "``:user_name:`` 播放的最后 :songs_length: 首歌曲"
+        }
+      },
+      "playlist": {
+        "general": {
+          "MessageTitle": "|播放列表系统"
+        },
+        "errors": {
+          "Playlist_Play_Error_1": "❌ 您需要处于语音聊天状态才能播放任何播放列表",
+          "Playlist_Play_Error_2": "您无法播放播放列表“:playlist_name:”，因为它没有保存任何歌曲。",
+          "Playlist_Play_Error_3": "您无法播放播放列表“:playlist_name:”，因为所有者将其设置为“私人播放列表”",
+          "Playlist_Error_1": "此服务器上的数据中已存在播放列表“:playlist_name:”，请尝试使用其他名称创建播放列表。",
+          "Playlist_Error_2": "❌ 您的**播放列表**中不存在播放列表``:playlist_name:``，请使用**现有播放列表**重试。",
+          "Playlist_Error_3": "播放列表“:playlist_name:”与**数据库**中的播放列表不匹配，请再次尝试正确输入名称。",
+          "Playlist_Error_4": "❌ 此服务器上已存在名为“:newplaylist_name:”的播放列表，请使用其他名称重试！",
+          "Playlist_NP_Error_1": "您只能在非高级服务器上创建最多“3 个播放列表”",
+          "Playlist_NP_Error_2": "您无法使用播放列表“:playlist_name:”，因为该服务器的**高级订阅**已过期",
+          "Playlist_NP_Error_3": "您无法在 **非高级服务器** 上保存超过“75 首歌曲”，请稍后重试。",
+          "Playlist_P_Error_1": "您只能在高级服务器上创建最多“25 个播放列表”",
+          "Playlist_P_Error_2": "您无法在 **高级服务器** 上保存超过“300 首歌曲”，请稍后重试。",
+          "Playlist_NotFound_Error_1": "❌ 您尚未在此服务器上创建任何播放列表\n \n⚠️ 如果您想在此服务器上创建歌曲播放列表，请使用命令``/playlist create``",
+          "Playlist_NotFound_Error_2": "❌ 该用户尚未在此服务器上创建他们的第一个播放列表",
+          "Playlist_NotFound_Error_3": "❌ 该服务器上尚未创建**播放列表**，请稍后再试！",
+          "Playlist_NotFound_Error_4": "❌在此服务器上找不到播放列表，请稍后再试！",
+          "Playlist_NotFound_Error_5": "❌ 播放列表``:playlist_name:`` 不存在，请使用**现有播放列表**重试！",
+          "Playlist_Song_Error_1": "⚠️ 您要保存的歌曲之前已保存到此播放列表中！",
+          "Playlist_Song_Error_2": "⚠️ 您提供的播放列表不受支持，因为它是 YouTube Mix，并且由于区域和帐户差异几乎不可能获取歌曲。",
+          "Playlist_NoSong_Error_1": "播放列表``:playlist_name:``没有任何歌曲，请稍后再试。",
+          "Playlist_NoSong_Error_2": "❌ **发生错误**\n \n**1**：检查您提供的播放列表是否有效\n \n**2**：检查您提供的歌曲ID是否有效\n \n如果你想知道哪些是你的播放列表，请使用``/playlist [list]``，如果你想知道哪个是你正在查找的歌曲的ID，请使用``/playlist songs [playlist]``",
+          "Playlist_InvalidURL_Error_1": "❌ 此播放列表中歌曲的 URL 无效，请尝试播放另一个播放列表。",
+          "Playlist_Privacy_Error_1": "你看不到``:user_tag:``的**播放列表**，因为他将它们设置为``私人播放列表``",
+          "Playlist_Privacy_Error_2": "您看不到播放列表“:playlist_name:”，因为所有者将其设置为“私有播放列表”",
+          "Playlist_Migrate_Error_1": "❌ ID 为“:server_id:”的服务器不存在，请使用**有效的服务器**重试！",
+          "MenuMessage_Timeout_Error_1": "⏳ 您的播放列表菜单中的时间已过期，如果您想再次使用它，请再次运行该命令！",
+          "Playlist_ListDataMap_Error_1": "在此服务器上找不到播放列表！",
+          "Playlist_ListDataMap_Error_2": ">>> **在此服务器上找不到公共播放列表！**"
+        },
+        "success": {
+          "HelpMessageTitle_Success_1": "播放列表系统帮助``:user_username:``",
+          "HelpMessageExtraField_Success_1": "✏️ 如何创建播放列表",
+          "HelpMessageExtraField_Success_2": "要创建播放列表，只需使用“/playlist create”命令，并且您必须提供要创建的播放列表的名称。",
+          "HelpMessageExtraField_Success_3": "🗑️ 如何删除播放列表",
+          "HelpMessageExtraField_Success_4": "要删除播放列表，只需使用“/playlist delete”命令，并且您必须提供要删除的播放列表的名称。",
+          "HelpMessageExtraField_Success_5": "📝 如何更改播放列表的名称",
+          "HelpMessageExtraField_Success_6": "要重命名您的播放列表，只需使用“/playlist rename”命令并提供您将分配给播放列表的新名称。",
+          "HelpMessageExtraField_Success_7": "👥 如何更改播放列表的隐私",
+          "HelpMessageExtraField_Success_8": "要更改播放列表的隐私选项，只需使用命令“/播放列表隐私”，然后您必须提供播放列表的名称并选择其中一项隐私选项。",
+          "HelpMessageExtraField_Success_9": "📄 如何查看您或其他用户的播放列表列表",
+          "HelpMessageExtraField_Success_10": "要查看所有播放列表的列表，只需使用命令“/playlist list”。如果您想查看用户的播放列表，请在命令的额外选项中选择用户。",
+          "HelpMessageExtraField_Success_11": "📚 如何查看服务器上的播放列表列表",
+          "HelpMessageExtraField_Success_12": "要查看服务器用户的播放列表列表，只需使用“/playlist server”命令，就会显示一条消息，其中包含服务器上的所有播放列表。",
+          "HelpMessageExtraField_Success_13": "🎵 如何从播放列表中保存/删除歌曲",
+          "HelpMessageExtraField_Success_14": "要将歌曲保存到播放列表，只需使用“/playlist savesong”命令，然后您需要提供歌曲的 URL 以及要将其保存到的播放列表。\n如果您想删除歌曲，则必须使用命令“/playlist deletesong”，并且必须提供歌曲的**ID**（**ID**是在您保存歌曲时分配的）和保存这首歌曲的播放列表。",
+          "HelpMessageExtraField_Success_15": "🎶 如何查看播放列表中的歌曲",
+          "HelpMessageExtraField_Success_16": "要查看播放列表中的歌曲，只需使用“/playlist songs”命令，然后您需要提供播放列表的名称。",
+          "HelpMessageExtraField_Success_17": "i️ 如何查看歌曲的ID",
+          "HelpMessageExtraField_Success_18": "要查看歌曲的 ID，只需使用“/playlist songs”命令，然后您必须提供播放列表的名称，并且将显示一条消息，其中包含该播放列表中所有歌曲的数据。",
+          "HelpMessageExtraField_Success_19": "▶️ 如何播放任意播放列表",
+          "HelpMessageExtraField_Success_20": "要播放播放列表，只需使用“/playlist load”命令，然后您需要提供播放列表的名称。",
+          "HelpMessageExtraField_Success_21": "🌐 与您的播放列表有效互动",
+          "HelpMessageExtraField_Success_22": "您可以使用命令“/playlist menu”，然后您必须提供播放列表的名称，该命令将显示一个菜单，该菜单将允许您与播放列表系统的常规命令进行更动态的交互。",
+          "HelpMessageExtraField_Success_23": "🗄️ 将播放列表从一台服务器迁移到另一台服务器",
+          "HelpMessageExtraField_Success_24": "您只需使用“/playlist migrate”命令即可将播放列表从一台服务器迁移（复制）到另一台服务器，然后您必须提供播放列表的名称以及要将播放列表迁移到的服务器的 ID。",
+          "HelpMessageFooterText_Success_1": "为 :dev: 保留的所有播放列表系统积分 | :previous_year: - :actual_year: ©",
+          "MenuMessageTitle_Success_1": "|播放列表菜单“:playlist_name:”",
+          "MenuMessageDescription_Success_1": "欢迎 :user_mention: 来到您的播放列表菜单\n请记住，您最多可以创建“25”个播放列表\n \n``Ⓐ`` **-** ``显示该服务器的播放列表列表``\n``Ⓑ`` **-** ``显示该服务器的热门播放列表列表``\n``Ⓒ`` **-** ``显示所有播放列表的列表``\n``Ⓓ`` **-** ``显示此播放列表中所有歌曲的列表``\n``Ⓔ`` **-** ``将当前歌曲添加到此播放列表``\n``Ⓕ`` **-** ``将特定歌曲添加到此播放列表``\n``Ⓖ`` **-** ``播放此播放列表中的所有歌曲``\n``Ⓗ`` **-** ``更改此播放列表的隐私（私人/公共）``\n``Ⓘ`` **-** ``更改此播放列表的当前名称``\n``Ⓙ`` **-** ``将此播放列表数据迁移到另一台服务器``\n``Ⓚ`` **-** ``从此播放列表中删除当前歌曲``\n``Ⓛ`` **-** ``从此播放列表中删除特定歌曲``\n``Ⓜ`` **-** ``删除此播放列表``",
+          "MenuMessageFooterText_Success_1": ":dev: 保留所有权利 | :previous_year: - :actual_year: ©",
+          "Playlist_ListDataMap_Success_1": "✏️ **名称**: ``:playlist_name:``\n📆 **已创建**: <t::playlist_timeCreated::R>\n🎵 有 ``:songs_length:`` 歌曲",
+          "Playlist_ListData_Title_Success_1": "用户播放列表``:user_tag:``",
+          "Playlist_Success_1": "✅ 播放列表``:playlist_name:`` 已成功创建",
+          "Playlist_Success_2": "✅ 播放列表``:playlist_name:`` 已成功删除",
+          "Playlist_Success_3": "✅ 正确地将播放列表名称``:playlist_name:`` 更改为``:newplaylist_name:``",
+          "Playlist_Success_4": "✅ 正确地将播放列表``:playlist_name:`` 的隐私更改为``:privacy_value:``",
+          "Playlist_Success_5": "✅ 您已成功保存**歌曲**：\n \n📌 **标题**: ``:song_name:``\n🌐 **URL**:``:song_url:``\nℹ️ **ID**: ``:song_id:``\n\n在播放列表``:playlist_name:``！",
+          "Playlist_Success_5_2": "已检测到播放列表 URL，正在保存所有可能的歌曲...",
+          "Playlist_Success_5_3": "✅ 您已成功将``:songs_length:`` **歌曲**保存到``:playlist_name:`` 播放列表！\n\n⚠️ **注意**：您提供的播放列表可能有更多歌曲可供保存，但我只是根据此服务器上设置的每个播放列表的歌曲限制保存了歌曲。",
+          "Playlist_Success_6": "✅ 您已成功删除**歌曲**：\n \n📌 **标题**: ``:song_name:``\n🌐 **URL**:``:song_url:``\nℹ️ **ID**: ``:song_id:``\n\n来自播放列表``:playlist_name:``！",
+          "Playlist_Success_7": "📀 请求已收到...",
+          "Playlist_Waiting_Success_1": "<a:loadingWB:986050761031041084> 正在保存当前队列中的歌曲...",
+          "Playlist_Success_8": "✅ 已成功将``:songs_length:`` 歌曲保存到播放列表``:playlist_name:`` ！",
+          "Playlist_Migrate_Success_1": "✅ 您的播放列表``:playlist_name:`` 已成功迁移到服务器``:server_name:``\n \n⚠️ **注意**: Debido a que el **nombre de tu playlist** ya existe en este server, tuve que renombrarla a ``:new_playlist_name:``",
+          "Playlist_Migrate_Success_2": "✅ 您的播放列表``:playlist_name:`` 已成功迁移到服务器``:server_name:``",
+          "Playlist_ServerListDataMap_Success_1": "``播放列表`` **-** ``:id:``\n✏️ **名称**: ``:playlist_name:``\n👤 **创建者**: <@:user_id:>\n📆 **已创建**: <t::playlist_timeCreated::R>\n📊 **播放**: ``:playlist_views:``\n🎵 有``:songs_length:`` 歌曲",
+          "Playlist_TopListDataMap_Success_1": "``播放列表`` **-** ``:medals_or_id:``\n✏️ **名称**: ``:playlist_name:``\n👤 **创建者**: <@:user_id:>\n📆 **已创建**: <t::playlist_timeCreated::R>\n📊 **播放**: ``:playlist_views:``\n🎵 有 ``:songs_length:`` 歌曲",
+          "Playlist_SongsListDataMap_Success_1": "_*歌曲 - :id:*_\n\n>>> 📌 **标题**: [``:song_title:``](:song_url:)\n📊 **播放**: ``:song_views:``\n👤 **上传者**: [``:uploader_name:``](:uploader_url:)\n⏱️ **持续时间**: ``:song_formattedDuration:``\nℹ️ **ID**: ``:song_id:``",
+          "Playlist_ServerListDataTitle_Success_1": "服务器播放列表列表``:server_name:``",
+          "Playlist_TopListDataTitle_Success_1": "服务器``:server_name:`` 的热门播放列表",
+          "Playlist_SongsListTitle_Success_1": "播放列表歌曲``:playlist_name:``",
+          "Playlist_PLManage_Title": "管理服务器播放列表 :guild_name:",
+          "Playlist_PLManage_Title2": "管理播放列表: \":playlist_name:\"",
+          "Playlist_PLManage_Desc": "在继续之前，必须在下面的选择器中选择或创建一个播放列表，以显示播放列表管理菜单。",
+          "Playlist_PLManage_Desc2": "该播放列表目前没有歌曲。",
+          "Playlist_PLManage_Placeholder": "选择播放列表",
+          "Playlist_PLManage_Placeholder2": "选择要删除的一首或多首歌曲",
+          "Playlist_PLManage_Label": "创建新播放列表",
+          "Playlist_PLManage_OpenAnotherMenu": "检测到您在另一个 [``信息``](:message_url:)中打开了另一个菜单，请记住，您一次只能使用一个菜单。",
+          "Playlist_PLManage_CheckingSongsRateLimit": "您已在不久前初始化了歌曲检查程序！\n您必须完成或等待 10 分钟重新初始化。",
+          "Playlist_PLManage_CheckingSongs": "查看播放列表中的所有歌曲...",
+          "Playlist_PLManage_FixSongs_Success_1": "播放列表中的歌曲未发现任何错误。",
+          "Playlist_PLManage_FixSongs_Success_2": "共发现 :songs_length: 不可用，造成这种常见错误的可能原因包括版权删除、区域封锁、隐私更改等。\n\n⚠️ 请记住，出现错误的歌曲即使仍存储在播放列表中也无法播放，因为它们已不可用，所以保留它们毫无用处。作为最后的手段，如果您不想失去它们，我们强烈建议您使用 🔵 **[:button1_label:]** 按钮根据我们的数据库查看这些歌曲，尝试为它们找到替代 URL，最后使用下面的另一个 🔴 **[:button2_label:]** 按钮删除它们。\n\n*您有 60 分钟的时间做出选择。",
+          "Playlist_PLManage_CreatePL_Modal": {
+            "Title": "创建播放列表",
+            "Label": "播放列表名称",
+            "Placeholder": "输入要创建的播放列表的名称。例如：\"我最喜欢的歌曲\"。"
+          },
+          "Playlist_PLManage_Fields": {
+            "Field1Title": "业主",
+            "Field2Title": "尺寸",
+            "Field3Title": "可视化",
+            "Field4Title": "隐私权",
+            "Field5Title": "创建日期",
+            "Field6Title": "估计持续时间",
+            "Field7Desc": "您必须至少添加一首歌曲才能解锁所有其他功能。"
+          },
+          "Playlist_PLManage_ButtonsLabel": {
+            "Update": "更新",
+            "Update2": "⇦ 管理播放列表",
+            "Update3": "⇦ 一般选项",
+            "LoadPL": "游戏",
+            "AddSong": "添加歌曲",
+            "Privacy": "隐私: :privacy_value:",
+            "EditSongs": "编辑",
+            "ModifyName": "更改名称",
+            "MigrateServer": "迁移到另一个服务器",
+            "SongsList": "查看播放列表",
+            "FixSongs": "检查歌曲中的错误",
+            "ViewErrSongs": "查看有错误的歌曲",
+            "DeleteErrSongs": "删除所有有错误的歌曲",
+            "IgnoreErrSongs": "暂时不要删除任何内容",
+            "DeletePL": "删除此播放列表"
+          }
+        }
+      },
+      "premium": {
+        "ButtonsLabel": {
+          "Button_1": "查看兑换的钥匙",
+          "Button_2": "免费试用",
+          "Button_3": "出去"
+        },
+        "success": {
+          "MessageTitle_Success_1": "💎``:guild_name:`` 高级状态",
+          "MessageDescription_Success_1": "**Kazuto-Music** 高级系统的创建目的是创建一种措施，通过限制某些功能来提高性能，并为该机器人的最忠实用户提供更好的体验。",
+          "MessageFieldTitle_PremiumStatus": "⭐ 高级版",
+          "MessageFieldTitle_PremiumDuration": "📆 有效期",
+          "MessageFieldTitle_PremiumAdvantage": "💫 高级版的优势",
+          "MessageFieldValue_PremiumAdvantage": "**``1``** **-** *音量限制从``100%`` 增加到``500%``*\n**``2``** **-** *歌曲历史限制从``5`` 增加到``100``*\n**``3``** **-** *播放列表限制从``3`` 增加到``25``*\n**``4``** **-** *播放列表歌曲限制从``25`` 增加到``300``*\n**``5``** **-** *自定义声音限制从``5`` 增加到``25``*\n**``6``** **-** *访问命令``/playlist menu``。*\n**``7``** **-** *访问命令``/playlist manage``。*\n**``8``** **-** *访问命令``/settings [参数]``*\n**``9``** **-** *访问命令``/music filters``。*\n**``10``** **-** *访问命令``/music speed``。*\n**``11``** **-** *访问命令``/music custom-filters``。*",
+          "MessageFooterText_Success_1": "最后检查",
+          "MessageExtraField_Success_1": "💎 感谢您的“Premium”和对 K-Music 项目的支持",
+          "MessageExtraField_Success_2": "我们感谢您与我们项目的合作，这将使我们能够提高服务质量并为您提供更好的体验。"
+        }
+      },
+      "shop": {
+        "success": {
+          "MessageTitle_Success_1": "💰 购买``:bot_tag:``",
+          "MessageDescription_Success_1": "欢迎:user_mention:来到``:bot_tag:``商店，在这里您可以通过**硬币系统**获得免费订阅。\n\n**服务器当前有** 🪙``:coins_total:`` **硬币**！\n\n*按相应按钮选择以下订阅之一*",
+          "MessageFieldTitle_Success_1": "1️⃣ - ``💿 1 天保费``",
+          "MessageFieldTitle_Success_2": "2️⃣ - ``💿 3 天保费``",
+          "MessageFieldTitle_Success_3": "3️⃣ - ``💿 5 天保费``",
+          "MessageFieldTitle_Success_4": "4️⃣ - ``💿 7 天保费``",
+          "MessageFieldTitle_Success_5": "5️⃣ - ``💿 14 天保费``",
+          "MessageFieldTitle_Success_6": "6️⃣ - ``📀 30 天保费``",
+          "MessageFieldTitle_Success_7": "7️⃣ - ``📀 60 天保费``",
+          "MessageFieldTitle_Success_8": "8️⃣ - ``📀 90 天保费``",
+          "MessageFieldTitle_Success_9": "9️⃣ -``📀 6 块钱``",
+          "MessageFieldTitle_Success_10": "🔟 - ``📀 1 年保费``",
+          "MessageFieldValue_Success_1": "``20个硬币``",
+          "MessageFieldValue_Success_2": "``50个硬币``",
+          "MessageFieldValue_Success_3": "``75个硬币``",
+          "MessageFieldValue_Success_4": "``100个硬币``",
+          "MessageFieldValue_Success_5": "``155个硬币``",
+          "MessageFieldValue_Success_6": "``300金币``",
+          "MessageFieldValue_Success_7": "``560金币``",
+          "MessageFieldValue_Success_8": "``1000金币``",
+          "MessageFieldValue_Success_9": "``1850金币``",
+          "MessageFieldValue_Success_10": "``3550金币``"
+        }
+      },
+      "soundboard": {
+        "general": {
+          "MessageTitle": "| Kazuto 音板 🎶"
+        },
+        "errors": {
+          "Characters_Error_1": "您超出了命令名称、描述或命令响应中的最大字母数。 减少字母数量再试一次。\n\n限制为：\n\n*(-) 命令名称：最多 32 个字母*\n*(-) 命令描述：最多 100 个字母*\n*(-) 命令响应：最多 256 个字母*",
+          "P_Limit_Error_1": "❌您已经达到了该服务器上``100``自定义声音的最大限制！删除后请重试。",
+          "NP_Limit_Error_1": "❌您已经达到了该服务器上``20``自定义声音的最大限制！删除后请重试。",
+          "Playlist_Error_1": "❌您提供的 URL 属于播放列表，您必须提供特定声音/视频/歌曲的 URL！",
+          "Create_Error_1": "❌ 创建命令时出错，请重试并检查是否按如下方式创建：/soundboard add {命令名称}, {声音 url [YT/Spotify]}",
+          "Create_Error_2": "❌ 此命令的名称已被使用，请尝试其他名称来创建您的自定义音板/声音命令！",
+          "Not_Exist_Error_1": "❌数据库中不存在名称为``:command_name:``的音板命令，请重试！",
+          "Not_Exist_Error_2": "❌ 未找到在此服务器上创建的音板命令，请稍后创建后重试。"
+        },
+        "success": {
+          "Create_Success_1": "✅ 自定义声音/音板命令已成功创建\n\n️ **姓名**：\n```/:command_name:```\n\n️ **描述**：\n```:command_desc:```\n\n️ **回复留言**：\n```:command_response:```\n\n️ **声音网址**：\n```:song_url:```\n\n⭐ **播放自定义声音后恢复歌曲** [:recover_value:]",
+          "Modify_Success_1": "✅ 自定义声音/音板命令已成功修改\n\n️ **姓名**：\n```/:command_name:```\n\n️ **描述**：\n```:command_desc:```\n\n️ **回复留言**：\n```:command_response:```\n\n️ **声音网址**：\n```:song_url:```\n\n⭐ **播放自定义声音后恢复歌曲** [:recover_value:]",
+          "Delete_Success_1": "✅ 自定义声音/音板命令``:command_name:`` 已成功删除！",
+          "Map_Success_1": "_*(:id:) • Kazuto-Music SoundBoard 自定义命令*_\n\n️ **姓名**：\n```/:command_name:```\n\n️ **描述**：\n```:command_desc:```\n\n️ **回复留言**：\n```:command_response:```\n\n️ **声音网址**：\n```:song_url:```\n\n⭐ **播放自定义声音后恢复歌曲** [:recover_value:]"
+        }
+      }
+    }
+  }
+}

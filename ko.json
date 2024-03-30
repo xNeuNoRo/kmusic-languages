@@ -1,0 +1,1438 @@
+{
+  "translate_credits": {
+    "language_title": "Korean",
+    "translator_name": "ℕ𝕖𝕦ℕ𝕠ℝ𝕠天使",
+    "translator_giturl": "https://github.com/xNeuNoRo"
+  },
+  "general": {
+    "errorTitle": "[❌] 오류",
+    "DevCredits": ":dev: 제공 | :previous_year: - :actual_year: ©",
+    "Channel_Usage": "<:forwardarrow:969466384687964160>/<:skiparrow:969465916154839050> 노래를 이전/다음 대기열로 건너뜁니다.\n<:volumedown:969149392584081428>/<:volumeup:969149413014515772> 노래의 볼륨을 낮추거나 높입니다.\n<:exit:969149459302862858> 노래를 중지하고 봇 연결을 끊습니다.\n<:pausebutton:969149484124737596> 노래를 일시중지합니다.\n<:shuffle:969464687215390740> 노래 대기열을 무작위로 지정합니다.\n<:autoplay:969470330022285372> 자동 재생 모드를 활성화합니다.\n<:repeatmusic:970415197355401226> 다양한 루프 모드를 전환합니다.\n<:vote:1121271913189216357> 노래를 건너뛰려면 투표하세요.\n<:skip_to:1082495434259447849> 노래를 대기열의 특정 노래로 건너뜁니다.\n<:song_speed:1082495435832315984> 노래의 재생 속도를 설정합니다.\n<:replay_song:1119026700215398411> 현재 노래를 처음부터 재생합니다.\n<:song_time:1082495438000750674> 노래 재생 시간을 수정합니다.\n<:remove_song:1082495439028355252> 노래 대기열에서 노래를 제거합니다.",
+    "errors": {
+      "Development_Error_1": "🔴 이 기능은 현재 개발 중입니다. 나중에 다시 시도해 주세요.",
+      "ContextCMD_Error_1": "🔴 쪽지 채팅에서는 이 명령을 실행할 수 없으니, 제가 접속 가능한 서버에서 다시 시도해 보세요!",
+      "KazMsC_Error_1": "🔴 이 요청 채널의 구성에 내부 오류가 발생한 경우, [봇 채널] 옵션에서 [/settings] 명령을 사용하여 다른 채널을 만들거나 '전용 음악 채널 복구' 옵션을 사용하여 모든 것이 다시 작동하도록 하는 것이 좋습니다",
+      "Blacklist_Error_1": "이 서버는 봇에 대한 액세스가 거부되었기 때문에 현재 어떤 명령도 사용할 수 없습니다!\n\n자세한 내용은 [``여기를 클릭``](https://discord.com/invite/FGBSecT9gq)을 통해 지원 서버의 봇 관리자에게 문의하세요.",
+      "Blacklist_Error_2": "봇에 대한 접근이 거부되었기 때문에 현재 어떤 명령도 사용할 수 없습니다!\n\n자세한 내용은 [``여기를 클릭``](https://discord.com/invite/FGBSecT9gq)을 통해 지원 서버의 봇 관리자에게 문의하세요.",
+      "Button_Error_1": "이 작업을 수행하려면 '몇 초' 기다려야 합니다.",
+      "Button_Error_2": "❌ 이 버튼을 활성화할 수 있는 권한이 없습니다.",
+      "Button_Error_3": "❌ 이 버튼을 활성화할 수 있는 '소유자' 권한이 없습니다.",
+      "Button_Error_4": "❌ 오류가 발생했습니다. 명령을 다시 실행해 주세요.",
+      "Button_Error_5": "❌ 이 재생목록의 메뉴와 상호작용할 수 있는 권한이 없습니다.",
+      "Interaction_Error_1": "🔴 | 이 명령을 실행하는 동안 오류가 발생했습니다.",
+      "Interaction_Error_2": "봇이 올바르게 작동하는 데 충분한 권한이 없는 것으로 감지되었습니다. 관리자 권한을 할당하거나 [``여기를 클릭``](https://discord.com/api/oauth2/authorize?client_id=946292719981047838&permissions)을 사용해야 합니다. = 8&scope=bot%20applications.commands) 권한을 수정합니다.",
+      "SelectMenu_Error_1": "❌ 이 작업을 수행할 수 있는 **DJ** 권한이 없습니다.",
+      "SelectMenu_Error_2": "❌ 이 메뉴를 활성화할 수 있는 권한이 없습니다",
+      "SelectMenu_Error_3": "❌ 이 메뉴를 활성화할 수 있는 '소유자' 권한이 없습니다.",
+      "NoDataFound_Error_1": "이 서버에 대한 데이터를 찾을 수 없습니다. 나중에 다시 시도해 주세요!",
+      "Cooldown_Error_1": "🚫 이 작업을 다시 수행하려면 ``:cooldown_time:``를 기다려야 합니다!",
+      "PlaylistTitle_Warning_1": "⚠️ 경고",
+      "PlaylistValue_Warning_1": "500곡이 넘는 노래가 포함된 재생 목록을 로드하는 바람에 서버에서 약간의 지연이 발생하고 있습니다. 당황하지 마세요. 몇 초 후에 사라질 것입니다.",
+      "SongMessage_Error_1": "해당 노래를 재생/검색할 수 있는 유효한 메시지가 없습니다.\n*유효한 메시지를 사용하여 다시 시도하십시오*",
+      "Play_Error_1": "**오류가 지속되면 개발자에게 ``:dev:``를 신고해 주세요**",
+      "Voice_Channel_Error_1": "음악 명령을 사용하려면 음성 채팅에 참여해야 합니다.",
+      "Voice_Channel_Error_2": "이미 :channel:에서 음악을 재생하고 있습니다.",
+      "Voice_Channel_Error_3": "나는 이미 :channel: 채널에 연결되어 있습니다.",
+      "Voice_Channel_Error_4": "나는 이미 이 음성 채널에 연결되어 있습니다!",
+      "Voice_Channel_Error_5": "이 작업을 수행하려면 나와 동일한 채널에 있어야 합니다!",
+      "Queue_NotFound_Error_1": "현재 노래 대기열이 없습니다.",
+      "Queue_TextChannel_Error_1": "음악은 ``전용 음악 채널``에서 재생되고 있습니다. 그 동안 명령은 :channel:로 제한됩니다. 이 채널에서 재생되면 다시 시도해 주세요!",
+      "Queue_TextChannel_Error_2": "'전용 음악 채널' 외부에서 음악이 재생되고 있습니다. 이 채널에서 재생되면 다시 시도해 주세요!",
+      "Restrict_VoiceChannel_Error_1": "이 **채널**은 서버의 **음악 채널 목록**에 없습니다. 다음 채널 중 하나에서 다시 시도하세요.\n \n:channels:",
+      "Premium_Error_1": "이 명령에는 액세스할 수 없습니다. 이 명령은 **프리미엄 서버**에만 적용됩니다!",
+      "Invalid_YT_URL_Error_1": "❌ 방금 입력한 URL은 **YouTube**의 URL이 아닙니다. 유효한 **YouTube URL**을 사용해 보세요!\n\n⚠️ 제공한 URL이 **YouTube**에서 제공된 경우 URL이 유효한지 확인하세요.",
+      "Invalid_YT_URL_Error_2": "❌ 방금 입력한 URL은 유효한 **YouTube** 동영상에 속하지 않습니다. 유효한 **YouTube** URL을 사용해 보세요.",
+      "Maintenance_Error_1": "일부 버그 수정으로 인해 현재 봇 서비스가 중단되었습니다.\n\n자세한 내용은 나중에 다시 시도하거나 개발자 ``:dev:``에게 문의하세요."
+    },
+    "units": {
+      "y": "연령)",
+      "mth": "개월)",
+      "w": "주",
+      "d": "날)",
+      "h": "시간)",
+      "m": "분)",
+      "s": "초"
+    },
+    "parameters": {
+      "default": "기본",
+      "loop_option_1": "이 노래",
+      "loop_option_2": "전체 대기열",
+      "loop_option_3": "장애가 있는",
+      "autoplay_option_1": "활성화됨",
+      "autoplay_option_2": "장애가 있는",
+      "filters_option_1": "없음",
+      "filters_option_2": "끄다",
+      "premium_option_1": "활성화됨",
+      "premium_option_2": "장애가 있는",
+      "premium_option_3": "신 프리미엄",
+      "source_option_1": "출처",
+      "source_option_2": "모름"
+    },
+    "auto-complete": {
+      "song": "노래",
+      "songs": "노래",
+      "view": "보기",
+      "views": "조회수",
+      "privacy_true": "사적인",
+      "privacy_false": "공공의"
+    },
+    "soundboard": {
+      "cmd_desc": "이 서버에 해당하는 Kazuto-Music SoundBoard 명령",
+      "default_message": "현재 대기열에서 이 명령에 속하는 사용자 정의 사운드를 재생했습니다!"
+    }
+  },
+  "KazutoTogether": {
+    "title": "시스테마 데 카즈토 투게더",
+    "sub_title": "Kazuto Together의 ``:session_id:`` 세션 <:be:1124972946394451988><:ta:1124972947690487860>",
+    "main_commands": {
+      "create": {
+        "success_1": "Kazuto Together 세션을 생성했습니다. <:be:1124972946394451988><:ta:1124972947690487860>",
+        "success_2": "**Kazuto Together** 세션을 만들었습니다. 여러 서버의 친구들을 초대하고 동시에 음악을 들을 수 있습니다!\n\n**Kazuto Together** 세션에 친구를 초대하려면 바로 아래에 나타나는 다음 코드/토큰을 보내십시오. 그런 다음 이 세션에 연결하려면 ``/kt Join`` 명령에 이를 입력해야 합니다.\n\n``:session_id:```\n\n*20분 이내에 세션에 아무도 참여하지 않으면 리소스를 절약하기 위해 세션이 자동으로 종료됩니다.*"
+      },
+      "join": {
+        "error_1": "연결하려는 세션이 이미 꽉 찼습니다! 나중에 다시 시도하세요.",
+        "success_1": "**Kazuto Together**의 ``:session_id:`` 세션에 연결 중입니다.",
+        "success_2": "✅ **Kazuto Together**의 ``:session_id:`` 세션에 성공적으로 연결되었습니다."
+      },
+      "leave": {
+        "success_1": "✅ **Kazuto Together**의 ``:session_id:`` 세션에서 성공적으로 나갔습니다."
+      },
+      "delete": {
+        "success_1": "✅ **Kazuto Together**의 ``:session_id:`` 세션을 성공적으로 마쳤습니다."
+      },
+      "info": {
+        "owner": {
+          "desc": "귀하의 **Kazuto Together** 세션 코드/토큰은 다음과 같습니다.\n``:session_id:```",
+          "field_1": "생산 일",
+          "field_2": "청취자 수",
+          "field_2_value_1": "``:listeners_length: / :listeners_limit: 청취자``",
+          "field_3": "다른 옵션",
+          "field_3_value_1": "비활성 감지 시 세션 종료",
+          "field_3_value_2": "노래가 끝나면 로그오프",
+          "field_3_value_3": "노래 대기열 중지 시 로그아웃"
+        },
+        "listener": {
+          "desc": "**Kazuto Together** 세션을 관리하는 서버는 다음과 같습니다.\n``:guild_name:```",
+          "field_1": "생산 일",
+          "field_2": "청취자 수",
+          "field_2_value_1": "``:listeners_length: 청취자``",
+          "field_3": "대기열의 노래 수",
+          "field_3_value_1": "``:songs_length: 노래``"
+        }
+      }
+    },
+    "errors": {
+      "No_Session_Error_1": "현재 **Kazuto Together** 세션에 참여하고 있지 않습니다!",
+      "No_Session_Error_2": "귀하는 현재 **Kazuto Together** 세션을 진행하고 있지 않습니다!",
+      "No_Session_Error_3": "``:session_id:`` 세션이 존재하지 않습니다. 유효한 **Kazuto Together** 세션으로 다시 시도하세요!",
+      "Session_Duplicated_Error_1": "현재 **Kazuto Together** 세션을 진행 중입니다!\n\n🔰 새 세션을 생성하려면 ``/kt delete`` 명령을 사용하여 현재 세션을 종료해야 합니다.",
+      "Session_Duplicated_Error_2": "현재 **Kazuto Together** 세션에 참여 중입니다!\n\n🔰 새 세션을 생성하려면 ``/kt Leave`` 명령을 사용하여 현재 세션에서 나가야 합니다.",
+      "Leave_Error_1": "**Kazuto Together** 세션에서 나갈 수 없습니다!\n\n🔰 **Kazuto Together** 세션을 종료하려면 ``/kt delete`` 명령을 사용하세요.",
+      "Queue_Error_1": "이 서버에 이미 기존 플레이어가 있기 때문에 **Kazuto Together** 세션 ``:session_id:``에 연결할 수 없습니다!\n\n🔰 **Kazuto Together** 세션에 연결하려면 먼저 음악을 재생 중인 다른 파티에서 봇의 연결을 끊어야 합니다.",
+      "Permission_Error_1": "**Kazuto Together**의 ``:session_id:`` 세션에서 이 작업을 실행할 권한이 없습니다.\n\n``/kt Leave`` 명령을 사용하여 로그아웃한 후 다시 시도하십시오.",
+      "Permission_Error_2": "**Kazuto Together**의 ``:session_id:`` 세션에서 이 작업을 실행할 권한이 없습니다.",
+      "Session_Error_1": "**Kazuto Together** 세션의 메인 플레이어에서 오류가 발생하여 이 세션에서 강제로 연결이 끊어졌습니다.\n\n🔰 **Kazuto Together** 세션에 다시 연결하려면 이전에 사용했던 **TOKEN**으로 다시 시도하세요.",
+      "Session_Error_2": "**Kazuto Together** 세션을 진행하는 동안에는 이 작업을 수행할 수 없습니다!\n\n*세션을 마친 후 ``/kt delete`` 명령으로 다시 시도하세요*",
+      "Timeout_Error_1": "20분 동안 **Kazuto Together**의 ``:session_id:`` 세션에 아무도 참여하지 않았습니다!\n\n이러한 이유로 인해 리소스를 절약하기 위해 세션을 강제 종료해야 합니다. ``/kt create`` 명령을 사용하여 새 세션을 다시 생성할 수 있습니다",
+      "Empty_Error_1": "담당 서버에 **Kazuto Together** 세션을 관리하는 인력이 부족하여 리소스 절약을 위해 강제로 세션을 종료하게 되었습니다.",
+      "Empty_Error_2": "음성 채널에서 활동이 감지되지 않아 리소스를 절약하기 위해 **Kazuto Together** 세션에서 강제로 연결을 끊었습니다.",
+      "Autoplay_Error_1": "자동 재생 모드는 **Kazuto Together** 시스템과 호환되지 않습니다.\n\n🔰 이러한 호환성을 구현하기 위해 열심히 노력하고 있습니다. 나중에 다시 시도해 주세요!",
+      "Autoplay_Error_2": "자동 재생 모드는 **Kazuto Together** 시스템과 호환되지 않습니다. 세션을 생성하려면 이를 비활성화해야 합니다!\n\n🔰 이러한 호환성을 구현하기 위해 열심히 노력하고 있습니다. 나중에 다시 시도해 주세요!",
+      "RelatedSong_Error_1": "이 기능은 현재 **Kazuto Together** 시스템에서 지원되지 않습니다.\n\n🔰 이러한 호환성을 구현하기 위해 열심히 노력하고 있습니다. 나중에 다시 시도해 주세요!",
+      "Shuffle_Error_1": "이 기능은 현재 **Kazuto Together** 시스템에서 지원되지 않습니다.\n\n🔰 이러한 호환성을 구현하기 위해 열심히 노력하고 있습니다. 나중에 다시 시도해 주세요!",
+      "Fun_Error_1": "이 기능은 현재 **Kazuto Together** 시스템에서 지원되지 않습니다.\n\n🔰 이러한 호환성을 구현하기 위해 열심히 노력하고 있습니다. 나중에 다시 시도해 주세요!",
+      "Soundboard_Error_1": "이 기능은 현재 **Kazuto Together** 시스템에서 지원되지 않습니다.\n\n🔰 이러한 호환성을 구현하기 위해 열심히 노력하고 있습니다. 나중에 다시 시도해 주세요!"
+    },
+    "success": {
+      "Empty_Sucess_1": "**Kazuto Together** 세션이 음성 채널에서 활동이 감지되어 종료되었습니다.\n\n🔰 **이는 자원을 절약하기 위한 목적으로만 수행됩니다**",
+      "Finish_Session_Success_1": "노래 연주와 함께 **Kazuto Together** 세션을 마쳤습니다!\n\n🔰 새로운 '**Kazuto Together**' 시스템에 대해 제안하거나 피드백을 주고 싶다면 ``/review`` 명령을 사용하세요!",
+      "Finish_Session_Success_2": "**Kazuto Together** 세션이 노래 재생과 함께 종료되었습니다!\n\n🔰 새로운 '**Kazuto Together**' 시스템에 대해 제안하거나 피드백을 주고 싶다면 ``/review`` 명령을 사용하세요!",
+      "Disconnect_Success_1": "**Kazuto Together** 세션을 관리하는 서버에서 재생이 종료되어 세션도 종료되었습니다.",
+      "Pause_Success_1": "**Kazuto Together** 세션을 관리하는 서버가 현재 노래/비디오를 일시 중지했습니다.",
+      "Resume_Success_1": "**Kazuto Together** 세션을 관리하는 서버에서 현재 노래/영상을 요약했습니다.",
+      "Skip_Success_1": "**Kazuto Together** 세션을 관리하는 서버가 노래/비디오 대기열에서 현재 노래/비디오를 다음 노래/비디오로 건너뛰었습니다.",
+      "Skipto_Success_1": "**Kazuto Together** 세션을 관리하는 서버가 현재 노래/비디오를 대기열의 `:song_id:` 노래로 건너뛰었습니다.",
+      "Switch_Success_1": "**Kazuto Together** 세션을 관리하는 서버에서 ``:song_name:`` 노래의 위치를 ​​``:final_position:``로 변경했습니다.",
+      "Previous_Success_1": "**Kazuto Together** 세션을 관리하는 서버가 노래/비디오 대기열에서 현재 노래/비디오를 이전 노래/비디오로 건너뛰었습니다.",
+      "Volume_Success_1": "**Kazuto Together** 세션을 관리하는 서버에서 노래/동영상 대기열의 볼륨을 ':volume_percentage:'로 변경했습니다.",
+      "Seek_Success_1": "**Kazuto Together** 세션을 관리하는 서버에서 재생 시간을 `:song_currentTime:`초로 변경했습니다.",
+      "Replay_Success_1": "**Kazuto Together** 세션을 관리하는 서버가 현재 노래/비디오 재생을 다시 시작했습니다.",
+      "Shuffle_Success_1": "**Kazuto Together** 세션을 관리하는 서버가 현재 노래 대기열을 무작위로 정렬했습니다.",
+      "RelatedSong_Success_1": "**Kazuto Together** 세션을 관리하는 서버가 현재 노래 대기열에 관련 노래를 추가했습니다",
+      "Autoplay_Success_1": "**Kazuto Together** 세션을 관리하는 서버가 자동 재생 모드를 활성화했습니다.",
+      "Autoplay_Success_2": "**Kazuto Together** 세션을 관리하는 서버가 자동 재생 모드를 비활성화했습니다.",
+      "Loop_Success_1": "**Kazuto Together** 세션을 관리하는 서버가 루프 모드를 `:loop_value:`로 변경했습니다.",
+      "Filter_Success_1": "**Kazuto Together** 세션을 관리하는 서버에서 `:filter_name:` 필터를 설정했습니다.",
+      "Filter_Success_2": "**Kazuto Together** 세션을 관리하는 서버에서 `:filter_name:` 필터를 제거했습니다.",
+      "Filter_Success_3": "**Kazuto Together** 세션을 관리하는 서버가 대기열에서 모든 필터를 제거했습니다.",
+      "Time_Success_1": "**Kazuto Together** 세션을 관리하는 서버에서 재생 시간을 `:time_value:`초로 설정했습니다.",
+      "Speed_Success_1": "**Kazuto Together** 세션을 관리하는 서버에서 재생 속도를 `:speed_value:`로 변경했습니다.",
+      "Playlist_Success_1": "**Kazuto Together** 세션을 관리하는 서버가 ``:playlist_songs:`` 노래의 재생 목록을 대기열에 추가했습니다.",
+      "Import_Success_1": "**Kazuto Together** 세션을 관리하는 서버에서 ``:songs_length:`` 노래 대기열을 가져왔습니다.",
+      "Play_Success_1": "**Kazuto Together** 세션을 관리하는 서버에서 대기열에 새 노래를 추가했습니다.",
+      "PlaySkip_Success_1": "**Kazuto Together** 세션을 관리하는 서버가 대기열에 새 곡을 추가하고 이 곡으로 건너뛰었습니다.",
+      "PlayTop_Success_1": "**Kazuto Together** 세션을 관리하는 서버가 대기열 상단에 새 노래를 추가했습니다.",
+      "Clean_Queue_Success_1": "**Kazuto Together** 세션을 관리하는 서버가 대기열에서 모든 노래를 제거했습니다.",
+      "Remove_Song_Success_1": "**Kazuto Together** 세션을 관리하는 서버가 대기열에서 ID `:song_id:`인 노래를 삭제했습니다.",
+      "Remove_Songs_Success_1": "**Kazuto Together** 세션을 관리하는 서버가 대기열에서 `:songs_length:`를 제거했습니다.",
+      "Remove_Songs_Dup_Success_1": "**Kazuto Together** 세션을 관리하는 서버가 대기열에서 중복된 노래를 모두 제거했습니다.",
+      "Vote_Started_Success_1": "**Kazuto Together** 세션을 관리하는 서버에서 현재 노래 건너뛰기에 투표 중입니다(:actual_votes:/:required_votes:).",
+      "Vote_Finished_Success_1": "**Kazuto Together** 세션을 관리하는 서버에서 투표가 완료되어 현재 노래를 건너뛰기로 결정했습니다."
+    }
+  },
+  "ButtonInteraction": {
+    "music-channel": {
+      "Add-To-PL": {
+        "cooldown_error_1": "❌ 이 버튼과 다시 상호작용하려면 최소 ``1분``을 기다려야 합니다.",
+        "voice_channel_error_1": "음성채팅 중이어야 합니다.",
+        "voice_channel_error_2": "내가 음악을 재생하는 채널과 같은 채널에 있어야 합니다 :kazuto_vc_channel:",
+        "queue_error_1": "현재 재생중인 곡이 없습니다.",
+        "pl_error_1": "이 서버에 재생목록을 만들지 않았습니다. 나중에 다시 시도해 주세요.",
+        "SM_Constructor": {
+          "Placeholder": "재생목록 중 하나를 선택하세요.",
+          "Objects_Desc": "재생목록 \":playlist_name:\"에 현재 노래 추가"
+        },
+        "response_embed_title": "| 재생목록 시스템",
+        "response_embed_desc": "현재 재생 중인 노래를 추가하려면 **재생 목록** 중 하나를 선택해야 합니다.\n\n*재생목록을 선택하는 데 10분이 주어집니다*",
+        "loading": "<a:loadingWB:986050761031041084> **노래 저장 중...**",
+        "pl_error_2": "**재생목록**에 ``:playlist_name:`` 재생목록이 없습니다. 다시 시도해 주세요.",
+        "pl_error_3": "``:playlist_name:`` 재생목록이 **데이터베이스**의 재생목록과 일치하지 않습니다. 다시 시도해 주세요.",
+        "url_error_1": "이 노래의 URL은 **YouTube**에서 가져온 것이 아닙니다. 유효한 **YouTube** URL을 사용하여 시도해 보세요.",
+        "url_error_2": "이 노래의 URL은 유효한 **YouTube** 동영상에 속하지 않습니다. 유효한 **YouTube** URL을 사용해 보세요.",
+        "save_song_error_1": "⚠️ 저장하려는 노래는 이전에 이 재생목록에 이미 저장되어 있습니다.",
+        "success_1": "✅ 노래를 성공적으로 저장했습니다:\n \n😀 **제목**: ``:song_title:``\n🌐 **URL**: ``:song_url:``\nℹ️ **ID**: ``:song_id:``",
+        "timeout_error_1": "⏳ 시간이 다 되었습니다. 다시 시도해 주세요."
+      },
+      "AutoPlay": {
+        "voice_channel_error_1": "❌ 이 작업을 수행하려면 음성 채팅 중이어야 합니다.",
+        "voice_channel_error_2": "❌ 이 작업을 수행하려면 나와 동일한 음성 채팅에 참여해야 합니다.",
+        "dj_error_1": "이 작업을 수행할 수 있는 **DJ** 권한이 없습니다.",
+        "queue_error_1": "❌ 현재 대기열이 없습니다.",
+        "play_error_1": "'전용 음악 채널' 외부에서 음악이 재생되고 있습니다. 이 채널에서 재생되면 다시 시도해 주세요.",
+        "success_1": "| 자동 재생 모드를 : ``:autoplay_options:``로 변경했습니다."
+      },
+      "Delete-From-Queue": {
+        "Modal_Constructor": {
+          "title": "대기열에서 노래/비디오 제거",
+          "label": "노래/동영상 ID",
+          "placeholder": "Ex: 6, 5, 10, 7."
+        },
+        "songid_error_1": "대기열에 있는 노래/동영상의 유효한 ID를 제공해야 합니다.",
+        "songid_error_2": "이 **노래**는 현재 이미 재생 중이므로 제거할 수 없습니다!",
+        "songid_error_3": "제공하신 **ID** ``:song_id:``는 **어떤 테일 노래에도 속하지 않습니다**. 유효한 **ID**로 다시 시도하세요.",
+        "success_1": "| 대기열에서 ID가 ``:song_id:``인 노래를 제거했습니다.\n\n🎵 노래 이름: :deleted_song_name:"
+      },
+      "Replay": {
+        "success_1": "| 현재 노래를 처음부터 다시 재생했습니다."
+      },
+      "Exit": {
+        "_comment": "이 버튼에는 다른 텍스트가 필요하지 않으므로 다른 텍스트는 재사용됩니다. (당분간은) [이 텍스트를 번역하지 마세요!]"
+      },
+      "Loop-Buttons": {
+        "_comment": "이 버튼에는 다른 텍스트가 필요하지 않으므로 다른 텍스트는 재사용됩니다. (당분간은) [이 텍스트를 번역하지 마세요!]"
+      },
+      "Pause-Unpause": {
+        "_comment": "이 버튼에는 다른 텍스트가 필요하지 않으므로 다른 텍스트는 재사용됩니다. (당분간은) [이 텍스트를 번역하지 마세요!]"
+      },
+      "Previous-Songs": {
+        "cooldown_error_1": "최근에 노래를 건너뛰었습니다. 다시 건너뛰려면 몇 초 정도 기다려 주세요.",
+        "no_previoussong_error_1": "❌ 이 대기열에는 이전 노래가 없습니다.",
+        "success_1": "| 건너뛰기 대기열의 이전 노래입니다."
+      },
+      "Remove-From-PL": {
+        "cooldown_error_1": "❌ 이 버튼과 다시 상호작용하려면 최소 ``1분``을 기다려야 합니다.",
+        "voice_channel_error_1": "음성채팅 중이어야 합니다.",
+        "voice_channel_error_2": "내가 음악을 재생하고 있는 채널과 같은 채널에 있어야 합니다 :kazuto_vc_channel:",
+        "queue_error_1": "현재 재생중인 곡이 없습니다.",
+        "pl_error_1": "이 서버에 재생목록을 만들지 않았습니다. 나중에 다시 시도해 주세요.",
+        "SM_Constructor": {
+          "Placeholder": "재생목록 중 하나를 선택하세요.",
+          "Objects_Desc": "재생목록 \":playlist_name:\"에서 현재 노래 삭제"
+        },
+        "response_embed_title": "| 재생목록 시스템",
+        "response_embed_desc": "현재 재생 중인 노래를 삭제하려면 **재생 목록** 중 하나를 선택해야 합니다.\n\n*재생목록을 선택하는 데 10분이 주어집니다*",
+        "pl_error_2": "**재생목록**에 ``:playlist_name:`` 재생목록이 없습니다. 다시 시도해 주세요.",
+        "pl_error_3": "``:playlist_name:`` 재생목록이 **데이터베이스**의 재생목록과 일치하지 않습니다. 다시 시도해 주세요.",
+        "pl_error_4_title": "❌ 오류가 발생했습니다",
+        "pl_error_4_desc": "**1**: 제공된 재생목록이 유효한지 확인하세요.\n \n**2**: 재생 중인 노래의 URL이 유효한지 또는 재생목록에 있는지 확인하세요.\n \n재생목록이 무엇인지 알고 싶다면 ``/playlist [list]`` 또는 ``옵션 C를 누르세요``를 사용하고 찾고 있는 노래의 ID를 알고 싶다면 ``/playlist songs [재생 목록]`` 또는 ``옵션 D를 누르세요``",
+        "url_error_1": "이 노래의 URL은 **YouTube**에서 가져온 것이 아닙니다. 유효한 **YouTube** URL을 사용하여 시도해 보세요.",
+        "success_1": "✅ **노래**를 성공적으로 삭제했습니다:\n \n😀 **제목**: ``:song_title:``\n🌐 **URL**: ``:song_url:``\nℹ️ **ID**: ``:song_id:``",
+        "timeout_error_1": "⏳ 시간이 다 되었습니다. 다시 시도해 주세요."
+      },
+      "Shuffle": {
+        "song_error_1": "셔플하려면 대기열에 최소 ``3곡``이 필요합니다!",
+        "success_1": "| 현재 노래 대기열을 셔플했습니다."
+      },
+      "Skip-Song": {
+        "cooldown_error_1": "최근에 노래를 건너뛰었습니다. 다시 건너뛰려면 몇 초 정도 기다려 주세요.",
+        "no_nextsong_error_1": "❌ 이 대기열에는 다음 곡이 없습니다.",
+        "success_1": "| 현재 노래를 건너뛰었습니다."
+      },
+      "Skip-Specific-Song": {
+        "Modal_Constructor": {
+          "title": "노래/비디오를 특정 곡으로 건너뛰기",
+          "label": "노래/동영상 ID",
+          "placeholder": "Ex: 6, 5, 10, 7."
+        },
+        "songid_error_1": "대기열에 있는 노래/동영상의 유효한 ID를 제공해야 합니다.",
+        "songid_error_2": "이 **노래**를 이미 재생 중인 동일한 **노래**로 건너뛸 수 없습니다!",
+        "songid_error_3": "제공하신 **ID** ``:song_id:``는 **어떤 테일 노래에도 속하지 않습니다**. 유효한 **ID**로 다시 시도하세요.",
+        "success_1": "| 현재 노래를 대기열의 ``:song_id:`` 노래로 건너뛰었습니다."
+      },
+      "Song-Forward": {
+        "cooldown_error_1": "최근 곡의 시간이 수정되었습니다. 다시 수정할 수 있으려면 잠시 기다려 주시기 바랍니다.",
+        "Modal_Constructor": {
+          "title": "노래/비디오 미리보기",
+          "label_1": "시간)",
+          "label_2": "분)",
+          "label_3": "초",
+          "placeholder_1": "Ex: 2, 8, 0, 3.",
+          "placeholder_2": "Ex: 6, 2, 5, 8.",
+          "placeholder_3": "Ex: 20, 79, 120, 9, 0."
+        },
+        "time_error_1": "유효한 시간을 지정해야 합니다.",
+        "success_1": "| 노래 재생 시간을 두 번째 ``:song_seconds:``로 변경하셨습니다."
+      },
+      "Song-Speed": {
+        "premium_error_1": "❌ 노래/동영상의 속도는 수정할 수 없습니다. 이는 **프리미엄 서버**만의 기능입니다.",
+        "SM_Constructor": {
+          "Placeholder": "현재 노래의 속도를 설정합니다.",
+          "label_1": "속도 x0.5",
+          "label_2": "속도 x0.75",
+          "label_3": "속도x1(보통)",
+          "label_4": "속도 x1.25",
+          "label_5": "속도 1.5배",
+          "label_6": "속도 x1.75",
+          "label_7": "속도 x2",
+          "desc_1": "중간 느린 재생 속도",
+          "desc_2": "약간 느린 재생 속도",
+          "desc_3": "일반 재생 속도",
+          "desc_4": "느린 재생 속도",
+          "desc_5": "중간 빠른 재생 속도",
+          "desc_6": "매우 빠른 재생 속도",
+          "desc_7": "초고속 재생 속도"
+        },
+        "response_embed_title": "| 재생 속도",
+        "response_embed_desc": "현재 재생 중인 노래에 설정하려는 속도를 선택합니다.\n\n*선택 시간은 10분입니다*",
+        "loading": "<a:loadingWB:986050761031041084> **적용 속도 :speed_value:**",
+        "success_1": "| 노래의 속도를 ``:speed_value:``로 변경했습니다.",
+        "timeout_error_1": "⏳ 시간이 다 되었습니다. 다시 시도해 주세요."
+      },
+      "Volume-Down": {
+        "volume_error_1": "❌ 최소값이 '0%'이므로 볼륨을 줄일 수 없습니다."
+      },
+      "Volume-Up": {
+        "volume_error_1": "❌ 최대값이 '100%'이므로 볼륨을 높일 수 없습니다.",
+        "volume_error_2": "❌ 최대 볼륨이 '500%'이므로 볼륨을 높일 수 없습니다."
+      },
+      "Vote": {
+        "vote_error_1": "❌ 이전에 노래 건너뛰기로 투표하셨습니다.",
+        "vote_success_1": "**충분한 투표**에 도달하여 노래를 건너뛸 수 있습니다.",
+        "vote_skip_error_1": "❌ 이 대기열에는 **다음 노래**가 없습니다.",
+        "vote_skip_success_1": "✅ 노래를 올바르게 건너뛰었습니다!",
+        "vote_count_success_1": "| 노래(:actual_votes:/:required_votes:) 투표 건너뛰기로 투표했습니다."
+      }
+    },
+    "music-play": {
+      "Disconnect": {
+        "voice_channel_error_1": "❌ 이 작업을 수행하려면 음성 채팅 중이어야 합니다.",
+        "voice_channel_error_2": "❌ 이 작업을 수행하려면 나와 동일한 음성 채팅에 참여해야 합니다.",
+        "dj_error_1": "이 작업을 수행할 수 있는 **DJ** 권한이 없습니다.",
+        "internal_error_1": "예상치 못한 오류가 발생했습니다.\n\n**코드**: 0x100464135",
+        "internal_error_2": "예상치 못한 오류가 발생했습니다.\n\n**코드**: 0x23224536",
+        "success_desc_1": "| 현재 노래 대기열을 중지하고 지웠습니다.",
+        "success_footer_1": "봇의 연결을 끊으려면 /music settings [disconnect]를 사용하세요.",
+        "disconnect_title": "재생산 완료✅"
+      },
+      "Pause-Unpause": {
+        "btn_edit_1": "일시중지",
+        "btn_edit_2": "재개하다"
+      },
+      "Queue": {
+        "embed_title": "노래 대기열"
+      },
+      "Skip": {
+        "skip_error_1": "❌ 이 대기열에는 다음 곡이 없습니다.",
+        "success_1": "| 현재 노래를 건너뛰었습니다."
+      },
+      "Volume": {
+        "error_1": "❌ 최소값이 '0%'이므로 볼륨을 줄일 수 없습니다.",
+        "error_2": "❌ 최대값이 '100%'이므로 볼륨을 높일 수 없습니다.",
+        "error_3": "❌ 최대 볼륨이 '500%'이므로 볼륨을 높일 수 없습니다."
+      },
+      "Alternate-Loop": {
+        "_comment": "이 버튼에는 다른 텍스트가 필요하지 않으므로 다른 텍스트는 재사용됩니다. (당분간은) [이 텍스트를 번역하지 마세요!]"
+      }
+    },
+    "playlist-menu": {
+      "option_a": {
+        "cooldown_error_1": "❌ 이 명령을 다시 실행하려면 최소 ``30초``를 기다려야 합니다.",
+        "playlists_notfound_error_1": "❌ 이 서버에는 아직 생성된 **재생목록**이 없습니다. 나중에 다시 시도해 주세요.",
+        "embed_author": "| 재생목록 시스템",
+        "embed_title": "서버 재생 목록 목록 ``:guild_name:``",
+        "data_map": "``재생 목록`` **-** ``:id:``\n✏️ **이름**: ``:playlist_name:``\n👤 **작성자**: :createdBy:\n📆 **생성됨**: :timeCreated:\n📊 **재생**: ``:playlist_views:``\n🎵 ``:playlist_songs:`` 노래가 있습니다",
+        "data_map_empty_1": "이 서버에는 재생 목록이 없습니다.",
+        "data_map_empty_2": ">>> **이 서버에는 재생 목록이 없습니다.**"
+      },
+      "option_b": {
+        "cooldown_error_1": "❌ 이 명령을 다시 실행하려면 최소 ``30초``를 기다려야 합니다.",
+        "playlists_notfound_error_1": "❌ 이 서버에는 재생목록이 없습니다. 나중에 다시 시도해 주세요.",
+        "embed_author": "| 재생목록 시스템",
+        "embed_title": "서버의 상위 재생 목록 ``:guild_name:``",
+        "data_map": "``재생 목록`` **-** :medal_or_id:\n✏️ **이름**: ``:playlist_name:``\n👤 **작성자**: :createdBy:\n📆 **생성됨**: :timeCreated:\n📊 **재생**: ``:playlist_views:``\n🎵 ``:playlist_songs:`` 노래가 있습니다",
+        "data_map_empty_1": "이 서버에는 재생 목록이 없습니다.",
+        "data_map_empty_2": ">>> **이 서버에는 공개 재생 목록이 없습니다.**"
+      },
+      "option_c": {
+        "cooldown_error_1": "❌ 이 명령을 다시 실행하려면 최소 ``30초``를 기다려야 합니다.",
+        "playlists_notfound_error_1": "❌ 이 서버에는 아직 생성된 **재생목록**이 없습니다. 나중에 다시 시도해 주세요.",
+        "embed_author": "| 재생목록 시스템",
+        "embed_title": "사용자 재생 목록 ``:user_tag:`` 목록",
+        "data_map": "✏️ **이름**: ``:playlist_name:``\n📆 **생성됨**: :timeCreated:\n📊 **재생**: ``:playlist_views:``\n🎵 ``:playlist_songs:`` 노래가 있습니다"
+      },
+      "option_d": {
+        "cooldown_error_1": "❌ 이 명령을 다시 실행하려면 최소 ``30초``를 기다려야 합니다.",
+        "playlists_notfound_error_1": "❌ ``:playlist_name:`` 재생목록이 존재하지 않습니다. **기존 재생목록**으로 다시 시도해 주세요.",
+        "playlist_privacy_error_1": "소유자가 ``비공개 재생목록``으로 설정했기 때문에 ``:playlist_name:`` 재생목록을 볼 수 없습니다.",
+        "playlist_nosongs_error_1": "``:playlist_name:`` 재생목록에는 노래가 없습니다. 나중에 다시 시도해 주세요.",
+        "embed_author": "| 재생목록 시스템",
+        "embed_title": "재생 목록 노래 ``:playlist_name:``",
+        "data_map": "_*노래 - :id:*_\n\n>>> 정책 **제목**: [``:song_title:``](:song_url:)\n📊 **재생**: ``:song_views:``\n👤 **업로드자**: [``:song_uploader_name:``](:song_uploader_url:)\n⏱️ **기간**: ``:song_formattedDuration:``\nℹ️ **ID**: ``:song_id:``"
+      },
+      "option_e": {
+        "cooldown_error_1": "❌ 이 명령을 다시 실행하려면 최소 ``30초``를 기다려야 합니다.",
+        "voice_channel_error_1": "❌ 음성채널에 접속되어 있어야 합니다",
+        "voice_channel_error_2": "❌ 내가 음악을 재생하는 채널과 같은 채널에 있어야 합니다 :kazuto_vc_channel:",
+        "queue_error_1": "❌ 현재 재생중인 노래가 없습니다.",
+        "url_error_1": "❌ 이 노래의 URL은 **YouTube**에서 가져온 것이 아닙니다. 유효한 **YouTube URL**을 사용해 보세요.",
+        "url_error_2": "❌ 이 노래의 URL은 유효한 **YouTube** 동영상에 속하지 않습니다. 유효한 **YouTube** URL을 사용해 보세요.",
+        "save_song_error_1": "⚠️ 저장하려는 노래는 이전에 이 재생목록에 이미 저장되어 있습니다.",
+        "embed_author": "| 재생목록 시스템",
+        "save_song_success_1": "✅ 노래를 성공적으로 저장했습니다:\n \n😀 **제목**: ``:song_title:``\n🌐 **URL**: ``:song_url:``\nℹ️ **ID**: ``:song_id:``"
+      },
+      "option_f": {
+        "cooldown_error_1": "❌ 이 명령을 다시 실행하려면 최소 ``30초``를 기다려야 합니다.",
+        "waiting_response": "⏳ 추가하려는 노래의 ``URL``을 입력하세요.",
+        "modal_data": {
+          "modal_title": "재생목록에 특정 노래 추가하기",
+          "modal_label": "노래 URL",
+          "modal_placeholder": "여기에 노래 URL을 입력하세요(한 줄에 하나의 URL)\n유튜브/Spotify 링크만 허용됩니다."
+        },
+        "url_error_1": "❌ 방금 입력한 URL은 **YouTube**의 URL이 아닙니다. 유효한 **YouTube URL**을 사용해 보세요.\n\n⚠️ 제공한 URL이 **YouTube**에서 제공된 경우 URL이 유효한지 확인하세요.",
+        "url_error_2": "❌ 방금 입력한 URL은 유효한 **YouTube** 동영상에 속하지 않습니다. 유효한 **YouTube** URL을 사용해 보세요.",
+        "embed_author": "| 재생목록 시스템",
+        "save_song_error_1": "⚠️ 저장하려는 노래는 이전에 이 재생목록에 이미 저장되어 있습니다.",
+        "save_song_success_1": "✅ **노래**를 성공적으로 저장했습니다:\n \n😀 **제목**: ``:song_title:``\n🌐 **URL**: ``:song_url:``\nℹ️ **ID**: ``:song_id:``"
+      },
+      "option_g": {
+        "cooldown_error_1": "❌ 이 명령을 다시 실행하려면 최소 ``1분``을 기다려야 합니다.",
+        "embed_author": "| 재생목록 시스템",
+        "voice_channel_error_1": "❌ 이 재생목록을 재생하려면 음성 채팅을 시작해야 합니다.",
+        "voice_channel_error_2": "❌ 내가 음악을 재생하는 채널과 같은 채널에 있어야 합니다 :kazuto_vc_channel:",
+        "playlist_error_1": "❌ ``:playlist_name:`` 재생목록이 존재하지 않습니다. **기존 재생목록**으로 다시 시도해 주세요.",
+        "playlist_error_2": "저장된 노래가 없기 때문에 ``:playlist_name:`` 재생목록을 재생할 수 없습니다.",
+        "playlist_privacy_error_1": "소유자가 ``비공개 재생목록``으로 설정했기 때문에 ``:playlist_name:`` 재생목록을 재생할 수 없습니다.",
+        "restrict_voicechannel_error_1": "이 **채널**은 서버의 **음악 채널 목록**에 없습니다. 다음 채널 중 하나에서 다시 시도하세요.\n \n:music_channels:",
+        "success_1": "📀 요청 접수됨...",
+        "url_error_1": "❌ 이 재생목록에 있는 노래의 URL이 유효하지 않습니다. 다른 재생목록을 재생해 보세요."
+      },
+      "option_h": {
+        "cooldown_error_1": "❌ 이 명령을 다시 실행하려면 최소 ``30초``를 기다려야 합니다.",
+        "timeout_error_1": "❌ 옵션을 선택하는 데 시간이 너무 오래 걸렸습니다.",
+        "embed_author": "| 재생목록 시스템",
+        "playlist_error_1": "❌ 재생목록 ``:playlist_name:``가 존재하지 않습니다. **기존 재생목록**으로 다시 시도해 주세요.",
+        "Button1_Label": "사적인",
+        "Button2_Label": "글로벌",
+        "embed_desc": "⏳ 이 **재생목록**에 어떤 **개인정보 보호 옵션**을 설정하시겠습니까?",
+        "embed_desc_var1": "✅ 재생목록 ``:playlist_name:``의 개인정보 보호를 ``비공개``로 올바르게 변경했습니다.",
+        "embed_desc_var2": "✅ 재생목록 ':playlist_name:'의 개인정보 보호를 '글로벌'로 올바르게 변경했습니다."
+      },
+      "option_i": {
+        "cooldown_error_1": "❌ 이 명령을 다시 실행하려면 최소 ``30초``를 기다려야 합니다.",
+        "embed_author": "| 재생목록 시스템",
+        "waiting_response": "⏳ 재생목록 `:playlist_name:`에 부여할 새 이름을 입력하세요.",
+        "modal_data": {
+          "modal_title": "재생목록의 현재 이름 수정하기",
+          "modal_label": "새 이름",
+          "modal_placeholder": "여기에 재생목록에 지정할 새 이름을 입력합니다."
+        },
+        "playlist_error_1": "❌ **재생목록**에 ``:playlist_name:`` 재생목록이 없습니다. **기존 재생목록**으로 다시 시도해 주세요.",
+        "playlist_error_2": "❌ 재생목록 중 하나에 이미 ``:new_playlist_name:``라는 이름이 있습니다. 다른 이름으로 다시 시도해 주세요.",
+        "playlist_error_3": "❌ 이 서버에 ``:new_playlist_name:``라는 이름의 재생목록이 이미 있습니다. 다른 이름으로 다시 시도해 주세요.",
+        "success_1": "✅ 재생 목록 이름 ``:playlist_name:``를 ``:new_playlist_name:``로 올바르게 변경했습니다."
+      },
+      "option_j": {
+        "cooldown_error_1": "❌ 이 명령을 다시 실행하려면 최소 ``30초``를 기다려야 합니다.",
+        "embed_author": "| 재생목록 시스템",
+        "waiting_response": "⏳ 이 재생목록을 이전하려는 서버의 'ID'를 입력하세요.",
+        "modal_data": {
+          "modal_title": "재생목록을 다른 서버로 마이그레이션",
+          "modal_label": "서버 ID",
+          "modal_placeholder": "재생목록을 마이그레이션할 서버의 서버 ID를 입력합니다."
+        },
+        "playlist_error_1": "❌ **재생목록**에 ``:playlist_name:`` 재생목록이 없습니다. **기존 재생목록**으로 다시 시도해 주세요.",
+        "server_error_1": "❌ ID가 ``:server_id:``인 서버가 존재하지 않습니다. **유효한 서버**로 다시 시도하세요.",
+        "success_var1": "✅ 귀하의 재생목록 ``:playlist_name:``가 ``:server_name:`` 서버로 성공적으로 이전되었습니다.\n \n⚠️ **주의**: Debido a que el **nombre de tu playlist** ya existe en este server, tuve que renombrarla a ``:new_playlist_name:``",
+        "success_var2": "✅ 귀하의 재생목록 ``:playlist_name:``가 ``:server_name:`` 서버로 성공적으로 이전되었습니다."
+      },
+      "option_k": {
+        "cooldown_error_1": "❌ 이 명령을 다시 실행하려면 최소 ``30초``를 기다려야 합니다.",
+        "embed_author": "| 재생목록 시스템",
+        "voice_channel_error_1": "❌ 음성채널에 접속되어 있어야 합니다",
+        "voice_channel_error_2": "❌ 내가 음악을 재생하는 채널과 같은 채널에 있어야 합니다 :kazuto_vc_channel:",
+        "queue_error_1": "❌ 현재 재생중인 노래가 없습니다.",
+        "internal_error_1": "❌ **오류가 발생했습니다**\n \n**1**: 제공된 재생목록이 유효한지 확인하세요.\n \n**2**: 재생 중인 노래의 URL이 유효한지 또는 재생목록에 있는지 확인하세요.\n \n재생목록이 무엇인지 알고 싶다면 ``/playlist [list]`` 또는 ``옵션 C를 누르세요``를 사용하고 찾고 있는 노래의 ID를 알고 싶다면 ``/playlist songs [ 재생 목록]`` 또는 ``옵션 D를 누르세요``",
+        "success_1": "✅ **노래**를 성공적으로 삭제했습니다:\n \n😀 **제목**: ``:song_title:``\n🌐 **URL**: ``:song_url:``\nℹ️ **ID**: ``:song_id:``"
+      },
+      "option_l": {
+        "cooldown_error_1": "❌ 이 명령을 다시 실행하려면 최소 ``10초``를 기다려야 합니다.",
+        "embed_author": "| 재생목록 시스템",
+        "waiting_response": "⏳ 삭제하려는 노래의 'ID'를 입력하세요.",
+        "modal_data": {
+          "modal_title": "재생목록에서 특정 노래 제거하기",
+          "modal_label": "노래 ID",
+          "modal_placeholder": "삭제하려는 곡의 ID를 입력합니다(한 줄에 하나의 ID)."
+        },
+        "internal_error_1": "❌ **오류가 발생했습니다**\n \n**1**: 제공된 재생목록이 유효한지 확인하세요.\n \n**2**: 제공한 노래 ID가 유효한지 확인하세요.\n \n재생목록이 무엇인지 알고 싶다면 ``/playlist [list]`` 또는 ``옵션 C를 누르세요``를 사용하고 찾고 있는 노래의 ID를 알고 싶다면 ``/playlist songs [재생 목록]`` 또는 ``옵션 D를 누르세요``",
+        "success_1": "✅ **노래**를 성공적으로 삭제했습니다:\n \n😀 **제목**: ``:song_title:``\n🌐 **URL**: ``:song_url:``\nℹ️ **ID**: ``:song_id:``",
+        "success_2": "✅ 재생목록 ``:songs_length:``에서 ``:playlist_name:`` 노래를 성공적으로 제거했습니다."
+      },
+      "option_m": {
+        "embed_author": "| 재생목록 시스템",
+        "playlist_error_1": "❌ **재생목록**에 ``:playlist_name:`` 재생목록이 없습니다. **기존 재생목록**으로 다시 시도해 주세요.",
+        "success_1": "✅ ``:playlist_name:`` 재생목록이 성공적으로 제거되었습니다."
+      }
+    },
+    "premium-message": {
+      "redeemed-keys": {
+        "Error_1": "이 서버에서 사용된 **프리미엄 키**를 찾을 수 없습니다.",
+        "Data_map": "🔑 **키**: ``:key:``\n🕘 **기간**: ``:duration:``",
+        "Data_map_empty": "**이 서버에서는 키가 사용되지 않았습니다. 나중에 다시 시도하십시오.**",
+        "Embed_Title": "``:guild_name:``에서 사용된 키"
+      },
+      "trial-sub": {
+        "Error_1": "❌ 이 작업을 실행할 수 있는 권한이 없습니다.",
+        "Error_2": "❌ **내부 오류가 발생했습니다**\n**이 서버에 대한 데이터를 찾을 수 없습니다**\n\n오류가 지속되면 개발자에게 알리세요 :dev:",
+        "Error_3": "❌ 오류가 발생했습니다. [/premium] 명령을 다시 시도해 주세요.",
+        "MainEmbed_Title": "📀 ``Kazuto Music`` 무료 평가판",
+        "MainEmbed_Description": "**환영합니다** 제 프로젝트인 \"Kazuto Music\"과 프리미엄 멤버십에 관심을 가져주셔서 감사합니다.\n추가 비용 없이 14일 동안 무료로 평가판 구독을 할 수 있으며 추가 데이터를 입력할 필요도 없습니다!\n\n⚠️ **기억하세요**:\n**1.** *무료 평가판은 14일 후에 만료됩니다*\n**2.** *관리하는 각 서버에 대해 이 무료 평가판에 한 번만 액세스할 수 있습니다*\n**3.** *우리는 사용자가 이 프로젝트의 프리미엄 기능을 테스트하고 이러한 기능의 성능을 테스트할 수 있도록 하는 목적으로만 이 무료 평가판을 제공합니다*\n\n**저희가 제공하는 프리미엄 혜택을 마음껏 누리시기 바랍니다!**\n*옵션을 선택하는 데 10분이 소요됩니다*",
+        "MainEmbed_Footer": "진심으로 :dev:",
+        "Button1_Label": "테스트 시작",
+        "Button2_Label": "나중에 시작하고 싶어요",
+        "ResponseDesc_Success_1": "✅ '14일' 프리미엄 무료 평가판을 성공적으로 신청하셨습니다.",
+        "ResponseField1_Success_1": "소유권 주장자",
+        "ResponseField2_Success_1": "만료일",
+        "ResponseDesc_Success_2": "✅ 현재 무료 평가판을 거부하셨습니다.\n\n*명령어를 사용하여 다시 청구할 수 있다는 점을 기억하세요* ``/premium``"
+      }
+    },
+    "reconnect-sys": {
+      "success": {
+        "Loading": "**다시 연결하는 중....**",
+        "Success_1": "✅ **재연결 성공!**"
+      },
+      "errors": {
+        "Internal_Error_1": "이런! 이 대기열과 관련된 데이터에 내부 오류가 발생했습니다."
+      }
+    },
+    "shop-sys": {
+      "success": {
+        "MainEmbed_Title1": "| 옵션 선택 - 구독 1일 💿",
+        "MainEmbed_Title2": "| 옵션 선택 - 3일 구독 💿",
+        "MainEmbed_Title3": "| 옵션 선택 - 5일 구독 💿",
+        "MainEmbed_Title4": "| 옵션 선택 - 7일 구독 💿",
+        "MainEmbed_Title5": "| 옵션 선택 - 14일 구독 💿",
+        "MainEmbed_Title6": "| 옵션 선택 - 구독 30일 📀",
+        "MainEmbed_Title7": "| 옵션 선택 - 구독 60일 📀",
+        "MainEmbed_Title8": "| 옵션 선택 - 구독 90일 📀",
+        "MainEmbed_Title9": "| 옵션 선택 - 구독 6개월 📀",
+        "MainEmbed_Title10": "| 옵션 선택 - 구독 1년 📀",
+        "MainEmbed_Description": "❓ **키 구매**\n*이 옵션을 사용하면 비공개로 전송되는 키 형태로 이 구독을 구매할 수 있으며 ``/redeem`` 명령을 사용하여 사용할 수 있습니다.*\n\n❓ **구독 구매**\n*이 옵션을 사용하면 이 서버에 대한 구독을 직접 구매하고 활성화할 수 있습니다.*",
+        "MainEmbed_Footer": "선택하는 데 10분이 주어집니다.",
+        "Button1_Label": "키 구매",
+        "Button2_Label": "구독 구매",
+        "BuyKey_BTN": {
+          "MainEmbed_Title": "🔑 프리미엄 키를 구매하셨습니다",
+          "MainEmbed_Field1": "구입한 사람",
+          "MainEmbed_Field2": "구매 일",
+          "MainEmbed_Field3": "신청",
+          "MainEmbed_Field4": "상태",
+          "MainEmbed_Field4_value": "사용하지 않고",
+          "MainEmbed_Field4_value_2": "사용된",
+          "Response_Title": "✅ 새로운 키 획득",
+          "Response_Description": "``:duration:`` 기간의 **프리미엄 키**를 획득하셨습니다. 해당 키에 대한 **정보**를 DM으로 보내드렸습니다."
+        },
+        "BuySub_BTN": {
+          "MainEmbed_Title": "✅ 프리미엄이 성공적으로 사용되었습니다",
+          "MainEmbed_Description_1": "**프리미엄 구독**을 성공적으로 상환했습니다. 이 서버에서 프리미엄 기능이 활성화되었습니다!\n\n*이전에 프리미엄 구독을 하셨기 때문에 구독이 갱신되었습니다!*",
+          "MainEmbed_Description_2": "**프리미엄 구독**을 성공적으로 상환했습니다. 이 서버에서 프리미엄 기능이 활성화되었습니다!",
+          "MainEmbed_Field1": "사용 대상",
+          "MainEmbed_Field2": "만료일",
+          "MainEmbed_Footer": "K-Music 프로젝트에 협력해 주셔서 감사합니다"
+        }
+      },
+      "errors": {
+        "Insufficient_Coins_Error_1": "서버에 구매에 필요한 **코인**이 부족합니다."
+      }
+    }
+  },
+  "Modals_Constructor": {
+    "music": {
+      "remove_cmd": {
+        "removesongbyid_title": "노래/비디오 삭제",
+        "removesongbyid_label": "ID [노래 ID 제공]",
+        "removesongbyid_placeholder": "Ex: 2, 8, 0, 3.",
+        "removerangeofsongs_title": "여러 노래/비디오 삭제",
+        "removerangeofsongs_label": "초기 ID [제거가 시작될 ID]",
+        "removerangeofsongs_label2": "최종ID [삭제되는 곳까지의 ID]"
+      }
+    },
+    "review": {
+      "title": "Kazuto-음악 리뷰",
+      "label": "검토",
+      "placeholder": "여기에 봇에 대한 의견을 적어주세요",
+      "response_title": "| :user:의 검토",
+      "response_description": "**평점** ``:review_stars:``\n\n**검토**\n:review_data:",
+      "response_description_2": "🟢 귀하의 평가를 받았습니다. 시간을 내어 프로젝트에 대한 의견을 보내주셔서 감사합니다. 앞으로도 저희 서비스를 계속 이용해 주시기 바랍니다!"
+    },
+    "parametersMenu": {
+      "volume": {
+        "volume_title": "기본 볼륨 설정",
+        "volume_label": "볼륨 백분율",
+        "volume_placeholder": "Ex: 25, 50, 75, 100."
+      }
+    }
+  },
+  "SelectMenus": {
+    "filtersMenu": {
+      "Voice_Error_1": "이 작업을 수행하려면 음성 채팅 중이어야 합니다.",
+      "Voice_Error_2": "이 작업을 수행하려면 나와 동일한 음성 채팅에 참여해야 합니다.",
+      "Premium_Error_1": "이 기능은 액세스할 수 없습니다. 이 기능은 **프리미엄 서버**에만 제공됩니다!"
+    },
+    "langsMenu": {
+      "MessageTitle": "| Kazuto-음악 언어",
+      "Language_Success_1": "✅ 봇 언어를 ``:previous_lang:``에서 ``:selected_lang:``로 성공적으로 설정했습니다.",
+      "Language_Success_2": "✅ 봇 언어를 ``:previous_lang:``에서 ``:selected_lang:``로 성공적으로 변경했습니다."
+    },
+    "acMenu": {
+      "MessageTitle": "| 검색 제안 알고리즘",
+      "Ac_Success_1": "✅ 검색 제안 소스를 ``:previous_value:``에서 ``:selected_value:``로 성공적으로 설정했습니다.",
+      "Ac_Success_2": "✅ 검색 제안 소스를 ``:previous_value:``에서 ``:selected_value:``로 성공적으로 변경했습니다."
+    },
+    "setupMenu": {
+      "MessageTitle": "| Kazuto-음악 설정",
+      "TimeoutEmbed_Desc": "⏳ 옵션을 선택하는 데 시간이 너무 오래 걸렸습니다. 다시 시도해 주세요!",
+      "LangEmbed_Desc": "봇의 **언어** 구성 메뉴에 :user_mention: 오신 것을 환영합니다. 이 언어 시스템을 사용하면 모국어 또는 원하는 언어를 선택할 수 있습니다!\n\n**기여자**:\n:colab_members:\n\n[여기를 클릭](https://github.com/xNeuNoRo/kmusic-languages) 하여 더 많은 언어 번역을 도와주세요!\n\n*봇의 주요 번역은 영어와 스페인어로, 실제 인간이 처리하며, 나머지 번역은 'Google 번역'과 같은 온라인 번역기의 결과입니다.*",
+      "LangEmbed_Btn": "번역으로 협업하기",
+      "RestrictChannelEmbed_Desc": ":user_mention: 서버 **음악 채널** 구성 메뉴에 오신 것을 환영합니다. 이 시스템을 사용하면 음악/비디오 재생을 선택한 특정 특정 음성 채널로 제한할 수 있습니다.\n\n서버 목록의 현재 음성 채널: ```:restricted_channels:```\n\n*아래는 채널 제한 작동 방식의 예입니다*",
+      "RestrictChannelEmbed_Var1": "목록에 채널이 없습니다",
+      "RestrictChannelMenu_Placeholder": "음성 채널 선택",
+      "ParametersMenuConstructor": {
+        "Placeholder": "매개변수 옵션을 선택하세요.",
+        "1_label": "용량",
+        "1_desc": "기본 볼륨 설정",
+        "2_label": "파마",
+        "2_desc": "루프를 기본적으로 활성화할지 여부를 설정합니다.",
+        "3_label": "자동 재생",
+        "3_desc": "기본적으로 자동 재생 활성화 여부 구성",
+        "4_label": "24/7",
+        "4_desc": "24/7 재생 활성화 여부 구성"
+      },
+      "ACEmbed_Desc": "봇 **제안** 소스의 구성 메뉴에 :user_mention: 오신 것을 환영합니다. 봇의 검색 제안 시스템은 ``[/music command play]``를 사용하여 수행하는 각 검색을 관리하는 알고리즘입니다. 이는 귀하가 좋아하는 노래의 기록을 지속적으로 학습하고 귀하의 취향에 따라 추천을 담당하기 때문에 사용자의 요구를 특별히 고려하여 개발된 자체 알고리즘 [Custom]을 사용할 수 있습니다. 기본적으로 YouTube가 시스템에 구현하는 알고리즘을 모방한 YouTube 검색 제안 알고리즘을 사용할 수도 있습니다.\n\n*아래는 검색 제안 알고리즘의 작동 방식에 대한 예입니다*",
+      "AutoCompleteMenuConstructor": {
+        "Placeholder": "추천 소스를 선택하세요.",
+        "1_label": "사용자 정의 [자체 알고리즘]",
+        "1_desc": "봇 자체 추천 시스템",
+        "2_label": "유튜브",
+        "2_desc": "YouTube 추천 시스템"
+      },
+      "YTMixesEmbed_Desc": "YT **믹스** 구성 메뉴에 :user_mention: 오신 것을 환영합니다. 이 시스템을 사용하면 봇에서 YouTube 믹스를 재생할 수 있습니다. 하지만 지역적, 지역적 차이로 인해 믹스에 표시될 수 있는 노래가 충실하지는 않습니다. 계정\n\n*아래에는 YouTube 믹스의 예가 있습니다*",
+      "ParametersEmbed_Desc": "서버 **재생 매개변수** 구성 메뉴에 오신 것을 환영합니다. :user_mention: 이 시스템을 사용하면 볼륨, 자동 재생 등과 같은 다양한 기본 옵션을 수정할 수 있습니다.\n\n*아래에는 기본 매개변수의 예가 있습니다*",
+      "DJEmbed_Desc": "**DJ** 서버 구성 메뉴에 오신 것을 환영합니다 :user_mention: 이 시스템을 사용하면 여러 역할 또는 사용자를 최대 25명까지 서버 DJ로 설정하여 기본 음악 명령(예: 볼륨, 일시 정지, 중지, 건너뛰기...)에 대한 액세스 권한을 DJ인 사용자로만 제한할 수 있습니다.",
+      "DJEmbed_Field1": "DJ 시스템",
+      "DJEmbed_Field2": "DJ 역할",
+      "DJEmbed_Field3": "DJ 사용자",
+      "DJEmbed_Field4": "*다음은 DJ 시스템의 작동 방식에 대한 예시입니다*",
+      "DJEmbed_Field5": "DJ 명령",
+      "DJMenu_Placeholder": "역할 선택",
+      "DJMenu_Placeholder2": "사용자 선택",
+      "DJMenu_Placeholder3": "명령 선택",
+      "MsCEmbed_Desc": "서버의 **전용 음악 요청 채널** 구성 메뉴에 :user_mention: 오신 것을 환영합니다. 이 시스템을 사용하면 모든 사용자가 보다 직관적이고 간단하며 효과적인 방법으로 노래/비디오를 재생할 수 있습니다.\n\n*아래에는 음악 요청 채널 작동 방식의 예가 있습니다*",
+      "ButtonConstructor": {
+        "1": "채널 추가",
+        "2": "리무버 운하",
+        "3": "DJ 역할 설정",
+        "4": "DJ 시스템 활성화",
+        "5": "DJ 시스템 비활성화",
+        "6": "전용 음악 채널 만들기",
+        "7": "전용 음악 채널 변경",
+        "8": "전용 음악 채널 복구",
+        "9": "전용 음악 채널 삭제",
+        "10": "믹스 검색 사용",
+        "11": "믹스 검색 비활성화"
+      },
+      "ButtonResponse": {
+        "1": {
+          "Waiting_Response": "목록에 추가하려면 아래 메뉴를 사용하여 음성 채널을 선택하세요.",
+          "Response_Error_1": "🚫 선택한 채널이 유효하지 않거나 이 서버의 채널에서 찾을 수 없습니다. 다시 시도해 주세요.",
+          "Response_Error_2": "🚫 선택한 채널은 음성 채널로 유효하지 않거나 이 서버의 채널에서 찾을 수 없습니다. 다시 시도해 주세요.",
+          "Response_Error_3": "🚫 선택한 채널은 이미 이 서버의 음악 채널 목록에 있습니다!",
+          "Response_Success_1": "✅ :channel_mention: 채널이 이 서버의 음악 채널 목록에 성공적으로 **저장**되었습니다!"
+        },
+        "2": {
+          "Waiting_Response": "목록에서 제거하려면 아래 메뉴를 사용하여 음성 채널을 선택하세요.",
+          "Response_Error_1": "🚫 선택한 채널이 유효하지 않거나 이 서버의 채널에서 찾을 수 없습니다. 다시 시도해 주세요.",
+          "Response_Error_2": "🚫 선택한 채널은 음성 채널로 유효하지 않거나 이 서버의 채널에서 찾을 수 없습니다. 다시 시도해 주세요.",
+          "Response_Error_3": "🚫 선택하신 채널은 이 서버의 음악 채널 목록에 없습니다!",
+          "Response_Success_1": "✅ 이 서버의 음악 채널 목록에서 :channel_mention: 채널을 성공적으로 **제거**했습니다!"
+        },
+        "3": {
+          "Waiting_Response": "DJ 역할로 설정하려면 아래 메뉴를 사용하여 역할을 선택하세요.",
+          "Response_Error_1": "🚫 선택한 역할이 유효하지 않거나 이 서버의 역할 중에서 찾을 수 없습니다. 다시 시도해 주세요.",
+          "Response_Error_2": "선택한 사용자가 잘못되었거나 이 서버의 구성원 중에서 찾을 수 없습니다. 다시 시도해 주세요.",
+          "Response_Success_1": "✅ 이 서버에 대해 :role_mention: 역할을 ``DJ 역할``로 **설정** 성공했습니다!",
+          "Response_Success_2": "✅ 이전 ``DJ 역할``을 :role_mention: 역할로 **수정**하고 이 서버의 현재 ``DJ 역할``로 올바르게 설정했습니다!"
+        },
+        "4": {
+          "Response_Success_1": "✅ 이 서버에서 ``DJ 역할 시스템``이 성공적으로 **활성화**되었습니다!"
+        },
+        "5": {
+          "Response_Success_1": "✅ 이 서버에서 ``DJ 역할 시스템``을 올바르게 **비활성화**했습니다!"
+        },
+        "6": {
+          "Response_Success_1": "✅ :channel:에 '전용 음악 채널'이 성공적으로 생성되었습니다.",
+          "Response_Success_2": "✅ :channel:에 '전용 음악 채널'이 성공적으로 생성되었습니다.\n\n⚠️ ``음악전용채널``을 **처음** 생성하는 것이 아니기 때문에 **서버당 채널**을 2개 이상 생성할 수 없다는 점을 기억하세요!"
+        },
+        "7": {
+          "Response_Error_1": "이 서버에서 '전용 음악 채널'을 찾을 수 없습니다. 생성한 후 다시 시도해 주세요!",
+          "Response_Error_2": "기존 '전용 음악 채널'을 대체하려면 유효한 채널을 선택해야 합니다!",
+          "Waiting_Response": "아래 메뉴를 사용하여 이 서버의 새로운 '전용 음악 채널'로 사용할 문자 채널을 선택합니다.",
+          "Waiting_Response_Placeholder": "텍스트 채널 선택",
+          "Response_Success_1": "'전용 음악 채널'이 :channel: 채널로 성공적으로 변경되었습니다."
+        },
+        "8": {
+          "Response_Error_1": "이 서버에서 '전용 음악 채널'을 찾을 수 없습니다. 생성한 후 다시 시도해 주세요!",
+          "Response_Error_2": "이 서버의 '전용 음악 채널'에서 오류가 감지되지 않았으며, 오류가 지속되면 이 채널을 삭제하고 다른 채널을 생성하는 것이 좋습니다.",
+          "Response_Success_1": "이 서버의 '전용 음악 채널'에서 발생할 수 있는 모든 오류가 수정되었으며, 여전히 오류가 지속되는 경우 이 채널을 삭제하고 다른 채널을 생성하는 것이 좋습니다."
+        },
+        "9": {
+          "Response_Error_1": "이 서버에서 '전용 음악 채널'을 찾을 수 없습니다. 생성한 후 다시 시도해 주세요!",
+          "Response_Success_1": "이 서버에서 '전용 음악 채널'을 성공적으로 제거했습니다!"
+        },
+        "10": {
+          "Response_Success_1": "이 서버에서 'YouTube 믹스 시스템'을 성공적으로 **활성화**했습니다!"
+        },
+        "11": {
+          "Response_Success_1": "이 서버에서 'YouTube 믹스 시스템'을 **비활성화**하는 데 성공했습니다!"
+        }
+      }
+    },
+    "parametersMenu": {
+      "MessageTitle": "| Kazuto-음악 매개변수",
+      "TimeoutEmbed_Desc": "⏳ 옵션을 선택하는 데 시간이 너무 오래 걸렸습니다. 다시 시도해 주세요.",
+      "LoopEmbed_Desc": "노래 대기열이나 재생을 시작할 때 기본값으로 설정할 루프 옵션을 선택하세요.",
+      "AutoPlayEmbed_Desc": "노래 대기열이나 재생을 시작할 때 기본값으로 설정할 자동 재생 옵션을 선택하세요.",
+      "AllTimePlayingEmbed_Desc": "이 서버에서 연중무휴 노래/비디오 재생을 활성화할지 선택하세요.\n\n*참고: 이 옵션은 예약된 봇 다시 시작에 따라 달라지므로 완전히 연중무휴가 아닙니다.*",
+      "VolumeOption": {
+        "Waiting_Response": "노래 대기열이나 재생이 초기화될 때 설정할 기본 볼륨을 지정합니다. (1-500)",
+        "Response_Error_1": "``1``에서 ``500``까지 볼륨 비율을 지정해야 합니다.",
+        "Response_Error_2": "``:volume:`` 값은 유효한 정수량이 아닙니다. 다시 시도해 주세요!",
+        "Response_Success_1": "✅ 다음과 같은 기본 **매개변수**가 설정되었습니다:\n\n🔊 **볼륨**: ``:volume:``\n🔁 **루프**: ``기본값``\n🔃 **자동 재생**: ``기본값``\n⚙️ **연중무휴**: ``기본값``",
+        "Response_Success_2": "✅ 다음 기본 **매개변수**가 수정되었습니다:\n\n🔊 **볼륨**: ``:volume:``\n🔁 **루프**: ``기본값``\n🔃 **자동 재생**: ``기본값``\n⚙️ **연중무휴**: ``기본값``"
+      },
+      "ButtonConstructor": {
+        "1": "이 노래",
+        "2": "전체 대기열",
+        "3": "루프 비활성화",
+        "4": "자동재생 활성화",
+        "5": "자동재생 비활성화",
+        "6": "연중무휴 플레이",
+        "7": "재생 비활성화 연중무휴"
+      },
+      "ButtonResponse": {
+        "1": {
+          "Response_Success_1": "✅ 다음과 같은 기본 **매개변수**가 설정되었습니다:\n\n🔊 **볼륨**: ``기본값``\n🔁 **루프**: ``이 노래``\n🔃 **자동 재생**: ``기본값``\n⚙️ **연중무휴**: ``기본값``",
+          "Response_Success_2": "✅ 다음 기본 **매개변수**가 수정되었습니다:\n\n🔊 **볼륨**: ``기본값``\n🔁 **루프**: ``이 노래``\n🔃 **자동 재생**: ``기본값``\n⚙️ **연중무휴**: ``기본값``"
+        },
+        "2": {
+          "Response_Success_1": "✅ 다음과 같은 기본 **매개변수**가 설정되었습니다:\n\n🔊 **볼륨**: ``기본값``\n🔁 **루프**: ``전체 대기열``\n🔃 **자동 재생**: ``기본값``\n⚙️ **연중무휴**: ``기본값``",
+          "Response_Success_2": "✅ 다음 기본 **매개변수**가 수정되었습니다:\n\n🔊 **볼륨**: ``기본값``\n🔁 **루프**: ``전체 대기열``\n🔃 **자동 재생**: ``기본값``\n⚙️ **연중무휴**: ``기본값``"
+        },
+        "3": {
+          "Response_Success_1": "✅ 다음과 같은 기본 **매개변수**가 설정되었습니다:\n\n🔊 **볼륨**: ``기본값``\n🔁 **루프**: ``끄기/끄기``\n🔃 **자동 재생**: ``기본값``\n⚙️ **연중무휴**: ``기본값``",
+          "Response_Success_2": "✅ 다음 기본 **매개변수**가 수정되었습니다:\n\n🔊 **볼륨**: ``기본값``\n🔁 **루프**: ``끄기/끄기``\n🔃 **자동 재생**: ``기본값``\n⚙️ **연중무휴**: ``기본값``"
+        },
+        "4": {
+          "Response_Success_1": "✅ 다음과 같은 기본 **매개변수**가 설정되었습니다:\n\n🔊 **볼륨**: ``기본값``\n🔁 **루프**: ``기본값``\n🔃 **자동 재생**: ``켜짐``\n⚙️ **연중무휴**: ``기본값``",
+          "Response_Success_2": "✅ 다음 기본 **매개변수**가 수정되었습니다:\n\n🔊 **볼륨**: ``기본값``\n🔁 **루프**: ``기본값``\n🔃 **자동 재생**: ``켜짐``\n⚙️ **연중무휴**: ``기본값``"
+        },
+        "5": {
+          "Response_Success_1": "✅ 다음과 같은 기본 **매개변수**가 설정되었습니다:\n\n🔊 **볼륨**: ``기본값``\n🔁 **루프**: ``기본값``\n🔃 **자동 재생**: ``끄기/끄기``\n⚙️ **연중무휴**: ``기본값``",
+          "Response_Success_2": "✅ 다음 기본 **매개변수**가 수정되었습니다:\n\n🔊 **볼륨**: ``기본값``\n🔁 **루프**: ``기본값``\n🔃 **자동 재생**: ``끄기/끄기``\n⚙️ **연중무휴**: ``기본값``"
+        },
+        "6": {
+          "Response_Success_1": "✅ 다음과 같은 기본 **매개변수**가 설정되었습니다:\n\n🔊 **볼륨**: ``기본값``\n🔁 **루프**: ``기본값``\n🔃 **자동 재생**: ``기본값``\n⚙️ **연중무휴**: ``활성화됨``",
+          "Response_Success_2": "✅ 다음 기본 **매개변수**가 수정되었습니다:\n\n🔊 **볼륨**: ``기본값``\n🔁 **루프**: ``기본값``\n🔃 **자동 재생**: ``기본값``\n⚙️ **연중무휴**: ``활성화됨``"
+        },
+        "7": {
+          "Response_Success_1": "✅ 다음과 같은 기본 **매개변수**가 설정되었습니다:\n\n🔊 **볼륨**: ``기본값``\n🔁 **루프**: ``기본값``\n🔃 **자동 재생**: ``기본값``\n⚙️ **연중무휴**: ``비활성화/해제``",
+          "Response_Success_2": "✅ 다음 기본 **매개변수**가 수정되었습니다:\n\n🔊 **볼륨**: ``기본값``\n🔁 **루프**: ``기본값``\n🔃 **자동 재생**: ``기본값``\n⚙️ **연중무휴**: ``비활성화/해제``"
+        }
+      }
+    }
+  },
+  "events": {
+    "client": {
+      "ready": {
+        "Bot_Restart_By_Host": "⚠️ 봇 무료 호스트로 인해 봇 **정기 재시작**이 진행되었습니다. 불편을 끼쳐드려 죄송합니다.\n\n**주소**: [``:dev_tag:``](https://discordapp.com/users/:dev_id:)",
+        "ReconnectMessage_Title": "[🔰] 경고 [🔰]",
+        "ReconnectMessage_Desc": "이전에 재생 중이던 노래 대기열을 복구했습니다.\n\n📆 날짜: **<t::data_time::R>**\n🎵 **``:songs_length:``** 노래 포함\n🔈 음성 채널: :voice_channel:\n\n**다시 플레이하시겠습니까?**\n\n*PS: 이 알림이 활성화된 동안에는 향후 노래 대기열을 검색할 수 없습니다.*",
+        "Reconnect_ButtonAccept_Label": "그리고",
+        "Reconnect_ButtonDeny_Label": "아니요",
+        "StatsUpdateMessage_Title": "``:bot_username:``에 대한 통계\n[다음 업데이트: <t::time_to_update::R>]"
+      }
+    },
+    "voice": {
+      "24/7": {
+        "Bot_AFK_Title": "봇 AFK ⚠️",
+        "Bot_AFK_Desc": "음성 채널에 **아무도** 없는 것으로 감지되어, 재생 시점을 기준으로 서버에서 얻은 **코인 수익**을 전달을 진행합니다.\n\n**재생**이 재개되는 즉시 **코인 수집**이 다시 재개됩니다.\n\n**서버가 🪙 ``:coins_earned:`` 코인을 획득했습니다!**",
+        "Bot_Disconnect_Title": "봇 오프라인 ⚠️",
+        "Bot_Disconnect_Desc": "혼자 남겨져서 노래도 멈추고 음성채팅도 나가야했는데...\n\n**서버가 🪙 ``:coins_earned:`` 코인을 획득했습니다!**"
+      }
+    },
+    "message": {
+      "botchannel": {
+        "Spam_Detected_Title": "⚠️ 스팸이 감지되었습니다",
+        "Spam_Detected_Desc": "이 서버에서 짧은 시간 내에 **많은 수의 요청**이 감지되었습니다. 이로 인해 이 서버의 요청 처리 속도가 일정 시간 동안 제한되었습니다."
+      }
+    },
+    "distube": {
+      "playMessageBuilder": {
+        "title": "재생 중 🎶",
+        "field_1": "에 의해 요청",
+        "field_2": "지속",
+        "field_3": "작가",
+        "field_4": "용량",
+        "field_5": "파마",
+        "field_6": "자동 재생",
+        "field_7": "복제품",
+        "field_8": "좋아요",
+        "field_9": "하역",
+        "field_10": "프리미엄",
+        "field_11": "살다",
+        "field_12": "필터"
+      },
+      "addSongMessageBuilder": {
+        "title": "대기열에 추가됨",
+        "field_1": "현재 볼륨",
+        "field_2": "줄을 서서",
+        "field_2_value": "``:songs_length: 노래 - :songs_formattedDuration:``"
+      },
+      "addListMessageBuilder": {
+        "title": "재생 목록이 대기열에 추가되었습니다 🎶",
+        "field_1": "``:playlist_length: - 노래``"
+      },
+      "noSearch_Error_1": "``:query:``에 대한 결과를 찾을 수 없습니다.",
+      "EmptyMessage_Title": "봇 연결 끊김",
+      "EmptyMessage_Desc": "혼자 남겨져서 노래도 멈추고 음성채팅도 나가야했는데...",
+      "queueFinished_Title": "대기열 종료됨 ✅",
+      "queueFinished_Desc_1": "신사들이 나에게 요청한 모든 것을 재현했습니다.\n\n**서버가 🪙 ``:coins_earned:`` 코인을 획득했습니다!**",
+      "queueFinished_Desc_2": "그들이 나에게 요청한 모든 것을 복사하는 것을 마쳤으므로 여러분의 허락을 받아 철수하겠습니다.\n\n**서버가 🪙 ``:coins_earned:`` 코인을 획득했습니다!**",
+      "queueFinished_Desc_3": "그들이 나에게 요청한 모든 것을 복사하는 것을 마쳤으므로 여러분의 허락을 받아 철수하겠습니다.\n\n**서버가 🪙 ``:coins_earned:`` 코인을 획득했습니다!**\n\n🔰 서버에서 연중무휴로 음악을 재생하고 싶나요? ``/settings 매개변수`` 명령을 사용하고 ``playback-24-7`` 옵션의 설정을 변경하세요."
+    }
+  },
+  "Buttons_Constructor": {
+    "MsC_AddtoPL": "재생목록에 추가",
+    "MsC_DeletefromPL": "재생목록에서 삭제",
+    "PlaylistMenu_ExitBTN": "나가",
+    "Shop_ExitBTN": "나가",
+    "Play_Loop_BTN": {
+      "1": "체포",
+      "2": "루프 중지",
+      "3": "일시중지",
+      "4": "목록",
+      "5": "수행원"
+    },
+    "StringMenuFilter_Opts": {
+      "1": "내일 필터링",
+      "2": "AC 필터",
+      "3": "오래된 필터",
+      "4": "베이스 부스트",
+      "5": "필터 '클리어'",
+      "6": "에코 필터",
+      "7": "'노래방' 필터",
+      "8": "'비브라토' 필터",
+      "9": "필터 '마감'",
+      "10": "'증기파' 필터",
+      "11": "'저주받은' 필터",
+      "12": "필터 '슬로우 리버브'",
+      "13": "'플랜저' 필터링",
+      "14": "'게이트' 필터",
+      "15": "'하스' 필터",
+      "16": "'역방향' 필터",
+      "17": "필터 '더블'",
+      "18": "필터 '펄세이터'",
+      "19": "'서라운드' 필터",
+      "20": "'Mcompand' 필터",
+      "21": "필터 '페이저'",
+      "22": "'트레몰로' 필터",
+      "23": "'고음' 필터",
+      "24": "필터 '이어왁스'",
+      "Placeholder": "현재 대기열에 대한 필터를 선택하세요",
+      "0_label": "필터 제거",
+      "0_desc": "현재 대기열에서 모든 필터 제거"
+    }
+  },
+  "functions": {
+    "paginator": "페이지 :actual_page:/:total_pages:",
+    "paginatorQueue": ":server_name: • 노래 대기열 | 페이지 :actual_page:/:total_pages:",
+    "paginatorSpecificPage": {
+      "title": "페이지 점프",
+      "label": "페이지 번호",
+      "placeholder": "Ex: 6, 5, 10, 7.",
+      "error": "유효한 페이지 번호를 입력해야 합니다!"
+    },
+    "updatenormalmessage": {
+      "PlayMsg": {
+        "Title": "현재 재생 중인 노래가 없습니다.",
+        "Description": "음성 대화에 참여하여 URL|노래|동영상을 입력하여 음악을 재생합니다\n[서버 지원](https://discord.com/invite/FGBSecT9gq) • [Developed By ℕ𝕖𝕦ℕ𝕠ℝ𝕠天使](https://discordapp.com/users/331496166325747713)",
+        "Footer": "실패/오류/버그가 발생한 경우 개발자 :dev:에 보고하여 지원을 받으세요."
+      },
+      "QueueMsg": {
+        "Title": "대기열에 '0' 곡이 있습니다",
+        "Description": "*현재 대기열에 노래가 없습니다*\n\n음악을 재생할 URL|노래|비디오를 입력하세요."
+      }
+    },
+    "updateplaymessage": {
+      "Author": "지금 재생 중 🎶",
+      "Field1": "방문",
+      "Field2": "프리미엄",
+      "Field2Variable1": "할 수 있는",
+      "Field2Variable2": "장애가 있는",
+      "Field3": "좋아요",
+      "Field4": "지속",
+      "Field4Variable1": "살다",
+      "Field5": "작가",
+      "Field6": "하역",
+      "Field6Variable1": "여기를 클릭하세요",
+      "Field6Variable2": "'링크가 만료되었습니다'",
+      "Field7": "추가 정보:",
+      "Field8": "*``:dev:``에 의해 개발됨*\n*• 봇 버전: ``:bot_version:``*\n*• 서버에는 현재 🪙 ``:coins:`` 코인이 있습니다*",
+      "Field8Extra": "\n*• 프리미엄 멤버십 만료일: <t::Premium_ExpiryDate::d>*",
+      "Footer": "볼륨: :volume:% | 고리: :loop_options: | 자동 재생: :autoplay_options: | 필터: :filter_options:"
+    },
+    "updatequeuemessage": {
+      "Title": "대기열에 ``:queue_songs:`` 노래가 있습니다\n예상 기간: ``:queue_duration:``",
+      "Title2": "대기열에 ``:queue_songs:`` 노래가 있습니다\n예상 기간: ``:queue_duration:``",
+      "DescVar1": "**지금 재생 중인 노래**",
+      "Footer": ":server_name: • 노래 대기열"
+    }
+  },
+  "commands": {
+    "others": {
+      "join": {
+        "success": {
+          "MessageTitle": "| Kazuto-음악",
+          "MessageDescription_Success_1": "✅ 귀하의 음성 채널에 성공적으로 참여했습니다!"
+        }
+      },
+      "leave": {
+        "success": {
+          "MessageTitle": "| Kazuto-음악",
+          "MessageDescription_Success_1": "✅ 음성채널 로그아웃에 성공했습니다!"
+        }
+      },
+      "userinfo": {
+        "errors": {
+          "NoDataFound_Error_1": ":user_mention: 사용자에 대한 정보가 데이터베이스에서 발견되지 않았습니다. 나중에 다시 시도하십시오!",
+          "NoDataFound_Error_2": "선택하신 사용자는 실제 Discord 사용자가 아닌 봇입니다! 실제 사람과 다시 시도해 보세요."
+        },
+        "success": {
+          "MessageTitle": "| :user_tag:에 대한 정보",
+          "MessageDesc": "이는 :user_mention: 사용자에 대해 데이터베이스에 기록하는 데이터입니다.\n\n** 일반 정보**\n```ml\n(-) 사용자 ID: :user_id:\n\n(-) 이후 사용자 불화: :user_creation:\n\n(-) 이후 서버 사용자: :user_joined:\n```\n** 재생 정보**\n```ml\n(-) 재생된 노래: :totalsongs_length:\n\n(-) 재생 시간: :playback_time:\n\n(-) 좋아하는 노래: :favorite_song:\n```",
+          "MessageFooter": "저희 서비스를 이용해 주셔서 감사합니다 | :dev:의 지적재산권"
+        }
+      },
+      "serverinfo": {
+        "errors": {
+          "NoDataFound_Error_1": "데이터베이스에서 이 서버에 대한 정보를 찾을 수 없습니다. 나중에 다시 시도하십시오!"
+        },
+        "success": {
+          "MessageTitle": "| :guild_name: 서버에 대한 정보",
+          "MessageDesc": "이는 이 서버에 대해 당사 데이터베이스에 기록하는 데이터입니다.\n\n**일반 정보**\n```ml\n(-) 서버 ID: :server_id:\n(-) 소유자: :owner_tag:\n(-) 사용자: :users_length:\n(-) 봇: :bots_length:\n(-) 채널: :channels_length:\n(-) 역할: :roles_length:\n(-) 에서 생성됨: :server_creation:\n```\n**↓ 봇 정보**\n```ml\n(-) 언어: :language:\n(-) 프리미엄: :premium_data:\n(-) 상환된 키: :keys_redeemed:\n(-) 코인: :server_coins:\n(-) 전용 채널: :msc_name:\n(-) DJ: :dj:\n(-) 맞춤 사운드: :soundboard_length:\n(-) 플레이 시간: :playtime:\n```",
+          "MessageFooter": "저희 서비스를 이용해 주셔서 감사합니다 | :dev:의 지적재산권"
+        }
+      },
+      "support": {
+        "success": {
+          "MessageDesc": "``🔰`` | **봇의 기능에 대한 지원을 받고 싶으신가요?**\n**봇에 새로운 기능을 제안하시겠습니까?**\n**아니면 발생한 문제/버그를 보고하시겠습니까?**\n\n[``여기를 클릭``](:support_server:)하거나 아래 버튼을 클릭하여 봇 지원 서버에 참여하고 봇 관리팀에 문의하세요!"
+        }
+      },
+      "about": {
+        "success": {
+          "MessageTitle": "| :bot_tag: 정보",
+          "MessageDescription": ":user:님, 안녕하세요. 우선 우리의 목표와 목적을 이해하기 위해 이 봇의 역사와 개발에 대해 조금 알고 싶습니다.\n\n<:creativity:1102880753324408872> __**우리의 주요 초점**__\n> 이 봇은 'Kazuto'라는 또 다른 훌륭한 봇의 일부입니다. 후자에서 이 봇은 사용자에게 최고의 무료 Discord 음악 경험을 제공하는 데 집중할 목적으로 만들어졌습니다. 이로 인해 음악 모듈을 메인 봇에서 분리했습니다. 'Kazuto'와 우리는 처음부터 이 봇을 만들었습니다.\n\n<:start:1102881879255957504> __**첫 번째 단계**__\n> [/music play] => [현재 /music play로 이름 변경됨], [/music Volume] => [현재 /music 볼륨으로 이름 변경됨], [/music settings]와 같은 몇 가지 명령으로 시작했습니다. 여기에는 다음과 같은 몇 가지 옵션이 포함되었습니다. 건너뛰기, 일시 중지, 재개 등... => [현재 /music 설정으로 이름이 변경됨] 등의 명령이 있습니다.\n\n> 그런 다음 재생 목록 시스템 [다양한 명령과 완전히 역동적이고 직관적인 메뉴를 갖춘 매우 완벽한 시스템], 여러 버튼이 있는 음악 요청 채널 [각 버튼이 명령으로 작동하므로 모든 것을 구현하는 데 꽤 시간이 걸립니다], 노래 기록 [/history] => [현재 /history 명령 문자열로 이름이 변경됨], 필터 시스템, 조정 가능한 필터 시스템, 재연결 시스템 [봇이 갑자기 다시 시작되거나 충돌하는 경우에 사용됩니다. , 다시 온라인이 되자마자 자동으로 노래를 복구합니다.] 등이 있습니다.\n\n> 얼마 지나지 않아 봇의 성능에 큰 영향을 미치는 특정 기능을 제한하여 성능을 향상시킬 목적으로 구현된 프리미엄 시스템이 등장했습니다.\n\n<:goal:1102884214774431784> __**우리의 궁극적인 목적**__\n> 결국 우리는 오늘날의 봇을 확장하게 되었기 때문에 이 작업을 감상해 주시고 Discord의 다른 사람들 중에서 우리를 '그냥 또 다른 봇'으로 생각하지 마시기를 바랍니다. 우리가 완전히 무료로 제공하는 모든 것은 멀티 기능과 함께 제공되기 때문입니다. 대가를 기대하지 않고 개발자의 한 시간 노력.\n\n> 그렇긴 하지만, 저희 봇을 즐겨보시고 좋은 경험을 하시길 바랍니다!\n\n*모든 결함/오류/버그는 수석 개발자 ``:dev:``에게 보고하여 지원을 받으세요!*",
+          "MessageDescription_2": ":user:님, 안녕하세요. 저는 ``:dev:``님이 만든 고음질 Discord 음악 봇입니다. 현재 저는 여러 음악 플랫폼에서 노래를 재생할 수 있고 다른 음악 봇에 비해 상당한 양의 기능을 제공할 수 있습니다. 명령에 대한 추가 정보가 필요하거나 도움이 필요하면 [/help] 명령을 사용하십시오.\n\n``자바스크립트\n------ 일반 정보 ------\n\n버전: :bot_version:\n지연 시간: :bot_latency:\n명령: :commands_size:\n서버: :servers_size:\n사용자: :users_size:\n플레이어: :servers_playing_size:\n활동/정시:\n:bot_uptime:\n\n------ 기술적 인 정보 ------\n\n운영 체제: :bot_os:\nCPU: :cpu_data:\nRAM: :ram:\n스레드/스레드: :cpu_threads:\n시계: :cpu_clock:\n\n------ 크레딧 ------\n\n주요 개발자: :dev:\n실행 환경/런타임:\nNode.js :nodejs_version:\n주요 종속성:\nDiscord.js v:discordjs_version:, DisTube v:distube_version:, 몽구스 v:mongoose_version:\n이모티콘/아이콘: [Icons8, Flaticon]\n경제적 지원(봇 호스팅용): :economic_support:```",
+          "Field1_Title": "<a:dev:1061452497107038228> 개발자",
+          "Field2_Title": "🎵 제공되는 서비스",
+          "Field3_Title": "🌐 글로벌 타임 음악 재생",
+          "Button1_Label": "중간",
+          "Button2_Label": "상태 ⇾",
+          "Button3_Label": "⇽ Kazuto-Music 소개"
+        }
+      },
+      "help": {
+        "success": {
+          "MenuStructure": {
+            "Placeholder": "명령 카테고리 선택",
+            "Label": {
+              "label01": "시작",
+              "label02": "개발자",
+              "label03": "시스템",
+              "label04": "환경",
+              "label05": "기타"
+            },
+            "Description": {
+              "desc01": "카테고리 목록을 보세요",
+              "desc02": "모든 봇 개발자 명령 보기",
+              "desc03": "봇의 고유 시스템의 모든 명령을 확인하세요",
+              "desc04": "모든 봇 구성 명령 보기",
+              "desc05": "모든 추가 봇 명령 보기"
+            }
+          },
+          "MessageTitle": ":bot_username: 명령",
+          "MessageDescription": "안녕하세요 :user_mention:, 이 메뉴는 **봇 명령**과 그 작동 방식에 대해 알아보고 음악을 듣는 멋진 경험을 하는 데 도움이 될 것입니다!\n\n이 봇에는 **자체 시스템**과 이 봇의 **독점**뿐만 아니라 **지속적인 업데이트**가 있어 작동을 개선하고 새로운 기능을 구현합니다.\n\n``:commands_size: 명령``은 4가지 범주로 나누어져 있습니다. 명령에 대한 자세한 내용을 보려면 이 중 하나 아래의 메뉴를 클릭하세요.",
+          "MessageFooterText": ":bot_username: ⓒ | :dev:의 지적재산권",
+          "MapMessageText": "*명령어(:cmd_index:)*\n\n⭐ **이름**\n:name_block:\n\n🔤 **설명**\n:desc_block:\n\n🌐 **사용**\n:usage_block:\n\n🔗 **예**\n:example_block:"
+        }
+      },
+      "review": {
+        "success": {
+          "MessageTitle": "| 봇 검토",
+          "MessageDescription": ":user:님, 안녕하세요! 리뷰에서 의견을 제시하기 전에 아래 버튼을 클릭하여 경험을 바탕으로 봇에 부여할 등급을 선택하세요."
+        }
+      }
+    },
+    "developer": {
+      "viewkeys": {
+        "_comment": "이 버튼에는 다른 텍스트가 필요하지 않으므로 다른 텍스트는 재사용됩니다. (당분간은) [이 텍스트를 번역하지 마세요!]"
+      },
+      "keygen": {
+        "_comment": "이 버튼에는 다른 텍스트가 필요하지 않으므로 다른 텍스트는 재사용됩니다. (당분간은) [이 텍스트를 번역하지 마세요!]"
+      },
+      "proxysys": {
+        "_comment": "이 버튼에는 다른 텍스트가 필요하지 않으므로 다른 텍스트는 재사용됩니다. (당분간은) [이 텍스트를 번역하지 마세요!]"
+      },
+      "reload": {
+        "dev_error_1": "귀하는 이 명령에 액세스할 수 없으며 봇 개발자에게만 **독점**됩니다.",
+        "cmd_success_1": "✅ 모든 ``명령어``가 올바르게 초기화되었습니다!",
+        "events_success_1": "✅ 모든 ``이벤트``가 올바르게 초기화되었습니다!",
+        "buttons_success_1": "✅ 모든 ``버튼``이 올바르게 초기화되었습니다!",
+        "db": {
+          "error_1": "⛔ 봇이 이미 데이터베이스에 연결되어 있습니다!",
+          "loading": "kazuto-music 데이터베이스에 연결을 시도하는 중입니다.....",
+          "success_1": "✅ 데이터베이스 연결이 올바르게 초기화되었습니다!"
+        }
+      },
+      "status": {
+        "Database_Status": {
+          "Val1": "🔴 오프라인",
+          "Val2": "🟢 연결됨",
+          "Val3": "🟠 연결 중",
+          "Val4": "🟣 연결 끊기"
+        },
+        "Default_Embed": {
+          "Title": "``:user_username:``에 대한 통계",
+          "Field1Title": "🔰 상태",
+          "Field1Value": "┕``🟢 온라인``",
+          "Field2": "📊 핑",
+          "Field3": "🕘 연결",
+          "Field4": "🗃️ 데이터베이스",
+          "Field5": "📆 창조",
+          "Field6": "🤖 버전"
+        },
+        "Dev_Embed": {
+          "Title": "``:user_username:``에 대한 통계",
+          "Field1Title": "🔰 상태",
+          "Field1Value": "┕``🟢 온라인``",
+          "Field2": "📊 API 핑",
+          "Field3": "🕘 API 연결",
+          "Field4": "🌐 서버",
+          "Field5": "👤 사용자",
+          "Field6": "📚 채널",
+          "Field7": "🗃️ 데이터베이스",
+          "Field8": "🗄️ 램",
+          "Field9": "⏰ 랩스 온",
+          "Field10": "⚙️ 운영 체제",
+          "Field11": "🎛️ CPU",
+          "Field12": "📡 CPU 데이터",
+          "Field13": "📆 창조",
+          "Field14": "🤖 버전",
+          "Field15": "📘 Discord.js"
+        }
+      }
+    },
+    "setup": {
+      "redeem": {
+        "errors": {
+          "PremiumKey_Error_1": "제공한 키가 **유효하지** 않습니다. **유효한** 키를 사용해 보세요!",
+          "PremiumKey_Error_2": "제공하신 키는 이미 이 서버에서 **사용**되었습니다. **다른 키**를 사용해 보세요!",
+          "PremiumKey_Error_3": "제공하신 키는 이미 **사용**되었습니다. 다른 **다른 키**를 사용해 보세요."
+        },
+        "success": {
+          "PremiumKey_Success_1": "✅ 키가 성공적으로 사용되었습니다",
+          "PremiumKey_Success_2": "**``:key_duration:``**에서 **프리미엄 키**를 성공적으로 사용했습니다. 이 서버에서 프리미엄 기능이 활성화되었습니다!",
+          "PremiumKey_Success_3": "**``:key_duration:``**에서 **프리미엄 키**를 성공적으로 사용했습니다. 이 서버에서 프리미엄 기능이 활성화되었습니다!\n\n*이전에 프리미엄 구독을 하셨기 때문에 구독이 갱신되었습니다!*",
+          "PremiumKeyField_Success_1": "👤 사용됨",
+          "PremiumKeyField_Success_2": "🕘 만료일",
+          "PremiumKeyFooter_Success_1": "K-Music 프로젝트에 협력해 주셔서 감사합니다"
+        }
+      },
+      "setup-KM": {
+        "general": {
+          "MessageTitle": "| Kazuto-음악 설정"
+        },
+        "success": {
+          "MessageDescription_Success_1": "Kazuto-Music 봇 구성 메뉴에 <@:user_id:> 오신 것을 환영합니다. 여기서는 봇의 여러 기존 구성 옵션을 찾을 수 있습니다. **첫 번째 단계** 아래에서 만들거나 수정하려는 구성을 선택하세요. 당신의 취향."
+        },
+        "MenuStructure": {
+          "Placeholder": "옵션을 선택하세요",
+          "Label": {
+            "label01": "언어",
+            "label02": "봇의 채널",
+            "label03": "매개변수",
+            "label04": "채널 제한",
+            "label05": "DJ 시스템",
+            "label06": "검색 제안",
+            "label07": "믹스 검색 [YT]"
+          },
+          "Description": {
+            "desc01": "봇의 현재 언어 변경",
+            "desc02": "음악/동영상 요청 전용 채널 설정",
+            "desc03": "기본 재생 매개변수를 구성합니다(En: 볼륨).",
+            "desc04": "음악 재생을 특정 채널로 제한",
+            "desc05": "재생을 제어하기 위해 DJ 시스템 설정",
+            "desc06": "검색 제안 소스 변경",
+            "desc07": "봇의 믹스 검색 시스템 활성화/비활성화"
+          }
+        }
+      }
+    },
+    "systems": {
+      "coins": {
+        "success": {
+          "DataMessage_Success_1": "🪙 서버 코인``:guild_name:``",
+          "DataMessage_Success_2": "**현재 서버에는** 🪙 ``:coins_total:`` **코인**이 있습니다!\n\n❓ **코인을 더 얻으려면 어떻게 해야 하나요?**\n*봇과 함께 음악을 재생해보세요! (음악 재생 15분 => 코인 1개)*\n\n⚠️ **주의**: *똑똑한 분들은 연중무휴 모드를 활성화해도 서버에서 추가 코인을 얻을 수 없습니다.*\n\n❓ **코인은 무엇에 사용되나요?**\n*봇 스토어에서 프리미엄 구독을 구매하고 프로젝트를 지원하는 데 사용됩니다!*"
+        }
+      },
+      "fun": {
+        "errors": {
+          "Internal_Error_1": "내부 오류가 발생했습니다. 개발자 ``:dev:``에게 신고해 주세요."
+        },
+        "success": {
+          "Rickroll_Success_1": "| 현재 대기열을 릭롤링했습니다.",
+          "Troll_Success_1": "| 현재 대기열을 트롤링했습니다."
+        }
+      },
+      "music": {
+        "errors": {
+          "Bot_Recently_Disconnected_Error_1": "최근 봇의 연결이 끊어졌습니다. 다시 플레이하려면 ``몇 초``를 기다려야 합니다!",
+          "Playlist_Error_1": "방금 제공하신 재생목록이 **비프리미엄** 서버에 대한 :playlist_limit:곡 제한을 초과했습니다. 다른 재생목록으로 다시 시도해 주세요!",
+          "Playlist_Error_2": "방금 제공하신 재생목록이 :playlist_limit:곡 한도를 초과했습니다. 다른 재생목록으로 다시 시도해 주세요!",
+          "DJ_Error_1": "이 작업을 수행할 수 있는 **DJ** 권한이 없습니다.",
+          "Volume_Error_1": "1%에서 100% 사이의 볼륨 비율을 지정해야 합니다.",
+          "Volume_Error_2": "1%에서 500% 사이의 볼륨 비율을 지정해야 합니다.",
+          "Search_ID_Error_1": "유효한 **ID**를 제공해야 합니다.",
+          "Search_Timeout_Error_1": "⏳ 노래 **ID**를 제공하는 데 시간이 너무 오래 걸렸습니다. 다시 시도해 주세요.",
+          "TimeCMD_Error_1": "유효한 분을 지정해야 합니다.",
+          "SongID_Error_1": "이 **노래**를 이미 재생 중인 동일한 **노래**로 건너뛸 수 없습니다!",
+          "SongID_Error_2": "제공하신 **ID** ``:id:``는 **어떤 테일 노래에도 속하지 않습니다**. 유효한 **ID**로 다시 시도하세요!",
+          "SongID_Error_3": "유효한 숫자 ID를 제공해야 합니다!",
+          "SongID_Error_4": "이미 재생 중인 동일한 **노래**를 삭제할 수 없습니다!",
+          "SongID_Error_5": "종료 ID는 시작 ID보다 작을 수 없습니다. 다시 시도해 주세요!",
+          "SongID_Error_6": "이미 재생 중인 곡의 위치는 변경할 수 없습니다!",
+          "Dups_Error_1": "제거할 중복된 노래가 없습니다. 다시 시도해 주세요!",
+          "Lyrics_Error_1": "❌ 이 노래의 가사를 찾을 수 없습니다",
+          "Filter_Error_1": "대기열에 필터가 없습니다.",
+          "Filter_Error_2": "동일한 맞춤 필터를 사용하면서 동시에 ``:filter:`` 필터를 설정할 수 없습니다!",
+          "Filter_Error_3": "동일한 기본 필터를 사용하는 동시에 사용자 정의 필터 ``:filter:``를 설정할 수 없습니다!",
+          "Vote_Error_1": "❌ 이전에 노래 건너뛰기로 투표하셨습니다.",
+          "NextSong_Error_1": "❌ 이 대기열에는 다음 노래가 없습니다.",
+          "PreviousSong_Error_1": "❌ 이 대기열에는 이전 노래가 없습니다.",
+          "247_Error_1": "봇 오프라인",
+          "247_Error_2": "이 서버에서는 **24/7** 모드가 활성화되어 있지 않으므로 vc 연결 끊기를 진행해야 합니다...\n\n🔰 **24/7** 모드를 활성화하려면 **/settings 매개변수** 명령을 사용하세요.",
+          "Import_Error_1": "제공하신 노래 목록 파일이 잘못되었습니다. 수정되었거나 오류로 인해 내보내졌을 수 있습니다. 유효한 파일로 다시 시도해 주세요!"
+        },
+        "success": {
+          "Play_Success_1": "📀 요청접수, 🔎 검색중...",
+          "Search_Success_1": "검색 결과``:Search_Title:``",
+          "Search_Success_2": "*당신은* ``5분`` *ID 아래에 적힌 노래 중 하나를 선택할 수 있습니다*",
+          "VolumeCMD_Success_1": "| 현재 볼륨을 ``:volume:%``로 설정했습니다.",
+          "ReplayCMD_Success_1": "| 노래를 다시 재생했습니다.",
+          "TimeCMD_Success_1": "| 노래 재생 시간을 두 번째 ``:time:``로 변경하셨습니다.",
+          "SpeedCMD_Success_1": "| 노래 속도를 :speed:로 변경했습니다.",
+          "Skipto_Success_1": "| 현재 노래를 대기열의 ``:id:`` 노래로 건너뛰었습니다.",
+          "DeleteSong_Success_1": "| 대기열에서 ID가 ``:id:``인 노래를 제거했습니다.\n\n🎵 노래 이름: ``:deleted_songName:``",
+          "DeleteSong_Success_2": "| 대기열에서 :deletedsongs_length: 노래를 제거했습니다.",
+          "DeleteSong_Success_3": "| 현재 대기열에서 모든 노래를 제거했습니다!",
+          "DeleteSong_Success_4": "| 현재 대기열에서 중복된 노래를 모두 제거했습니다!",
+          "SwitchedSong_Success_1": "| ``:song_name:`` 노래를 ``:final_position:`` 위치로 이동했습니다!",
+          "Grab_Success_1": "| 현재 노래를 DM에 성공적으로 저장했습니다!",
+          "Filter_Success_1": "| 이전에 설정한 필터를 삭제했습니다.",
+          "Filter_Success_2": "| 현재 대기열에 대한 ``:filter:`` 필터를 제거했습니다.",
+          "Filter_Success_3": "| 현재 대기열에 대해 ``:filter:`` 필터를 설정했습니다.",
+          "Disconnect_Success_1": "| VC와의 연결이 끊어졌습니다!",
+          "Coin_Profit_Success_1": "코인 획득",
+          "Coin_Profit_Success_2": "**서버가 🪙 ``:coins:`` 코인을 획득했습니다!**",
+          "Vote_Success_1": "✅ 충분한 투표수에 도달하여 노래를 건너뜁니다...",
+          "Vote_Success_2": "| 노래(:actual_votes:/:required_votes:) 투표를 건너뛰기로 투표했습니다.",
+          "Skip_Success_1": "| 현재 노래를 건너뛰었습니다.",
+          "PreviousSkip_Success_1": "| 대기열의 이전 노래로 노래를 건너뛰었습니다.",
+          "Stop_Success_1": "| 현재 노래 대기열을 중지하고 지웠습니다.",
+          "Stop_Success_2": "| 현재 노래 대기열을 중지했습니다.",
+          "Pause_Success_1": "| 현재 노래를 일시중지했습니다.",
+          "Resume_Success_1": "| 현재 노래를 요약했습니다.",
+          "Shuffle_Success_1": "| 현재 노래 대기열을 셔플했습니다.",
+          "Autoplay_Success_1": "| 자동 재생 모드를 : ``:autoplay_options:``로 변경했습니다.",
+          "RelatedSong_Success_1": "| 현재 노래 대기열에 관련 노래를 추가했습니다.",
+          "Loop_Success_1": "| 루프 모드를 ``:loop_options:`` 로 수정했습니다.",
+          "Queue_Success_1_Var1": "대기열에 ``:queue_songs:`` 노래가 있습니다\n예상 기간: ``:queue_duration:``",
+          "Queue_Success_1_Var2": "대기열에 ``:queue_songs:`` 노래가 있습니다\n예상 기간: ``:queue_duration:``",
+          "Queue_Success_2": "\n\n[<a:queueid_animated:1027084303592595476>] **``ID - :id:``**\n[<a:music_animated:1027019977687056405>] [``:song_name:``](:song_url:)\n[:song_source_emoji:] :song_source_val:\n[<a:duration_animated:1027019986822234113>] ``:song_formattedDuration:``\n[<a:user_animated:1027019982418214932>] [``:song_author:``](https://discordapp.com/users/:song_author_id:)",
+          "Export_Success_1": "| 현재 노래 목록을 성공적으로 내보냈습니다. 나중에 가져올 수 있도록 텍스트 파일을 저장하는 것을 잊지 마세요!",
+          "Import_Loading": "목록에 있는 노래 로드 중",
+          "Import_Success_1": "| :songs_length: 노래를 성공적으로 가져왔습니다."
+        },
+        "edit": {
+          "Music_PlayMsg_PlayField": "⏸️ 플레이어가 :user_tag:에 의해 일시중지되었습니다.",
+          "Music_PlayMsg_PlayField2": "🎶 :user_tag:에 의해 플레이어가 재개되었습니다."
+        }
+      },
+      "musicRecord": {
+        "MenuStructure": {
+          "Placeholder": "옵션을 선택하세요",
+          "Label": {
+            "label01": "섬기는 사람",
+            "label02": "사용자"
+          },
+          "Description": {
+            "desc01": "전체 서버의 기록을 봅니다.",
+            "desc02": "특정 사용자의 기록 보기"
+          }
+        },
+        "errors": {
+          "Play_Error_1": "노래 기록을 재생하려면 음성 채팅을 해야 합니다!",
+          "UserNotFound_Error_1": "이 서버에서 이 사용자에 대한 데이터를 찾을 수 없습니다. 다시 시도해 주세요!",
+          "Permission_Error_1": "이 작업을 수행할 수 있는 권한이 없습니다."
+        },
+        "success": {
+          "UserFound_Success_1": "✅ 사용자 기록 :user_mention: 발견됨",
+          "DeleteServerHistory_Success_1": "✅ 서버에서 노래 기록을 성공적으로 삭제했습니다!",
+          "DeleteUserHistory_Success_1": "✅ 사용자 :user_mention:의 노래 기록을 성공적으로 삭제했습니다!",
+          "DeleteUserHistory_Success_2": "✅ 노래 기록을 성공적으로 삭제했습니다!",
+          "MessageDescription_Success_1": "_아래에서 보고 싶은 기록 유형을 선택하세요_",
+          "Waiting_UserSelection_Success_1": "⏳ 사용자를 언급하거나 Discord ID를 제공하세요",
+          "DataMap_Success_1": "_*노래 - :id:*_\n\n>>> 🔰 **제목**: [``:song_name:``](:song_url:)\n⏱️ **기간**: ``:song_formattedDuration:``\ni ️ **저자**: [``:song_author:``](:song_authorURL:)\n👤 **요청자**: ``:song_requestedBy:``\n🕘 **요청 날짜**: <t::song_requestedDate::R>\n👍 **좋아요**: ``:song_likes:``\n📊 **재생**: ``:song_views:``",
+          "DataMap_Success_2": "_*노래 - :id:*_\n\n>>> 🔰 **제목**: [``:song_name:``](:song_url:)\n⏱️ **기간**: ``:song_formattedDuration:``\ni ️ **저자**: [``:song_author:``](:song_authorURL:)\n🕘 **요청 날짜**: <t::song_requestedDate::R>\n👍 **좋아요**: ``:song_likes:``\n📊 **재생**: ``:song_views:``",
+          "MessageTitle_Success_1": "``:guild_name:``에서 마지막 :songs_length:곡이 재생되었습니다.",
+          "MessageTitle_Success_2": "``:guild_name:``에서 재생된 최근 15곡",
+          "MessageTitle_Success_3": "``:user_name:``가 연주한 마지막 :songs_length:곡"
+        }
+      },
+      "playlist": {
+        "general": {
+          "MessageTitle": "| 재생목록 시스템"
+        },
+        "errors": {
+          "Playlist_Play_Error_1": "❌ 재생 목록을 재생하려면 음성 채팅을 시작해야 합니다.",
+          "Playlist_Play_Error_2": "저장된 노래가 없기 때문에 ``:playlist_name:`` 재생목록을 재생할 수 없습니다.",
+          "Playlist_Play_Error_3": "소유자가 ``비공개 재생목록``으로 설정했기 때문에 ``:playlist_name:`` 재생목록을 재생할 수 없습니다.",
+          "Playlist_Error_1": "``:playlist_name:`` 재생목록이 이 서버의 데이터에 이미 존재합니다. 다른 이름으로 재생목록을 만들어 보세요.",
+          "Playlist_Error_2": "❌ **재생목록**에 ``:playlist_name:`` 재생목록이 없습니다. **기존 재생목록**으로 다시 시도해 주세요.",
+          "Playlist_Error_3": "``:playlist_name:`` 재생목록이 **데이터베이스**의 재생목록과 일치하지 않습니다. 이름을 올바르게 입력해 주세요.",
+          "Playlist_Error_4": "❌ 이 서버에 ``:newplaylist_name:``라는 이름의 재생목록이 이미 있습니다. 다른 이름으로 다시 시도해 주세요!",
+          "Playlist_NP_Error_1": "프리미엄이 아닌 서버에서는 최대 '3개의 재생목록'만 만들 수 있습니다.",
+          "Playlist_NP_Error_2": "이 서버의 **프리미엄 구독**이 만료되었으므로 ``:playlist_name:`` 재생목록을 사용할 수 없습니다.",
+          "Playlist_NP_Error_3": "**비프리미엄 서버**에는 ``75곡`` 이상 저장할 수 없습니다. 나중에 다시 시도해 주세요.",
+          "Playlist_P_Error_1": "프리미엄 서버에서는 최대 ``25개 재생목록``만 만들 수 있습니다.",
+          "Playlist_P_Error_2": "**프리미엄 서버**에는 ``300곡`` 이상 저장할 수 없습니다. 나중에 다시 시도해 주세요.",
+          "Playlist_NotFound_Error_1": "❌ 아직 이 서버에 재생목록을 만들지 않았습니다.\n \n⚠️ 이 서버에 노래 재생 목록을 생성하려면 ``/playlist create`` 명령을 사용하세요",
+          "Playlist_NotFound_Error_2": "❌ 이 사용자는 아직 이 서버에 첫 번째 재생 목록을 만들지 않았습니다.",
+          "Playlist_NotFound_Error_3": "❌ 아직 이 서버에 생성된 **재생목록**이 없습니다. 나중에 다시 시도해 주세요!",
+          "Playlist_NotFound_Error_4": "❌ 이 서버에는 재생목록이 없습니다. 나중에 다시 시도해 주세요!",
+          "Playlist_NotFound_Error_5": "❌ 재생목록 ``:playlist_name:``가 존재하지 않습니다. **기존 재생목록**으로 다시 시도해 주세요!",
+          "Playlist_Song_Error_1": "⚠️ 저장하려는 노래는 이전에 이 재생목록에 이미 저장되어 있습니다!",
+          "Playlist_Song_Error_2": "⚠️ 제공해 주신 재생목록은 유튜브 믹스이므로 지역 및 계정 차이로 음원 구하기가 거의 불가능합니다.",
+          "Playlist_NoSong_Error_1": "``:playlist_name:`` 재생목록에는 노래가 없습니다. 나중에 다시 시도해 주세요.",
+          "Playlist_NoSong_Error_2": "❌ **오류가 발생했습니다**\n \n**1**: 제공한 재생목록이 유효한지 확인하세요.\n \n**2**: 제공한 노래 ID가 유효한지 확인하세요.\n \n자신의 재생목록이 무엇인지 알고 싶다면 ``/playlist [list]``를 사용하고, 찾고 있는 노래의 ID가 무엇인지 알고 싶다면 ``/playlist songs [playlist]``를 사용하세요.",
+          "Playlist_InvalidURL_Error_1": "❌ 이 재생목록에 있는 노래의 URL이 유효하지 않습니다. 다른 재생목록을 재생해 보세요.",
+          "Playlist_Privacy_Error_1": "``:user_tag:``의 **재생목록**은 ``비공개 재생목록``으로 설정되어 있으므로 볼 수 없습니다.",
+          "Playlist_Privacy_Error_2": "소유자가 ``비공개 재생목록``으로 설정했기 때문에 ``:playlist_name:`` 재생목록을 볼 수 없습니다.",
+          "Playlist_Migrate_Error_1": "❌ ID가 ``:server_id:``인 서버가 존재하지 않습니다. **유효한 서버**로 다시 시도하세요!",
+          "MenuMessage_Timeout_Error_1": "⏳ 재생 목록 메뉴의 시간이 만료되었습니다. 다시 사용하려면 명령을 다시 실행하세요!",
+          "Playlist_ListDataMap_Error_1": "이 서버에는 재생 목록이 없습니다!",
+          "Playlist_ListDataMap_Error_2": ">>> **이 서버에는 공개 재생 목록이 없습니다!**"
+        },
+        "success": {
+          "HelpMessageTitle_Success_1": "재생 목록 시스템 도움말 ``:user_username:``",
+          "HelpMessageExtraField_Success_1": "✏️ 재생목록을 만드는 방법",
+          "HelpMessageExtraField_Success_2": "재생 목록을 생성하려면 ``/playlist create`` 명령을 사용하고 생성하려는 재생 목록의 이름을 제공해야 합니다.",
+          "HelpMessageExtraField_Success_3": "🗑️ 재생목록 삭제 방법",
+          "HelpMessageExtraField_Success_4": "재생 목록을 삭제하려면 ``/playlist delete`` 명령을 사용하고 삭제하려는 재생 목록의 이름을 제공해야 합니다.",
+          "HelpMessageExtraField_Success_5": "📝 재생목록 이름을 변경하는 방법",
+          "HelpMessageExtraField_Success_6": "재생목록 이름을 바꾸려면 ``/playlist rename`` 명령을 사용하고 재생목록에 지정할 새 이름을 입력하세요.",
+          "HelpMessageExtraField_Success_7": "👥 재생목록의 개인정보 보호를 변경하는 방법",
+          "HelpMessageExtraField_Success_8": "재생 목록의 개인 정보 보호 옵션을 변경하려면 ``/playlist Privacy`` 명령을 사용하고 재생 목록 이름을 제공하고 개인 정보 보호 옵션 중 하나를 선택해야 합니다.",
+          "HelpMessageExtraField_Success_9": "📄 자신의 재생 목록 또는 다른 사용자의 재생 목록을 보는 방법",
+          "HelpMessageExtraField_Success_10": "모든 재생 목록 목록을 보려면 간단히 ``/playlist list`` 명령을 사용하세요. 사용자의 재생 목록을 보려면 명령의 추가 옵션에서 해당 사용자를 선택하세요.",
+          "HelpMessageExtraField_Success_11": "📚 서버의 재생목록 목록을 보는 방법",
+          "HelpMessageExtraField_Success_12": "서버 사용자의 재생 목록 목록을 보려면 간단히 ``/playlist server`` 명령을 사용하면 서버의 모든 재생 목록과 함께 메시지가 표시됩니다.",
+          "HelpMessageExtraField_Success_13": "🎵 재생목록에서 노래를 저장/삭제하는 방법",
+          "HelpMessageExtraField_Success_14": "재생목록에 노래를 저장하려면 ``/playlist savesong`` 명령을 사용하고 노래의 URL과 저장하려는 재생목록을 제공해야 합니다.\n노래를 삭제하려면 ``/playlist deletesong`` 명령을 사용해야 하며 노래의 **ID**(**ID**는 노래를 저장할 때 할당됨)와 이 노래가 저장된 재생목록입니다.",
+          "HelpMessageExtraField_Success_15": "🎶 재생목록에서 노래를 보는 방법",
+          "HelpMessageExtraField_Success_16": "재생목록에 있는 노래를 보려면 ``/playlist songs`` 명령을 사용하고 재생목록 이름을 입력해야 합니다.",
+          "HelpMessageExtraField_Success_17": "i ️ 노래 ID를 보는 방법",
+          "HelpMessageExtraField_Success_18": "노래 ID를 보려면 ``/playlist songs`` 명령을 사용하세요. 그러면 재생 목록 이름을 입력해야 하며 해당 재생 목록에 있는 모든 노래의 데이터가 포함된 메시지가 표시됩니다.",
+          "HelpMessageExtraField_Success_19": "▶️ 재생목록 재생 방법",
+          "HelpMessageExtraField_Success_20": "재생목록을 재생하려면 ``/playlist load`` 명령을 사용하고 재생목록 이름을 제공해야 합니다.",
+          "HelpMessageExtraField_Success_21": "🌐 재생 목록과 효과적으로 상호 작용",
+          "HelpMessageExtraField_Success_22": "``/playlist menu`` 명령을 사용할 수 있으며 재생 목록 이름을 제공해야 합니다. 이 명령은 재생 목록 시스템의 일반 명령과 보다 동적으로 상호 작용할 수 있는 메뉴를 표시합니다.",
+          "HelpMessageExtraField_Success_23": "🗄️ 한 서버에서 다른 서버로 재생 목록 마이그레이션",
+          "HelpMessageExtraField_Success_24": "``/playlist migrate`` 명령을 사용하여 한 서버에서 다른 서버로 재생 목록을 마이그레이션(복사)할 수 있습니다. 그런 다음 재생 목록 이름과 재생 목록을 마이그레이션하려는 서버의 ID를 제공해야 합니다.",
+          "HelpMessageFooterText_Success_1": ":dev:를 위해 예약된 모든 재생목록 시스템 크레딧 | :previous_year: - :actual_year: ©",
+          "MenuMessageTitle_Success_1": "| 재생목록 메뉴 \":playlist_name:\"",
+          "MenuMessageDescription_Success_1": "재생목록 메뉴에 :user_mention: 오신 것을 환영합니다.\n최대 ``25`` 재생목록을 만들 수 있다는 점을 기억하세요.\n \n``Ⓐ`` **-** ``이 서버의 재생 목록 표시``\n``Ⓑ`` **-** ``이 서버의 상위 재생 목록 표시``\n``Ⓒ`` **-** ``모든 재생목록 목록 표시``\n``Ⓓ`` **-** ``이 재생 목록의 모든 노래 목록을 표시``\n``Ⓔ`` **-** ``현재 노래를 이 재생 목록에 추가``\n``Ⓕ`` **-** ``이 재생 목록에 특정 노래 추가``\n``Ⓖ`` **-** ``이 재생 목록의 모든 노래 재생``\n``Ⓗ`` **-** ``이 재생목록의 공개 여부 변경(비공개/공개)``\n``Ⓘ`` **-** ``이 재생목록의 현재 이름을 변경합니다``\n``Ⓙ`` **-** ``이 재생 목록 데이터를 다른 서버로 마이그레이션``\n``Ⓚ`` **-** ``이 재생목록에서 현재 노래를 삭제``\n``Ⓛ`` **-** ``이 재생목록에서 특정 노래를 삭제``\n``Ⓜ`` **-** ``이 재생목록 삭제``",
+          "MenuMessageFooterText_Success_1": "모든 권리는 :dev:에 있습니다 | :previous_year: - :actual_year: ©",
+          "Playlist_ListDataMap_Success_1": "✏️ **이름**: ``:playlist_name:``\n📆 **생성됨**: <t::playlist_timeCreated::R>\n🎵 ``:songs_length:`` 노래가 있습니다",
+          "Playlist_ListData_Title_Success_1": "사용자 재생 목록 ``:user_tag:`` 목록",
+          "Playlist_Success_1": "✅ ``:playlist_name:`` 재생목록이 성공적으로 생성되었습니다.",
+          "Playlist_Success_2": "✅ ``:playlist_name:`` 재생목록이 성공적으로 삭제되었습니다.",
+          "Playlist_Success_3": "✅ 재생 목록 이름 ``:playlist_name:``를 ``:newplaylist_name:``로 올바르게 변경했습니다.",
+          "Playlist_Success_4": "✅ 재생목록 ``:playlist_name:``의 개인정보 보호를 ``:privacy_value:``로 올바르게 변경했습니다.",
+          "Playlist_Success_5": "✅ **노래**를 성공적으로 저장했습니다:\n \n😀 **제목**: ``:song_name:``\n🌐 **URL**:``:song_url:``\nℹ️ **ID**: ``:song_id:``\n\n재생목록 ``:playlist_name:``에서!",
+          "Playlist_Success_5_2": "재생목록 URL이 감지되었으며 가능한 모든 노래가 저장되고 있습니다...",
+          "Playlist_Success_5_3": "✅ ``:songs_length:`` **노래**를 ``:playlist_name:`` 재생 목록에 성공적으로 저장했습니다!\n\n⚠️ **참고**: 제공하신 재생목록에 더 많은 노래를 저장할 수 있었지만 저는 이 서버에 설정된 재생목록당 노래 제한에 따라 노래를 저장했습니다.",
+          "Playlist_Success_6": "✅ **노래**를 성공적으로 삭제했습니다:\n \n😀 **제목**: ``:song_name:``\n🌐 **URL**:``:song_url:``\nℹ️ **ID**: ``:song_id:``\n\n재생목록 ``:playlist_name:``에서!",
+          "Playlist_Success_7": "📀 요청 접수됨...",
+          "Playlist_Waiting_Success_1": "<a:loadingWB:986050761031041084> 현재 대기열에서 노래를 저장하는 중...",
+          "Playlist_Success_8": "✅ ``:songs_length:`` 노래를 ``:playlist_name:`` 재생목록에 성공적으로 저장했습니다!",
+          "Playlist_Migrate_Success_1": "✅ 귀하의 재생목록 ``:playlist_name:``가 ``:server_name:`` 서버로 성공적으로 이전되었습니다.\n \n⚠️ **주의**: Debido a que el **nombre de tu playlist** ya existe en este server, tuve que renombrarla a ``:new_playlist_name:``",
+          "Playlist_Migrate_Success_2": "✅ 귀하의 재생목록 ``:playlist_name:``가 ``:server_name:`` 서버로 성공적으로 이전되었습니다.",
+          "Playlist_ServerListDataMap_Success_1": "``재생 목록`` **-** ``:id:``\n✏️ **이름**: ``:playlist_name:``\n👤 **작성자**: <@:user_id:>\n📆 **생성됨**: <t::playlist_timeCreated::R>\n📊 **재생**: ``:playlist_views:``\n🎵 ``:songs_length:`` 노래가 있습니다",
+          "Playlist_TopListDataMap_Success_1": "``재생 목록`` **-** ``:medals_or_id:``\n✏️ **이름**: ``:playlist_name:``\n👤 **작성자**: <@:user_id:>\n📆 **생성됨**: <t::playlist_timeCreated::R>\n📊 **재생**: ``:playlist_views:``\n🎵 ``:songs_length:`` 노래가 있습니다",
+          "Playlist_SongsListDataMap_Success_1": "_*노래 - :id:*_\n\n>>> 정책 **제목**: [``:song_title:``](:song_url:)\n📊 **재생**: ``:song_views:``\n👤 **업로드자**: [``:uploader_name:``](:uploader_url:)\n⏱️ **기간**: ``:song_formattedDuration:``\nℹ️ **ID**: ``:song_id:``",
+          "Playlist_ServerListDataTitle_Success_1": "서버 재생 목록 목록 ``:server_name:``",
+          "Playlist_TopListDataTitle_Success_1": "서버의 상위 재생 목록 ``:server_name:``",
+          "Playlist_SongsListTitle_Success_1": "재생 목록 노래 ``:playlist_name:``",
+          "Playlist_PLManage_Title": "서버 재생 목록 관리 :guild_name:",
+          "Playlist_PLManage_Title2": "재생 목록 관리 중: \":playlist_name:\"",
+          "Playlist_PLManage_Desc": "계속 진행하기 전에 아래 선택기에서 재생 목록을 선택하거나 생성해야 재생 목록 관리 메뉴가 표시됩니다.",
+          "Playlist_PLManage_Desc2": "현재 이 재생 목록에는 노래가 없습니다.",
+          "Playlist_PLManage_Placeholder": "재생 목록 선택",
+          "Playlist_PLManage_Placeholder2": "삭제할 노래를 하나 이상 선택합니다",
+          "Playlist_PLManage_Label": "새 재생목록 만들기",
+          "Playlist_PLManage_OpenAnotherMenu": "다른 [``메시지``](:message_url:)에서 다른 메뉴를 연 것이 감지되었습니다. 한 번에 하나의 메뉴만 사용할 수 있습니다.",
+          "Playlist_PLManage_CheckingSongsRateLimit": "얼마 전에 이미 노래 확인 프로세스를 초기화했습니다!\n완료하거나 10분 정도 기다렸다가 다시 초기화해야 합니다.",
+          "Playlist_PLManage_CheckingSongs": "재생 목록의 모든 곡을 살펴보기...",
+          "Playlist_PLManage_FixSongs_Success_1": "재생 목록의 노래에서 오류가 발견되지 않았습니다.",
+          "Playlist_PLManage_FixSongs_Success_2": "총 :songs_length: 사용할 수 없음이 발견되었으며, 이 일반적인 오류의 가능한 원인은 저작권 제거, 지역 차단, 개인 정보 변경 등입니다.\n\n⚠️ 오류가 발생한 노래는 재생 목록에 저장되어 있더라도 더 이상 사용할 수 없으므로 재생되지 않으므로 보관하는 것은 소용이 없습니다. 최후의 수단으로, 해당 노래를 잃고 싶지 않다면 🔵 **[:button1_label:]** 버튼을 사용해 당사 데이터베이스에 따라 해당 노래를 확인한 후 대체 URL을 찾아보고 마지막으로 아래의 다른 🔴 **[:button2_label:]** 버튼을 사용해 삭제할 것을 강력히 권장합니다.\n\n*60분 이내에 선택해야 합니다.",
+          "Playlist_PLManage_CreatePL_Modal": {
+            "Title": "재생 목록 만들기",
+            "Label": "재생목록 이름",
+            "Placeholder": "만들려는 재생목록의 이름을 입력합니다. 예: '내 좋아하는 노래'"
+          },
+          "Playlist_PLManage_Fields": {
+            "Field1Title": "소유자",
+            "Field2Title": "크기",
+            "Field3Title": "비주얼리제이션",
+            "Field4Title": "개인 정보 보호",
+            "Field5Title": "생성 날짜",
+            "Field6Title": "예상 기간",
+            "Field7Desc": "다른 모든 기능을 잠금 해제하려면 노래를 하나 이상 추가해야 합니다."
+          },
+          "Playlist_PLManage_ButtonsLabel": {
+            "Update": "업데이트",
+            "Update2": "⇦ 재생 목록 관리",
+            "Update3": "⇦ 일반 옵션",
+            "LoadPL": "플레이",
+            "AddSong": "노래 추가",
+            "Privacy": "개인 정보 보호 :privacy_value:",
+            "EditSongs": "편집",
+            "ModifyName": "이름 변경",
+            "MigrateServer": "다른 서버로 마이그레이션",
+            "SongsList": "재생 목록 보기",
+            "FixSongs": "노래의 오류 확인",
+            "ViewErrSongs": "오류가 있는 노래 보기",
+            "DeleteErrSongs": "오류가 있는 모든 노래 삭제",
+            "IgnoreErrSongs": "지금은 아무것도 삭제하지 마세요.",
+            "DeletePL": "이 재생목록 삭제하기"
+          }
+        }
+      },
+      "premium": {
+        "ButtonsLabel": {
+          "Button_1": "교환된 키 보기",
+          "Button_2": "무료 시험판",
+          "Button_3": "나가"
+        },
+        "success": {
+          "MessageTitle_Success_1": "💎 ``:guild_name:`` 프리미엄 상태",
+          "MessageDescription_Success_1": "**Kazuto-Music** 프리미엄 시스템은 특정 기능을 제한하여 성능을 높이고 이 봇의 가장 충성도가 높은 사용자에게 더 나은 경험을 제공하기 위한 조치를 만들기 위한 목적으로 만들어졌습니다.",
+          "MessageFieldTitle_PremiumStatus": "⭐ 프리미엄",
+          "MessageFieldTitle_PremiumDuration": "📆 만료일",
+          "MessageFieldTitle_PremiumAdvantage": "✌ 프리미엄의 장점",
+          "MessageFieldValue_PremiumAdvantage": "**``1``** **-** *볼륨 제한이 ``100%``에서 ``500%``로 증가됨*\n**``2``** **-** *곡 기록 제한이 ``5``에서 ``100``으로 증가됨*\n**``3``** **-** *재생목록 제한이 ``3``에서 ``25``로 증가됨*\n**``4``** **-** *재생목록 노래 제한이 ``25``에서 ``300``으로 증가됨*\n**``5``** **-** *사용자 정의 사운드 제한이 ``5``에서 ``25``으로 증가했습니다*\n**``6``** **-** *``/playlist menu`` 명령에 접근*\n**``7``** **-** *``/playlist manage`` 명령에 접근*\n**``8``** **-** *``/settings [매개변수]`` 명령에 액세스*\n**``9``** **-** *``/music filters`` 명령에 액세스*\n**``10``** **-** *``/music speed`` 명령에 액세스*\n**``11``** **-** *``/music custom-filters``* 명령에 액세스",
+          "MessageFooterText_Success_1": "마지막 확인",
+          "MessageExtraField_Success_1": "💎 프리미엄이 되어 K-Music 프로젝트를 응원해주셔서 감사합니다",
+          "MessageExtraField_Success_2": "우리 프로젝트에 대한 귀하의 협력에 감사드립니다. 이를 통해 서비스 품질을 향상하고 더 나은 경험을 제공할 수 있을 것입니다."
+        }
+      },
+      "shop": {
+        "success": {
+          "MessageTitle_Success_1": "💰 ``:bot_tag:`` 쇼핑하기",
+          "MessageDescription_Success_1": ":user_mention: ``:bot_tag:`` 스토어에 오신 것을 환영합니다. 여기에서 **코인 시스템**을 통해 무료 구독을 얻을 수 있습니다.\n\n**서버는 현재** 🪙 ``:coins_total:`` **코인**을 보유하고 있습니다!\n\n*해당 버튼을 눌러 다음 구독 중 하나를 선택하세요*",
+          "MessageFieldTitle_Success_1": "1️⃣ - ``💿 1일 프리미엄``",
+          "MessageFieldTitle_Success_2": "2️⃣ - ``💿 3일 프리미엄``",
+          "MessageFieldTitle_Success_3": "3️⃣ - ``💿 5일 프리미엄``",
+          "MessageFieldTitle_Success_4": "4️⃣ - ``💿7일 프리미엄``",
+          "MessageFieldTitle_Success_5": "5️⃣ - ``💿 14일 프리미엄``",
+          "MessageFieldTitle_Success_6": "6️⃣ - ``📀 30일 프리미엄``",
+          "MessageFieldTitle_Success_7": "7️⃣ - ``📀 60일 프리미엄``",
+          "MessageFieldTitle_Success_8": "8️⃣ - ``📀 90일 프리미엄``",
+          "MessageFieldTitle_Success_9": "9️⃣ - ``📀 6메세 프리미엄``",
+          "MessageFieldTitle_Success_10": "🔟 - ``📀 1년 프리미엄``",
+          "MessageFieldValue_Success_1": "'20코인'",
+          "MessageFieldValue_Success_2": "'50코인'",
+          "MessageFieldValue_Success_3": "``75 코인``",
+          "MessageFieldValue_Success_4": "'100코인'",
+          "MessageFieldValue_Success_5": "``155 코인``",
+          "MessageFieldValue_Success_6": "'300코인'",
+          "MessageFieldValue_Success_7": "``560 코인``",
+          "MessageFieldValue_Success_8": "'1000코인'",
+          "MessageFieldValue_Success_9": "``1850 동전``",
+          "MessageFieldValue_Success_10": "``3550 코인``"
+        }
+      },
+      "soundboard": {
+        "general": {
+          "MessageTitle": "| 카즈토 사운드보드 🎶"
+        },
+        "errors": {
+          "Characters_Error_1": "명령 이름, 설명 또는 명령 응답의 최대 문자 수를 초과했습니다. 문자 수를 줄여 다시 시도해 보세요.\n\n제한은 다음과 같습니다.\n\n*(-) 명령 이름: 최대 32자*\n*(-) 명령 설명: 최대 100자*\n*(-) 명령 응답: 최대 256자*",
+          "P_Limit_Error_1": "❌ 이 서버의 사용자 정의 사운드 최대 한도인 '100'에 이미 도달했습니다! 삭제한 후 다시 시도해 주세요.",
+          "NP_Limit_Error_1": "❌ 이 서버의 사용자 정의 사운드 최대 한도인 '20'에 이미 도달했습니다! 삭제한 후 다시 시도해 주세요.",
+          "Playlist_Error_1": "❌ 제공한 URL은 재생목록에 속하므로 특정 사운드/비디오/노래에 대한 URL을 제공해야 합니다!",
+          "Create_Error_1": "❌ 명령을 생성하는 동안 오류가 발생했습니다. 다시 시도하여 다음과 같이 생성했는지 확인하세요: /soundboard add {command name}, {sound url [YT/Spotify]}",
+          "Create_Error_2": "❌ 이 명령의 이름은 이미 사용 중입니다. 사용자 정의 사운드보드/사운드 명령을 만들려면 다른 이름을 사용해 보세요!",
+          "Not_Exist_Error_1": "❌ 이름이 ``:command_name:``인 사운드보드 명령이 데이터베이스에 없습니다. 다시 시도해 주세요!",
+          "Not_Exist_Error_2": "❌ 이 서버에서 생성된 사운드보드 명령을 찾을 수 없습니다. 나중에 생성된 후 다시 시도하세요."
+        },
+        "success": {
+          "Create_Success_1": "✅ 사용자 정의 사운드/사운드보드 명령이 성공적으로 생성되었습니다.\n\n♦️ **이름**:\n``/:command_name:```\n\n♦️ **설명**:\n``:command_desc:```\n\n♦️ **답장 메시지**:\n``:command_response:```\n\n︎ **사운드 URL**:\n``:song_url:```\n\n⭐ **맞춤 사운드 재생 후 노래 복구** [:recover_value:]",
+          "Modify_Success_1": "✅ 사용자 정의 사운드/사운드보드 명령이 성공적으로 수정되었습니다.\n\n♦️ **이름**:\n``/:command_name:```\n\n♦️ **설명**:\n``:command_desc:```\n\n♦️ **답장 메시지**:\n``:command_response:```\n\n︎ **사운드 URL**:\n``:song_url:```\n\n⭐ **맞춤 사운드 재생 후 노래 복구** [:recover_value:]",
+          "Delete_Success_1": "✅ 사용자 정의 사운드/사운드보드 명령 ``:command_name:``가 성공적으로 제거되었습니다!",
+          "Map_Success_1": "_*(:id:) • Kazuto-Music SoundBoard 사용자 정의 명령*_\n\n♦️ **이름**:\n``/:command_name:```\n\n♦️ **설명**:\n``:command_desc:```\n\n♦️ **답장 메시지**:\n``:command_response:```\n\n︎ **사운드 URL**:\n``:song_url:```\n\n⭐ **맞춤 사운드 재생 후 노래 복구** [:recover_value:]"
+        }
+      }
+    }
+  }
+}

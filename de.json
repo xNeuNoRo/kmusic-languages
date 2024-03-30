@@ -1,0 +1,1438 @@
+{
+  "translate_credits": {
+    "language_title": "Germany",
+    "translator_name": "ℕ𝕖𝕦ℕ𝕠ℝ𝕠天使",
+    "translator_giturl": "https://github.com/xNeuNoRo"
+  },
+  "general": {
+    "errorTitle": "[❌] Fehler",
+    "DevCredits": "Unterstützt von :dev: | :previous_year: - :actual_year: ©",
+    "Channel_Usage": "<:forwardarrow:969466384687964160>/<:skiparrow:969465916154839050> Überspringt das Lied in die vorherige/nächste Warteschlange.\n<:volumedown:969149392584081428>/<:volumeup:969149413014515772> Verringert/Erhöht die Lautstärke des Songs.\n<:exit:969149459302862858> Stoppt den Song und trennt die Verbindung zum Bot.\n<:pausebutton:969149484124737596> Hält den Song an.\n<:shuffle:969464687215390740> Randomisiert die Song-Warteschlange.\n<:autoplay:969470330022285372> Aktiviert den AutoPlay-Modus.\n<:repeatmusic:970415197355401226> Schaltet die verschiedenen Loop-Modi um.\n<:vote:1121271913189216357> Stimmen Sie ab, um das Lied zu überspringen.\n<:skip_to:1082495434259447849> Überspringt das Lied zu einem bestimmten Lied in der Warteschlange.\n<:song_speed:1082495435832315984> Legt die Wiedergabegeschwindigkeit des Songs fest.\n<:replay_song:1119026700215398411> Spielt das aktuelle Lied von Anfang an ab.\n<:song_time:1082495438000750674> Ändert die Spielzeit des Songs.\n<:remove_song:1082495439028355252> Entfernt einen Song aus der Song-Warteschlange.",
+    "errors": {
+      "Development_Error_1": "🔴 Diese Funktion befindet sich derzeit in der Entwicklung, bitte versuchen Sie es später noch einmal.",
+      "ContextCMD_Error_1": "🔴 Du kannst diesen Befehl nicht im Direktnachrichten-Chat ausführen. Versuche es noch einmal auf einem Server, auf dem ich verfügbar bin!",
+      "KazMsC_Error_1": "🔴 Es ist ein interner Fehler in der Konfiguration dieses Abfragekanals aufgetreten. Wir empfehlen Ihnen, mit dem Befehl [/settings] in der Option [Bot-Kanal] einen anderen Kanal zu erstellen oder die Option 'Dedizierten Musikkanal reparieren' zu verwenden, damit alles wieder funktioniert.",
+      "Blacklist_Error_1": "Sie können derzeit keine Befehle verwenden, da diesem Server der Zugriff auf den Bot verweigert wurde!\n\nFür weitere Informationen wenden Sie sich bitte an die Bot-Administratoren auf dem Support-Server, indem Sie [hier klicken](https://discord.com/invite/FGBSecT9gq)",
+      "Blacklist_Error_2": "Sie können derzeit keine Befehle verwenden, da Ihnen der Zugriff auf den Bot verweigert wurde!\n\nFür weitere Informationen wenden Sie sich bitte an die Bot-Administratoren auf dem Support-Server, indem Sie [hier klicken](https://discord.com/invite/FGBSecT9gq)",
+      "Button_Error_1": "Sie müssen einige Sekunden warten, bevor Sie diese Aktion ausführen können.",
+      "Button_Error_2": "❌ Sie verfügen nicht über ausreichende Berechtigungen, um diese Schaltfläche zu aktivieren",
+      "Button_Error_3": "❌ Sie haben keine „Eigentümer“-Berechtigungen, um diese Schaltfläche zu aktivieren",
+      "Button_Error_4": "❌ Es ist ein Fehler aufgetreten. Bitte führen Sie den Befehl erneut aus",
+      "Button_Error_5": "❌ Du verfügst nicht über ausreichende Berechtigungen, um mit dem Menü dieser Playlist zu interagieren",
+      "Interaction_Error_1": "🔴 | Beim Ausführen dieses Befehls ist ein Fehler aufgetreten.",
+      "Interaction_Error_2": "Es wurde festgestellt, dass der Bot nicht über ausreichende Berechtigungen verfügt, um ordnungsgemäß zu funktionieren. Sie müssen ihm Administratorrechte zuweisen oder [``hier klicken``](https://discord.com/api/oauth2/authorize?client_id=946292719981047838&permissions) verwenden = 8&scope=bot%20applications.commands), um die Berechtigungen zu ändern.",
+      "SelectMenu_Error_1": "❌ Sie haben keine **DJ**-Berechtigungen, um diese Aktion auszuführen",
+      "SelectMenu_Error_2": "❌ Sie verfügen nicht über ausreichende Berechtigungen, um dieses Menü zu aktivieren",
+      "SelectMenu_Error_3": "❌ Sie haben keine „Eigentümer“-Berechtigungen, um dieses Menü zu aktivieren",
+      "NoDataFound_Error_1": "Für diesen Server wurden keine Daten gefunden. Bitte versuchen Sie es später noch einmal!",
+      "Cooldown_Error_1": "🚫 Sie müssen „:cooldown_time:“ warten, bevor Sie diese Aktion erneut ausführen können!",
+      "PlaylistTitle_Warning_1": "⚠️ Warnung",
+      "PlaylistValue_Warning_1": "Aufgrund des Ladens einer Playlist mit mehr als 500 Songs kommt es zu einer kleinen Verzögerung auf unseren Servern. Keine Panik, das Problem verschwindet nach ein paar Sekunden.",
+      "SongMessage_Error_1": "Keine gültige Nachricht zum Abspielen/Suchen dieses Lieds gefunden!\n*Bitte versuchen Sie es erneut mit einer gültigen Nachricht*",
+      "Play_Error_1": "**Wenn der Fehler weiterhin besteht, melden Sie ihn bitte dem Entwickler „:dev:“**",
+      "Voice_Channel_Error_1": "Um die Musikbefehle nutzen zu können, müssen Sie sich in einem Voice-Chat befinden",
+      "Voice_Channel_Error_2": "Ich spiele bereits Musik auf :channel:",
+      "Voice_Channel_Error_3": "Ich bin bereits mit dem Kanal :channel: verbunden",
+      "Voice_Channel_Error_4": "Ich bin bereits mit diesem Sprachkanal verbunden!",
+      "Voice_Channel_Error_5": "Um diese Aktion durchführen zu können, müssen Sie auf demselben Kanal wie ich sein!",
+      "Queue_NotFound_Error_1": "Derzeit ist keine Song-Warteschlange vorhanden",
+      "Queue_TextChannel_Error_1": "Die Musik wird auf dem „dedizierten Musikkanal“ abgespielt. In der Zwischenzeit sind die Befehle auf :channel: beschränkt. Bitte versuchen Sie es erneut, sobald die Musik auf diesem Kanal abgespielt wird!",
+      "Queue_TextChannel_Error_2": "Musik wird außerhalb des „dedizierten Musikkanals“ abgespielt. Bitte versuchen Sie es erneut, sobald sie auf diesem Kanal abgespielt wird!",
+      "Restrict_VoiceChannel_Error_1": "Dieser **Kanal** befindet sich nicht in der **Musikkanalliste** des Servers. Versuchen Sie es erneut in einem dieser Kanäle:\n \n:channels:",
+      "Premium_Error_1": "Sie haben keinen Zugriff auf diesen Befehl, er ist exklusiv für **Premium-Server**!",
+      "Invalid_YT_URL_Error_1": "❌ Die soeben eingegebene URL stammt nicht von **YouTube**, bitte versuchen Sie es mit einer gültigen **YouTube-URL**!\n\n⚠️ Wenn die von Ihnen angegebene URL von **YouTube** stammt, stellen Sie sicher, dass sie gültig ist.",
+      "Invalid_YT_URL_Error_2": "❌ Die soeben eingegebene URL gehört zu keinem gültigen **YouTube**-Video. Versuchen Sie es mit einer gültigen **YouTube**-URL.",
+      "Maintenance_Error_1": "Aufgrund einiger Fehlerbehebungen ist der Bot derzeit außer Betrieb.\n\nBitte versuchen Sie es später noch einmal oder wenden Sie sich für weitere Informationen an den Entwickler „:dev:“."
+    },
+    "units": {
+      "y": "Jahre)",
+      "mth": "Monate)",
+      "w": "Wochen)",
+      "d": "Tage)",
+      "h": "Std)",
+      "m": "Protokoll)",
+      "s": "Sekunde(n)"
+    },
+    "parameters": {
+      "default": "Standard",
+      "loop_option_1": "Dieses Lied",
+      "loop_option_2": "die ganze Schlange",
+      "loop_option_3": "deaktiviert",
+      "autoplay_option_1": "Aktiviert",
+      "autoplay_option_2": "deaktiviert",
+      "filters_option_1": "Keiner",
+      "filters_option_2": "Aus",
+      "premium_option_1": "Aktiviert",
+      "premium_option_2": "deaktiviert",
+      "premium_option_3": "Sünde Prämie",
+      "source_option_1": "Quelle",
+      "source_option_2": "Unbekannt"
+    },
+    "auto-complete": {
+      "song": "Lied",
+      "songs": "Lieder",
+      "view": "Ansicht",
+      "views": "Ansichten",
+      "privacy_true": "Privat",
+      "privacy_false": "öffentlich"
+    },
+    "soundboard": {
+      "cmd_desc": "Kazuto-Music SoundBoard-Befehl, der diesem Server entspricht",
+      "default_message": "Sie haben den zu diesem Befehl gehörenden benutzerdefinierten Sound in der aktuellen Warteschlange abgespielt!"
+    }
+  },
+  "KazutoTogether": {
+    "title": "System von Kazuto Together",
+    "sub_title": "Sektion „:session_id:“ von Kazuto Together <:be:1124972946394451988><:ta:1124972947690487860>",
+    "main_commands": {
+      "create": {
+        "success_1": "Sie haben eine Kazuto Together-Sitzung <:be:1124972946394451988><:ta:1124972947690487860> erstellt",
+        "success_2": "Sie haben eine Sitzung von **Kazuto Together** erstellt, Sie können Ihre Freunde von verschiedenen Servern einladen und gleichzeitig Musik hören!\n\nUm Ihre Freunde zu Ihrer **Kazuto Together**-Sitzung einzuladen, senden Sie ihnen den folgenden Code/Token, der direkt unten angezeigt wird. Anschließend müssen sie ihn in den Befehl „/kt join“ eingeben, um eine Verbindung zu dieser Sitzung herzustellen\n\n„:session_id:“.\n\n*Wenn innerhalb von 20 Minuten niemand Ihrer Sitzung beitritt, wird sie automatisch geschlossen, um Ressourcen zu sparen.*"
+      },
+      "join": {
+        "error_1": "Die Sitzung, zu der Sie eine Verbindung herstellen möchten, ist bereits voll! Versuchen Sie es später erneut.",
+        "success_1": "Verbindung zur Sitzung „:session_id:“ von **Kazuto Together** herstellen",
+        "success_2": "✅ Sie haben sich erfolgreich mit der Sitzung „:session_id:“ von **Kazuto Together** verbunden."
+      },
+      "leave": {
+        "success_1": "✅ Sie haben die „:session_id:“-Sitzung von **Kazuto Together** erfolgreich verlassen"
+      },
+      "delete": {
+        "success_1": "✅ Sie haben die Sitzung „:session_id:“ von **Kazuto Together** erfolgreich abgeschlossen."
+      },
+      "info": {
+        "owner": {
+          "desc": "Ihr **Kazuto Together**-Sitzungscode/Token lautet\n„:session_id:“.",
+          "field_1": "Erstellungsdatum",
+          "field_2": "Anzahl der Zuhörer",
+          "field_2_value_1": "„:listeners_length: / :listeners_limit: Zuhörer“",
+          "field_3": "Andere Optionen",
+          "field_3_value_1": "Sitzung beenden, wenn Inaktivität festgestellt wird",
+          "field_3_value_2": "Melden Sie sich nach Abschluss des Songs ab",
+          "field_3_value_3": "Melden Sie sich ab, wenn Sie die Song-Warteschlange stoppen"
+        },
+        "listener": {
+          "desc": "Der Server, der die **Kazuto Together**-Sitzung verwaltet, ist:\n„:guild_name:“.",
+          "field_1": "Erstellungsdatum",
+          "field_2": "Anzahl der Zuhörer",
+          "field_2_value_1": "„:listeners_length: Zuhörer“",
+          "field_3": "Anzahl der Songs in der Warteschlange",
+          "field_3_value_1": "„:songs_length: Lied(e)“."
+        }
+      }
+    },
+    "errors": {
+      "No_Session_Error_1": "Sie befinden sich derzeit in keiner **Kazuto Together**-Sitzung!",
+      "No_Session_Error_2": "Sie veranstalten derzeit keine **Kazuto Together**-Sitzungen!",
+      "No_Session_Error_3": "Sitzung „:session_id:“ existiert nicht, bitte versuchen Sie es erneut mit einer gültigen **Kazuto Together**-Sitzung!",
+      "Session_Duplicated_Error_1": "Sie veranstalten derzeit eine Sitzung von **Kazuto Together**!\n\n🔰 Wenn Sie eine neue Sitzung erstellen möchten, sollten Sie die aktuelle Sitzung mit dem Befehl „/kt delete“ beenden",
+      "Session_Duplicated_Error_2": "Sie befinden sich derzeit in einer Sitzung von **Kazuto Together**!\n\n🔰 Wenn Sie eine neue Sitzung erstellen möchten, sollten Sie die aktuelle Sitzung mit dem Befehl „/kt Leave“ verlassen",
+      "Leave_Error_1": "Sie können Ihre eigene Sitzung von **Kazuto Together** nicht verlassen!\n\n🔰 Falls Sie die **Kazuto Together**-Sitzung beenden möchten, verwenden Sie den Befehl „/kt delete“.",
+      "Queue_Error_1": "Sie können keine Verbindung zur **Kazuto Together**-Sitzung „:session_id:“ herstellen, da auf diesem Server bereits ein Spieler vorhanden ist!\n\n🔰 Sie müssen den Bot von allen anderen Teilnehmern trennen, die Musik abspielen, bevor Sie eine Verbindung zu einer **Kazuto Together**-Sitzung herstellen können",
+      "Permission_Error_1": "Sie verfügen nicht über ausreichende Berechtigungen, um diese Aktion in der „:session_id:“-Sitzung von **Kazuto Together** auszuführen.\n\nBitte versuchen Sie es erneut, nachdem Sie sich mit dem Befehl „/kt Leave“ abgemeldet haben.",
+      "Permission_Error_2": "Sie verfügen nicht über ausreichende Berechtigungen, um diese Aktion in der „:session_id:“-Sitzung von **Kazuto Together** auszuführen.",
+      "Session_Error_1": "Im Hauptplayer der **Kazuto Together**-Sitzung ist ein Fehler aufgetreten und ich musste Sie von dieser Sitzung trennen.\n\n🔰 Wenn Sie sich erneut mit der **Kazuto Together**-Sitzung verbinden möchten, versuchen Sie es erneut mit demselben **TOKEN**, den Sie zuvor verwendet haben.",
+      "Session_Error_2": "Sie können diese Aktion nicht ausführen, während Sie eine Sitzung von **Kazuto Together** veranstalten!\n\n*Versuchen Sie es erneut, nachdem Sie die Sitzung mit dem Befehl „/kt delete“ beendet haben.*",
+      "Timeout_Error_1": "Seit 20 Minuten hat niemand mehr an der „:session_id:“-Sitzung von **Kazuto Together** teilgenommen!\n\nAus diesem Grund bin ich gezwungen, Ihre Sitzung zwangsweise zu beenden, um Ressourcen zu sparen. Sie können mit dem Befehl „/kt create“ erneut eine neue Sitzung erstellen",
+      "Empty_Error_1": "Aufgrund des Mangels an Leuten, die die **Kazuto Together**-Sitzung auf dem zuständigen Server verwalten, war ich gezwungen, die Sitzung zwangsweise zu beenden, um Ressourcen zu sparen.",
+      "Empty_Error_2": "Aufgrund der im Sprachkanal festgestellten Inaktivität war ich gezwungen, Sie von der **Kazuto Together**-Sitzung zu trennen, um Ressourcen zu sparen",
+      "Autoplay_Error_1": "Der Auto-Play-Modus ist nicht mit dem **Kazuto Together**-System kompatibel\n\n🔰 Wir arbeiten hart daran, diese Kompatibilität zu implementieren, bitte versuchen Sie es später noch einmal!",
+      "Autoplay_Error_2": "Der Auto-Play-Modus ist nicht mit dem **Kazuto Together**-System kompatibel. Sie müssen ihn deaktivieren, wenn Sie eine Sitzung erstellen möchten!\n\n🔰 Wir arbeiten hart daran, diese Kompatibilität zu implementieren, bitte versuchen Sie es später noch einmal!",
+      "RelatedSong_Error_1": "Diese Funktionalität wird derzeit vom **Kazuto Together**-System nicht unterstützt\n\n🔰 Wir arbeiten hart daran, diese Kompatibilität zu implementieren, bitte versuchen Sie es später noch einmal!",
+      "Shuffle_Error_1": "Diese Funktionalität wird derzeit vom **Kazuto Together**-System nicht unterstützt\n\n🔰 Wir arbeiten hart daran, diese Kompatibilität zu implementieren, bitte versuchen Sie es später noch einmal!",
+      "Fun_Error_1": "Diese Funktionalität wird derzeit vom **Kazuto Together**-System nicht unterstützt\n\n🔰 Wir arbeiten hart daran, diese Kompatibilität zu implementieren, bitte versuchen Sie es später noch einmal!",
+      "Soundboard_Error_1": "Diese Funktionalität wird derzeit vom **Kazuto Together**-System nicht unterstützt\n\n🔰 Wir arbeiten hart daran, diese Kompatibilität zu implementieren, bitte versuchen Sie es später noch einmal!"
+    },
+    "success": {
+      "Empty_Sucess_1": "Die **Kazuto Together**-Sitzung wurde aufgrund von Inaktivität auf dem Sprachkanal beendet\n\n🔰 **Dies geschieht ausschließlich zum Zweck der Ressourcenschonung**",
+      "Finish_Session_Success_1": "Sie haben die **Kazuto Together**-Sitzung mit dem Abspielen von Liedern beendet!\n\n🔰 Wenn Sie etwas vorschlagen oder Ihr Feedback zu unserem neuen „**Kazuto Together**“-System abgeben möchten, verwenden Sie den Befehl „/review“!",
+      "Finish_Session_Success_2": "Die **Kazuto Together**-Sitzung ist zusammen mit der Songwiedergabe beendet!\n\n🔰 Wenn Sie etwas vorschlagen oder Ihr Feedback zu unserem neuen „**Kazuto Together**“-System abgeben möchten, verwenden Sie den Befehl „/review“!",
+      "Disconnect_Success_1": "Der Server, der die **Kazuto Together**-Sitzung verwaltet, hat die Wiedergabe beendet und damit auch die Sitzung",
+      "Pause_Success_1": "Der Server, der die **Kazuto Together**-Sitzung verwaltet, hat das aktuelle Lied/Video angehalten",
+      "Resume_Success_1": "Der Server, der die **Kazuto Together**-Sitzung verwaltet, hat das aktuelle Lied/Video zusammengefasst",
+      "Skip_Success_1": "Der Server, der die **Kazuto Together**-Sitzung verwaltet, hat den aktuellen Song/das aktuelle Video zum nächsten in der Song-/Video-Warteschlange übersprungen",
+      "Skipto_Success_1": "Der Server, der die **Kazuto Together**-Sitzung verwaltet, hat das aktuelle Lied/Video zum Lied „:song_id:“ in der Warteschlange übersprungen",
+      "Switch_Success_1": "Der Server, der die **Kazuto Together**-Sitzung verwaltet, hat die Position des Songs „:song_name:“ in die Position „:final_position:“ geändert",
+      "Previous_Success_1": "Der Server, der die **Kazuto Together**-Sitzung verwaltet, hat den aktuellen Song/das aktuelle Video zum vorherigen in der Song-/Video-Warteschlange übersprungen",
+      "Volume_Success_1": "Der Server, der die **Kazuto Together**-Sitzung verwaltet, hat die Lautstärke der Song-/Videowarteschlange auf „:volume_percentage:“ geändert",
+      "Seek_Success_1": "Der Server, der die **Kazuto Together**-Sitzung verwaltet, hat die Wiedergabezeit auf „:song_currentTime:“ Sekunden geändert",
+      "Replay_Success_1": "Der Server, der die **Kazuto Together**-Sitzung verwaltet, hat die Wiedergabe des aktuellen Songs/Videos neu gestartet",
+      "Shuffle_Success_1": "Der Server, der die **Kazuto Together**-Sitzung verwaltet, hat die aktuelle Song-Warteschlange nach dem Zufallsprinzip sortiert",
+      "RelatedSong_Success_1": "Der Server, der die **Kazuto Together**-Sitzung verwaltet, hat einen zugehörigen Song zur aktuellen Songwarteschlange hinzugefügt",
+      "Autoplay_Success_1": "Der Server, der die **Kazuto Together**-Sitzung verwaltet, hat den Auto-Play-Modus aktiviert",
+      "Autoplay_Success_2": "Der Server, der die **Kazuto Together**-Sitzung verwaltet, hat den Auto-Play-Modus deaktiviert",
+      "Loop_Success_1": "Der Server, der die **Kazuto Together**-Sitzung verwaltet, hat den Schleifenmodus in „:loop_value:“ geändert",
+      "Filter_Success_1": "Der Server, der die **Kazuto Together**-Sitzung verwaltet, hat den Filter „:filter_name:“ festgelegt",
+      "Filter_Success_2": "Der Server, der die **Kazuto Together**-Sitzung verwaltet, hat den Filter „:filter_name:“ entfernt",
+      "Filter_Success_3": "Der Server, der die **Kazuto Together**-Sitzung verwaltet, hat alle Filter aus der Warteschlange entfernt",
+      "Time_Success_1": "Der Server, der die **Kazuto Together**-Sitzung verwaltet, hat die Wiedergabezeit auf „:time_value:“ Sekunden eingestellt",
+      "Speed_Success_1": "Der Server, der die **Kazuto Together**-Sitzung verwaltet, hat die Wiedergabegeschwindigkeit auf „:speed_value:“ geändert",
+      "Playlist_Success_1": "Der Server, der die **Kazuto Together**-Sitzung verwaltet, hat der Warteschlange eine Playlist mit „:playlist_songs:“-Songs hinzugefügt",
+      "Import_Success_1": "Der Server, der die **Kazuto Together**-Sitzung verwaltet, hat eine Warteschlange mit „:songs_length:“-Songs importiert",
+      "Play_Success_1": "Der Server, der die **Kazuto Together**-Sitzung verwaltet, hat der Warteschlange einen neuen Song hinzugefügt",
+      "PlaySkip_Success_1": "Der Server, der die **Kazuto Together**-Sitzung verwaltet, hat ein neues Lied in die Warteschlange aufgenommen und ist zu diesem Lied übergegangen",
+      "PlayTop_Success_1": "Der Server, der die **Kazuto Together**-Sitzung verwaltet, hat ein neues Lied an den Anfang der Warteschlange gestellt",
+      "Clean_Queue_Success_1": "Der Server, der die **Kazuto Together**-Sitzung verwaltet, hat alle Songs aus der Warteschlange entfernt",
+      "Remove_Song_Success_1": "Der Server, der die **Kazuto Together**-Sitzung verwaltet, hat den Song mit der ID „:song_id:“ aus der Warteschlange entfernt",
+      "Remove_Songs_Success_1": "Der Server, der die **Kazuto Together**-Sitzung verwaltet, hat „:songs_length:“ aus der Warteschlange entfernt",
+      "Remove_Songs_Dup_Success_1": "Der Server, der die **Kazuto Together**-Sitzung verwaltet, hat alle doppelten Songs aus der Warteschlange entfernt",
+      "Vote_Started_Success_1": "Der Server, der die **Kazuto Together**-Sitzung verwaltet, stimmt dafür, das aktuelle Lied zu überspringen (:actual_votes:/:required_votes:)",
+      "Vote_Finished_Success_1": "Der Server, der die **Kazuto Together**-Sitzung verwaltet, hat die Abstimmung beendet und beschlossen, den aktuellen Song zu überspringen"
+    }
+  },
+  "ButtonInteraction": {
+    "music-channel": {
+      "Add-To-PL": {
+        "cooldown_error_1": "❌ Sie müssen mindestens „1 Minute“ warten, bevor Sie erneut mit dieser Schaltfläche interagieren können.",
+        "voice_channel_error_1": "Sie müssen in einem Voice-Chat sein",
+        "voice_channel_error_2": "Du musst auf demselben Kanal sein, auf dem ich Musik spiele :kazuto_vc_channel:",
+        "queue_error_1": "Derzeit werden keine Songs abgespielt.",
+        "pl_error_1": "Sie haben auf diesem Server keine Playlist erstellt. Bitte versuchen Sie es später erneut.",
+        "SM_Constructor": {
+          "Placeholder": "Wählen Sie eine Ihrer Playlists aus",
+          "Objects_Desc": "Aktuellen Song zur Playlist „:playlist_name:“ hinzufügen"
+        },
+        "response_embed_title": "| Playlist-System",
+        "response_embed_desc": "Sie müssen eine Ihrer **Wiedergabelisten** auswählen, um den aktuell wiedergegebenen Song hinzuzufügen\n\n*Sie haben 10 Minuten Zeit, um die Playlist auszuwählen*",
+        "loading": "<a:loadingWB:986050761031041084> **Song wird gespeichert...**",
+        "pl_error_2": "Die Playlist „:playlist_name:“ existiert nicht in Ihrer **Playlist**, bitte versuchen Sie es erneut.",
+        "pl_error_3": "Die Playlist „:playlist_name:“ stimmt nicht mit den Playlists in **der Datenbank** überein, bitte versuchen Sie es erneut.",
+        "url_error_1": "Die URL dieses Liedes stammt nicht von **YouTube**. Bitte versuchen Sie es mit einer gültigen **YouTube**-URL.",
+        "url_error_2": "Die URL dieses Liedes gehört zu keinem gültigen **YouTube**-Video. Bitte versuchen Sie es mit einer gültigen **YouTube**-URL.",
+        "save_song_error_1": "⚠️ Der Song, den Sie speichern möchten, wurde bereits zuvor in dieser Playlist gespeichert.",
+        "success_1": "✅ Sie haben das Lied erfolgreich gespeichert:\n \n📌 **Titel**: ``:song_title:``\n🌐 **URL**: ``:song_url:``\nℹ️ **ID**: ``:song_id:``",
+        "timeout_error_1": "⏳ Die Zeit ist abgelaufen, bitte versuchen Sie es erneut."
+      },
+      "AutoPlay": {
+        "voice_channel_error_1": "❌ Sie müssen sich in einem Voice-Chat befinden, um diese Aktion ausführen zu können",
+        "voice_channel_error_2": "❌ Um diese Aktion ausführen zu können, müssen Sie sich im selben Voice-Chat wie ich befinden",
+        "dj_error_1": "Sie verfügen nicht über **DJ**-Berechtigungen, um diese Aktion auszuführen",
+        "queue_error_1": "❌ Derzeit gibt es keine Warteschlange.",
+        "play_error_1": "Musik wird außerhalb des „dedizierten Musikkanals“ abgespielt. Bitte versuchen Sie es erneut, sobald sie auf diesem Kanal abgespielt wird.",
+        "success_1": "| Sie haben den Autoplay-Modus in : ``:autoplay_options:`` geändert."
+      },
+      "Delete-From-Queue": {
+        "Modal_Constructor": {
+          "title": "Entfernen Sie einen Song/ein Video aus der Warteschlange",
+          "label": "Song-/Video-ID",
+          "placeholder": "Ex: 6, 5, 10, 7."
+        },
+        "songid_error_1": "Sie müssen eine gültige ID eines Songs/Videos in der Warteschlange angeben.",
+        "songid_error_2": "Sie können dieses **Lied** nicht entfernen, da es bereits abgespielt wird!",
+        "songid_error_3": "Die von Ihnen angegebene **ID** „:song_id:“ **gehört** zu keinem der Tail-Songs. Bitte versuchen Sie es erneut mit einer gültigen **ID**.",
+        "success_1": "| Sie haben den Song mit der ID „:song_id:“ aus der Warteschlange entfernt.\n\n🎵 Songname: :deleted_song_name:"
+      },
+      "Replay": {
+        "success_1": "| Sie haben das aktuelle Lied von Anfang an abgespielt."
+      },
+      "Exit": {
+        "_comment": "Für diese Schaltfläche sind keine unterschiedlichen Texte erforderlich, daher werden andere wiederverwendet. (vorerst) [DIESEN TEXT NICHT ÜBERSETZEN!]"
+      },
+      "Loop-Buttons": {
+        "_comment": "Für diese Schaltfläche sind keine unterschiedlichen Texte erforderlich, daher werden andere wiederverwendet. (vorerst) [DIESEN TEXT NICHT ÜBERSETZEN!]"
+      },
+      "Pause-Unpause": {
+        "_comment": "Für diese Schaltfläche sind keine unterschiedlichen Texte erforderlich, daher werden andere wiederverwendet. (vorerst) [DIESEN TEXT NICHT ÜBERSETZEN!]"
+      },
+      "Previous-Songs": {
+        "cooldown_error_1": "Das Lied wurde kürzlich übersprungen. Bitte warten Sie ein paar Sekunden, bevor Sie es erneut überspringen können.",
+        "no_previoussong_error_1": "❌ In dieser Warteschlange befindet sich kein vorheriges Lied.",
+        "success_1": "| Übersprungen Das vorherige Lied in der Warteschlange."
+      },
+      "Remove-From-PL": {
+        "cooldown_error_1": "❌ Sie müssen mindestens „1 Minute“ warten, bevor Sie erneut mit dieser Schaltfläche interagieren können.",
+        "voice_channel_error_1": "Sie müssen in einem Voice-Chat sein",
+        "voice_channel_error_2": "Du musst auf demselben Kanal sein, auf dem ich Musik spiele :kazuto_vc_channel:",
+        "queue_error_1": "Derzeit werden keine Songs abgespielt.",
+        "pl_error_1": "Sie haben auf diesem Server keine Playlist erstellt. Bitte versuchen Sie es später erneut.",
+        "SM_Constructor": {
+          "Placeholder": "Wählen Sie eine Ihrer Playlists aus",
+          "Objects_Desc": "Aktuellen Song aus Playlist „:playlist_name:“ entfernen"
+        },
+        "response_embed_title": "| Playlist-System",
+        "response_embed_desc": "Sie müssen eine Ihrer **Wiedergabelisten** auswählen, um den aktuell wiedergegebenen Song zu löschen\n\n*Sie haben 10 Minuten Zeit, um die Playlist auszuwählen*",
+        "pl_error_2": "Die Playlist „:playlist_name:“ existiert nicht in Ihrer **Playlist**, bitte versuchen Sie es erneut.",
+        "pl_error_3": "Die Playlist „:playlist_name:“ stimmt nicht mit den Playlists in **der Datenbank** überein, bitte versuchen Sie es erneut.",
+        "pl_error_4_title": "❌ Es ist ein Fehler aufgetreten",
+        "pl_error_4_desc": "**1**: Überprüfen Sie, ob die bereitgestellte Wiedergabeliste gültig ist\n \n**2**: Überprüfen Sie, ob die URL des abgespielten Songs gültig ist oder in Ihrer Playlist vorhanden ist\n \nWenn Sie wissen möchten, was Ihre Playlists sind, verwenden Sie „/playlist [list]“ oder „Drücken Sie Option C“. Wenn Sie wissen möchten, wie die ID des gesuchten Songs lautet, verwenden Sie „/playlist songs [Playlist]`` oder „Drücken Sie Option D“.",
+        "url_error_1": "Die URL dieses Liedes stammt nicht von **YouTube**. Bitte versuchen Sie es mit einer gültigen **YouTube**-URL.",
+        "success_1": "✅ Sie haben das **Lied** erfolgreich gelöscht:\n \n📌 **Titel**: ``:song_title:``\n🌐 **URL**: ``:song_url:``\nℹ️ **ID**: ``:song_id:``",
+        "timeout_error_1": "⏳ Die Zeit ist abgelaufen, bitte versuchen Sie es erneut."
+      },
+      "Shuffle": {
+        "song_error_1": "Zum Mischen sind mindestens „3 Songs“ in der Warteschlange erforderlich!",
+        "success_1": "| Sie haben die aktuelle Songliste durcheinander gebracht."
+      },
+      "Skip-Song": {
+        "cooldown_error_1": "Das Lied wurde kürzlich übersprungen. Bitte warten Sie ein paar Sekunden, bevor Sie es erneut überspringen können.",
+        "no_nextsong_error_1": "❌ In dieser Warteschlange befindet sich kein nächstes Lied.",
+        "success_1": "| Sie haben das aktuelle Lied übersprungen."
+      },
+      "Skip-Specific-Song": {
+        "Modal_Constructor": {
+          "title": "Überspringen Sie den Song/das Video zu einem bestimmten Song",
+          "label": "Song-/Video-ID",
+          "placeholder": "Ex: 6, 5, 10, 7."
+        },
+        "songid_error_1": "Sie müssen eine gültige ID eines Songs/Videos in der Warteschlange angeben.",
+        "songid_error_2": "Sie können dieses **Lied** nicht mit demselben **Lied** überspringen, das bereits abgespielt wird!",
+        "songid_error_3": "Die von Ihnen angegebene **ID** „:song_id:“ **gehört** zu keinem der Tail-Songs. Bitte versuchen Sie es erneut mit einer gültigen **ID**.",
+        "success_1": "| Sie haben den aktuellen Song zum Song „:song_id:“ in der Warteschlange übersprungen."
+      },
+      "Song-Forward": {
+        "cooldown_error_1": "Die Uhrzeit des Liedes wurde kürzlich geändert. Bitte warten Sie einige Sekunden, bevor Sie es erneut ändern können.",
+        "Modal_Constructor": {
+          "title": "Song-/Videovorschau",
+          "label_1": "Std)",
+          "label_2": "Protokoll)",
+          "label_3": "Sekunde(n)",
+          "placeholder_1": "Ex: 2, 8, 0, 3.",
+          "placeholder_2": "Ex: 6, 2, 5, 8.",
+          "placeholder_3": "Ex: 20, 79, 120, 9, 0."
+        },
+        "time_error_1": "Sie müssen eine gültige Zeit angeben",
+        "success_1": "| Sie haben die Spielzeit des Songs auf die Sekunde genau geändert: „:song_seconds:“."
+      },
+      "Song-Speed": {
+        "premium_error_1": "❌ Sie können die Geschwindigkeit des Songs/Videos nicht ändern, es ist eine exklusive Funktion von **Premium-Servern**",
+        "SM_Constructor": {
+          "Placeholder": "Legt die Geschwindigkeit des aktuellen Songs fest",
+          "label_1": "Geschwindigkeit x0,5",
+          "label_2": "Geschwindigkeit x0,75",
+          "label_3": "Geschwindigkeit x1 (Normal)",
+          "label_4": "Geschwindigkeit x1,25",
+          "label_5": "Geschwindigkeit x1,5",
+          "label_6": "Geschwindigkeit x1,75",
+          "label_7": "Geschwindigkeit x2",
+          "desc_1": "Mittlere langsame Wiedergabegeschwindigkeit",
+          "desc_2": "Etwas langsame Wiedergabegeschwindigkeit",
+          "desc_3": "Normale Wiedergabegeschwindigkeit",
+          "desc_4": "Langsame Wiedergabegeschwindigkeit",
+          "desc_5": "Mittlere schnelle Wiedergabegeschwindigkeit",
+          "desc_6": "Sehr schnelle Wiedergabegeschwindigkeit",
+          "desc_7": "Superschnelle Wiedergabegeschwindigkeit"
+        },
+        "response_embed_title": "| Wiedergabegeschwindigkeit",
+        "response_embed_desc": "Wählen Sie die Geschwindigkeit, die Sie für das aktuell abgespielte Lied einstellen möchten.\n\n*Sie haben 10 Minuten Zeit, um die Auswahl zu treffen*",
+        "loading": "<a:loadingWB:986050761031041084> **Geschwindigkeit anwenden :speed_value:**",
+        "success_1": "| Sie haben die Geschwindigkeit des Songs auf „:speed_value:“ geändert",
+        "timeout_error_1": "⏳ Die Zeit ist abgelaufen, bitte versuchen Sie es erneut."
+      },
+      "Volume-Down": {
+        "volume_error_1": "❌ Sie können die Lautstärke nicht verringern, da das Minimum „0 %“ beträgt"
+      },
+      "Volume-Up": {
+        "volume_error_1": "❌ Sie können die Lautstärke nicht erhöhen, da das Maximum „100 %“ beträgt",
+        "volume_error_2": "❌ Sie können die Lautstärke nicht erhöhen, da das Maximum bei „500 %“ liegt"
+      },
+      "Vote": {
+        "vote_error_1": "❌ Du hast zuvor dafür gestimmt, das Lied zu überspringen",
+        "vote_success_1": "**Es wurden genügend Stimmen** erreicht, um das Lied zu überspringen",
+        "vote_skip_error_1": "❌ In dieser Warteschlange gibt es kein **nächstes Lied**.",
+        "vote_skip_success_1": "✅ Das Lied wurde korrekt übersprungen!",
+        "vote_count_success_1": "| Sie haben dafür gestimmt, den Song zu überspringen (:actual_votes:/:required_votes:) Stimmen"
+      }
+    },
+    "music-play": {
+      "Disconnect": {
+        "voice_channel_error_1": "❌ Sie müssen sich in einem Voice-Chat befinden, um diese Aktion ausführen zu können",
+        "voice_channel_error_2": "❌ Um diese Aktion ausführen zu können, müssen Sie sich im selben Voice-Chat wie ich befinden",
+        "dj_error_1": "Sie verfügen nicht über **DJ**-Berechtigungen, um diese Aktion auszuführen",
+        "internal_error_1": "Ein unerwarteter Fehler ist aufgetreten\n\n**Code**: 0x100464135",
+        "internal_error_2": "Ein unerwarteter Fehler ist aufgetreten\n\n**Code**: 0x23224536",
+        "success_desc_1": "| Angehalten und die aktuelle Song-Warteschlange geleert",
+        "success_footer_1": "Wenn Sie die Verbindung zum Bot trennen möchten, verwenden Sie /music Settings [disconnect]",
+        "disconnect_title": "Reproduktion abgeschlossen ✅"
+      },
+      "Pause-Unpause": {
+        "btn_edit_1": "Pausen",
+        "btn_edit_2": "Wieder aufnehmen"
+      },
+      "Queue": {
+        "embed_title": "Song-Warteschlange"
+      },
+      "Skip": {
+        "skip_error_1": "❌ In dieser Warteschlange befindet sich kein nächstes Lied.",
+        "success_1": "| Sie haben das aktuelle Lied übersprungen."
+      },
+      "Volume": {
+        "error_1": "❌ Sie können die Lautstärke nicht verringern, da das Minimum „0 %“ beträgt",
+        "error_2": "❌ Sie können die Lautstärke nicht erhöhen, da das Maximum „100 %“ beträgt",
+        "error_3": "❌ Sie können die Lautstärke nicht erhöhen, da das Maximum bei „500 %“ liegt"
+      },
+      "Alternate-Loop": {
+        "_comment": "Für diese Schaltfläche sind keine unterschiedlichen Texte erforderlich, daher werden andere wiederverwendet. (vorerst) [DIESEN TEXT NICHT ÜBERSETZEN!]"
+      }
+    },
+    "playlist-menu": {
+      "option_a": {
+        "cooldown_error_1": "❌ Sie müssen mindestens „30 Sekunden“ warten, bevor Sie diesen Befehl erneut ausführen können.",
+        "playlists_notfound_error_1": "❌ Auf diesem Server wurden noch keine **Wiedergabelisten** erstellt. Bitte versuchen Sie es später noch einmal.",
+        "embed_author": "| Playlist-System",
+        "embed_title": "Server-PlayLists-Liste „:guild_name:“.",
+        "data_map": "„Playlist“ **-** „:id:“.\n✏️ **Name**: ``:playlist_name:``\n👤 **Ersteller**: :createdBy:\n📆 **Erstellt**: :timeCreated:\n📊 **Spielt**: ``:playlist_views:``\n🎵 Enthält „:playlist_songs:“-Songs",
+        "data_map_empty_1": "Auf diesem Server wurden keine Playlists gefunden.",
+        "data_map_empty_2": ">>> **Keine Playlists auf diesem Server gefunden.**"
+      },
+      "option_b": {
+        "cooldown_error_1": "❌ Sie müssen mindestens „30 Sekunden“ warten, bevor Sie diesen Befehl erneut ausführen können.",
+        "playlists_notfound_error_1": "❌ Auf diesem Server wurden keine Playlists gefunden. Bitte versuchen Sie es später erneut.",
+        "embed_author": "| Playlist-System",
+        "embed_title": "Top-Playlists vom Server „:guild_name:“.",
+        "data_map": "„Playlist“ **-** :medal_or_id:\n✏️ **Name**: ``:playlist_name:``\n👤 **Ersteller**: :createdBy:\n📆 **Erstellt**: :timeCreated:\n📊 **Spielt**: ``:playlist_views:``\n🎵 Enthält „:playlist_songs:“-Songs",
+        "data_map_empty_1": "Auf diesem Server wurden keine Playlists gefunden.",
+        "data_map_empty_2": ">>> **Keine öffentlichen Playlists auf diesem Server gefunden.**"
+      },
+      "option_c": {
+        "cooldown_error_1": "❌ Sie müssen mindestens „30 Sekunden“ warten, bevor Sie diesen Befehl erneut ausführen können.",
+        "playlists_notfound_error_1": "❌ Auf diesem Server wurden noch keine **Wiedergabelisten** erstellt. Bitte versuchen Sie es später noch einmal.",
+        "embed_author": "| Playlist-System",
+        "embed_title": "Liste der Benutzer-PlayLists „:user_tag:“.",
+        "data_map": "✏️ **Name**: ``:playlist_name:``\n📆 **Erstellt**: :timeCreated:\n📊 **Spielt**: ``:playlist_views:``\n🎵 Enthält „:playlist_songs:“-Songs"
+      },
+      "option_d": {
+        "cooldown_error_1": "❌ Sie müssen mindestens „30 Sekunden“ warten, bevor Sie diesen Befehl erneut ausführen können.",
+        "playlists_notfound_error_1": "❌ Die Playlist „:playlist_name:“ existiert nicht, bitte versuchen Sie es erneut mit einer **vorhandenen Playlist**.",
+        "playlist_privacy_error_1": "Sie können die Playlist „:playlist_name:“ nicht sehen, da der Eigentümer sie als „private Playlist“ festgelegt hat",
+        "playlist_nosongs_error_1": "Die Wiedergabeliste „:playlist_name:“ enthält keine Titel. Bitte versuchen Sie es später erneut.",
+        "embed_author": "| Playlist-System",
+        "embed_title": "PlayList-Songs „:playlist_name:“.",
+        "data_map": "_*Lied - :id:*_\n\n>>> 📌 **Titel**: [``:song_title:``](:song_url:)\n📊 **Spielt**: ``:song_views:``\n👤 **Hochgeladen von**: [``:song_uploader_name:``](:song_uploader_url:)\n⏱️ **Dauer**: ``:song_formattedDuration:``\nℹ️ **ID**: ``:song_id:``"
+      },
+      "option_e": {
+        "cooldown_error_1": "❌ Sie müssen mindestens „30 Sekunden“ warten, bevor Sie diesen Befehl erneut ausführen können.",
+        "voice_channel_error_1": "❌ Sie müssen sich auf einem Sprachkanal befinden",
+        "voice_channel_error_2": "❌ Du musst auf demselben Kanal sein, auf dem ich Musik spiele :kazuto_vc_channel:",
+        "queue_error_1": "❌ Derzeit werden keine Songs abgespielt.",
+        "url_error_1": "❌ Die URL dieses Lieds stammt nicht von **YouTube**, bitte versuchen Sie es mit einer gültigen **YouTube-URL**.",
+        "url_error_2": "❌ Die URL dieses Liedes gehört zu keinem gültigen **YouTube**-Video. Versuchen Sie es mit einer gültigen **YouTube**-URL.",
+        "save_song_error_1": "⚠️ Der Song, den Sie speichern möchten, wurde bereits zuvor in dieser Playlist gespeichert.",
+        "embed_author": "| Playlist-System",
+        "save_song_success_1": "✅ Sie haben das Lied erfolgreich gespeichert:\n \n📌 **Titel**: ``:song_title:``\n🌐 **URL**: ``:song_url:``\nℹ️ **ID**: ``:song_id:``"
+      },
+      "option_f": {
+        "cooldown_error_1": "❌ Sie müssen mindestens „30 Sekunden“ warten, bevor Sie diesen Befehl erneut ausführen können.",
+        "waiting_response": "⏳ Geben Sie die „URL“ des Songs an, den Sie hinzufügen möchten",
+        "modal_data": {
+          "modal_title": "Bestimmte Lieder hinzufügen",
+          "modal_label": "Song-URLs",
+          "modal_placeholder": "Geben Sie hier die Song-Urls ein (eine Url pro Zeile)\nNur YT/SP-Links sind erlaubt."
+        },
+        "url_error_1": "❌ Die URL, die Sie gerade eingegeben haben, stammt nicht von **YouTube**. Bitte versuchen Sie es mit einer gültigen **YouTube-URL**.\n\n⚠️ Wenn die von Ihnen angegebene URL von **YouTube** stammt, stellen Sie sicher, dass sie gültig ist.",
+        "url_error_2": "❌ Die soeben eingegebene URL gehört zu keinem gültigen **YouTube**-Video. Versuchen Sie es mit einer gültigen **YouTube**-URL.",
+        "embed_author": "| Playlist-System",
+        "save_song_error_1": "⚠️ Der Song, den Sie speichern möchten, wurde bereits zuvor in dieser Playlist gespeichert.",
+        "save_song_success_1": "✅ Sie haben das **Lied** erfolgreich gespeichert:\n \n📌 **Titel**: ``:song_title:``\n🌐 **URL**: ``:song_url:``\nℹ️ **ID**: ``:song_id:``"
+      },
+      "option_g": {
+        "cooldown_error_1": "❌ Sie müssen mindestens „1 Minute“ warten, bevor Sie diesen Befehl erneut ausführen können.",
+        "embed_author": "| Playlist-System",
+        "voice_channel_error_1": "❌ Du musst in einem Voice-Chat sein, um diese Playlist abzuspielen",
+        "voice_channel_error_2": "❌ Du musst auf demselben Kanal sein, auf dem ich Musik spiele :kazuto_vc_channel:",
+        "playlist_error_1": "❌ Die Playlist „:playlist_name:“ existiert nicht, bitte versuchen Sie es erneut mit einer **vorhandenen Playlist**.",
+        "playlist_error_2": "Sie können die Playlist „:playlist_name:“ nicht abspielen, da keine Songs darin gespeichert sind.",
+        "playlist_privacy_error_1": "Sie können die Playlist „:playlist_name:“ nicht abspielen, da der Besitzer sie als „private Playlist“ festgelegt hat",
+        "restrict_voicechannel_error_1": "Dieser **Kanal** befindet sich nicht in der **Musikkanalliste** des Servers. Versuchen Sie es erneut in einem dieser Kanäle:\n \n:music_channels:",
+        "success_1": "📀 Anfrage erhalten...",
+        "url_error_1": "❌ Die URLs der Songs in dieser Playlist sind ungültig. Versuchen Sie, eine andere Playlist abzuspielen."
+      },
+      "option_h": {
+        "cooldown_error_1": "❌ Sie müssen mindestens „30 Sekunden“ warten, bevor Sie diesen Befehl erneut ausführen können.",
+        "timeout_error_1": "❌ Die Auswahl einer Option hat zu lange gedauert",
+        "embed_author": "| Playlist-System",
+        "playlist_error_1": "❌ Die Playlist „:playlist_name:“ existiert nicht. Bitte versuchen Sie es erneut mit einer **vorhandenen Playlist**.",
+        "Button1_Label": "Privat",
+        "Button2_Label": "Global",
+        "embed_desc": "⏳ Welche **Datenschutzoption** möchtest du für diese **Playlist** festlegen?",
+        "embed_desc_var1": "✅ Die Privatsphäre der Playlist „:playlist_name:“ wurde korrekt in „Privat“ geändert",
+        "embed_desc_var2": "✅ Die Privatsphäre der Playlist „:playlist_name:“ wurde korrekt in „Global“ geändert"
+      },
+      "option_i": {
+        "cooldown_error_1": "❌ Sie müssen mindestens „30 Sekunden“ warten, bevor Sie diesen Befehl erneut ausführen können.",
+        "embed_author": "| Playlist-System",
+        "waiting_response": "⏳ Geben Sie den neuen Namen ein, den Sie der Wiedergabeliste geben möchten: „:playlist_name:“.",
+        "modal_data": {
+          "modal_title": "Ändern Sie den Namen der Wiedergabeliste",
+          "modal_label": "Neuer Name",
+          "modal_placeholder": "Geben Sie hier den neuen Namen ein, den Sie Ihrer Wiedergabeliste zuweisen möchten."
+        },
+        "playlist_error_1": "❌ Die Playlist „:playlist_name:“ existiert nicht in Ihrer **Playlist**, bitte versuchen Sie es erneut mit einer **vorhandenen Playlist**.",
+        "playlist_error_2": "❌ Eine Ihrer Playlists hat bereits den Namen „:new_playlist_name:“. Bitte versuchen Sie es erneut mit einem anderen Namen.",
+        "playlist_error_3": "❌ Auf diesem Server gibt es bereits eine Playlist mit dem Namen „:new_playlist_name:“. Bitte versuchen Sie es erneut mit einem anderen Namen.",
+        "success_1": "✅ Der Playlist-Name „:playlist_name:“ wurde korrekt in „:new_playlist_name:“ geändert"
+      },
+      "option_j": {
+        "cooldown_error_1": "❌ Sie müssen mindestens „30 Sekunden“ warten, bevor Sie diesen Befehl erneut ausführen können.",
+        "embed_author": "| Playlist-System",
+        "waiting_response": "⏳ Geben Sie die „ID“ des Servers an, auf den Sie diese Playlist migrieren möchten",
+        "modal_data": {
+          "modal_title": "Playlist auf einen anderen Server migrieren",
+          "modal_label": "Server-ID",
+          "modal_placeholder": "Geben Sie die Server-ID des Servers ein, auf den Sie die Wiedergabeliste migrieren möchten"
+        },
+        "playlist_error_1": "❌ Die Playlist „:playlist_name:“ existiert nicht in Ihrer **Playlist**, bitte versuchen Sie es erneut mit einer **vorhandenen Playlist**.",
+        "server_error_1": "❌ Server mit der ID „:server_id:“ existiert nicht, bitte versuchen Sie es erneut mit einem **gültigen Server**.",
+        "success_var1": "✅ Deine Playlist „:playlist_name:“ wurde erfolgreich auf den Server „:server_name:“ migriert\n \n⚠️ **ACHTUNG**: Debido a que el **nombre de tu playlist** ya existe en este server, tuve que renombrarla a ``:new_playlist_name:``",
+        "success_var2": "✅ Deine Playlist „:playlist_name:“ wurde erfolgreich auf den Server „:server_name:“ migriert"
+      },
+      "option_k": {
+        "cooldown_error_1": "❌ Sie müssen mindestens „30 Sekunden“ warten, bevor Sie diesen Befehl erneut ausführen können.",
+        "embed_author": "| Playlist-System",
+        "voice_channel_error_1": "❌ Sie müssen sich auf einem Sprachkanal befinden",
+        "voice_channel_error_2": "❌ Du musst auf demselben Kanal sein, auf dem ich Musik spiele :kazuto_vc_channel:",
+        "queue_error_1": "❌ Derzeit werden keine Songs abgespielt.",
+        "internal_error_1": "❌ **Es ist ein Fehler aufgetreten**\n \n**1**: Überprüfen Sie, ob die bereitgestellte Wiedergabeliste gültig ist\n \n**2**: Überprüfen Sie, ob die URL des abgespielten Songs gültig ist oder in Ihrer Playlist vorhanden ist\n \nWenn Sie wissen möchten, was Ihre Playlists sind, verwenden Sie „/playlist [list]“ oder „Drücken Sie Option C“. Wenn Sie wissen möchten, wie die ID des gesuchten Songs lautet, verwenden Sie „/playlist songs [Playlist]`` oder „Drücken Sie Option D“.",
+        "success_1": "✅ Sie haben das **Lied** erfolgreich gelöscht:\n \n📌 **Titel**: ``:song_title:``\n🌐 **URL**: ``:song_url:``\nℹ️ **ID**: ``:song_id:``"
+      },
+      "option_l": {
+        "cooldown_error_1": "❌ Sie müssen mindestens „10 Sekunden“ warten, bevor Sie diesen Befehl erneut ausführen können.",
+        "embed_author": "| Playlist-System",
+        "waiting_response": "⏳ Geben Sie die „ID“ des Songs an, den Sie löschen möchten",
+        "modal_data": {
+          "modal_title": "Bestimmte Lieder entfernen",
+          "modal_label": "Lieder-ID",
+          "modal_placeholder": "Geben Sie die ID der Lieder ein, die Sie löschen möchten (eine ID pro Zeile)"
+        },
+        "internal_error_1": "❌ **Es ist ein Fehler aufgetreten**\n \n**1**: Überprüfen Sie, ob die bereitgestellte Wiedergabeliste gültig ist\n \n**2**: Überprüfen Sie, ob die von Ihnen angegebene Song-ID gültig ist\n \nWenn Sie wissen möchten, was Ihre Playlists sind, verwenden Sie „/playlist [list]“ oder „Drücken Sie Option C“. Wenn Sie wissen möchten, wie die ID des gesuchten Songs lautet, verwenden Sie „/playlist songs [Playlist]`` oder „Drücken Sie Option D“.",
+        "success_1": "✅ Sie haben das **Lied** erfolgreich gelöscht:\n \n📌 **Titel**: ``:song_title:``\n🌐 **URL**: ``:song_url:``\nℹ️ **ID**: ``:song_id:``",
+        "success_2": "✅ Sie haben erfolgreich ``:songs_length:`` Lieder aus der Wiedergabeliste ``:playlist_name:`` entfernt"
+      },
+      "option_m": {
+        "embed_author": "| Playlist-System",
+        "playlist_error_1": "❌ Die Playlist „:playlist_name:“ existiert nicht in Ihrer **Playlist**, bitte versuchen Sie es erneut mit einer **vorhandenen Playlist**.",
+        "success_1": "✅ Die Playlist „:playlist_name:“ wurde erfolgreich entfernt"
+      }
+    },
+    "premium-message": {
+      "redeemed-keys": {
+        "Error_1": "Es wurden keine **Premium-Schlüssel** gefunden, die auf diesem Server eingelöst wurden",
+        "Data_map": "🔑 **Schlüssel**: ``:key:``\n🕘 **Dauer**: ``:duration:``",
+        "Data_map_empty": "**Auf diesem Server wurden keine Schlüssel eingelöst. Bitte versuchen Sie es später erneut.**",
+        "Embed_Title": "Eingelöste Schlüssel in „:guild_name:“."
+      },
+      "trial-sub": {
+        "Error_1": "❌ Sie verfügen nicht über ausreichende Berechtigungen, um diese Aktion auszuführen",
+        "Error_2": "❌ **Es ist ein interner Fehler aufgetreten**\n**Keine Daten für diesen Server gefunden**\n\nWenn der Fehler weiterhin besteht, benachrichtigen Sie den Entwickler :dev:",
+        "Error_3": "❌ Es ist ein Fehler aufgetreten. Bitte versuchen Sie es erneut mit dem Befehl [/premium].",
+        "MainEmbed_Title": "📀 „Kazuto Music“ Kostenlose Testversion",
+        "MainEmbed_Description": "**Willkommen Benutzer** Ich freue mich über Ihr Interesse an meinem Projekt „Kazuto Music“ und an der Premium-Mitgliedschaft.\nSie können ein Probeabonnement für 14 Tage völlig kostenlos und ohne zusätzliche Kosten abschließen und müssen auch keine zusätzlichen Daten eingeben!\n\n⚠️ **Denken Sie daran**:\n**1.** *Kostenlose Testversion läuft in 14 Tagen ab*\n**2.** *Sie können für jeden von Ihnen verwalteten Server nur einmal auf diese kostenlose Testversion zugreifen*\n**3.** *Wir bieten diese kostenlose Testversion ausschließlich zu dem Zweck an, unseren Benutzern die Möglichkeit zu geben, die Premium-Funktionen dieses Projekts zu testen und die Leistung dieser Funktionen zu testen*\n\n**Wir hoffen, dass Sie die von uns angebotenen Premium-Vorteile genießen!**\n*Sie haben 10 Minuten Zeit, um eine Option auszuwählen*",
+        "MainEmbed_Footer": "Mit freundlichen Grüßen :dev:",
+        "Button1_Label": "Test starten",
+        "Button2_Label": "Ich möchte später damit beginnen",
+        "ResponseDesc_Success_1": "✅ Sie haben Ihre kostenlose Premium-Testversion für „14 Tage“ erfolgreich beansprucht",
+        "ResponseField1_Success_1": "Beansprucht von",
+        "ResponseField2_Success_1": "Verfallsdatum",
+        "ResponseDesc_Success_2": "✅ Sie haben die kostenlose Testversion vorerst abgelehnt.\n\n*Denken Sie daran, dass Sie versuchen können, es erneut zu beanspruchen, indem Sie den Befehl* „/premium“ verwenden"
+      }
+    },
+    "reconnect-sys": {
+      "success": {
+        "Loading": "**Wiederverbinden...**",
+        "Success_1": "✅ **Erfolgreiche Wiederverbindung!**"
+      },
+      "errors": {
+        "Internal_Error_1": "Hoppla! Bei den Daten zu dieser Warteschlange ist ein interner Fehler aufgetreten."
+      }
+    },
+    "shop-sys": {
+      "success": {
+        "MainEmbed_Title1": "| Wählen Sie eine Option – Abonnement 1 Tag 💿",
+        "MainEmbed_Title2": "| Wählen Sie eine Option – Abonnement 3 Tage 💿",
+        "MainEmbed_Title3": "| Wählen Sie eine Option – Abonnement 5 Tage 💿",
+        "MainEmbed_Title4": "| Wählen Sie eine Option – Abonnement 7 Tage 💿",
+        "MainEmbed_Title5": "| Wählen Sie eine Option – Abonnement 14 Tage 💿",
+        "MainEmbed_Title6": "| Wählen Sie eine Option – Abonnement 30 Tage 📀",
+        "MainEmbed_Title7": "| Wählen Sie eine Option – Abonnement 60 Tage 📀",
+        "MainEmbed_Title8": "| Wählen Sie eine Option – Abonnement 90 Tage 📀",
+        "MainEmbed_Title9": "| Wählen Sie eine Option – Abonnement 6 Monate 📀",
+        "MainEmbed_Title10": "| Wählen Sie eine Option – Abonnement 1 Jahr 📀",
+        "MainEmbed_Description": "❓ **Schlüssel kaufen**\n*Mit dieser Option können Sie dieses Abonnement in Form eines Schlüssels kaufen, der Ihnen privat zugesandt wird und den Sie mit dem Befehl „/redeem“ einlösen können.*\n\n❓ **Abonnement kaufen**\n*Mit dieser Option können Sie das Abonnement direkt für diesen Server erwerben und aktivieren.*",
+        "MainEmbed_Footer": "Sie haben 10 Minuten Zeit, Ihre Auswahl zu treffen",
+        "Button1_Label": "Schlüssel kaufen",
+        "Button2_Label": "Abonnement kaufen",
+        "BuyKey_BTN": {
+          "MainEmbed_Title": "🔑 Sie haben einen Premium-Schlüssel erworben",
+          "MainEmbed_Field1": "gekauft von",
+          "MainEmbed_Field2": "Kaufdatum",
+          "MainEmbed_Field3": "Abonnement",
+          "MainEmbed_Field4": "Zustand",
+          "MainEmbed_Field4_value": "OHNE ZU BENUTZEN",
+          "MainEmbed_Field4_value_2": "GEBRAUCHT",
+          "Response_Title": "✅ Neuer Schlüssel erworben",
+          "Response_Description": "Sie haben einen **Premium-Schlüssel** mit einer Laufzeit von „:duration:“ erworben, ich habe Ihnen die **Informationen** des Schlüssels per Direktnachricht zugesandt."
+        },
+        "BuySub_BTN": {
+          "MainEmbed_Title": "✅ Prämie erfolgreich eingelöst",
+          "MainEmbed_Description_1": "Sie haben ein **Premium-Abonnement** erfolgreich eingelöst, Premium-Funktionen wurden auf diesem Server aktiviert!\n\n*Da Sie zuvor ein Premium-Abonnement hatten, wurde Ihr Abonnement verlängert!*",
+          "MainEmbed_Description_2": "Sie haben ein **Premium-Abonnement** erfolgreich eingelöst, Premium-Funktionen wurden auf diesem Server aktiviert!",
+          "MainEmbed_Field1": "Eingelöst für",
+          "MainEmbed_Field2": "Verfallsdatum",
+          "MainEmbed_Footer": "Wir freuen uns über Ihre Zusammenarbeit mit dem K-Music-Projekt"
+        }
+      },
+      "errors": {
+        "Insufficient_Coins_Error_1": "Der Server verfügt nicht über genügend **Münzen**, um diesen Kauf zu tätigen"
+      }
+    }
+  },
+  "Modals_Constructor": {
+    "music": {
+      "remove_cmd": {
+        "removesongbyid_title": "Löschen Sie einen Song/ein Video",
+        "removesongbyid_label": "ID [Geben Sie die Song-ID an]",
+        "removesongbyid_placeholder": "Ex: 2, 8, 0, 3.",
+        "removerangeofsongs_title": "Mehrere Songs/Videos löschen",
+        "removerangeofsongs_label": "Ursprüngliche ID [ID, wo die Entfernung beginnen soll]",
+        "removerangeofsongs_label2": "Endgültige ID [ID bis zu dem Ort, an dem sie entfernt wird]"
+      }
+    },
+    "review": {
+      "title": "Kazuto-Musikrezension",
+      "label": "Rezension",
+      "placeholder": "Schreiben Sie hier Ihre Meinung zum Bot",
+      "response_title": "| Rezension von :user:",
+      "response_description": "**Bewertung** „:review_stars:“.\n\n**Rezension**\n:review_data:",
+      "response_description_2": "🟢 Wir haben Ihre Bewertung erhalten. Vielen Dank, dass Sie sich die Zeit genommen haben, uns Ihre Meinung zu unserem Projekt mitzuteilen. Wir hoffen, dass Sie unsere Dienste auch in Zukunft weiterhin nutzen werden!"
+    },
+    "parametersMenu": {
+      "volume": {
+        "volume_title": "Standardlautstärkeeinstellung",
+        "volume_label": "Volumenprozentsatz",
+        "volume_placeholder": "Ex: 25, 50, 75, 100."
+      }
+    }
+  },
+  "SelectMenus": {
+    "filtersMenu": {
+      "Voice_Error_1": "Um diese Aktion ausführen zu können, müssen Sie sich in einem Voice-Chat befinden",
+      "Voice_Error_2": "Um diese Aktion auszuführen, müssen Sie sich im selben Voice-Chat wie ich befinden",
+      "Premium_Error_1": "Sie haben keinen Zugriff auf diese Funktion, sie ist exklusiv für **Premium-Server**!"
+    },
+    "langsMenu": {
+      "MessageTitle": "| Kazuto-Musiksprachen",
+      "Language_Success_1": "✅ Bot-Sprache erfolgreich von „:previous_lang:“ auf „:selected_lang:“ gesetzt",
+      "Language_Success_2": "✅ Die Bot-Sprache wurde erfolgreich von „:previous_lang:“ in „:selected_lang:“ geändert"
+    },
+    "acMenu": {
+      "MessageTitle": "| Algorithmus für Suchvorschläge",
+      "Ac_Success_1": "✅ Suchvorschlagsquelle erfolgreich von „:previous_value:“ auf „:selected_value:“ gesetzt",
+      "Ac_Success_2": "✅ Die Quelle der Suchvorschläge wurde erfolgreich von „:previous_value:“ in „:selected_value:“ geändert"
+    },
+    "setupMenu": {
+      "MessageTitle": "| Kazuto-Musikeinstellungen",
+      "TimeoutEmbed_Desc": "⏳ Die Auswahl einer Option hat zu lange gedauert. Bitte versuchen Sie es erneut!",
+      "LangEmbed_Desc": "Willkommen :user_mention: im **Sprachkonfigurationsmenü** des Bots. Mit diesem Sprachsystem können Sie Ihre Muttersprache oder die verfügbare Sprache Ihrer Wahl auswählen!\n\n**Mitwirkende**:\n:colab_members:\n\n¡Sie können uns helfen, mehr Sprachen zu übersetzen, indem Sie [hier klicken](https://github.com/xNeuNoRo/kmusic-languages)!\n\n*Die Hauptübersetzungen des Bots stammen aus dem Englischen und Spanischen, diese werden von echten Menschen bearbeitet, die restlichen Übersetzungen sind das Ergebnis eines Online-Übersetzers wie „Google Translate“*",
+      "LangEmbed_Btn": "Mit Übersetzungen zusammenarbeiten",
+      "RestrictChannelEmbed_Desc": "Willkommen :user_mention: im Server-Konfigurationsmenü **Musikkanäle**. Mit diesem System können Sie die Musik-/Videowiedergabe auf bestimmte, von Ihnen ausgewählte Sprachkanäle beschränken.\n\nAktuelle Sprachkanäle auf der Serverliste: ```:restricted_channels:```\n\n*Unten finden Sie ein Beispiel dafür, wie die Kanalbeschränkung funktioniert*",
+      "RestrictChannelEmbed_Var1": "Kein Kanal in der Liste gefunden",
+      "RestrictChannelMenu_Placeholder": "Wählen Sie einen Sprachkanal aus",
+      "ParametersMenuConstructor": {
+        "Placeholder": "Wählen Sie eine Parameteroption aus",
+        "1_label": "Volumen",
+        "1_desc": "Legen Sie die Standardlautstärke fest",
+        "2_label": "Locken",
+        "2_desc": "Legen Sie fest, ob die Schleife standardmäßig aktiviert werden soll oder nicht",
+        "3_label": "Automatisches Abspielen",
+        "3_desc": "Konfigurieren Sie, ob die automatische Wiedergabe standardmäßig aktiviert werden soll oder nicht",
+        "4_label": "24/7",
+        "4_desc": "Konfigurieren Sie, ob die Wiedergabe rund um die Uhr aktiviert werden soll oder nicht"
+      },
+      "ACEmbed_Desc": "Willkommen :user_mention: im Konfigurationsmenü der Quelle **Vorschläge** des Bots. Das Suchvorschlagssystem des Bots ist ein Algorithmus, der jede Suche verwaltet, die Sie mit dem Befehl „[/music command play]“ durchführen Dazu können Sie unseren eigenen Algorithmus verwenden, der speziell auf die Bedürfnisse unserer Benutzer zugeschnitten ist, da er ständig aus der Geschichte Ihrer Lieblingslieder lernt und für die Abgabe von Empfehlungen nach Ihrem Geschmack zuständig ist. Sie können auch den YouTube-Suchvorschlagsalgorithmus verwenden, der im Grunde eine Nachahmung des Algorithmus ist, den YouTube in seinen Systemen implementiert.\n\n*Unten finden Sie ein Beispiel dafür, wie die Suchvorschlagsalgorithmen funktionieren*",
+      "AutoCompleteMenuConstructor": {
+        "Placeholder": "Wählen Sie eine Quelle für Vorschläge aus",
+        "1_label": "Benutzerdefiniert [Eigener Algorithmus]",
+        "1_desc": "Das eigene Vorschlagssystem des Bots",
+        "2_label": "Youtube",
+        "2_desc": "YouTube-Vorschlagssystem"
+      },
+      "YTMixesEmbed_Desc": "Willkommen :user_mention: im YT-Konfigurationsmenü **Mixe**. Mit diesem System können Sie YouTube-Mixe im Bot abspielen, allerdings nicht originalgetreu zu den Songs, die im Mix erscheinen können, aufgrund regionaler und regionaler Unterschiede Konto\n\n*Unten finden Sie ein Beispiel für YouTube-Mixe*",
+      "ParametersEmbed_Desc": "Willkommen :user_mention: im Konfigurationsmenü der **Wiedergabeparameter** des Servers. Mit diesem System können Sie die verschiedenen Standardoptionen wie Lautstärke, automatische Wiedergabe usw. ändern.\n\n*Unten finden Sie ein Beispiel für die Standardparameter*",
+      "DJEmbed_Desc": "Willkommen :user_mention: im **DJ** Server-Konfigurationsmenü, mit diesem System können Sie mehrere Rollen oder Benutzer als Server-DJs bis zu einer Grenze von 25 festlegen und so den Zugriff auf grundlegende Musikbefehle nur auf diejenigen beschränken, die DJs sind (z.B.: Lautstärke, Pause, Stopp, Skip...)",
+      "DJEmbed_Field1": "DJ-System",
+      "DJEmbed_Field2": "DJ-Rollen",
+      "DJEmbed_Field3": "DJ-Benutzer",
+      "DJEmbed_Field4": "*Unten sehen Sie ein Beispiel dafür, wie das DJ-System funktioniert*",
+      "DJEmbed_Field5": "DJ-Befehle",
+      "DJMenu_Placeholder": "Wählen Sie eine Rolle aus",
+      "DJMenu_Placeholder2": "Wählen Sie einen Benutzer",
+      "DJMenu_Placeholder3": "Wählen Sie einen Befehl",
+      "MsCEmbed_Desc": "Willkommen :user_mention: im Konfigurationsmenü des **dedizierten Musikanforderungskanals** des Servers. Mit diesem System können Sie Songs/Videos für alle Benutzer intuitiver, einfacher und effektiver abspielen.\n\n*Unten finden Sie ein Beispiel dafür, wie der Kanal für Musikanfragen funktioniert*",
+      "ButtonConstructor": {
+        "1": "Kanal hinzufügen",
+        "2": "Entfernerkanal",
+        "3": "Legen Sie die DJ-Rolle fest",
+        "4": "DJ-System aktivieren",
+        "5": "Deaktivieren Sie das DJ-System",
+        "6": "Erstellen Sie einen eigenen Musikkanal",
+        "7": "Dedizierten Musikkanal ändern",
+        "8": "Dedizierten Musikkanal reparieren",
+        "9": "Dedizierten Musikkanal löschen",
+        "10": "Mix-Suche aktivieren",
+        "11": "Mix-Suche deaktivieren"
+      },
+      "ButtonResponse": {
+        "1": {
+          "Waiting_Response": "Wählen Sie den Sprachkanal über das Menü unten aus, um ihn zur Liste hinzuzufügen",
+          "Response_Error_1": "🚫 Der von Ihnen ausgewählte Kanal ist ungültig oder wurde nicht unter den Kanälen auf diesem Server gefunden. Bitte versuchen Sie es erneut.",
+          "Response_Error_2": "🚫 Der von Ihnen ausgewählte Kanal ist als Sprachkanal ungültig oder wurde nicht unter den Kanälen auf diesem Server gefunden. Bitte versuchen Sie es erneut.",
+          "Response_Error_3": "🚫 Der von Ihnen ausgewählte Kanal befindet sich bereits in der Musikkanalliste dieses Servers!",
+          "Response_Success_1": "✅ Der Kanal :channel_mention: wurde erfolgreich in der Liste der Musikkanäle auf diesem Server **gespeichert**!"
+        },
+        "2": {
+          "Waiting_Response": "Wählen Sie den Sprachkanal über das Menü unten aus, um ihn aus der Liste zu entfernen",
+          "Response_Error_1": "🚫 Der von Ihnen ausgewählte Kanal ist ungültig oder wurde nicht unter den Kanälen auf diesem Server gefunden. Bitte versuchen Sie es erneut.",
+          "Response_Error_2": "🚫 Der von Ihnen ausgewählte Kanal ist als Sprachkanal ungültig oder wurde nicht unter den Kanälen auf diesem Server gefunden. Bitte versuchen Sie es erneut.",
+          "Response_Error_3": "🚫 Der von Ihnen ausgewählte Kanal wurde nicht in der Musikkanalliste dieses Servers gefunden!",
+          "Response_Success_1": "✅ Der Kanal :channel_mention: wurde erfolgreich aus der Liste der Musikkanäle auf diesem Server **entfernt**!"
+        },
+        "3": {
+          "Waiting_Response": "Wählen Sie die Rolle über das Menü unten aus, um sie als DJ-Rolle festzulegen",
+          "Response_Error_1": "🚫 Die von Ihnen ausgewählte Rolle ist ungültig oder wurde unter den Rollen auf diesem Server nicht gefunden. Bitte versuchen Sie es erneut.",
+          "Response_Error_2": "🚫 Der von Ihnen gewählte Benutzer ist ungültig oder wurde unter den Mitgliedern dieses Servers nicht gefunden, bitte versuchen Sie es erneut.",
+          "Response_Success_1": "✅ **Setzen** Sie die Rolle :role_mention: erfolgreich als „DJ-Rolle“ für diesen Server ein!",
+          "Response_Success_2": "✅ **Die alte „DJ-Rolle“ wurde in die Rolle :role_mention: geändert und als aktuelle „DJ-Rolle“ dieses Servers korrekt festgelegt!"
+        },
+        "4": {
+          "Response_Success_1": "✅ Das „DJ-Rollensystem“ wurde auf diesem Server erfolgreich **aktiviert**!"
+        },
+        "5": {
+          "Response_Success_1": "✅ Das „DJ-Rollensystem“ auf diesem Server korrekt **deaktiviert**!"
+        },
+        "6": {
+          "Response_Success_1": "✅ Der „dedizierte Musikkanal“ wurde erfolgreich in :channel: erstellt",
+          "Response_Success_2": "✅ Der „dedizierte Musikkanal“ wurde erfolgreich in :channel: erstellt\n\n⚠️ Da dies nicht Ihr **erstes Mal** ist, dass Sie den „dedizierten Musikkanal“ erstellen, denken Sie daran, dass Sie nicht mehr als einen **Kanal pro Server** erstellen können!"
+        },
+        "7": {
+          "Response_Error_1": "Auf diesem Server wurde kein ``Dedicated Music Channel`` gefunden. Bitte versuchen Sie es erneut, nachdem Sie einen erstellt haben!",
+          "Response_Error_2": "Sie müssen einen gültigen Kanal auswählen, um den alten ``Bestimmten Musikkanal`` zu ersetzen!",
+          "Waiting_Response": "Wählen Sie den Textkanal aus, der der neue ``dedicated music channel`` für diesen Server sein soll, indem Sie das Menü unten benutzen.",
+          "Waiting_Response_Placeholder": "Wählen Sie einen Textkanal",
+          "Response_Success_1": "Der ``gewidmete Musikkanal`` wurde erfolgreich in den Kanal :channel: geändert."
+        },
+        "8": {
+          "Response_Error_1": "Auf diesem Server wurde kein ``Dedicated Music Channel`` gefunden. Bitte versuchen Sie es erneut, nachdem Sie einen erstellt haben!",
+          "Response_Error_2": "Es wurde kein Fehler im ``dedicated music channel`` dieses Servers entdeckt. Wenn der Fehler weiterhin besteht, empfehlen wir Ihnen, diesen Channel zu löschen und einen neuen zu erstellen.",
+          "Response_Success_1": "Alle möglichen Fehler im ``dedicated music channel`` auf diesem Server wurden behoben. Sollte ein Fehler weiterhin bestehen, empfehlen wir Ihnen, diesen Channel zu löschen und einen neuen zu erstellen."
+        },
+        "9": {
+          "Response_Error_1": "Auf diesem Server wurde kein ``Dedicated Music Channel`` gefunden. Bitte versuchen Sie es erneut, nachdem Sie einen erstellt haben!",
+          "Response_Success_1": "Du hast erfolgreich den ``dedicated music channel`` von diesem Server entfernt!"
+        },
+        "10": {
+          "Response_Success_1": "Erfolgreich **aktiviert** das ``YouTube Mix System`` auf diesem Server!"
+        },
+        "11": {
+          "Response_Success_1": "Erfolgreich **deaktiviert** das ``YouTube Mix System`` auf diesem Server!"
+        }
+      }
+    },
+    "parametersMenu": {
+      "MessageTitle": "| Kazuto-Musikparameter",
+      "TimeoutEmbed_Desc": "⏳ Die Auswahl einer Option hat zu lange gedauert. Bitte versuchen Sie es erneut.",
+      "LoopEmbed_Desc": "Wählen Sie die Loop-Option aus, die beim Starten einer Song-Warteschlange oder einer beliebigen Wiedergabe standardmäßig verwendet werden soll.",
+      "AutoPlayEmbed_Desc": "Wählen Sie die Option „Auto-Play“ aus, die Sie standardmäßig verwenden möchten, wenn Sie eine Song-Warteschlange oder eine Wiedergabe starten.",
+      "AllTimePlayingEmbed_Desc": "Wählen Sie, ob Sie die Wiedergabe von Songs/Videos auf diesem Server rund um die Uhr aktivieren möchten\n\n*Hinweis: Diese Option unterliegt geplanten Neustarts des Bots und ist daher nicht rund um die Uhr verfügbar.*",
+      "VolumeOption": {
+        "Waiting_Response": "Gibt die Standardlautstärke an, die Sie festlegen möchten, wenn eine Song-Warteschlange oder eine Wiedergabe initialisiert wird. (1-500)",
+        "Response_Error_1": "Sie müssen einen Volumenprozentsatz von „1“ bis „500“ angeben",
+        "Response_Error_2": "Der Wert „:volume:“ ist keine gültige Ganzzahl, bitte versuchen Sie es erneut!",
+        "Response_Success_1": "✅ Die folgenden Standard-**Parameter** wurden festgelegt:\n\n🔊 **Volumen**: ``:volume:``\n🔁 **Schleife**: „Standard“.\n🔃 **Auto-Play**: „Standard“.\n⚙️ **24/7**: „Standard“.",
+        "Response_Success_2": "✅ Die folgenden Standard-**Parameter** wurden geändert:\n\n🔊 **Volumen**: ``:volume:``\n🔁 **Schleife**: „Standard“.\n🔃 **Auto-Play**: „Standard“.\n⚙️ **24/7**: „Standard“."
+      },
+      "ButtonConstructor": {
+        "1": "Dieses Lied",
+        "2": "die ganze Schlange",
+        "3": "Schleife deaktivieren",
+        "4": "Aktivieren Sie Autoplay",
+        "5": "Deaktiviere Autoplay",
+        "6": "Spielen Sie rund um die Uhr",
+        "7": "Wiedergabe deaktivieren 24/7"
+      },
+      "ButtonResponse": {
+        "1": {
+          "Response_Success_1": "✅ Die folgenden Standard-**Parameter** wurden festgelegt:\n\n🔊 **Volume**: „Standard“.\n🔁 **Loop**: „Dieses Lied“.\n🔃 **Auto-Play**: „Standard“.\n⚙️ **24/7**: „Standard“.",
+          "Response_Success_2": "✅ Die folgenden Standard-**Parameter** wurden geändert:\n\n🔊 **Volume**: „Standard“.\n🔁 **Loop**: „Dieses Lied“.\n🔃 **Auto-Play**: „Standard“.\n⚙️ **24/7**: „Standard“."
+        },
+        "2": {
+          "Response_Success_1": "✅ Die folgenden Standard-**Parameter** wurden festgelegt:\n\n🔊 **Volume**: „Standard“.\n🔁 **Schleife**: „Gesamte Warteschlange“.\n🔃 **Auto-Play**: „Standard“.\n⚙️ **24/7**: „Standard“.",
+          "Response_Success_2": "✅ Die folgenden Standard-**Parameter** wurden geändert:\n\n🔊 **Volume**: „Standard“.\n🔁 **Schleife**: „Gesamte Warteschlange“.\n🔃 **Auto-Play**: „Standard“.\n⚙️ **24/7**: „Standard“."
+        },
+        "3": {
+          "Response_Success_1": "✅ Die folgenden Standard-**Parameter** wurden festgelegt:\n\n🔊 **Volume**: „Standard“.\n🔁 **Schleife**: „Aus/Aus“.\n🔃 **Auto-Play**: „Standard“.\n⚙️ **24/7**: „Standard“.",
+          "Response_Success_2": "✅ Die folgenden Standard-**Parameter** wurden geändert:\n\n🔊 **Volume**: „Standard“.\n🔁 **Schleife**: „Aus/Aus“.\n🔃 **Auto-Play**: „Standard“.\n⚙️ **24/7**: „Standard“."
+        },
+        "4": {
+          "Response_Success_1": "✅ Die folgenden Standard-**Parameter** wurden festgelegt:\n\n🔊 **Volume**: „Standard“.\n🔁 **Schleife**: „Standard“.\n🔃 **Auto-Play**: „Ein“.\n⚙️ **24/7**: „Standard“.",
+          "Response_Success_2": "✅ Die folgenden Standard-**Parameter** wurden geändert:\n\n🔊 **Volume**: „Standard“.\n🔁 **Schleife**: „Standard“.\n🔃 **Auto-Play**: „Ein“.\n⚙️ **24/7**: „Standard“."
+        },
+        "5": {
+          "Response_Success_1": "✅ Die folgenden Standard-**Parameter** wurden festgelegt:\n\n🔊 **Volume**: „Standard“.\n🔁 **Schleife**: „Standard“.\n🔃 **Auto-Play**: „Aus/Aus“.\n⚙️ **24/7**: „Standard“.",
+          "Response_Success_2": "✅ Die folgenden Standard-**Parameter** wurden geändert:\n\n🔊 **Volume**: „Standard“.\n🔁 **Schleife**: „Standard“.\n🔃 **Auto-Play**: „Aus/Aus“.\n⚙️ **24/7**: „Standard“."
+        },
+        "6": {
+          "Response_Success_1": "✅ Die folgenden Standard-**Parameter** wurden festgelegt:\n\n🔊 **Volume**: „Standard“.\n🔁 **Schleife**: „Standard“.\n🔃 **Auto-Play**: „Standard“.\n⚙️ **24/7**: „Aktiviert“.",
+          "Response_Success_2": "✅ Die folgenden Standard-**Parameter** wurden geändert:\n\n🔊 **Volume**: „Standard“.\n🔁 **Schleife**: „Standard“.\n🔃 **Auto-Play**: „Standard“.\n⚙️ **24/7**: „Aktiviert“."
+        },
+        "7": {
+          "Response_Success_1": "✅ Die folgenden Standard-**Parameter** wurden festgelegt:\n\n🔊 **Volume**: „Standard“.\n🔁 **Schleife**: „Standard“.\n🔃 **Auto-Play**: „Standard“.\n⚙️ **24/7**: „Deaktiviert/Aus“.",
+          "Response_Success_2": "✅ Die folgenden Standard-**Parameter** wurden geändert:\n\n🔊 **Volume**: „Standard“.\n🔁 **Schleife**: „Standard“.\n🔃 **Auto-Play**: „Standard“.\n⚙️ **24/7**: „Deaktiviert/Aus“."
+        }
+      }
+    }
+  },
+  "events": {
+    "client": {
+      "ready": {
+        "Bot_Restart_By_Host": "⚠️ Der **routinemäßige Neustart** des Bots wurde aufgrund des kostenlosen Hosts des Bots durchgeführt, bitte entschuldigen Sie die Unannehmlichkeiten.\n\n**Att**: [``:dev_tag:``](https://discordapp.com/users/:dev_id:)",
+        "ReconnectMessage_Title": "[🔰] Warnung [🔰]",
+        "ReconnectMessage_Desc": "Ich habe die Song-Warteschlange wiederhergestellt, die zuvor abgespielt wurde.\n\n📆 Datum: **<t::data_time::R>**\n🎵 Enthält **``:songs_length:``** Songs\n🔈 Sprachkanal: :voice_channel:\n\n**Möchten Sie es noch einmal spielen?**\n\n*PS: Solange diese Warnung aktiv ist, können zukünftige Song-Warteschlangen nicht abgerufen werden.*",
+        "Reconnect_ButtonAccept_Label": "Und",
+        "Reconnect_ButtonDeny_Label": "NEIN",
+        "StatsUpdateMessage_Title": "Statistiken für „:bot_username:“.\n[Nächstes Update: <t::time_to_update::R>]"
+      }
+    },
+    "voice": {
+      "24/7": {
+        "Bot_AFK_Title": "Aber AFK ⚠️",
+        "Bot_AFK_Desc": "Es wurde festgestellt, dass sich **niemand** auf dem Sprachkanal befindet, also liefere ich die **Münzgewinne**, die der Server basierend auf der Reproduktionszeit hatte.\n\nSobald die **Wiedergabe** fortgesetzt wird, wird das **Münzensammeln** wieder fortgesetzt\n\n**Der Server hat 🪙 „:coins_earned:“ Münzen verdient!**",
+        "Bot_Disconnect_Title": "Bot offline ⚠️",
+        "Bot_Disconnect_Desc": "Ich musste das Lied stoppen und den Voice-Chat beenden, weil ich allein gelassen wurde ...\n\n**Der Server hat 🪙 „:coins_earned:“ Münzen verdient!**"
+      }
+    },
+    "message": {
+      "botchannel": {
+        "Spam_Detected_Title": "⚠️ Spam erkannt",
+        "Spam_Detected_Desc": "In kurzer Zeit wurde eine **hohe Anzahl von Anfragen** von diesem Server festgestellt. Aus diesem Grund war die Geschwindigkeit der Verarbeitung von Anfragen von diesem Server für einen bestimmten Zeitraum begrenzt."
+      }
+    },
+    "distube": {
+      "playMessageBuilder": {
+        "title": "spielen 🎶",
+        "field_1": "Angefordert von",
+        "field_2": "Dauer",
+        "field_3": "Autor",
+        "field_4": "Volumen",
+        "field_5": "Locken",
+        "field_6": "Automatisches Abspielen",
+        "field_7": "Reproduktionen",
+        "field_8": "Likes",
+        "field_9": "Entladung",
+        "field_10": "Prämie",
+        "field_11": "Live",
+        "field_12": "Filter"
+      },
+      "addSongMessageBuilder": {
+        "title": "zur Warteschlange hinzugefügt",
+        "field_1": "Volumen Actual",
+        "field_2": "Im Einklang",
+        "field_2_value": "„:songs_length: Lied(e) – :songs_formattedDuration:“."
+      },
+      "addListMessageBuilder": {
+        "title": "PlayList zur Warteschlange hinzugefügt 🎶",
+        "field_1": "„:playlist_length: – Lied(e)“."
+      },
+      "noSearch_Error_1": "Für „:query:“ wurden keine Ergebnisse gefunden",
+      "EmptyMessage_Title": "Bot getrennt",
+      "EmptyMessage_Desc": "Ich musste das Lied stoppen und den Voice-Chat beenden, weil ich allein gelassen wurde ...",
+      "queueFinished_Title": "Warteschlange beendet ✅",
+      "queueFinished_Desc_1": "Ich habe alles wiedergegeben, was die Herren von mir verlangt haben.\n\n**Der Server hat 🪙 „:coins_earned:“ Münzen verdient!**",
+      "queueFinished_Desc_2": "Ich habe alles wiedergegeben, worum sie mich gebeten haben, also werde ich mich mit Ihrer Erlaubnis zurückziehen, meine Herren.\n\n**Der Server hat 🪙 „:coins_earned:“ Münzen verdient!**",
+      "queueFinished_Desc_3": "Ich habe alles wiedergegeben, worum sie mich gebeten haben, also werde ich mich mit Ihrer Erlaubnis zurückziehen, meine Herren.\n\n**Der Server hat 🪙 „:coins_earned:“ Münzen verdient!**\n\n🔰 Möchten Sie rund um die Uhr Musik auf Ihrem Server abspielen? Verwenden Sie den Befehl „/settings Parameters“ und ändern Sie die Einstellung der Option „playback-24-7“."
+    }
+  },
+  "Buttons_Constructor": {
+    "MsC_AddtoPL": "Zur Wiedergabeliste hinzufügen",
+    "MsC_DeletefromPL": "Aus PlayList entfernen",
+    "PlaylistMenu_ExitBTN": "Hinausgehen",
+    "Shop_ExitBTN": "Hinausgehen",
+    "Play_Loop_BTN": {
+      "1": "Festnahme",
+      "2": "Stoppschleife",
+      "3": "Pausen",
+      "4": "Aufführen",
+      "5": "Nachfolgend"
+    },
+    "StringMenuFilter_Opts": {
+      "1": "Filter morgen",
+      "2": "AC-Filter",
+      "3": "Gealterter Filter",
+      "4": "Bassverstärkung",
+      "5": "Filter 'Klar'",
+      "6": "Echofilter",
+      "7": "Filter 'Karaoke'",
+      "8": "„Vibrato“-Filter",
+      "9": "Filter 'Abschluss'",
+      "10": "„Vaporwave“-Filter",
+      "11": "„Verfluchter“ Filter",
+      "12": "Filter „Slow Reverb“",
+      "13": "Filter 'Flanger'",
+      "14": "'Gate'-Filter",
+      "15": "'Haas'-Filter",
+      "16": "„Umgekehrter“ Filter",
+      "17": "Filter 'Double'",
+      "18": "Filter 'Pulsator'",
+      "19": "„Surround“-Filter",
+      "20": "'Mcompand'-Filter",
+      "21": "Filter 'Phaser'",
+      "22": "„Tremolo“-Filter",
+      "23": "„Höhen“-Filter",
+      "24": "Filter 'Ohrenschmalz'",
+      "Placeholder": "Wählen Sie einen Filter für die aktuelle Warteschlange aus",
+      "0_label": "Filter entfernen",
+      "0_desc": "Entfernen Sie alle Filter aus der aktuellen Warteschlange"
+    }
+  },
+  "functions": {
+    "paginator": "Seite :actual_page: von :total_pages:",
+    "paginatorQueue": ":server_name: • Song-Warteschlange | Seite :actual_page: von :total_pages:",
+    "paginatorSpecificPage": {
+      "title": "Seitensprung",
+      "label": "Seitennummer",
+      "placeholder": "Ex: 6, 5, 10, 7.",
+      "error": "Sie müssen eine gültige Seitenzahl eingeben!"
+    },
+    "updatenormalmessage": {
+      "PlayMsg": {
+        "Title": "Derzeit werden keine Songs abgespielt",
+        "Description": "Nehmen Sie an einem Voice-Chat teil und geben Sie eine beliebige URL/Song/Video ein, um Musik abzuspielen\n[Serverunterstützung](https://discord.com/invite/FGBSecT9gq) • [Developed By ℕ𝕖𝕦ℕ𝕠ℝ𝕠天使](https://discordapp.com/users/331496166325747713)",
+        "Footer": "Sollten Ausfälle/Fehler/Bugs auftreten, melden Sie diese dem Entwickler :dev:, um Unterstützung zu leisten"
+      },
+      "QueueMsg": {
+        "Title": "Es befinden sich „0“ Songs in der Warteschlange",
+        "Description": "*Es befindet sich derzeit kein Lied in der Warteschlange*\n\nGeben Sie eine beliebige URL|Lied|Video ein, um Musik abzuspielen."
+      }
+    },
+    "updateplaymessage": {
+      "Author": "Wird gerade gespielt 🎶",
+      "Field1": "Besuche",
+      "Field2": "Prämie",
+      "Field2Variable1": "Fähig",
+      "Field2Variable2": "deaktiviert",
+      "Field3": "Likes",
+      "Field4": "Dauer",
+      "Field4Variable1": "Live",
+      "Field5": "Autor",
+      "Field6": "Entladung",
+      "Field6Variable1": "klicken Sie hier",
+      "Field6Variable2": "„Link abgelaufen“.",
+      "Field7": "Zusätzliche Informationen:",
+      "Field8": "*Entwickelt von „:dev:“*\n*• Bot-Version: ``:bot_version:``*\n*• Der Server verfügt derzeit über 🪙 „:coins:“ Münzen*",
+      "Field8Extra": "\n*• Ablaufdatum der Premium-Mitgliedschaft: <t::Premium_ExpiryDate::d>*",
+      "Footer": "Volumen: :volume:% | Schleife: :loop_options: | AutoPlay: :autoplay_options: | Filter: :filter_options:"
+    },
+    "updatequeuemessage": {
+      "Title": "Es befinden sich „:queue_songs:“-Songs in der Warteschlange\nGeschätzte Dauer: ``:queue_duration:``",
+      "Title2": "Der Song „:queue_songs:“ befindet sich in der Warteschlange\nGeschätzte Dauer: ``:queue_duration:``",
+      "DescVar1": "**Jetzt spielender Song**",
+      "Footer": ":server_name: • Song-Warteschlange"
+    }
+  },
+  "commands": {
+    "others": {
+      "join": {
+        "success": {
+          "MessageTitle": "| Kazuto-Musik",
+          "MessageDescription_Success_1": "✅ Ich bin Ihrem Sprachkanal erfolgreich beigetreten!"
+        }
+      },
+      "leave": {
+        "success": {
+          "MessageTitle": "| Kazuto-Musik",
+          "MessageDescription_Success_1": "✅ Ich habe mich erfolgreich vom Sprachkanal abgemeldet!"
+        }
+      },
+      "userinfo": {
+        "errors": {
+          "NoDataFound_Error_1": "In unserer Datenbank wurden keine Informationen über den Benutzer :user_mention: gefunden. Bitte versuchen Sie es später noch einmal!",
+          "NoDataFound_Error_2": "Der von Ihnen ausgewählte Benutzer ist kein echter Discord-Benutzer, sondern ein Bot! Bitte versuchen Sie es noch einmal mit einer echten Person."
+        },
+        "success": {
+          "MessageTitle": "| Informationen zu :user_tag:",
+          "MessageDesc": "Dies sind die Daten, die wir in unserer Datenbank über den Benutzer :user_mention: erfassen.\n\n**⇨ Allgemeine Informationen**\n```ml\n(-) Benutzer-ID: :user_id:\n\n(-) Discord-Benutzer seit : :user_creation:\n\n(-) Serverbenutzer seit: :user_joined:\n```\n**⇨ Wiedergabeinformationen**\n```ml\n(-) Gespielte Songs: :totalsongs_length:\n\n(-) Wiedergabezeit: :playback_time:\n\n(-) Lieblingslied: :favorite_song:\n```",
+          "MessageFooter": "Vielen Dank, dass Sie unsere Dienste nutzen | Geistiges Eigentum von :dev:"
+        }
+      },
+      "serverinfo": {
+        "errors": {
+          "NoDataFound_Error_1": "In unserer Datenbank wurden keine Informationen zu diesem Server gefunden. Bitte versuchen Sie es später noch einmal!"
+        },
+        "success": {
+          "MessageTitle": "| Informationen zum Server :guild_name:",
+          "MessageDesc": "Dabei handelt es sich um die Daten, die wir in unserer Datenbank über diesen Server erfassen.\n\n**⇨ Allgemeine Informationen**\n```ml\n(-) Server-ID: :server_id:\n(-) Eigentümer: :owner_tag:\n(-) Benutzer: :users_length:\n(-) Bots: :bots_length:\n(-) Kanäle: :channels_length:\n(-) Rollen: :roles_length:\n(-) Erstellt von : :server_creation:\n```\n**⇨ Bot-Informationen**\n```ml\n(-) Sprache: :language:\n(-) Premium: :premium_data:\n(-) Eingelöste Schlüssel: :keys_redeemed:\n(-) Münzen: :server_coins:\n(-) Dedizierter Kanal: :msc_name:\n(-) DJ: :dj:\n(-) Benutzerdefinierte Sounds: :soundboard_length:\n(-) Spielzeit: :playtime:\n```",
+          "MessageFooter": "Vielen Dank, dass Sie unsere Dienste nutzen | Geistiges Eigentum von :dev:"
+        }
+      },
+      "support": {
+        "success": {
+          "MessageDesc": "``🔰`` | **Möchten Sie Unterstützung für eine der Funktionen des Bots erhalten?**\n**Möchten Sie dem Bot neue Funktionen vorschlagen?**\n**Oder möchten Sie ein aufgetretenes Problem/Bug melden?**\n\nKlicken Sie einfach [``Hier klicken``](:support_server:) oder klicken Sie auf die Schaltfläche unten, um dem Bot-Support-Server beizutreten und das Bot-Management-Team zu kontaktieren!"
+        }
+      },
+      "about": {
+        "success": {
+          "MessageTitle": "| Ungefähr :bot_tag:",
+          "MessageDescription": "Hallo :user:, zunächst möchten wir, dass Sie etwas über die Geschichte und Entwicklung dieses Bots erfahren, um unsere Ziele und Absichten zu verstehen.\n\n<:creativity:1102880753324408872> __**Unser Hauptaugenmerk**__\n> Dieser Bot ist Teil eines anderen großartigen Bots namens „Kazuto“. Dieser Bot wurde mit dem Ziel erstellt, unseren Benutzern das beste kostenlose Discord-Musikerlebnis zu bieten. Aus diesem Grund haben wir das Musikmodul vom Hauptbot getrennt „Kazuto“ und wir haben diesen Bot von Grund auf erstellt.\n\n<:start:1102881879255957504> __**Unsere ersten Schritte**__\n> Wir begannen mit ein paar Befehlen wie [/music play] => [derzeit umbenannt in /music play], [/music volume] => [derzeit umbenannt in /music volume], [/music Settings], dies beinhaltete ein paar Optionen wie überspringen, anhalten, fortsetzen usw. => [derzeit umbenannt in /music-Einstellungen], neben anderen Befehlen.\n\n> Dann haben wir hart daran gearbeitet, neue Systeme zu implementieren, wie das Playlists-System [Super komplettes System mit mehreren Befehlen und einem völlig dynamischen und intuitiven Menü], den Music Requests Channel mit mehreren Tasten [jede Taste fungiert als Befehl, also hat es uns gekostet ziemlich viel Zeit, alles zu implementieren], der Songverlauf [/history] => [derzeit umbenannt in /history-Befehlszeichenfolge], das Filtersystem, das einstellbare Filtersystem, das Wiederverbindungssystem [Wird verwendet, wenn der Bot neu startet oder abrupt abstürzt , Ihre Songs werden automatisch wiederhergestellt, sobald sie wieder online sind.], unter anderem.\n\n> Bald darauf entstand das Premium-System, das mit dem Ziel implementiert wurde, unsere Leistung zu verbessern, indem bestimmte Funktionen eingeschränkt wurden, die sich stark auf die Leistung des Bots auswirken.\n\n<:goal:1102884214774431784> __**Unser ultimatives Ziel**__\n> Am Ende haben wir den Bot so skaliert, wie er heute ist. Daher möchte ich, dass Sie diese Arbeit wertschätzen und uns nicht als „nur einen weiteren Bot“ unter den anderen auf Discord betrachten, da alles, was wir völlig kostenlos anbieten, mit einem Multi verbunden ist Stundenlanger Aufwand seitens der Entwickler, ohne eine Gegenleistung zu erwarten.\n\n> Trotzdem hoffen wir, dass Ihnen unser Bot gefällt und Sie gute Erfahrungen damit machen!\n\n*Wenn Sie Störungen/Fehler/Bugs bemerken, können Sie diese gerne dem Hauptentwickler „:dev:“ melden, um Unterstützung zu erhalten!*",
+          "MessageDescription_2": "Hallo :user:, ich bin ein Discord-Musikbot mit hoher Klangqualität, erstellt von „:dev:“. Derzeit kann ich Songs von mehreren Musikplattformen abspielen und im Vergleich zu anderen Musik-Bots eine beträchtliche Menge an Funktionen bieten. Wenn Sie weitere Informationen zu Befehlen benötigen oder Hilfe benötigen, verwenden Sie den Befehl [/help].\n\n„Javascript\n------ Allgemeine Informationen ------\n\nVersion: :bot_version:\nLatenz: :bot_latency:\nBefehle: :commands_size:\nServer: :servers_size:\nBenutzer: :users_size:\nSpieler: :servers_playing_size:\nAktivität/Pünktlichkeit:\n:bot_uptime:\n\n------ Technische Information ------\n\nBetriebssystem: :bot_os:\nCPU: :cpu_data:\nRAM: :ram:\nThreads/Threads: :cpu_threads:\nUhr: :cpu_clock:\n\n------ Credits ------\n\nHauptentwickler: :dev:\nAusführungsumgebung/Laufzeit:\nNode.js :nodejs_version:\nHauptabhängigkeiten:\nDiscord.js v:discordjs_version:, DisTube v:distube_version:, Mongoose v:mongoose_version:\nEmojis/Symbole: [Icons8, Flaticon]\nWirtschaftlicher Support (für Bot-Hosting vorgesehen): :economic_support:```",
+          "Field1_Title": "<a:dev:1061452497107038228> Entwickler",
+          "Field2_Title": "🎵 Wir bieten Dienstleistungen von an",
+          "Field3_Title": "🌐 Globale Zeit, die Musik spielt",
+          "Button1_Label": "Mittel",
+          "Button2_Label": "Staat ⇾",
+          "Button3_Label": "⇽ Über Kazuto-Musik"
+        }
+      },
+      "help": {
+        "success": {
+          "MenuStructure": {
+            "Placeholder": "Wählen Sie eine Befehlskategorie aus",
+            "Label": {
+              "label01": "Start",
+              "label02": "Entwickler",
+              "label03": "Systeme",
+              "label04": "Einstellung",
+              "label05": "Andere"
+            },
+            "Description": {
+              "desc01": "Schauen Sie sich die Liste der Kategorien an",
+              "desc02": "Alle Bot-Entwicklerbefehle anzeigen",
+              "desc03": "Sehen Sie sich alle Befehle der einzigartigen Systeme des Bots an",
+              "desc04": "Alle Bot-Konfigurationsbefehle anzeigen",
+              "desc05": "Alle zusätzlichen Bot-Befehle anzeigen"
+            }
+          },
+          "MessageTitle": ":bot_username: Befehle",
+          "MessageDescription": "Hallo :user_mention:, dieses Menü hilft Ihnen dabei, mehr über die **Bot-Befehle** und ihre Funktionsweise zu erfahren, damit Sie ein wunderbares Erlebnis beim Musikhören haben!\n\nDieser Bot verfügt über **eigene Systeme** und ist **exklusiv** für diesen Bot sowie **ständige Updates**, um seinen Betrieb zu verbessern und neue Funktionen zu implementieren.\n\nWir haben einige „:commands_size:-Befehle“ in 4 Kategorien verteilt. Klicken Sie auf das Menü unter einer dieser Kategorien, um mehr über die Befehle zu erfahren.",
+          "MessageFooterText": ":bot_username: ⓒ | Geistiges Eigentum von :dev:",
+          "MapMessageText": "*Befehl (:cmd_index:)*\n\n⭐ **Name**\n:name_block:\n\n🔤 **Beschreibung**\n:desc_block:\n\n🌐 **Verwenden**\n:usage_block:\n\n🔗 **Beispiel**\n:example_block:"
+        }
+      },
+      "review": {
+        "success": {
+          "MessageTitle": "| Bot-Rezension",
+          "MessageDescription": "Hallo :user:! Bevor Sie Ihre Meinung in einer Bewertung äußern, wählen Sie unbedingt die Bewertung aus, die Sie dem Bot basierend auf Ihrer Erfahrung geben möchten, indem Sie auf die Schaltflächen unten klicken."
+        }
+      }
+    },
+    "developer": {
+      "viewkeys": {
+        "_comment": "Für diese Schaltfläche sind keine unterschiedlichen Texte erforderlich, daher werden andere wiederverwendet. (vorerst) [DIESEN TEXT NICHT ÜBERSETZEN!]"
+      },
+      "keygen": {
+        "_comment": "Für diese Schaltfläche sind keine unterschiedlichen Texte erforderlich, daher werden andere wiederverwendet. (vorerst) [DIESEN TEXT NICHT ÜBERSETZEN!]"
+      },
+      "proxysys": {
+        "_comment": "Für diese Schaltfläche sind keine unterschiedlichen Texte erforderlich, daher werden andere wiederverwendet. (vorerst) [DIESEN TEXT NICHT ÜBERSETZEN!]"
+      },
+      "reload": {
+        "dev_error_1": "Sie haben keinen Zugriff auf diesen Befehl, er ist **exklusiv** für den Bot-Entwickler.",
+        "cmd_success_1": "✅ Alle „Befehle“ wurden korrekt initialisiert!",
+        "events_success_1": "✅ Alle „Ereignisse“ wurden korrekt initialisiert!",
+        "buttons_success_1": "✅ Alle „Buttons“ wurden korrekt initialisiert!",
+        "db": {
+          "error_1": "⛔ Der Bot ist bereits mit der Datenbank verbunden!",
+          "loading": "Ich versuche, eine Verbindung zur Kazuto-Musikdatenbank herzustellen.....",
+          "success_1": "✅ Die Verbindung zur Datenbank wurde korrekt initialisiert!"
+        }
+      },
+      "status": {
+        "Database_Status": {
+          "Val1": "🔴 Offline",
+          "Val2": "🟢 Verbunden",
+          "Val3": "🟠 Verbinden",
+          "Val4": "🟣 Trennen"
+        },
+        "Default_Embed": {
+          "Title": "Statistiken für „:user_username:“.",
+          "Field1Title": "🔰 Staat",
+          "Field1Value": "┕ „🟢 Online“.",
+          "Field2": "📊 Ping",
+          "Field3": "🕘 Verbindung",
+          "Field4": "🗃️ Datenbank",
+          "Field5": "📆 Schöpfung",
+          "Field6": "🤖 Version"
+        },
+        "Dev_Embed": {
+          "Title": "Statistiken für „:user_username:“.",
+          "Field1Title": "🔰 Staat",
+          "Field1Value": "┕ „🟢 Online“.",
+          "Field2": "📊 API-Ping",
+          "Field3": "🕘 API-Verbindung",
+          "Field4": "🌐 Server",
+          "Field5": "👤 Benutzer",
+          "Field6": "📚 Kanäle",
+          "Field7": "🗃️ Datenbank",
+          "Field8": "🗄️ RAM",
+          "Field9": "⏰ Verfall ein",
+          "Field10": "⚙️ Betriebssystem",
+          "Field11": "🎛️ CPU",
+          "Field12": "📡 CPU-Daten",
+          "Field13": "📆 Schöpfung",
+          "Field14": "🤖 Version",
+          "Field15": "📘 Discord.js"
+        }
+      }
+    },
+    "setup": {
+      "redeem": {
+        "errors": {
+          "PremiumKey_Error_1": "Der von Ihnen angegebene Schlüssel ist nicht **gültig**. Versuchen Sie es mit einem **gültigen** Schlüssel!",
+          "PremiumKey_Error_2": "Der von Ihnen angegebene Schlüssel wurde bereits auf diesem Server **eingelöst**, bitte versuchen Sie es mit einem **anderen Schlüssel**!",
+          "PremiumKey_Error_3": "Der von Ihnen angegebene Schlüssel wurde bereits **eingelöst**. Bitte versuchen Sie es mit einem anderen **anderen Schlüssel**"
+        },
+        "success": {
+          "PremiumKey_Success_1": "✅ Schlüssel erfolgreich eingelöst",
+          "PremiumKey_Success_2": "Sie haben einen **Premium-Schlüssel** von **``:key_duration:``** erfolgreich eingelöst, Premium-Funktionen wurden auf diesem Server aktiviert!",
+          "PremiumKey_Success_3": "Sie haben einen **Premium-Schlüssel** von **``:key_duration:``** erfolgreich eingelöst, Premium-Funktionen wurden auf diesem Server aktiviert!\n\n*Da Sie zuvor ein Premium-Abonnement hatten, wurde Ihr Abonnement verlängert!*",
+          "PremiumKeyField_Success_1": "👤 Eingelöst für",
+          "PremiumKeyField_Success_2": "🕘 Ablaufdatum",
+          "PremiumKeyFooter_Success_1": "Wir freuen uns über Ihre Zusammenarbeit mit dem K-Music-Projekt"
+        }
+      },
+      "setup-KM": {
+        "general": {
+          "MessageTitle": "| Kazuto-Musik einrichten"
+        },
+        "success": {
+          "MessageDescription_Success_1": "Willkommen <@:user_id:> im Kazuto-Music-Bot-Konfigurationsmenü. Hier finden Sie die zahlreichen vorhandenen Konfigurationsoptionen des Bots. Als **erster Schritt** wählen Sie unten aus, welche Konfiguration Sie vornehmen/ändern möchten Ihr Geschmack."
+        },
+        "MenuStructure": {
+          "Placeholder": "Wähle eine Option",
+          "Label": {
+            "label01": "Sprache",
+            "label02": "Kanal des Bots",
+            "label03": "Parameter",
+            "label04": "Kanalbeschränkung",
+            "label05": "DJ-System",
+            "label06": "Suchvorschläge",
+            "label07": "Suche nach Mixen [YT]"
+          },
+          "Description": {
+            "desc01": "Ändern Sie die aktuelle Sprache des Bots",
+            "desc02": "Richten Sie einen dedizierten Kanal für Musik-/Videoanfragen ein",
+            "desc03": "Grundlegende Wiedergabeparameter konfigurieren (z. B. Lautstärke)",
+            "desc04": "Beschränken Sie die Musikwiedergabe auf bestimmte Kanäle",
+            "desc05": "Richten Sie das DJ-System ein, um die Wiedergabe zu steuern",
+            "desc06": "Ändern Sie die Quelle der Suchvorschläge",
+            "desc07": "Aktivieren/deaktivieren Sie das Mixes-Suchsystem des Bots"
+          }
+        }
+      }
+    },
+    "systems": {
+      "coins": {
+        "success": {
+          "DataMessage_Success_1": "🪙 Servermünzen „:guild_name:“.",
+          "DataMessage_Success_2": "**Der Server verfügt derzeit über** 🪙 „:coins_total:“ **Münzen**!\n\n❓ **Wie kann ich mehr Münzen bekommen?**\n*Fangen Sie einfach an, Musik mit dem Bot abzuspielen! (15 Minuten Musik spielen => 1 Münze)*\n\n⚠️ **ACHTUNG**: *Für die Schlauen: Sie können keine zusätzlichen Münzen auf dem Server erhalten, wenn der 24/7-Modus aktiviert ist.*\n\n❓ **Wozu dienen die Münzen?**\n*Sie werden verwendet, um Premium-Abonnements im Bot-Store zu kaufen und so unser Projekt zu unterstützen!*"
+        }
+      },
+      "fun": {
+        "errors": {
+          "Internal_Error_1": "Es ist ein interner Fehler aufgetreten. Bitte melden Sie ihn dem Entwickler „:dev:“."
+        },
+        "success": {
+          "Rickroll_Success_1": "| Sie haben die aktuelle Warteschlange durcheinander gebracht",
+          "Troll_Success_1": "| Sie haben die aktuelle Warteschlange durchsucht"
+        }
+      },
+      "music": {
+        "errors": {
+          "Bot_Recently_Disconnected_Error_1": "Die Verbindung zum Bot wurde kürzlich getrennt. Sie müssen ein paar Sekunden warten, bevor Sie wieder etwas spielen können!",
+          "Playlist_Error_1": "Die von Ihnen gerade bereitgestellte Playlist überschreitet das Limit von :playlist_limit: Songs für **Nicht-Premium-Server**. Bitte versuchen Sie es erneut mit einer anderen Playlist!",
+          "Playlist_Error_2": "Die von Ihnen gerade bereitgestellte Playlist überschreitet das Limit von :playlist_limit: Songs. Bitte versuchen Sie es erneut mit einer anderen Playlist!",
+          "DJ_Error_1": "Sie verfügen nicht über **DJ**-Berechtigungen, um diese Aktion auszuführen",
+          "Volume_Error_1": "Sie müssen einen Volumenprozentsatz von 1 % bis 100 % angeben.",
+          "Volume_Error_2": "Sie müssen einen Volumenprozentsatz von 1 % bis 500 % angeben.",
+          "Search_ID_Error_1": "Sie müssen einen gültigen **Ausweis** angeben",
+          "Search_Timeout_Error_1": "⏳ Es hat zu lange gedauert, die **ID** des Songs anzugeben. Bitte versuchen Sie es erneut",
+          "TimeCMD_Error_1": "Sie müssen eine gültige Minute angeben",
+          "SongID_Error_1": "Sie können dieses **Lied** nicht mit demselben **Lied** überspringen, das bereits abgespielt wird!",
+          "SongID_Error_2": "Die von Ihnen angegebene **ID** „:id:“ **gehört** zu keinem der Tail-Songs, bitte versuchen Sie es erneut mit einer gültigen **ID**!",
+          "SongID_Error_3": "Sie müssen eine gültige numerische ID angeben!",
+          "SongID_Error_4": "Sie können nicht dasselbe **Lied** löschen, das bereits abgespielt wird!",
+          "SongID_Error_5": "Die End-ID darf nicht kleiner als die Start-ID sein. Bitte versuchen Sie es erneut!",
+          "SongID_Error_6": "Sie können die Position des bereits abgespielten Songs nicht ändern!",
+          "Dups_Error_1": "Es wurden keine doppelten Titel zum Entfernen gefunden. Bitte versuchen Sie es erneut!",
+          "Lyrics_Error_1": "❌ Ich konnte den Text dieses Liedes nicht finden",
+          "Filter_Error_1": "Es gibt keinen Filter für die Warteschlange.",
+          "Filter_Error_2": "Sie können den Filter „:filter:“ nicht gleichzeitig mit der Verwendung desselben benutzerdefinierten Filters festlegen!",
+          "Filter_Error_3": "Sie können nicht gleichzeitig den benutzerdefinierten Filter „:filter:“ festlegen und denselben Standardfilter verwenden!",
+          "Vote_Error_1": "❌ Du hast zuvor dafür gestimmt, das Lied zu überspringen",
+          "NextSong_Error_1": "❌ In dieser Warteschlange befindet sich kein nächstes Lied",
+          "PreviousSong_Error_1": "❌ In dieser Warteschlange befindet sich kein vorheriges Lied",
+          "247_Error_1": "Bot offline",
+          "247_Error_2": "Der **24/7**-Modus ist auf diesem Server nicht aktiviert, daher muss ich mit der Trennung von vc fortfahren...\n\n🔰 Wenn Sie den **24/7**-Modus aktivieren möchten, verwenden Sie den Befehl **/settings parameter**",
+          "Import_Error_1": "Die von Ihnen bereitgestellte Songlistendatei ist ungültig. Sie wurde möglicherweise geändert oder mit Fehlern exportiert. Bitte versuchen Sie es erneut mit einer gültigen Datei!"
+        },
+        "success": {
+          "Play_Success_1": "📀 Anfrage erhalten, 🔎 Ich mache die Suche...",
+          "Search_Success_1": "Suchergebnisse „:Search_Title:“.",
+          "Search_Success_2": "*Du hast* „5 Minuten“ *um einen der Songs auszuwählen, die du gerade unter seiner ID schreibst*",
+          "VolumeCMD_Success_1": "| Sie haben die aktuelle Lautstärke auf „:volume:%“ eingestellt",
+          "ReplayCMD_Success_1": "| Sie haben das Lied noch einmal gespielt",
+          "TimeCMD_Success_1": "| Sie haben die Spielzeit des Songs auf die Sekunde genau geändert: „:time:“.",
+          "SpeedCMD_Success_1": "| Sie haben die Geschwindigkeit des Songs auf :speed: geändert",
+          "Skipto_Success_1": "| Sie haben den aktuellen Song zum Song „:id:“ in der Warteschlange übersprungen.",
+          "DeleteSong_Success_1": "| Sie haben den Song mit der ID „:id:“ aus der Warteschlange entfernt.\n\n🎵 Songname: ``:deleted_songName:``",
+          "DeleteSong_Success_2": "| Sie haben :deletedsongs_length: Songs aus der Warteschlange entfernt.",
+          "DeleteSong_Success_3": "| Sie haben alle Songs aus der aktuellen Warteschlange entfernt!",
+          "DeleteSong_Success_4": "| Sie haben alle doppelten Songs aus der aktuellen Warteschlange entfernt!",
+          "SwitchedSong_Success_1": "| Sie haben das Lied „:song_name:“ an die Position „:final_position:“ verschoben!",
+          "Grab_Success_1": "| Sie haben das aktuelle Lied erfolgreich in Ihrer DM gespeichert!",
+          "Filter_Success_1": "| Zuvor gesetzte Filter entfernt",
+          "Filter_Success_2": "| Der Filter „:filter:“ wurde für die aktuelle Warteschlange entfernt",
+          "Filter_Success_3": "| Sie setzen den Filter „:filter:“ für die aktuelle Warteschlange",
+          "Disconnect_Success_1": "| Ich habe die Verbindung zu VC getrennt!",
+          "Coin_Profit_Success_1": "Münzen verdienen",
+          "Coin_Profit_Success_2": "**Der Server hat 🪙 „:coins:“ Münzen verdient!**",
+          "Vote_Success_1": "✅ Es wurden genügend Stimmen erreicht, das Lied wird übersprungen...",
+          "Vote_Success_2": "| Sie haben dafür gestimmt, den Song zu überspringen (:actual_votes:/:required_votes:) Stimmen",
+          "Skip_Success_1": "| Sie haben das aktuelle Lied übersprungen",
+          "PreviousSkip_Success_1": "| Sie haben das Lied zum vorherigen in der Warteschlange übersprungen",
+          "Stop_Success_1": "| Angehalten und die aktuelle Song-Warteschlange geleert",
+          "Stop_Success_2": "| Sie haben die aktuelle Song-Warteschlange gestoppt",
+          "Pause_Success_1": "| Sie haben das aktuelle Lied angehalten",
+          "Resume_Success_1": "| Sie haben den aktuellen Song zusammengefasst",
+          "Shuffle_Success_1": "| Sie haben die aktuelle Songliste durcheinander gebracht",
+          "Autoplay_Success_1": "| Sie haben den Autoplay-Modus in : ``:autoplay_options:`` geändert",
+          "RelatedSong_Success_1": "| Sie haben der aktuellen Song-Warteschlange einen verwandten Song hinzugefügt",
+          "Loop_Success_1": "| Ändern Sie den Modo-Button auf : ``:loop_options:``",
+          "Queue_Success_1_Var1": "Es befinden sich „:queue_songs:“-Songs in der Warteschlange\nGeschätzte Dauer: ``:queue_duration:``",
+          "Queue_Success_1_Var2": "Der Song „:queue_songs:“ befindet sich in der Warteschlange\nGeschätzte Dauer: ``:queue_duration:``",
+          "Queue_Success_2": "\n\n[<a:queueid_animated:1027084303592595476>] **``ID - :id:``**\n[<a:music_animated:1027019977687056405>] [``:song_name:``](:song_url:)\n[:song_source_emoji:] :song_source_val:\n[<a:duration_animated:1027019986822234113>] ``:song_formattedDuration:``\n[<a:user_animated:1027019982418214932>] [``:song_author:``](https://discordapp.com/users/:song_author_id:)",
+          "Export_Success_1": "| Sie haben die aktuelle Songliste erfolgreich exportiert. Denken Sie daran, die Textdatei zu speichern, damit Sie sie später importieren können!",
+          "Import_Loading": "Laden der Songs in der Liste",
+          "Import_Success_1": "| Sie haben :songs_length: Lied(e) erfolgreich importiert."
+        },
+        "edit": {
+          "Music_PlayMsg_PlayField": "⏸️ Spieler pausiert um :user_tag:",
+          "Music_PlayMsg_PlayField2": "🎶 Spieler wieder aufgenommen um :user_tag:"
+        }
+      },
+      "musicRecord": {
+        "MenuStructure": {
+          "Placeholder": "Wähle eine Option",
+          "Label": {
+            "label01": "Server",
+            "label02": "Benutzer"
+          },
+          "Description": {
+            "desc01": "Sehen Sie sich den Verlauf des gesamten Servers an",
+            "desc02": "Zeigen Sie den Verlauf eines bestimmten Benutzers an"
+          }
+        },
+        "errors": {
+          "Play_Error_1": "Sie müssen sich in einem Voice-Chat befinden, um einen Songverlauf abzuspielen!",
+          "UserNotFound_Error_1": "Für diesen Benutzer wurden auf diesem Server keine Daten gefunden. Bitte versuchen Sie es erneut!",
+          "Permission_Error_1": "Sie verfügen nicht über ausreichende Berechtigungen, um diese Aktion auszuführen"
+        },
+        "success": {
+          "UserFound_Success_1": "✅ Benutzerverlauf gefunden :user_mention:",
+          "DeleteServerHistory_Success_1": "✅ Sie haben den Songverlauf erfolgreich vom Server gelöscht!",
+          "DeleteUserHistory_Success_1": "✅ Sie haben den Songverlauf des Benutzers :user_mention: erfolgreich gelöscht!",
+          "DeleteUserHistory_Success_2": "✅ Sie haben Ihren Songverlauf erfolgreich gelöscht!",
+          "MessageDescription_Success_1": "_Wählen Sie unten die Art des Verlaufs aus, den Sie sehen möchten_",
+          "Waiting_UserSelection_Success_1": "⏳ Erwähnen Sie den Benutzer oder geben Sie seine Discord-ID an",
+          "DataMap_Success_1": "_*Lied - :id:*_\n\n>>> 🔰 **Titel**: [``:song_name:``](:song_url:)\n⏱️ **Dauer**: ``:song_formattedDuration:``\n️ **Autor**: [``:song_author:``](:song_authorURL:)\n👤 **Angefordert von**: ``:song_requestedBy:``\n🕘 **Anfragedatum**: <t::song_requestedDate::R>\n👍 **Likes**: ``:song_likes:``\n📊 **Spielt**: ``:song_views:``",
+          "DataMap_Success_2": "_*Lied - :id:*_\n\n>>> 🔰 **Titel**: [``:song_name:``](:song_url:)\n⏱️ **Dauer**: ``:song_formattedDuration:``\n️ **Autor**: [``:song_author:``](:song_authorURL:)\n🕘 **Anfragedatum**: <t::song_requestedDate::R>\n👍 **Likes**: ``:song_likes:``\n📊 **Spielt**: ``:song_views:``",
+          "MessageTitle_Success_1": "Letzte :songs_length: Songs, die auf „:guild_name:“ abgespielt wurden",
+          "MessageTitle_Success_2": "Die letzten 15 Songs wurden in „:guild_name:“ abgespielt",
+          "MessageTitle_Success_3": "Letzte :songs_length: Songs gespielt von „:user_name:“."
+        }
+      },
+      "playlist": {
+        "general": {
+          "MessageTitle": "| Playlist-System"
+        },
+        "errors": {
+          "Playlist_Play_Error_1": "❌ Sie müssen sich in einem Voice-Chat befinden, um eine beliebige Playlist abspielen zu können",
+          "Playlist_Play_Error_2": "Sie können die Playlist „:playlist_name:“ nicht abspielen, da darin keine Songs gespeichert sind.",
+          "Playlist_Play_Error_3": "Sie können die Playlist „:playlist_name:“ nicht abspielen, da der Besitzer sie als „private Playlist“ festgelegt hat",
+          "Playlist_Error_1": "Die Playlist „:playlist_name:“ existiert bereits in den Daten auf diesem Server. Versuchen Sie, Ihre Playlist unter einem anderen Namen zu erstellen.",
+          "Playlist_Error_2": "❌ Die Playlist „:playlist_name:“ existiert nicht in Ihrer **Playlist**, bitte versuchen Sie es erneut mit einer **vorhandenen Playlist**.",
+          "Playlist_Error_3": "Die Playlist „:playlist_name:“ stimmt nicht mit den Playlists in **der Datenbank** überein. Bitte versuchen Sie es erneut und geben Sie den Namen korrekt ein.",
+          "Playlist_Error_4": "❌ Auf diesem Server gibt es bereits eine Playlist mit dem Namen „:newplaylist_name:“. Bitte versuchen Sie es erneut mit einem anderen Namen!",
+          "Playlist_NP_Error_1": "Auf Nicht-Premium-Servern können Sie maximal „3 Playlists“ erstellen",
+          "Playlist_NP_Error_2": "Sie können die Playlist „:playlist_name:“ nicht verwenden, da das **Premium-Abonnement** dieses Servers abgelaufen ist",
+          "Playlist_NP_Error_3": "Sie können nicht mehr als „75 Songs“ auf einem **Nicht-Premium-Server** speichern. Bitte versuchen Sie es später erneut.",
+          "Playlist_P_Error_1": "Auf Premium-Servern können Sie maximal „25 Playlists“ erstellen",
+          "Playlist_P_Error_2": "Sie können nicht mehr als „300 Songs“ auf einem **Premium-Server** speichern. Bitte versuchen Sie es später erneut.",
+          "Playlist_NotFound_Error_1": "❌ Du hast auf diesem Server noch keine Playlist erstellt\n \n⚠️ Wenn Sie auf diesem Server eine Playlist mit Songs erstellen möchten, verwenden Sie den Befehl „/playlist create“.",
+          "Playlist_NotFound_Error_2": "❌ Dieser Benutzer hat noch nicht seine erste Playlist auf diesem Server erstellt",
+          "Playlist_NotFound_Error_3": "❌ Auf diesem Server sind noch keine **Playlists** erstellt, bitte versuchen Sie es später noch einmal!",
+          "Playlist_NotFound_Error_4": "❌ Keine Playlists auf diesem Server gefunden, bitte versuchen Sie es später noch einmal!",
+          "Playlist_NotFound_Error_5": "❌ Playlist „:playlist_name:“ existiert nicht, bitte versuchen Sie es erneut mit einer **vorhandenen Playlist**!",
+          "Playlist_Song_Error_1": "⚠️ Der Song, den Sie speichern möchten, wurde bereits zuvor in dieser Playlist gespeichert!",
+          "Playlist_Song_Error_2": "⚠️ Die von Ihnen bereitgestellte Playlist wird nicht unterstützt, da es sich um einen YouTube-Mix handelt und es aufgrund regionaler und Kontounterschiede fast unmöglich ist, die Songs zu erhalten.",
+          "Playlist_NoSong_Error_1": "Die Wiedergabeliste „:playlist_name:“ enthält keine Titel. Bitte versuchen Sie es später erneut.",
+          "Playlist_NoSong_Error_2": "❌ **Es ist ein Fehler aufgetreten**\n \n**1**: Überprüfen Sie, ob die von Ihnen bereitgestellte Playlist gültig ist\n \n**2**: Überprüfen Sie, ob die von Ihnen angegebene Song-ID gültig ist\n \nWenn Sie wissen möchten, welche Ihre Wiedergabelisten sind, verwenden Sie „/playlist [list]“ und wenn Sie wissen möchten, welche ID der Song hat, den Sie suchen, verwenden Sie „/playlist songs [playlist]“.",
+          "Playlist_InvalidURL_Error_1": "❌ Die URLs der Songs in dieser Playlist sind ungültig. Versuchen Sie, eine andere Playlist abzuspielen.",
+          "Playlist_Privacy_Error_1": "Sie können die **Playlists** von „:user_tag:“ nicht sehen, da er sie als „private Playlists“ festgelegt hat",
+          "Playlist_Privacy_Error_2": "Sie können die Playlist „:playlist_name:“ nicht sehen, da der Eigentümer sie als „private Playlist“ festgelegt hat",
+          "Playlist_Migrate_Error_1": "❌ Server mit der ID „:server_id:“ existiert nicht, bitte versuchen Sie es erneut mit einem **gültigen Server**!",
+          "MenuMessage_Timeout_Error_1": "⏳ Ihre Zeit in Ihrem Playlist-Menü ist abgelaufen. Führen Sie den Befehl erneut aus, wenn Sie ihn erneut verwenden möchten!",
+          "Playlist_ListDataMap_Error_1": "Auf diesem Server wurden keine Playlists gefunden!",
+          "Playlist_ListDataMap_Error_2": ">>> **Keine öffentlichen Playlists auf diesem Server gefunden!**"
+        },
+        "success": {
+          "HelpMessageTitle_Success_1": "PlayLists-Systemhilfe „:user_username:“.",
+          "HelpMessageExtraField_Success_1": "✏️ So erstellen Sie eine Playlist",
+          "HelpMessageExtraField_Success_2": "Um Ihre Playlist zu erstellen, verwenden Sie einfach den Befehl „/playlist create“ und Sie müssen den Namen der Playlist angeben, die Sie erstellen möchten.",
+          "HelpMessageExtraField_Success_3": "🗑️ So löschen Sie eine Playlist",
+          "HelpMessageExtraField_Success_4": "Um Ihre Playlist zu löschen, verwenden Sie einfach den Befehl „/playlist delete“ und Sie müssen den Namen der Playlist angeben, die Sie löschen möchten.",
+          "HelpMessageExtraField_Success_5": "📝 So ändern Sie den Namen einer Playlist",
+          "HelpMessageExtraField_Success_6": "Um Ihre Playlist umzubenennen, verwenden Sie einfach den Befehl „/playlist rename“ und geben Sie den neuen Namen ein, den Sie Ihrer Playlist zuweisen möchten.",
+          "HelpMessageExtraField_Success_7": "👥 So ändern Sie die Privatsphäre einer Playlist",
+          "HelpMessageExtraField_Success_8": "Um die Datenschutzoptionen Ihrer Playlist zu ändern, verwenden Sie einfach den Befehl „/playlist Privacy“. Anschließend müssen Sie den Namen Ihrer Playlists angeben und eine der Datenschutzoptionen auswählen.",
+          "HelpMessageExtraField_Success_9": "📄 So sehen Sie Ihre Playlist-Liste oder die eines anderen Benutzers",
+          "HelpMessageExtraField_Success_10": "Um die Liste aller Ihrer Playlists anzuzeigen, verwenden Sie einfach den Befehl „/playlist list“. Falls Sie die Playlists eines Benutzers sehen möchten, wählen Sie den Benutzer in den zusätzlichen Optionen des Befehls aus.",
+          "HelpMessageExtraField_Success_11": "📚 So sehen Sie die Liste der Playlists auf dem Server",
+          "HelpMessageExtraField_Success_12": "Um die Liste der Playlists der Serverbenutzer anzuzeigen, verwenden Sie einfach den Befehl „/playlist server“ und es wird eine Meldung mit allen Playlists auf dem Server angezeigt.",
+          "HelpMessageExtraField_Success_13": "🎵 So speichern/löschen Sie Songs aus einer Playlist",
+          "HelpMessageExtraField_Success_14": "Um Songs in einer Playlist zu speichern, verwenden Sie einfach den Befehl „/playlist savesong“. Anschließend müssen Sie die URL des Songs und die Playlist angeben, in der Sie ihn speichern möchten.\nWenn Sie einen Song löschen möchten, müssen Sie den Befehl „/playlist deletesong“ verwenden und die **ID** des Songs angeben (die **ID** wird zugewiesen, wenn Sie einen Song speichern) und die Playlist, in der dieser Song gespeichert ist.",
+          "HelpMessageExtraField_Success_15": "🎶 So sehen Sie die Songs in einer Playlist",
+          "HelpMessageExtraField_Success_16": "Um die Songs in einer Playlist anzuzeigen, verwenden Sie einfach den Befehl „/playlist songs“. Anschließend müssen Sie den Namen der Playlist angeben.",
+          "HelpMessageExtraField_Success_17": "️ So sehen Sie die ID eines Songs",
+          "HelpMessageExtraField_Success_18": "Um die ID eines Songs anzuzeigen, verwenden Sie einfach den Befehl „/playlist songs“, dann müssen Sie den Namen der Playlist angeben und es wird eine Meldung mit den Daten aller Songs in dieser Playlist angezeigt.",
+          "HelpMessageExtraField_Success_19": "▶️ So spielen Sie eine beliebige Wiedergabeliste ab",
+          "HelpMessageExtraField_Success_20": "Um eine Playlist abzuspielen, verwenden Sie einfach den Befehl „/playlist load“. Anschließend müssen Sie den Namen der Playlist angeben.",
+          "HelpMessageExtraField_Success_21": "🌐 Interagieren Sie effektiv mit Ihren Playlists",
+          "HelpMessageExtraField_Success_22": "Sie können den Befehl „/playlist-Menü“ verwenden, dann müssen Sie den Namen der Playlist angeben. Dieser Befehl zeigt ein Menü an, das Ihnen eine dynamischere Interaktion mit den allgemeinen Befehlen des Playlist-Systems ermöglicht.",
+          "HelpMessageExtraField_Success_23": "🗄️ Migration von Playlists von einem Server auf einen anderen",
+          "HelpMessageExtraField_Success_24": "Sie können Ihre Playlists von einem Server auf einen anderen migrieren (kopieren), indem Sie einfach den Befehl „/playlist migrate“ verwenden. Anschließend müssen Sie den Namen der Playlist und die ID des Servers angeben, auf den Sie die Playlist migrieren möchten.",
+          "HelpMessageFooterText_Success_1": "Alle Playlist-System-Credits sind für :dev: | reserviert :previous_year: - :actual_year: ©",
+          "MenuMessageTitle_Success_1": "| Playlist-Menü „:playlist_name:“",
+          "MenuMessageDescription_Success_1": "Willkommen :user_mention: in Ihrem Playlist-Menü\nDenken Sie daran, dass Sie maximal „25“ Wiedergabelisten erstellen können\n \n``Ⓐ`` **-** ``Liste der Playlists von diesem Server anzeigen``\n``Ⓑ`` **-** ``Zeige die Liste der Top-Playlists dieses Servers an``\n``Ⓒ`` **-** ``Zeige die Liste aller deiner Playlists an``\n``Ⓓ`` **-** ``Zeigt die Liste aller Songs in dieser Playlist an``\n``Ⓔ`` **-** ``Füge den aktuellen Song zu dieser Playlist hinzu``\n``Ⓕ`` **-** ``Einen bestimmten Song zu dieser Playlist hinzufügen``\n``Ⓖ`` **-** ``Alle Songs in dieser Playlist abspielen``\n``Ⓗ`` **-** ``Ändern Sie die Privatsphäre dieser Playlist (privat/öffentlich)``\n``Ⓘ`` **-** ``Ändere den aktuellen Namen dieser Playlist``\n``Ⓙ`` **-** ``Migriere diese Playlist-Daten auf einen anderen Server``\n``Ⓚ`` **-** ``Aktuelles Lied aus dieser Playlist entfernen``\n``Ⓛ`` **-** ``Einen bestimmten Song aus dieser Playlist entfernen``\n``Ⓜ`` **-** ``Diese Playlist löschen``",
+          "MenuMessageFooterText_Success_1": "Alle Rechte vorbehalten :dev: | :previous_year: - :actual_year: ©",
+          "Playlist_ListDataMap_Success_1": "✏️ **Name**: ``:playlist_name:``\n📆 **Es wurde erstellt**: <t::playlist_timeCreated::R>\n🎵 Enthält „:songs_length:“-Songs",
+          "Playlist_ListData_Title_Success_1": "Liste der Benutzer-PlayLists „:user_tag:“.",
+          "Playlist_Success_1": "✅ Die Playlist „:playlist_name:“ wurde erfolgreich erstellt",
+          "Playlist_Success_2": "✅ Die Playlist „:playlist_name:“ wurde erfolgreich entfernt",
+          "Playlist_Success_3": "✅ Der Playlist-Name „:playlist_name:“ wurde korrekt in „:newplaylist_name:“ geändert",
+          "Playlist_Success_4": "✅ Die Privatsphäre der Playlist „:playlist_name:“ wurde korrekt in „:privacy_value:“ geändert",
+          "Playlist_Success_5": "✅ Sie haben das **Lied** erfolgreich gespeichert:\n \n📌 **Titel**: ``:song_name:``\n🌐 **URL**:``:song_url:``\nℹ️ **ID**: ``:song_id:``\n\nIn der Playlist „:playlist_name:“!",
+          "Playlist_Success_5_2": "Eine Playlist-URL wurde erkannt, alle möglichen Songs werden gespeichert ...",
+          "Playlist_Success_5_3": "✅ Sie haben „:songs_length:“ **Lieder** erfolgreich in der „:playlist_name:“-Wiedergabeliste gespeichert!\n\n⚠️ **HINWEIS**: Die von Ihnen bereitgestellte Playlist hätte mehr Songs zum Speichern enthalten können, aber ich habe die Songs einfach entsprechend der Songbeschränkung pro Playlist gespeichert, die auf diesem Server festgelegt wurde.",
+          "Playlist_Success_6": "✅ Sie haben das **Lied** erfolgreich gelöscht:\n \n📌 **Titel**: ``:song_name:``\n🌐 **URL**:``:song_url:``\nℹ️ **ID**: ``:song_id:``\n\nAus der Playlist „:playlist_name:“!",
+          "Playlist_Success_7": "📀 Anfrage erhalten...",
+          "Playlist_Waiting_Success_1": "<a:loadingWB:986050761031041084> Songs aus der aktuellen Warteschlange werden gespeichert...",
+          "Playlist_Success_8": "✅ „:songs_length:“-Songs wurden erfolgreich in der Playlist „:playlist_name:“ gespeichert!",
+          "Playlist_Migrate_Success_1": "✅ Deine Playlist „:playlist_name:“ wurde erfolgreich auf den Server „:server_name:“ migriert\n \n⚠️ **ACHTUNG**: Debido a que el **nombre de tu playlist** ya existe en este server, tuve que renombrarla a ``:new_playlist_name:``",
+          "Playlist_Migrate_Success_2": "✅ Deine Playlist „:playlist_name:“ wurde erfolgreich auf den Server „:server_name:“ migriert",
+          "Playlist_ServerListDataMap_Success_1": "„Playlist“ **-** „:id:“.\n✏️ **Name**: ``:playlist_name:``\n👤 **Ersteller**: <@:user_id:>\n📆 **Es wurde erstellt**: <t::playlist_timeCreated::R>\n📊 **Spielt**: ``:playlist_views:``\n🎵 Enthält „:songs_length:“-Songs",
+          "Playlist_TopListDataMap_Success_1": "„Playlist“ **-** „:medals_or_id:“.\n✏️ **Name**: ``:playlist_name:``\n👤 **Ersteller**: <@:user_id:>\n📆 **Es wurde erstellt**: <t::playlist_timeCreated::R>\n📊 **Spielt**: ``:playlist_views:``\n🎵 Enthält „:songs_length:“-Songs",
+          "Playlist_SongsListDataMap_Success_1": "_*Lied - :id:*_\n\n>>> 📌 **Titel**: [``:song_title:``](:song_url:)\n📊 **Spielt**: ``:song_views:``\n👤 **Hochgeladen von**: [``:uploader_name:``](:uploader_url:)\n⏱️ **Dauer**: ``:song_formattedDuration:``\nℹ️ **ID**: ``:song_id:``",
+          "Playlist_ServerListDataTitle_Success_1": "Server-PlayLists-Liste „:server_name:“.",
+          "Playlist_TopListDataTitle_Success_1": "Top-Playlists vom Server „:server_name:“.",
+          "Playlist_SongsListTitle_Success_1": "PlayList-Songs „:playlist_name:“.",
+          "Playlist_PLManage_Title": "Verwalten von Server-Wiedergabelisten :guild_name:",
+          "Playlist_PLManage_Title2": "Verwaltung der Wiedergabeliste: \":playlist_name:\"",
+          "Playlist_PLManage_Desc": "Bevor Sie fortfahren, müssen Sie eine Wiedergabeliste auswählen oder erstellen, um das Menü zur Verwaltung der Wiedergabeliste anzuzeigen.",
+          "Playlist_PLManage_Desc2": "Zurzeit sind keine Lieder in dieser Wiedergabeliste vorhanden.",
+          "Playlist_PLManage_Placeholder": "Wählen Sie eine Wiedergabeliste",
+          "Playlist_PLManage_Placeholder2": "Wählen Sie einen oder mehrere Titel zum Löschen aus",
+          "Playlist_PLManage_Label": "Eine neue Wiedergabeliste erstellen",
+          "Playlist_PLManage_OpenAnotherMenu": "Es wurde festgestellt, dass Sie ein anderes Menü in einer anderen [``Nachricht``](:message_url:) geöffnet haben. Denken Sie daran, dass Sie immer nur ein Menü auf einmal benutzen können.",
+          "Playlist_PLManage_CheckingSongsRateLimit": "Sie haben den Prozess der Überprüfung von Liedern bereits vor einiger Zeit gestartet!\nSie müssen ihn beenden oder 10 Minuten warten, um ihn erneut zu initialisieren.",
+          "Playlist_PLManage_CheckingSongs": "Ich gehe alle Songs in der Playlist durch...",
+          "Playlist_PLManage_FixSongs_Success_1": "Es wurde kein Fehler in den Titeln Ihrer Wiedergabeliste gefunden.",
+          "Playlist_PLManage_FixSongs_Success_2": "Es wurden insgesamt :songs_length: nicht verfügbar(e) gefunden. Mögliche Gründe für diesen häufigen Fehler sind u.a. die Entfernung von Urheberrechten, regionale Sperrungen und Änderungen der Privatsphäre.\n\n⚠️ Denken Sie daran, dass Lieder mit Fehlern nicht abgespielt werden, auch wenn sie noch in der Wiedergabeliste gespeichert sind, da sie nicht mehr verfügbar sind, so dass es sinnlos ist, sie zu behalten. Als letzten Ausweg und wenn Sie sie nicht verlieren wollen, empfehlen wir Ihnen dringend, die 🔵 **[:button1_label:]** Schaltfläche zu verwenden, um diese Lieder in unserer Datenbank anzuzeigen, zu versuchen, eine Ersatz-URL für sie zu finden und sie schließlich mit der anderen 🔴 **[:button2_label:]** Schaltfläche unten zu löschen.\n\n*Sie haben 60 Minuten Zeit, um Ihre Wahl zu treffen.",
+          "Playlist_PLManage_CreatePL_Modal": {
+            "Title": "Wiedergabeliste erstellen",
+            "Label": "Name der Wiedergabeliste",
+            "Placeholder": "Geben Sie den Namen der Wiedergabeliste ein, die Sie erstellen möchten. Beispiel: \"Meine Lieblingslieder\"."
+          },
+          "Playlist_PLManage_Fields": {
+            "Field1Title": "Eigentümer",
+            "Field2Title": "Größe",
+            "Field3Title": "Visualisierungen",
+            "Field4Title": "Datenschutz",
+            "Field5Title": "Datum der Erstellung",
+            "Field6Title": "Geschätzte Dauer",
+            "Field7Desc": "Sie müssen mindestens einen Song hinzufügen, um alle anderen Funktionen freizuschalten."
+          },
+          "Playlist_PLManage_ButtonsLabel": {
+            "Update": "Aktualisierung",
+            "Update2": "⇦ Verwalten von Wiedergabelisten",
+            "Update3": "⇦ Allgemeine Optionen",
+            "LoadPL": "Spielen",
+            "AddSong": "Lied hinzufügen",
+            "Privacy": "Datenschutz: :privacy_value:",
+            "EditSongs": "bearbeiten",
+            "ModifyName": "Ändern Sie den Namen",
+            "MigrateServer": "Auf einen anderen Server migrieren",
+            "SongsList": "Siehe die Playlist",
+            "FixSongs": "Fehler in Liedern prüfen",
+            "ViewErrSongs": "Lieder mit Fehlern anzeigen",
+            "DeleteErrSongs": "Alle Lieder mit Fehlern löschen",
+            "IgnoreErrSongs": "Löschen Sie vorerst nichts",
+            "DeletePL": "Diese Wiedergabeliste löschen"
+          }
+        }
+      },
+      "premium": {
+        "ButtonsLabel": {
+          "Button_1": "Eingelöste Schlüssel anzeigen",
+          "Button_2": "Kostenlose Testphase",
+          "Button_3": "Hinausgehen"
+        },
+        "success": {
+          "MessageTitle_Success_1": "💎 „:guild_name:“ Premium-Status",
+          "MessageDescription_Success_1": "Das Premium-System **Kazuto-Music** wurde mit dem Ziel entwickelt, eine Maßnahme zur Leistungssteigerung durch Einschränkung bestimmter Funktionen zu schaffen und den treuesten Benutzern dieses Bots ein besseres Erlebnis zu bieten.",
+          "MessageFieldTitle_PremiumStatus": "⭐ Premium",
+          "MessageFieldTitle_PremiumDuration": "📆 Ablaufdatum",
+          "MessageFieldTitle_PremiumAdvantage": "💫 Vorteile von Premium",
+          "MessageFieldValue_PremiumAdvantage": "**``1``** **-** *Volumenlimit von „100 %“ auf „500 %“ erhöht*\n**``2``** **-** *Limit für den Songverlauf von „5“ auf „100“ erhöht*\n**``3``** **-** *Playlist-Limit von „3“ auf „25“ erhöht*\n**``4``** **-** *Limit für Playlist-Songs von „25“ auf „300“ erhöht*\n**``5``** **-** *Limit für benutzerdefinierte Sounds wurde von „5“ auf „25“ erhöht*\n**``6``** **-** *Zugriff auf den Befehl „/playlist menu“*\n**``7``** **-** *Zugriff auf den Befehl „/playlist manage“*\n**``8``** **-** *Zugriff auf den Befehl „/settings [parameters]“*\n**``9``** **-** *Zugriff auf den Befehl „/music filters“*\n**``10``** **-** *Zugriff auf den Befehl „/music speed“*\n**``11``** **-** *Zugriff auf den Befehl „/music custom-filters“*",
+          "MessageFooterText_Success_1": "Letzte Überprüfung",
+          "MessageExtraField_Success_1": "💎 Vielen Dank, dass Sie „Premium“ sind und das K-Music-Projekt unterstützen",
+          "MessageExtraField_Success_2": "Wir freuen uns über Ihre Zusammenarbeit mit unserem Projekt. Dadurch können wir die Qualität unserer Dienstleistungen verbessern und Ihnen ein besseres Erlebnis bieten."
+        }
+      },
+      "shop": {
+        "success": {
+          "MessageTitle_Success_1": "💰 Kaufen Sie „:bot_tag:“.",
+          "MessageDescription_Success_1": "Willkommen :user_mention: im „:bot_tag:“-Shop. Hier können Sie kostenlose Abonnements über das **Coin-System** erhalten.\n\n**Der Server hat derzeit** 🪙 „:coins_total:“ **Münzen**!\n\n*Wählen Sie eines der folgenden Abonnements aus, indem Sie auf die entsprechende Schaltfläche klicken*",
+          "MessageFieldTitle_Success_1": "1️⃣ - „💿 1-Tages-Prämie“.",
+          "MessageFieldTitle_Success_2": "2️⃣ - „💿 3 Tage Prämie“.",
+          "MessageFieldTitle_Success_3": "3️⃣ - „💿 5 Tage Prämie“.",
+          "MessageFieldTitle_Success_4": "4️⃣ - „💿 7 Tage Premium“.",
+          "MessageFieldTitle_Success_5": "5️⃣ - „💿 14 Tage Prämie“.",
+          "MessageFieldTitle_Success_6": "6️⃣ - „📀 30 Tage Prämie“.",
+          "MessageFieldTitle_Success_7": "7️⃣ - „📀 60 Tage Prämie“.",
+          "MessageFieldTitle_Success_8": "8️⃣ - „📀 90-Tage-Prämie“.",
+          "MessageFieldTitle_Success_9": "9️⃣ - „📀 6 Monate Prämie“.",
+          "MessageFieldTitle_Success_10": "🔟 - „📀 1 Jahr Prämie“.",
+          "MessageFieldValue_Success_1": "„20 Münzen“.",
+          "MessageFieldValue_Success_2": "„50 Münzen“.",
+          "MessageFieldValue_Success_3": "„75 Münzen“.",
+          "MessageFieldValue_Success_4": "„100 Münzen“.",
+          "MessageFieldValue_Success_5": "„155 Münzen“.",
+          "MessageFieldValue_Success_6": "„300 Münzen“.",
+          "MessageFieldValue_Success_7": "„560 Münzen“.",
+          "MessageFieldValue_Success_8": "„1000 Münzen“.",
+          "MessageFieldValue_Success_9": "„Münzen von 1850“.",
+          "MessageFieldValue_Success_10": "„3550 Münzen“."
+        }
+      },
+      "soundboard": {
+        "general": {
+          "MessageTitle": "| Kazuto SoundBoard 🎶"
+        },
+        "errors": {
+          "Characters_Error_1": "Sie haben die maximale Anzahl an Buchstaben im Befehlsnamen, in der Beschreibung oder in der Befehlsantwort überschritten. Versuchen Sie es erneut, indem Sie die Anzahl der Buchstaben reduzieren.\n\nDie Grenzwerte sind:\n\n*(-) Befehlsname: maximal 32 Buchstaben*\n*(-) Befehlsbeschreibung: maximal 100 Buchstaben*\n*(-) Befehlsantwort: maximal 256 Buchstaben*",
+          "P_Limit_Error_1": "❌ Sie haben bereits die Höchstgrenze von „100“ benutzerdefinierten Sounds auf diesem Server erreicht! Bitte versuchen Sie es erneut, wenn Sie welche gelöscht haben.",
+          "NP_Limit_Error_1": "❌ Sie haben bereits die Höchstgrenze von „20“ benutzerdefinierten Sounds auf diesem Server erreicht! Bitte versuchen Sie es erneut, wenn Sie welche gelöscht haben.",
+          "Playlist_Error_1": "❌ Die von Ihnen angegebene URL gehört zu einer Wiedergabeliste. Sie müssen die URL zu einem bestimmten Sound/Video/Lied angeben!",
+          "Create_Error_1": "❌ Beim Erstellen des Befehls ist ein Fehler aufgetreten. Versuchen Sie es erneut und überprüfen Sie, ob Sie ihn wie folgt erstellt haben: /soundboard add {command name}, {sound url [YT/Spotify]}",
+          "Create_Error_2": "❌ Der Name dieses Befehls ist bereits vergeben. Versuchen Sie es mit einem anderen Namen, um Ihren benutzerdefinierten Soundboard-/Soundbefehl zu erstellen!",
+          "Not_Exist_Error_1": "❌ Der Soundboard-Befehl mit dem Namen „:command_name:“ existiert nicht in der Datenbank, bitte versuchen Sie es erneut!",
+          "Not_Exist_Error_2": "❌ Es wurden keine auf diesem Server erstellten Soundboard-Befehle gefunden. Bitte versuchen Sie es später noch einmal, sobald einer erstellt wurde."
+        },
+        "success": {
+          "Create_Success_1": "✅ Der benutzerdefinierte Sound-/Soundboard-Befehl wurde erfolgreich erstellt\n\n♦️ **Name**:\n```/:command_name:```\n\n♦️ **Beschreibung**:\n„:command_desc:“.\n\n♦️ **Antwortnachricht**:\n„:command_response:“.\n\n♦️ **Sound-URL**:\n„:song_url:“.\n\n⭐ **Songs nach der Wiedergabe von benutzerdefiniertem Sound wiederherstellen** [:recover_value:]",
+          "Modify_Success_1": "✅ Der benutzerdefinierte Sound-/Soundboard-Befehl wurde erfolgreich geändert\n\n♦️ **Name**:\n```/:command_name:```\n\n♦️ **Beschreibung**:\n„:command_desc:“.\n\n♦️ **Antwortnachricht**:\n„:command_response:“.\n\n♦️ **Sound-URL**:\n„:song_url:“.\n\n⭐ **Songs nach der Wiedergabe von benutzerdefiniertem Sound wiederherstellen** [:recover_value:]",
+          "Delete_Success_1": "✅ Der benutzerdefinierte Sound-/Soundboard-Befehl „:command_name:“ wurde erfolgreich entfernt!",
+          "Map_Success_1": "_*(:id:)*_ • Benutzerdefinierter Befehl für Kazuto-Music SoundBoard*_\n\n♦️ **Name**:\n```/:command_name:```\n\n♦️ **Beschreibung**:\n„:command_desc:“.\n\n♦️ **Antwortnachricht**:\n„:command_response:“.\n\n♦️ **Sound-URL**:\n„:song_url:“.\n\n⭐ **Songs nach der Wiedergabe von benutzerdefiniertem Sound wiederherstellen** [:recover_value:]"
+        }
+      }
+    }
+  }
+}
