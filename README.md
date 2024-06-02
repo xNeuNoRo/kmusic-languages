@@ -31,11 +31,11 @@ Example = :song_name: :song_url: :dev: among many other existing variables.
 
 - Keep in order the variables with their respective ':' at the beginning and end of it.  
 In case of omitting some of these we will not accept the translated file until all the variables are properly present.  
-Example = "errorTitle": "[❌] Error", in this case "errorTitle" would be the key.
+Example = :guild_name: :playlist_name: :song_name: among many other existing variables.
 
 - Keep all keys in the JSON file with their names as they are in the base languages.  
 In case some of them are missing we will not accept the translated file until all the keys are properly present.  
-Example = :guild_name: :playlist_name: :song_name: among many other existing variables.
+Example = "errorTitle": "[❌] Error", in this case "errorTitle" would be the key.
 
 - Keep the same complete structure contained in the base languages or any other language added to this repository.  
 If any of these are missing we will not accept the translated file until it is properly structured.
@@ -81,11 +81,11 @@ Ejemplo = :song_name: :song_url: :dev: entre muchas otras variables existentes.
 
 - Mantener en orden las variables con sus respectivos ':' al principio y final de esta.  
 En caso de omitir algunas de estas no aceptaremos el archivo traducido hasta que esten presentes todas las variables debidamente.  
-Ejemplo = "errorTitle": "[❌] Error", en ese caso "errorTitle" sería la clave o llave.
+Ejemplo = :guild_name: :playlist_name: :song_name: entre muchas otras variables existentes.
 
 - Mantener todas las llaves/claves del archivo JSON con sus nombres tal cual están en los idiomas base.  
 En caso de faltar algunas de estas no aceptaremos el archivo traducido hasta que estén presentes todas las llaves/claves debidamente.  
-Ejemplo = :guild_name: :playlist_name: :song_name: entre muchas otras variables existentes.
+Ejemplo = "errorTitle": "[❌] Error", en ese caso "errorTitle" sería la clave o llave.
 
 - Mantener la misma estructura completa que contienen los idiomas base o algún otro idioma agregado a este repositorio.  
 En caso de faltar algunas de estas no aceptaremos el archivo traducido hasta que esté estructurado debidamente.
